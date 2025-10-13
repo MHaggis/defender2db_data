@@ -1,22 +1,50 @@
--- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: asr_lua_6.bin 
+; Disassembled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+; Command line: -dis asr_lua/asr_lua_6.bin 
 
--- params : ...
--- function num : 0
-GetRuleInfo = function()
-  -- function num : 0_0
-  local l_1_0 = {}
-  l_1_0.Name = "Block Win32 API calls from Office macro"
-  l_1_0.NotificationDedupingInterval = 120
-  l_1_0.NotificationDedupingScope = HIPS.DEDUPE_SCOPE_UI
-  l_1_0.Description = "Windows Defender Exploit Guard detected use of Win32 APIs from Macro code in Office files"
-  l_1_0.Flags = HIPS.NO_INVOLVEDDOC_EXCL
-  return l_1_0
-end
+; Function:        0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       2
+; Max Stack Size:  2
 
-GetCommandLineRegExp = function()
-  -- function num : 0_1
-  return "((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\[^\\.]+\\.exe\\\"?[^\\\"]+\\\"([^\\\"]+)\\\"?"
-end
+    0 [-]: CLOSURE   R0 0         ; R0 := closure(Function #0_0)
+    1 [-]: SETGLOBAL R0 K0        ; GetRuleInfo := R0
+    2 [-]: CLOSURE   R0 1         ; R0 := closure(Function #0_1)
+    3 [-]: SETGLOBAL R0 K1        ; GetCommandLineRegExp := R0
+    4 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+
+    0 [-]: NEWTABLE  R0 0 5       ; R0 := {} (size = 0,5)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["Name"] := "Block Win32 API calls from Office macro"
+    2 [-]: SETTABLE  R0 K2 K3     ; R0["NotificationDedupingInterval"] := 120
+    3 [-]: GETGLOBAL R1 K5        ; R1 := HIPS
+    4 [-]: GETTABLE  R1 R1 K6     ; R1 := R1["DEDUPE_SCOPE_UI"]
+    5 [-]: SETTABLE  R0 K4 R1     ; R0["NotificationDedupingScope"] := R1
+    6 [-]: SETTABLE  R0 K7 K8     ; R0["Description"] := "Windows Defender Exploit Guard detected use of Win32 APIs from Macro code in Office files"
+    7 [-]: GETGLOBAL R1 K5        ; R1 := HIPS
+    8 [-]: GETTABLE  R1 R1 K10    ; R1 := R1["NO_INVOLVEDDOC_EXCL"]
+    9 [-]: SETTABLE  R0 K9 R1     ; R0["Flags"] := R1
+   10 [-]: RETURN    R0 2         ; return R0
+   11 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_1
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+
+    0 [-]: LOADK     R0 K0        ; R0 := "((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\[^\\.]+\\.exe\\\"?[^\\\"]+\\\"([^\\\"]+)\\\"?"
+    1 [-]: RETURN    R0 2         ; return R0
+    2 [-]: RETURN    R0 1         ; return 
 
 

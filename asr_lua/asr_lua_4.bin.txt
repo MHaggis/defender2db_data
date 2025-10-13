@@ -1,29 +1,57 @@
--- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: asr_lua_4.bin 
+; Disassembled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+; Command line: -dis asr_lua/asr_lua_4.bin 
 
--- params : ...
--- function num : 0
-GetRuleInfo = function()
-  -- function num : 0_0
-  do
-    if (versioning.GetTestMode)() ~= 53019 then
-      local l_1_0 = (versioning.GetOrgID)()
-      if l_1_0 == nil then
-        return nil
-      end
-      l_1_0 = (string.lower)(l_1_0)
-      if l_1_0 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then
-        return nil
-      end
-    end
-    local l_1_1 = {}
-    l_1_1.Name = "Block execution of files related to Remote Monitoring & Management tools"
-    l_1_1.Description = "Windows Defender Exploit Guard detected execution of a file related to an RMM tool"
-    l_1_1.NotificationDedupingInterval = 120
-    l_1_1.NotificationDedupingScope = HIPS.DEDUPE_SCOPE_UI
-    l_1_1.Type = HIPS.RULE_DISABLE_AUDIT_INHERITANCE
-    return l_1_1
-  end
-end
+; Function:        0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       2
+; Max Stack Size:  2
+
+    0 [-]: CLOSURE   R0 0         ; R0 := closure(Function #0_0)
+    1 [-]: SETGLOBAL R0 K0        ; GetRuleInfo := R0
+    2 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+
+    0 [-]: GETGLOBAL R0 K0        ; R0 := versioning
+    1 [-]: GETTABLE  R0 R0 K1     ; R0 := R0["GetTestMode"]
+    2 [-]: CALL      R0 1 2       ; R0 := R0()
+    3 [-]: EQ        1 R0 K2      ; if R0 ~= 53019 then goto 5 else goto 21
+    4 [-]: JMP       16           ; PC += 16 (goto 21)
+    5 [-]: GETGLOBAL R0 K0        ; R0 := versioning
+    6 [-]: GETTABLE  R0 R0 K3     ; R0 := R0["GetOrgID"]
+    7 [-]: CALL      R0 1 2       ; R0 := R0()
+    8 [-]: EQ        0 R0 K4      ; if R0 == nil then goto 10 else goto 12
+    9 [-]: JMP       2            ; PC += 2 (goto 12)
+   10 [-]: LOADNIL   R1 R1        ; R1 := nil
+   11 [-]: RETURN    R1 2         ; return R1
+   12 [-]: GETGLOBAL R1 K5        ; R1 := string
+   13 [-]: GETTABLE  R1 R1 K6     ; R1 := R1["lower"]
+   14 [-]: MOVE      R2 R0        ; R2 := R0
+   15 [-]: CALL      R1 2 2       ; R1 := R1(R2)
+   16 [-]: MOVE      R0 R1        ; R0 := R1
+   17 [-]: EQ        1 R0 K7      ; if R0 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 19 else goto 21
+   18 [-]: JMP       2            ; PC += 2 (goto 21)
+   19 [-]: LOADNIL   R1 R1        ; R1 := nil
+   20 [-]: RETURN    R1 2         ; return R1
+   21 [-]: NEWTABLE  R0 0 5       ; R0 := {} (size = 0,5)
+   22 [-]: SETTABLE  R0 K8 K9     ; R0["Name"] := "Block execution of files related to Remote Monitoring & Management tools"
+   23 [-]: SETTABLE  R0 K10 K11   ; R0["Description"] := "Windows Defender Exploit Guard detected execution of a file related to an RMM tool"
+   24 [-]: SETTABLE  R0 K12 K13   ; R0["NotificationDedupingInterval"] := 120
+   25 [-]: GETGLOBAL R1 K15       ; R1 := HIPS
+   26 [-]: GETTABLE  R1 R1 K16    ; R1 := R1["DEDUPE_SCOPE_UI"]
+   27 [-]: SETTABLE  R0 K14 R1    ; R0["NotificationDedupingScope"] := R1
+   28 [-]: GETGLOBAL R1 K15       ; R1 := HIPS
+   29 [-]: GETTABLE  R1 R1 K18    ; R1 := R1["RULE_DISABLE_AUDIT_INHERITANCE"]
+   30 [-]: SETTABLE  R0 K17 R1    ; R0["Type"] := R1
+   31 [-]: RETURN    R0 2         ; return R0
+   32 [-]: RETURN    R0 1         ; return 
 
 

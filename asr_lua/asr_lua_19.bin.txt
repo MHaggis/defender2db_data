@@ -1,98 +1,169 @@
--- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: asr_lua_19.bin 
+; Disassembled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+; Command line: -dis asr_lua/asr_lua_19.bin 
 
--- params : ...
--- function num : 0
-GetRuleInfo = function()
-  -- function num : 0_0
-  local l_1_0 = {}
-  l_1_0.Name = "Block Process Creations originating from PSExec & WMI commands"
-  l_1_0.Description = "Windows Defender Exploit Guard detected remoting application (wmiprvse and psexesvc) creating child process"
-  l_1_0.NotificationDedupingInterval = 120
-  l_1_0.NotificationDedupingScope = HIPS.DEDUPE_SCOPE_UI
-  return l_1_0
-end
+; Function:        0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       2
+; Max Stack Size:  2
 
-GetMonitoredLocations = function()
-  -- function num : 0_1
-  local l_2_0 = {}
-  l_2_0["%windir%\\system32\\wbem\\WmiPrvSE.exe"] = 2
-  l_2_0["%windir%\\PSEXESVC.exe"] = 2
-  return 1, l_2_0
-end
+    0 [-]: CLOSURE   R0 0         ; R0 := closure(Function #0_0)
+    1 [-]: SETGLOBAL R0 K0        ; GetRuleInfo := R0
+    2 [-]: CLOSURE   R0 1         ; R0 := closure(Function #0_1)
+    3 [-]: SETGLOBAL R0 K1        ; GetMonitoredLocations := R0
+    4 [-]: CLOSURE   R0 2         ; R0 := closure(Function #0_2)
+    5 [-]: SETGLOBAL R0 K2        ; GetPathExclusions := R0
+    6 [-]: CLOSURE   R0 3         ; R0 := closure(Function #0_3)
+    7 [-]: SETGLOBAL R0 K3        ; GetCommandLineExclusions := R0
+    8 [-]: CLOSURE   R0 4         ; R0 := closure(Function #0_4)
+    9 [-]: SETGLOBAL R0 K4        ; GetCommandLineRegExpList := R0
+   10 [-]: RETURN    R0 1         ; return 
 
-GetPathExclusions = function()
-  -- function num : 0_2
-  local l_3_0 = {}
-  l_3_0["%windir%\\system32\\wbem\\WmiPrvSE.exe"] = 2
-  l_3_0["%windir%\\system32\\wbem\\mofcomp.exe"] = 2
-  l_3_0["%windir%\\system32\\svchost.exe"] = 2
-  l_3_0["%windir%\\system32\\WerFault.exe"] = 2
-  l_3_0["%windir%\\system32\\wuauclt.exe"] = 2
-  l_3_0["%windir%\\system32\\gpupdate.exe"] = 2
-  l_3_0["%windir%\\SysWOW64\\wbem\\WmiPrvSE.exe"] = 2
-  l_3_0["%windir%\\SysWOW64\\wbem\\mofcomp.exe"] = 2
-  l_3_0["%windir%\\SysWOW64\\svchost.exe"] = 2
-  l_3_0["%windir%\\SysWOW64\\WerFault.exe"] = 2
-  l_3_0["%windir%\\SysWOW64\\wuauclt.exe"] = 2
-  l_3_0["%windir%\\SysWOW64\\gpupdate.exe"] = 2
-  l_3_0["%windir%\\system32\\spool\\drivers"] = 2
-  l_3_0["%windir%\\system32\\fsiso.exe"] = 2
-  l_3_0["%windir%\\PSEXESVC.exe"] = 2
-  l_3_0["%windir%\\Temp\\*\\DismHost.exe"] = 2
-  l_3_0["%windir%\\system32\\Dism\\DismHost.exe"] = 2
-  l_3_0["%systemdrive%\\MDE\\Tools\\MDEClientAnalyzer.exe"] = 2
-  l_3_0["%systemdrive%\\*\\Tools\\MDATPClientAnalyzer.exe"] = 2
-  l_3_0["%systemdrive%\\*\\WDATPDeploy\\MDATPClientAnalyzer\\MDATPClientAnalyzer.exe"] = 2
-  l_3_0["%windir%\\CCM\\Ccm32BitLauncher.exe"] = 2
-  return l_3_0
-end
 
-GetCommandLineExclusions = function()
-  -- function num : 0_3
-  local l_4_0 = ".:\\\\windows\\\\ccmcache\\\\.+"
-  local l_4_1 = ".:\\\\windows\\\\ccm\\\\systemtemp\\\\.+"
-  local l_4_2 = ".:\\\\windows\\\\ccm\\\\sensorframework\\\\.+"
-  local l_4_3 = ".:\\\\windows\\\\ccm\\\\signedscripts\\\\.+"
-  local l_4_4 = "cmd[^\\s]*\\s+/c\\s+\\\"chcp\\s+65001\\s+&\\s+.:\\\\windows\\\\system32\\\\inetsrv\\\\appcmd\\.exe\\s+list[^>]+>\\s+\\\"\\\\\\\\127\\.0\\.0\\.1\\\\.\\$\\\\temp\\\\[^\\\"]+\\\"\\s+2>&1\\\""
-  local l_4_5 = "\\s+(.:\\\\windows\\\\temp\\\\)?nessus_[^\\.\\s]+\\.txt[\\\"\\\'\\;\\s]*$"
-  local l_4_6 = "\\\"?.:\\\\windows\\\\system32\\\\sc\\.exe\\\"?\\s+start\\s+tenable_mw_scan\\s+output=nessus_[^\\s\\.]+\\.txt"
-  local l_4_7 = "\\\"?.:\\\\windows\\\\system32\\\\cmd\\.exe\\\"?\\s+/c\\s+echo\\s+nessus_cmd_[^\\s=]+=_start\\s+>>\\s+\\\"?.:\\\\windows\\\\temp\\\\nessus_"
-  local l_4_8 = {}
-  l_4_8[l_4_0] = 0
-  l_4_8[l_4_1] = 0
-  l_4_8[l_4_2] = 0
-  l_4_8[l_4_3] = 0
-  l_4_8[l_4_4] = 0
-  l_4_8[l_4_5] = 0
-  l_4_8[l_4_6] = 0
-  l_4_8[l_4_7] = 0
-  do
-    if (versioning.GetEngineBuild)() >= 24080 then
-      local l_4_9 = (versioning.GetOrgID)()
-      if l_4_9 ~= nil and l_4_9 ~= "" then
-        l_4_9 = (string.lower)(l_4_9)
-      end
-      if l_4_9 == "3216b490-71ee-4a94-b228-13b1c1582e3b" then
-        l_4_8["\\\"?[a-z]:\\\\windows\\\\system32\\\\msiexec\\.exe\\\"?\\s+\\/x\\s+\\{[0-9a-f]+\\-[0-9a-f]+\\-[0-9a-f]+\\-[0-9a-f]+\\-[0-9a-f]+\\}\\s+\\/q.*\\s+\\/qn"] = 0
-      else
-        l_4_8["\\\"?[a-z]:\\\\windows\\\\system32\\\\msiexec\\.exe\\\"?\\s+.+\\{[0-9a-f]+\\-[0-9a-f]+\\-[0-9a-f]+\\-[0-9a-f]+\\-[0-9a-f]+\\}\\s+.+[a-z]:\\\\windows\\\\temp\\\\nmwlogs\\\\wvdapps\\\\[^\\\\\\.]+\\.log"] = 0
-      end
-    end
-    return l_4_8
-  end
-end
+; Function:        0_0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
 
-GetCommandLineRegExpList = function()
-  -- function num : 0_4
-  local l_5_0 = "cmd(\\.exe)?\\s+\\/c\\s+\\\"*(.:\\\\.+\\.cmd)\\\"*"
-  local l_5_1 = "cmd(\\.exe)?\\\"?\\s+\\/c\\s+\\\"?(.:\\\\.+\\.exe)\\\"?"
-  local l_5_2 = "msiexec(\\.exe)?\\\"?[\\s/a-z]+\\\"?([a-z]:\\\\.+\\.msi)\\\"?"
-  local l_5_3 = {}
-  l_5_3[l_5_0] = 0
-  l_5_3[l_5_1] = 0
-  l_5_3[l_5_2] = 0
-  return l_5_3
-end
+    0 [-]: NEWTABLE  R0 0 4       ; R0 := {} (size = 0,4)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["Name"] := "Block Process Creations originating from PSExec & WMI commands"
+    2 [-]: SETTABLE  R0 K2 K3     ; R0["Description"] := "Windows Defender Exploit Guard detected remoting application (wmiprvse and psexesvc) creating child process"
+    3 [-]: SETTABLE  R0 K4 K5     ; R0["NotificationDedupingInterval"] := 120
+    4 [-]: GETGLOBAL R1 K7        ; R1 := HIPS
+    5 [-]: GETTABLE  R1 R1 K8     ; R1 := R1["DEDUPE_SCOPE_UI"]
+    6 [-]: SETTABLE  R0 K6 R1     ; R0["NotificationDedupingScope"] := R1
+    7 [-]: RETURN    R0 2         ; return R0
+    8 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_1
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+
+    0 [-]: NEWTABLE  R0 0 2       ; R0 := {} (size = 0,2)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["%windir%\\system32\\wbem\\WmiPrvSE.exe"] := 2
+    2 [-]: SETTABLE  R0 K2 K1     ; R0["%windir%\\PSEXESVC.exe"] := 2
+    3 [-]: LOADK     R1 K3        ; R1 := 1
+    4 [-]: MOVE      R2 R0        ; R2 := R0
+    5 [-]: RETURN    R1 3         ; return R1 to R2
+    6 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_2
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+
+    0 [-]: NEWTABLE  R0 0 19      ; R0 := {} (size = 0,19)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["%windir%\\system32\\wbem\\WmiPrvSE.exe"] := 2
+    2 [-]: SETTABLE  R0 K2 K1     ; R0["%windir%\\system32\\wbem\\mofcomp.exe"] := 2
+    3 [-]: SETTABLE  R0 K3 K1     ; R0["%windir%\\system32\\svchost.exe"] := 2
+    4 [-]: SETTABLE  R0 K4 K1     ; R0["%windir%\\system32\\WerFault.exe"] := 2
+    5 [-]: SETTABLE  R0 K5 K1     ; R0["%windir%\\system32\\wuauclt.exe"] := 2
+    6 [-]: SETTABLE  R0 K6 K1     ; R0["%windir%\\system32\\gpupdate.exe"] := 2
+    7 [-]: SETTABLE  R0 K7 K1     ; R0["%windir%\\SysWOW64\\wbem\\WmiPrvSE.exe"] := 2
+    8 [-]: SETTABLE  R0 K8 K1     ; R0["%windir%\\SysWOW64\\wbem\\mofcomp.exe"] := 2
+    9 [-]: SETTABLE  R0 K9 K1     ; R0["%windir%\\SysWOW64\\svchost.exe"] := 2
+   10 [-]: SETTABLE  R0 K10 K1    ; R0["%windir%\\SysWOW64\\WerFault.exe"] := 2
+   11 [-]: SETTABLE  R0 K11 K1    ; R0["%windir%\\SysWOW64\\wuauclt.exe"] := 2
+   12 [-]: SETTABLE  R0 K12 K1    ; R0["%windir%\\SysWOW64\\gpupdate.exe"] := 2
+   13 [-]: SETTABLE  R0 K13 K1    ; R0["%windir%\\system32\\spool\\drivers"] := 2
+   14 [-]: SETTABLE  R0 K14 K1    ; R0["%windir%\\system32\\fsiso.exe"] := 2
+   15 [-]: SETTABLE  R0 K15 K1    ; R0["%windir%\\PSEXESVC.exe"] := 2
+   16 [-]: SETTABLE  R0 K16 K1    ; R0["%windir%\\Temp\\*\\DismHost.exe"] := 2
+   17 [-]: SETTABLE  R0 K17 K1    ; R0["%windir%\\system32\\Dism\\DismHost.exe"] := 2
+   18 [-]: SETTABLE  R0 K18 K1    ; R0["%systemdrive%\\MDE\\Tools\\MDEClientAnalyzer.exe"] := 2
+   19 [-]: SETTABLE  R0 K19 K1    ; R0["%systemdrive%\\*\\Tools\\MDATPClientAnalyzer.exe"] := 2
+   20 [-]: SETTABLE  R0 K20 K1    ; R0["%systemdrive%\\*\\WDATPDeploy\\MDATPClientAnalyzer\\MDATPClientAnalyzer.exe"] := 2
+   21 [-]: SETTABLE  R0 K21 K1    ; R0["%windir%\\CCM\\Ccm32BitLauncher.exe"] := 2
+   22 [-]: RETURN    R0 2         ; return R0
+   23 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_3
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  13
+
+    0 [-]: LOADK     R0 K0        ; R0 := ".:\\\\windows\\\\ccmcache\\\\.+"
+    1 [-]: LOADK     R1 K1        ; R1 := ".:\\\\windows\\\\ccm\\\\systemtemp\\\\.+"
+    2 [-]: LOADK     R2 K2        ; R2 := ".:\\\\windows\\\\ccm\\\\sensorframework\\\\.+"
+    3 [-]: LOADK     R3 K3        ; R3 := ".:\\\\windows\\\\ccm\\\\signedscripts\\\\.+"
+    4 [-]: LOADK     R4 K4        ; R4 := "cmd[^\\s]*\\s+/c\\s+\\\"chcp\\s+65001\\s+&\\s+.:\\\\windows\\\\system32\\\\inetsrv\\\\appcmd\\.exe\\s+list[^>]+>\\s+\\\"\\\\\\\\127\\.0\\.0\\.1\\\\.\\$\\\\temp\\\\[^\\\"]+\\\"\\s+2>&1\\\""
+    5 [-]: LOADK     R5 K5        ; R5 := "\\s+(.:\\\\windows\\\\temp\\\\)?nessus_[^\\.\\s]+\\.txt[\\\"\\\'\\;\\s]*$"
+    6 [-]: LOADK     R6 K6        ; R6 := "\\\"?.:\\\\windows\\\\system32\\\\sc\\.exe\\\"?\\s+start\\s+tenable_mw_scan\\s+output=nessus_[^\\s\\.]+\\.txt"
+    7 [-]: LOADK     R7 K7        ; R7 := "\\\"?.:\\\\windows\\\\system32\\\\cmd\\.exe\\\"?\\s+/c\\s+echo\\s+nessus_cmd_[^\\s=]+=_start\\s+>>\\s+\\\"?.:\\\\windows\\\\temp\\\\nessus_"
+    8 [-]: LOADK     R8 K8        ; R8 := "cmd\\.exe\\\"?\\s+/c\\s+cd\\s+.+\\\\program files\\\\vmware\\\\vmware tools\\s+&&\\s+vmtoolsd\\s+--version\\s+>\\s+\\\\\\\\\\d+\\.\\d+\\.\\d+\\.\\d+\\\\admin\\$\\\\vmware_vcenter_imds_response\\.txt"
+    9 [-]: NEWTABLE  R9 0 9       ; R9 := {} (size = 0,9)
+   10 [-]: SETTABLE  R9 R0 K9     ; R9[R0] := 0
+   11 [-]: SETTABLE  R9 R1 K9     ; R9[R1] := 0
+   12 [-]: SETTABLE  R9 R2 K9     ; R9[R2] := 0
+   13 [-]: SETTABLE  R9 R3 K9     ; R9[R3] := 0
+   14 [-]: SETTABLE  R9 R4 K9     ; R9[R4] := 0
+   15 [-]: SETTABLE  R9 R5 K9     ; R9[R5] := 0
+   16 [-]: SETTABLE  R9 R6 K9     ; R9[R6] := 0
+   17 [-]: SETTABLE  R9 R7 K9     ; R9[R7] := 0
+   18 [-]: SETTABLE  R9 R8 K9     ; R9[R8] := 0
+   19 [-]: GETGLOBAL R10 K10      ; R10 := versioning
+   20 [-]: GETTABLE  R10 R10 K11  ; R10 := R10["GetEngineBuild"]
+   21 [-]: CALL      R10 1 2      ; R10 := R10()
+   22 [-]: LE        0 K12 R10    ; if 24080 <= R10 then goto 24 else goto 40
+   23 [-]: JMP       16           ; PC += 16 (goto 40)
+   24 [-]: GETGLOBAL R10 K10      ; R10 := versioning
+   25 [-]: GETTABLE  R10 R10 K13  ; R10 := R10["GetOrgID"]
+   26 [-]: CALL      R10 1 2      ; R10 := R10()
+   27 [-]: EQ        1 R10 K14    ; if R10 ~= nil then goto 29 else goto 38
+   28 [-]: JMP       9            ; PC += 9 (goto 38)
+   29 [-]: GETGLOBAL R11 K15      ; R11 := string
+   30 [-]: GETTABLE  R11 R11 K16  ; R11 := R11["lower"]
+   31 [-]: MOVE      R12 R10      ; R12 := R10
+   32 [-]: CALL      R11 2 2      ; R11 := R11(R12)
+   33 [-]: EQ        0 R11 K17    ; if R11 == "3216b490-71ee-4a94-b228-13b1c1582e3b" then goto 35 else goto 38
+   34 [-]: JMP       3            ; PC += 3 (goto 38)
+   35 [-]: LOADK     R11 K18      ; R11 := "\\\"?[a-z]:\\\\windows\\\\system32\\\\msiexec\\.exe\\\"?\\s+\\/x\\s+\\{[0-9a-f]+\\-[0-9a-f]+\\-[0-9a-f]+\\-[0-9a-f]+\\-[0-9a-f]+\\}\\s+\\/q.*\\s+\\/qn"
+   36 [-]: SETTABLE  R9 R11 K9    ; R9[R11] := 0
+   37 [-]: JMP       2            ; PC += 2 (goto 40)
+   38 [-]: LOADK     R11 K19      ; R11 := "\\\"?[a-z]:\\\\windows\\\\system32\\\\msiexec\\.exe\\\"?\\s+.+\\{[0-9a-f]+\\-[0-9a-f]+\\-[0-9a-f]+\\-[0-9a-f]+\\-[0-9a-f]+\\}\\s+.+[a-z]:\\\\windows\\\\temp\\\\nmwlogs\\\\wvdapps\\\\[^\\\\\\.]+\\.log"
+   39 [-]: SETTABLE  R9 R11 K9    ; R9[R11] := 0
+   40 [-]: RETURN    R9 2         ; return R9
+   41 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_4
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  9
+
+    0 [-]: LOADK     R0 K0        ; R0 := "cmd\\\"?\\s+\\/c\\s+\\\"*([a-z]:\\\\.+\\.exe)\\\"?"
+    1 [-]: LOADK     R1 K1        ; R1 := "cmd\\.exe\\\"?\\s+\\/c\\s+\\\"*([a-z]:\\\\.+\\.exe)\\\"?"
+    2 [-]: LOADK     R2 K2        ; R2 := "cmd\\\"?\\s+\\/c\\s+\\\"*([a-z]:\\\\.+\\.cmd)\\\"?"
+    3 [-]: LOADK     R3 K3        ; R3 := "cmd\\.exe\\\"?\\s+\\/c\\s+\\\"*([a-z]:\\\\.+\\.cmd)\\\"?"
+    4 [-]: LOADK     R4 K4        ; R4 := "cmd\\\"?\\s+\\/c\\s+\\\"*([a-z]:\\\\.+\\.bat)\\\"?"
+    5 [-]: LOADK     R5 K5        ; R5 := "cmd\\.exe\\\"?\\s+\\/c\\s+\\\"*([a-z]:\\\\.+\\.bat)\\\"?"
+    6 [-]: LOADK     R6 K6        ; R6 := "msiexec\\\"?[\\s/a-z]+\\\"*([a-z]:\\\\.+\\.msi)\\\"?"
+    7 [-]: LOADK     R7 K7        ; R7 := "msiexec\\.exe\\\"?[\\s/a-z]+\\\"*([a-z]:\\\\.+\\.msi)\\\"?"
+    8 [-]: NEWTABLE  R8 0 8       ; R8 := {} (size = 0,8)
+    9 [-]: SETTABLE  R8 R0 K8     ; R8[R0] := 0
+   10 [-]: SETTABLE  R8 R1 K8     ; R8[R1] := 0
+   11 [-]: SETTABLE  R8 R2 K8     ; R8[R2] := 0
+   12 [-]: SETTABLE  R8 R3 K8     ; R8[R3] := 0
+   13 [-]: SETTABLE  R8 R4 K8     ; R8[R4] := 0
+   14 [-]: SETTABLE  R8 R5 K8     ; R8[R5] := 0
+   15 [-]: SETTABLE  R8 R6 K8     ; R8[R6] := 0
+   16 [-]: SETTABLE  R8 R7 K8     ; R8[R7] := 0
+   17 [-]: RETURN    R8 2         ; return R8
+   18 [-]: RETURN    R0 1         ; return 
 
 

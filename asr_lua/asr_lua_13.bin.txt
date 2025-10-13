@@ -1,16 +1,33 @@
--- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: asr_lua_13.bin 
+; Disassembled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+; Command line: -dis asr_lua/asr_lua_13.bin 
 
--- params : ...
--- function num : 0
-GetRuleInfo = function()
-  -- function num : 0_0
-  local l_1_0 = {}
-  l_1_0.Name = "Block executable files from running unless they meet a prevalence, age, or trusted list criteria"
-  l_1_0.Description = "Windows Defender Exploit Guard detected the launch of a newly created untrusted executable file"
-  l_1_0.NotificationDedupingInterval = 120
-  l_1_0.NotificationDedupingScope = HIPS.DEDUPE_SCOPE_UI
-  return l_1_0
-end
+; Function:        0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       2
+; Max Stack Size:  2
+
+    0 [-]: CLOSURE   R0 0         ; R0 := closure(Function #0_0)
+    1 [-]: SETGLOBAL R0 K0        ; GetRuleInfo := R0
+    2 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+
+    0 [-]: NEWTABLE  R0 0 4       ; R0 := {} (size = 0,4)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["Name"] := "Block JavaScript or VBScript from launching downloaded executable content"
+    2 [-]: SETTABLE  R0 K2 K3     ; R0["Description"] := "Windows Defender Exploit Guard detected a script interpreter process running obfuscated JavaScript, VBScript, or macro code."
+    3 [-]: SETTABLE  R0 K4 K5     ; R0["NotificationDedupingInterval"] := 120
+    4 [-]: GETGLOBAL R1 K7        ; R1 := HIPS
+    5 [-]: GETTABLE  R1 R1 K8     ; R1 := R1["DEDUPE_SCOPE_UI"]
+    6 [-]: SETTABLE  R0 K6 R1     ; R0["NotificationDedupingScope"] := R1
+    7 [-]: RETURN    R0 2         ; return R0
+    8 [-]: RETURN    R0 1         ; return 
 
 

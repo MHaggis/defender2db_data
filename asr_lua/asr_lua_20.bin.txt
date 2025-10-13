@@ -1,138 +1,191 @@
--- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: asr_lua_20.bin 
+; Disassembled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+; Command line: -dis asr_lua/asr_lua_20.bin 
 
--- params : ...
--- function num : 0
-GetRuleInfo = function()
-  -- function num : 0_0
-  local l_1_0 = {}
-  l_1_0.Name = "Block Office applications from injecting code into other processes"
-  l_1_0.Description = "Windows Defender Exploit Guard detected Office application injecting code into the process."
-  l_1_0.NotificationDedupingInterval = 14400
-  l_1_0.NotificationDedupingScope = HIPS.DEDUPE_SCOPE_ALL
-  l_1_0.Type = (HIPS.bitor)(HIPS.RULE_DISABLE_AUDIT_INHERITANCE, HIPS.RULE_DISABLE_BLOCK_INHERITANCE)
-  l_1_0.Flags = HIPS.NO_INVOLVEDDOC_EXCL
-  return l_1_0
-end
+; Function:        0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       2
+; Max Stack Size:  2
 
-GetMonitoredLocations = function()
-  -- function num : 0_1
-  local l_2_0 = {}
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\WINWORD.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\EXCEL.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\POWERPNT.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\root\\Office15\\WINWORD.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\root\\Office15\\EXCEL.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\root\\Office15\\POWERPNT.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\root\\Office15\\ONENOTE.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\root\\Office14\\WINWORD.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\root\\Office14\\EXCEL.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\root\\Office14\\POWERPNT.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\root\\Office14\\ONENOTE.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\Office16\\WINWORD.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\Office16\\EXCEL.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\Office16\\POWERPNT.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\Office16\\ONENOTE.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\Office15\\WINWORD.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\Office15\\EXCEL.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\Office15\\POWERPNT.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\Office15\\ONENOTE.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\Office14\\WINWORD.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\Office14\\EXCEL.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\Office14\\POWERPNT.EXE"] = 2
-  l_2_0["%programfiles(x86)%\\Microsoft Office\\Office14\\ONENOTE.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\root\\Office16\\WINWORD.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\root\\Office16\\EXCEL.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\root\\Office16\\POWERPNT.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\root\\Office15\\WINWORD.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\root\\Office15\\EXCEL.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\root\\Office15\\POWERPNT.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\root\\Office15\\ONENOTE.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\root\\Office14\\WINWORD.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\root\\Office14\\EXCEL.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\root\\Office14\\POWERPNT.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\root\\Office14\\ONENOTE.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\Office16\\WINWORD.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\Office16\\EXCEL.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\Office16\\POWERPNT.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\Office16\\ONENOTE.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\Office15\\WINWORD.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\Office15\\EXCEL.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\Office15\\POWERPNT.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\Office15\\ONENOTE.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\Office14\\WINWORD.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\Office14\\EXCEL.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\Office14\\POWERPNT.EXE"] = 2
-  l_2_0["%programfiles%\\Microsoft Office\\Office14\\ONENOTE.EXE"] = 2
-  return 2, l_2_0
-end
+    0 [-]: CLOSURE   R0 0         ; R0 := closure(Function #0_0)
+    1 [-]: SETGLOBAL R0 K0        ; GetRuleInfo := R0
+    2 [-]: CLOSURE   R0 1         ; R0 := closure(Function #0_1)
+    3 [-]: SETGLOBAL R0 K1        ; GetMonitoredLocations := R0
+    4 [-]: CLOSURE   R0 2         ; R0 := closure(Function #0_2)
+    5 [-]: SETGLOBAL R0 K2        ; GetPathExclusions := R0
+    6 [-]: CLOSURE   R0 3         ; R0 := closure(Function #0_3)
+    7 [-]: SETGLOBAL R0 K3        ; GetCommandLineRegExp := R0
+    8 [-]: RETURN    R0 1         ; return 
 
-GetPathExclusions = function()
-  -- function num : 0_2
-  local l_3_0 = {}
-  l_3_0["%windir%\\system32\\WerFault.exe"] = 2
-  l_3_0["%windir%\\SysWOW64\\WerFault.exe"] = 2
-  l_3_0["%windir%\\system32\\DWWIN.EXE"] = 2
-  l_3_0["%windir%\\SysWOW64\\DWWIN.EXE"] = 2
-  l_3_0["C:\\Windows\\system32\\DWWIN.EXE"] = 0
-  l_3_0["C:\\Windows\\SysWOW64\\DWWIN.EXE"] = 0
-  l_3_0["%windir%\\system32\\spool\\drivers\\x64\\3\\CPC10Q.EXE"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost32.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost32.exe"] = 2
-  l_3_0["%programfiles%\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft OneDrive\\*\\FileCoAuth.exe"] = 2
-  l_3_0["%programfiles%\\WindowsApps\\MSTeams_*\\ms-teams.exe"] = 2
-  l_3_0["%programdata%\\App-V"] = 2
-  l_3_0["%programfiles%\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\DW\\dw20.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\DW\\dw20.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Common Files\\microsoft shared\\DW\\DW20.EXE"] = 2
-  l_3_0["%programfiles%\\Common Files\\microsoft shared\\DW\\DW20.EXE"] = 2
-  l_3_0["%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft\\EdgeWebView\\Application\\*\\msedgewebview2.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft\\EdgeWebView\\Application\\*\\msedgewebview2.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft\\Edge Beta\\Application\\*\\msedgewebview2.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft\\Edge\\Application\\msedge.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft\\Edge\\Application\\msedge.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ONENOTEM.EXE"] = 2
-  l_3_0["%programfiles%\\Microsoft Office\\root\\Office16\\ONENOTEM.EXE"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE"] = 2
-  l_3_0["%programfiles%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Office\\Office*\\FIRSTRUN.EXE"] = 2
-  l_3_0["%programfiles%\\Microsoft Office\\Office*\\FIRSTRUN.EXE"] = 2
-  l_3_0["%programfiles%\\Google\\Chrome\\Application\\chrome.exe"] = 2
-  l_3_0["%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\ai.exe"] = 2
-  l_3_0["%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\ai.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\ai.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\ai.exe"] = 2
-  l_3_0["%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\aimgr.exe"] = 2
-  l_3_0["%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\aimgr.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\aimgr.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\aimgr.exe"] = 2
-  l_3_0["%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\ai.exe"] = 2
-  l_3_0["%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\ai.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\ai.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\ai.exe"] = 2
-  l_3_0["%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\aimgr.exe"] = 2
-  l_3_0["%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\aimgr.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\aimgr.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\aimgr.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Adobe\\Acrobat Reader DC\\Reader\\AcroRd??.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Office Timeline\\Current\\Ines.UserService.Exe"] = 2
-  l_3_0["%programfiles(x86)%\\empower\\charts\\LiveUpdateHub.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Dania Software\\DynamicTemplate for Office\\ApplicationFocus.exe"] = 2
-  l_3_0["%windir%\\splwow64.exe"] = 2
-  l_3_0["%windir%\\system32\\fsiso.exe"] = 2
-  return l_3_0
-end
 
-GetCommandLineRegExp = function()
-  -- function num : 0_3
-  return "((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\(winword|excel|powerpnt|onenote)\\.exe\\\"?[^\\\"]+\\\"([^\\\"]+)\\\"?"
-end
+; Function:        0_0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  4
+
+    0 [-]: NEWTABLE  R0 0 6       ; R0 := {} (size = 0,6)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["Name"] := "Block Office applications from injecting code into other processes"
+    2 [-]: SETTABLE  R0 K2 K3     ; R0["Description"] := "Windows Defender Exploit Guard detected Office application injecting code into the process."
+    3 [-]: SETTABLE  R0 K4 K5     ; R0["NotificationDedupingInterval"] := 14400
+    4 [-]: GETGLOBAL R1 K7        ; R1 := HIPS
+    5 [-]: GETTABLE  R1 R1 K8     ; R1 := R1["DEDUPE_SCOPE_ALL"]
+    6 [-]: SETTABLE  R0 K6 R1     ; R0["NotificationDedupingScope"] := R1
+    7 [-]: GETGLOBAL R1 K7        ; R1 := HIPS
+    8 [-]: GETTABLE  R1 R1 K10    ; R1 := R1["bitor"]
+    9 [-]: GETGLOBAL R2 K7        ; R2 := HIPS
+   10 [-]: GETTABLE  R2 R2 K11    ; R2 := R2["RULE_DISABLE_AUDIT_INHERITANCE"]
+   11 [-]: GETGLOBAL R3 K7        ; R3 := HIPS
+   12 [-]: GETTABLE  R3 R3 K12    ; R3 := R3["RULE_DISABLE_BLOCK_INHERITANCE"]
+   13 [-]: CALL      R1 3 2       ; R1 := R1(R2 to R3)
+   14 [-]: SETTABLE  R0 K9 R1     ; R0["Type"] := R1
+   15 [-]: GETGLOBAL R1 K7        ; R1 := HIPS
+   16 [-]: GETTABLE  R1 R1 K14    ; R1 := R1["NO_INVOLVEDDOC_EXCL"]
+   17 [-]: SETTABLE  R0 K13 R1    ; R0["Flags"] := R1
+   18 [-]: RETURN    R0 2         ; return R0
+   19 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_1
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+
+    0 [-]: NEWTABLE  R0 0 28      ; R0 := {} (size = 0,28)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\WINWORD.EXE"] := 2
+    2 [-]: SETTABLE  R0 K2 K1     ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\EXCEL.EXE"] := 2
+    3 [-]: SETTABLE  R0 K3 K1     ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\POWERPNT.EXE"] := 2
+    4 [-]: SETTABLE  R0 K4 K1     ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE"] := 2
+    5 [-]: SETTABLE  R0 K5 K1     ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office15\\WINWORD.EXE"] := 2
+    6 [-]: SETTABLE  R0 K6 K1     ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office15\\EXCEL.EXE"] := 2
+    7 [-]: SETTABLE  R0 K7 K1     ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office15\\POWERPNT.EXE"] := 2
+    8 [-]: SETTABLE  R0 K8 K1     ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office15\\ONENOTE.EXE"] := 2
+    9 [-]: SETTABLE  R0 K9 K1     ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office14\\WINWORD.EXE"] := 2
+   10 [-]: SETTABLE  R0 K10 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office14\\EXCEL.EXE"] := 2
+   11 [-]: SETTABLE  R0 K11 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office14\\POWERPNT.EXE"] := 2
+   12 [-]: SETTABLE  R0 K12 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office14\\ONENOTE.EXE"] := 2
+   13 [-]: SETTABLE  R0 K13 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office16\\WINWORD.EXE"] := 2
+   14 [-]: SETTABLE  R0 K14 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office16\\EXCEL.EXE"] := 2
+   15 [-]: SETTABLE  R0 K15 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office16\\POWERPNT.EXE"] := 2
+   16 [-]: SETTABLE  R0 K16 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office16\\ONENOTE.EXE"] := 2
+   17 [-]: SETTABLE  R0 K17 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office15\\WINWORD.EXE"] := 2
+   18 [-]: SETTABLE  R0 K18 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office15\\EXCEL.EXE"] := 2
+   19 [-]: SETTABLE  R0 K19 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office15\\POWERPNT.EXE"] := 2
+   20 [-]: SETTABLE  R0 K20 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office15\\ONENOTE.EXE"] := 2
+   21 [-]: SETTABLE  R0 K21 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office14\\WINWORD.EXE"] := 2
+   22 [-]: SETTABLE  R0 K22 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office14\\EXCEL.EXE"] := 2
+   23 [-]: SETTABLE  R0 K23 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office14\\POWERPNT.EXE"] := 2
+   24 [-]: SETTABLE  R0 K24 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office14\\ONENOTE.EXE"] := 2
+   25 [-]: SETTABLE  R0 K25 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office16\\WINWORD.EXE"] := 2
+   26 [-]: SETTABLE  R0 K26 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office16\\EXCEL.EXE"] := 2
+   27 [-]: SETTABLE  R0 K27 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office16\\POWERPNT.EXE"] := 2
+   28 [-]: SETTABLE  R0 K28 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE"] := 2
+   29 [-]: SETTABLE  R0 K29 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office15\\WINWORD.EXE"] := 2
+   30 [-]: SETTABLE  R0 K30 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office15\\EXCEL.EXE"] := 2
+   31 [-]: SETTABLE  R0 K31 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office15\\POWERPNT.EXE"] := 2
+   32 [-]: SETTABLE  R0 K32 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office15\\ONENOTE.EXE"] := 2
+   33 [-]: SETTABLE  R0 K33 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office14\\WINWORD.EXE"] := 2
+   34 [-]: SETTABLE  R0 K34 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office14\\EXCEL.EXE"] := 2
+   35 [-]: SETTABLE  R0 K35 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office14\\POWERPNT.EXE"] := 2
+   36 [-]: SETTABLE  R0 K36 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office14\\ONENOTE.EXE"] := 2
+   37 [-]: SETTABLE  R0 K37 K1    ; R0["%programfiles%\\Microsoft Office\\Office16\\WINWORD.EXE"] := 2
+   38 [-]: SETTABLE  R0 K38 K1    ; R0["%programfiles%\\Microsoft Office\\Office16\\EXCEL.EXE"] := 2
+   39 [-]: SETTABLE  R0 K39 K1    ; R0["%programfiles%\\Microsoft Office\\Office16\\POWERPNT.EXE"] := 2
+   40 [-]: SETTABLE  R0 K40 K1    ; R0["%programfiles%\\Microsoft Office\\Office16\\ONENOTE.EXE"] := 2
+   41 [-]: SETTABLE  R0 K41 K1    ; R0["%programfiles%\\Microsoft Office\\Office15\\WINWORD.EXE"] := 2
+   42 [-]: SETTABLE  R0 K42 K1    ; R0["%programfiles%\\Microsoft Office\\Office15\\EXCEL.EXE"] := 2
+   43 [-]: SETTABLE  R0 K43 K1    ; R0["%programfiles%\\Microsoft Office\\Office15\\POWERPNT.EXE"] := 2
+   44 [-]: SETTABLE  R0 K44 K1    ; R0["%programfiles%\\Microsoft Office\\Office15\\ONENOTE.EXE"] := 2
+   45 [-]: SETTABLE  R0 K45 K1    ; R0["%programfiles%\\Microsoft Office\\Office14\\WINWORD.EXE"] := 2
+   46 [-]: SETTABLE  R0 K46 K1    ; R0["%programfiles%\\Microsoft Office\\Office14\\EXCEL.EXE"] := 2
+   47 [-]: SETTABLE  R0 K47 K1    ; R0["%programfiles%\\Microsoft Office\\Office14\\POWERPNT.EXE"] := 2
+   48 [-]: SETTABLE  R0 K48 K1    ; R0["%programfiles%\\Microsoft Office\\Office14\\ONENOTE.EXE"] := 2
+   49 [-]: LOADK     R1 K1        ; R1 := 2
+   50 [-]: MOVE      R2 R0        ; R2 := R0
+   51 [-]: RETURN    R1 3         ; return R1 to R2
+   52 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_2
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+
+    0 [-]: NEWTABLE  R0 0 30      ; R0 := {} (size = 0,30)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["%windir%\\system32\\WerFault.exe"] := 2
+    2 [-]: SETTABLE  R0 K2 K1     ; R0["%windir%\\SysWOW64\\WerFault.exe"] := 2
+    3 [-]: SETTABLE  R0 K3 K1     ; R0["%windir%\\system32\\DWWIN.EXE"] := 2
+    4 [-]: SETTABLE  R0 K4 K1     ; R0["%windir%\\SysWOW64\\DWWIN.EXE"] := 2
+    5 [-]: SETTABLE  R0 K5 K6     ; R0["C:\\Windows\\system32\\DWWIN.EXE"] := 0
+    6 [-]: SETTABLE  R0 K7 K6     ; R0["C:\\Windows\\SysWOW64\\DWWIN.EXE"] := 0
+    7 [-]: SETTABLE  R0 K8 K1     ; R0["%windir%\\system32\\spool\\drivers\\x64\\3\\CPC10Q.EXE"] := 2
+    8 [-]: SETTABLE  R0 K9 K1     ; R0["%programfiles(x86)%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost.exe"] := 2
+    9 [-]: SETTABLE  R0 K10 K1    ; R0["%programfiles(x86)%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost32.exe"] := 2
+   10 [-]: SETTABLE  R0 K11 K1    ; R0["%programfiles%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost.exe"] := 2
+   11 [-]: SETTABLE  R0 K12 K1    ; R0["%programfiles%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost32.exe"] := 2
+   12 [-]: SETTABLE  R0 K13 K1    ; R0["%programfiles%\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe"] := 2
+   13 [-]: SETTABLE  R0 K14 K1    ; R0["%programfiles%\\Microsoft OneDrive\\*\\FileCoAuth.exe"] := 2
+   14 [-]: SETTABLE  R0 K15 K1    ; R0["%programfiles%\\WindowsApps\\MSTeams_*\\ms-teams.exe"] := 2
+   15 [-]: SETTABLE  R0 K16 K1    ; R0["%programdata%\\App-V"] := 2
+   16 [-]: SETTABLE  R0 K17 K1    ; R0["%programfiles%\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\DW\\dw20.exe"] := 2
+   17 [-]: SETTABLE  R0 K18 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\DW\\dw20.exe"] := 2
+   18 [-]: SETTABLE  R0 K19 K1    ; R0["%programfiles(x86)%\\Common Files\\microsoft shared\\DW\\DW20.EXE"] := 2
+   19 [-]: SETTABLE  R0 K20 K1    ; R0["%programfiles%\\Common Files\\microsoft shared\\DW\\DW20.EXE"] := 2
+   20 [-]: SETTABLE  R0 K21 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe"] := 2
+   21 [-]: SETTABLE  R0 K22 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe"] := 2
+   22 [-]: SETTABLE  R0 K23 K1    ; R0["%programfiles(x86)%\\Microsoft\\EdgeWebView\\Application\\*\\msedgewebview2.exe"] := 2
+   23 [-]: SETTABLE  R0 K24 K1    ; R0["%programfiles%\\Microsoft\\EdgeWebView\\Application\\*\\msedgewebview2.exe"] := 2
+   24 [-]: SETTABLE  R0 K25 K1    ; R0["%programfiles(x86)%\\Microsoft\\Edge Beta\\Application\\*\\msedgewebview2.exe"] := 2
+   25 [-]: SETTABLE  R0 K26 K1    ; R0["%programfiles(x86)%\\Microsoft\\Edge\\Application\\msedge.exe"] := 2
+   26 [-]: SETTABLE  R0 K27 K1    ; R0["%programfiles%\\Microsoft\\Edge\\Application\\msedge.exe"] := 2
+   27 [-]: SETTABLE  R0 K28 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ONENOTEM.EXE"] := 2
+   28 [-]: SETTABLE  R0 K29 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office16\\ONENOTEM.EXE"] := 2
+   29 [-]: SETTABLE  R0 K30 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE"] := 2
+   30 [-]: SETTABLE  R0 K31 K1    ; R0["%programfiles%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE"] := 2
+   31 [-]: SETTABLE  R0 K32 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\Office*\\FIRSTRUN.EXE"] := 2
+   32 [-]: SETTABLE  R0 K33 K1    ; R0["%programfiles%\\Microsoft Office\\Office*\\FIRSTRUN.EXE"] := 2
+   33 [-]: SETTABLE  R0 K34 K1    ; R0["%programfiles%\\Google\\Chrome\\Application\\chrome.exe"] := 2
+   34 [-]: SETTABLE  R0 K35 K1    ; R0["%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\ai.exe"] := 2
+   35 [-]: SETTABLE  R0 K36 K1    ; R0["%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\ai.exe"] := 2
+   36 [-]: SETTABLE  R0 K37 K1    ; R0["%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\ai.exe"] := 2
+   37 [-]: SETTABLE  R0 K38 K1    ; R0["%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\ai.exe"] := 2
+   38 [-]: SETTABLE  R0 K39 K1    ; R0["%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\aimgr.exe"] := 2
+   39 [-]: SETTABLE  R0 K40 K1    ; R0["%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\aimgr.exe"] := 2
+   40 [-]: SETTABLE  R0 K41 K1    ; R0["%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\aimgr.exe"] := 2
+   41 [-]: SETTABLE  R0 K42 K1    ; R0["%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\aimgr.exe"] := 2
+   42 [-]: SETTABLE  R0 K43 K1    ; R0["%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\ai.exe"] := 2
+   43 [-]: SETTABLE  R0 K44 K1    ; R0["%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\ai.exe"] := 2
+   44 [-]: SETTABLE  R0 K45 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\ai.exe"] := 2
+   45 [-]: SETTABLE  R0 K46 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\ai.exe"] := 2
+   46 [-]: SETTABLE  R0 K47 K1    ; R0["%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\aimgr.exe"] := 2
+   47 [-]: SETTABLE  R0 K48 K1    ; R0["%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\aimgr.exe"] := 2
+   48 [-]: SETTABLE  R0 K49 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\aimgr.exe"] := 2
+   49 [-]: SETTABLE  R0 K50 K1    ; R0["%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\aimgr.exe"] := 2
+   50 [-]: SETTABLE  R0 K51 K1    ; R0["%programfiles(x86)%\\Adobe\\Acrobat Reader DC\\Reader\\AcroRd??.exe"] := 2
+   51 [-]: SETTABLE  R0 K52 K1    ; R0["%programfiles(x86)%\\Office Timeline\\Current\\Ines.UserService.Exe"] := 2
+   52 [-]: SETTABLE  R0 K53 K1    ; R0["%programfiles(x86)%\\empower\\charts\\LiveUpdateHub.exe"] := 2
+   53 [-]: SETTABLE  R0 K54 K1    ; R0["%programfiles(x86)%\\Dania Software\\DynamicTemplate for Office\\ApplicationFocus.exe"] := 2
+   54 [-]: SETTABLE  R0 K55 K1    ; R0["%windir%\\splwow64.exe"] := 2
+   55 [-]: SETTABLE  R0 K56 K1    ; R0["%windir%\\system32\\fsiso.exe"] := 2
+   56 [-]: RETURN    R0 2         ; return R0
+   57 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_3
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+
+    0 [-]: LOADK     R0 K0        ; R0 := "((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\(winword|excel|powerpnt|onenote)\\.exe\\\"?[^\\\"]+\\\"([^\\\"]+)\\\"?"
+    1 [-]: RETURN    R0 2         ; return R0
+    2 [-]: RETURN    R0 1         ; return 
 
 

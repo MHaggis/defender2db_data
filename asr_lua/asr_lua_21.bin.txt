@@ -1,262 +1,305 @@
--- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: asr_lua_21.bin 
+; Disassembled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+; Command line: -dis asr_lua/asr_lua_21.bin 
 
--- params : ...
--- function num : 0
-GetRuleInfo = function()
-  -- function num : 0_0
-  local l_1_0 = {}
-  l_1_0.Name = "Block credential stealing from the Windows local security authority subsystem (lsass.exe)"
-  l_1_0.Description = "Windows Defender Exploit Guard detected an attempt to extract credentials from LSASS."
-  l_1_0.NotificationDedupingInterval = 28800
-  l_1_0.NotificationDedupingScope = HIPS.DEDUPE_SCOPE_ALL
-  return l_1_0
-end
+; Function:        0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       2
+; Max Stack Size:  2
 
-GetMonitoredLocations = function()
-  -- function num : 0_1
-  local l_2_0 = {}
-  l_2_0["%windir%\\system32\\lsass.exe"] = 2
-  return 7, l_2_0
-end
+    0 [-]: CLOSURE   R0 0         ; R0 := closure(Function #0_0)
+    1 [-]: SETGLOBAL R0 K0        ; GetRuleInfo := R0
+    2 [-]: CLOSURE   R0 1         ; R0 := closure(Function #0_1)
+    3 [-]: SETGLOBAL R0 K1        ; GetMonitoredLocations := R0
+    4 [-]: CLOSURE   R0 2         ; R0 := closure(Function #0_2)
+    5 [-]: SETGLOBAL R0 K2        ; GetPathExclusions := R0
+    6 [-]: CLOSURE   R0 3         ; R0 := closure(Function #0_3)
+    7 [-]: SETGLOBAL R0 K3        ; GetCommandLineExclusions := R0
+    8 [-]: RETURN    R0 1         ; return 
 
-GetPathExclusions = function()
-  -- function num : 0_2
-  local l_3_0 = {}
-  l_3_0["%windir%\\system32\\WerFaultSecure.exe"] = 2
-  l_3_0["%windir%\\system32\\mrt.exe"] = 2
-  l_3_0["%windir%\\system32\\NETSTAT.EXE"] = 2
-  l_3_0["%windir%\\syswow64\\NETSTAT.EXE"] = 2
-  l_3_0["%windir%\\system32\\wbem\\WmiPrvSE.exe"] = 2
-  l_3_0["%windir%\\SysWOW64\\wbem\\WmiPrvSE.exe"] = 2
-  l_3_0["%windir%\\system32\\DriverStore\\FileRepository\\*\\NVWMI\\nvWmi64.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Intune Management Extension\\ClientHealthEval.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Intune Management Extension\\SensorLogonTask.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Intune Management Extension\\Microsoft.Management.Services.IntuneWindowsAgent.exe"] = 2
-  l_3_0["%programdata%\\Microsoft\\Windows Defender Advanced Threat Protection\\DataCollection\\*\\OpenHandleCollector.exe"] = 2
-  l_3_0["%programfiles%\\WindowsApps\\Microsoft.GamingServices_*\\gamingservices.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\vpnagent.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Zoom\\bin\\CptHost.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft\\Edge\\Application\\*\\Installer\\setup.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Google\\Update\\GoogleUpdate.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Splunk\\bin\\splunkd.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Zscaler\\ZSAUpm\\ZSAUpm.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Fortinet\\FortiClient\\FortiESNAC.exe"] = 2
-  l_3_0["%programfiles(x86)%\\FireEye\\xagt\\xagt.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Autodesk\\Autodesk Desktop App\\AdAppMgrSvc.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Dropbox\\Update\\DropboxUpdate.exe"] = 2
-  l_3_0["%programfiles(x86)%\\HP\\HP Touchpoint Analytics Client\\Provider Data Sources\\ProcInfo\\ProcInfo.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Common Files\\Adobe\\AdobeGCClient\\AGMService.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Tanium\\Tanium Client"] = 2
-  l_3_0["%programfiles(x86)%\\Airwatch\\AgentUI\\AWProcessCommands.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Bit9\\Parity Agent\\Parity.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Arctic Wolf Networks\\Agent\\ossec-agent.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Cordaware\\Infoband\\Infoclient.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Splunk\\bin\\splunk-regmon.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Lenovo\\VantageService\\*\\LenovoVantage-(LenovoBoostSystemAddin).exe"] = 2
-  l_3_0["%programfiles(x86)%\\Micro Focus\\Discovery Agent\\bin32\\discagnt.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Hewlett-Packard\\Discovery Agent\\bin32\\discagnt.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Micro Focus\\Discovery Agent\\Plugins\\usage\\discusge.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Hewlett-Packard\\Discovery Agent\\Plugins\\usage\\discusge.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\aciseagent.exe"] = 2
-  l_3_0["%programfiles(x86)%\\BigFix Enterprise\\BES Client\\BESClient.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Logitech\\LogiSync\\sync-agent\\LogiSyncHandler.exe"] = 2
-  l_3_0["%programfiles(x86)%\\ManageSoft\\Tracker\\ndtrack.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Aternity Information Systems\\Agent"] = 2
-  l_3_0["%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\vpndownloader.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Common Files\\Adobe\\ARM\\*\\AdobeARMHelper.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Common Files\\Adobe\\ARM\\*\\Temp\\*\\AdobeARMHelper.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Common Files\\Adobe\\ARM\\*\\AdobeARM.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Adobe\\Acrobat Reader DC\\Reader\\AcroCEF\\RdrServicesUpdater.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Aternity Information Systems\\Update\\AternityUpdate.exe"] = 2
-  l_3_0["%programfiles(x86)%\\BraveSoftware\\Update\\BraveUpdate.exe"] = 2
-  l_3_0["%programfiles(x86)%\\SysTrack\\LsiAgent\\LsiSupervisor\\*\\LsiSupervisor.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Cisco\\Cisco HostScan\\bin\\ciscod.exe"] = 2
-  l_3_0["%programfiles(x86)%\\SysTrack\\LsiAgent\\LsiMods64.exe"] = 2
-  l_3_0["%programfiles(x86)%\\CheckPoint\\Endpoint Connect\\Watchdog\\EPWD.exe"] = 2
-  l_3_0["%programfiles(x86)%\\CheckPoint\\Endpoint Security\\Endpoint Common\\bin\\cpda.exe"] = 2
-  l_3_0["%programfiles(x86)%\\VMware\\VMware Tools"] = 2
-  l_3_0["%programfiles(x86)%\\VMware\\VMware Horizon View Client"] = 2
-  l_3_0["%programfiles(x86)%\\Common Files\\VMware\\Remote Experience"] = 2
-  l_3_0["%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\acswgagent.exe"] = 2
-  l_3_0["%programfiles(x86)%\\N-able Technologies\\Windows Agent\\bin\\agent.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Digital Arts\\AC\\app\\bin\\acservice.exe"] = 2
-  l_3_0["%programfiles(x86)%\\MOTEX\\LanScope Cat MR\\Lspcmr.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Power Automate Desktop\\Microsoft.Flow.RPA.LauncherService.exe"] = 2
-  l_3_0["%programfiles(x86)%\\DesktopCentral_Agent\\bin\\dcagentservice.exe"] = 2
-  l_3_0["%programfiles(x86)%\\CheckPoint\\Endpoint Security\\Endpoint Common\\bin\\IDAFServerHostService.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Arctic Wolf Networks\\Agent\\plugins\\osquery\\osqueryi.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Btc\\eAudytor\\eAgent\\Bin\\qati.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Adobe\\Adobe Sync\\CoreSync\\customhook\\CoreSyncCustomHook.exe"] = 2
-  l_3_0["%programfiles(x86)%\\NetSupport\\NetSupport School"] = 2
-  l_3_0["%programfiles(x86)%\\UEMS_Agent\\bin\\dcagentservice.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Google\\Temp\\*\\GoogleUpdate.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Adobe\\Acrobat DC\\Acrobat\\AcroCEF\\AcroServicesUpdater.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Ninite Agent\\NiniteAgent.exe"] = 2
-  l_3_0["%programfiles(x86)%\\HP\\HP Classroom Manager\\Runplugin64.exe"] = 2
-  l_3_0["%programfiles(x86)%\\SysTrack\\LsiAgent\\LsiAgent.exe"] = 2
-  l_3_0["%programfiles(x86)%\\VMware\\VMware Player\\vmware-authd.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Dameware Remote Everywhere Agent\\BASupSysInf.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Power Automate Desktop\\Microsoft.Flow.RPA.*.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Common Files\\Adobe\\Adobe Desktop Common\\ElevationManager\\Adobe Installer.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Common Files\\Adobe\\Adobe Desktop Common\\HDBox\\Setup.exe"] = 2
-  l_3_0["%programfiles(x86)%\\SolarWinds"] = 2
-  l_3_0["%programfiles(x86)%\\checkmk\\service\\check_mk_agent.exe"] = 2
-  l_3_0["%programfiles(x86)%\\ClassPolicyAgent\\PolicyAgent.exe"] = 2
-  l_3_0["%programfiles(x86)%\\VMware\\VMware Workstation\\vmware-authd.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Balbix\\Update\\BalbixUpdate.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Bradford Networks\\Persistent Agent\\bndaemon.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Site24x7\\WinAgent\\monitoring\\bin\\MEAgentHelper.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Site24x7\\WinAgent\\monitoring\\bin\\AppBin\\Site24x7AppAgent.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Cato Networks\\Cato Client\\winvpnclient.cli.exe"] = 2
-  l_3_0["%programfiles(x86)%\\ManageEngine\\UEMS_Agent\\bin\\dcagentservice.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Sky Product\\SKYSEA Client View"] = 2
-  l_3_0["%programfiles(x86)%\\xagt\\xagt.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Microsoft Azure Site Recovery\\agent\\s2RCM.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Cisco\\Cisco Secure Client"] = 2
-  l_3_0["%programfiles(x86)%\\HP\\HP Touchpoint Analytics Client\\TouchpointAnalyticsClientService.exe"] = 2
-  l_3_0["%programfiles(x86)%\\CyberCNSAgent\\osqueryi.exe"] = 2
-  l_3_0["%programfiles(x86)%\\FortiMonitorAgent\\bin\\Aggregator.Agent.exe"] = 2
-  l_3_0["%programfiles(x86)%\\IBM\\Notes\\nsd.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Riverbed\\Steelhead Mobile\\rbtmon.exe"] = 2
-  l_3_0["%programfiles%\\Avecto\\Privilege Guard Client\\DefendpointService.exe"] = 2
-  l_3_0["%programfiles%\\Intel\\SUR\\QUEENCREEK\\x64\\esrv_svc.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Monitoring Agent\\Agent\\HealthService.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Monitoring Agent\\Agent\\MOMPerfSnapshotHelper.exe"] = 2
-  l_3_0["%programfiles%\\Nexthink\\Collector\\Collector\\nxtsvc.exe"] = 2
-  l_3_0["%programfiles%\\Splunk\\bin\\splunkd.exe"] = 2
-  l_3_0["%programfiles%\\Azure Advanced Threat Protection Sensor\\*\\Microsoft.Tri.Sensor.Updater.exe"] = 2
-  l_3_0["%programfiles%\\common files\\microsoft shared\\ClickToRun\\Updates\\*\\OfficeClickToRun.exe"] = 2
-  l_3_0["%programfiles%\\Zscaler\\ZSAUpm\\ZSAUpm.exe"] = 2
-  l_3_0["%programfiles%\\Fortinet\\FortiClient\\FortiESNAC.exe"] = 2
-  l_3_0["%programfiles%\\FireEye\\xagt\\xagt.exe"] = 2
-  l_3_0["%programfiles%\\Autodesk\\Autodesk Desktop App\\AdAppMgrSvc.exe"] = 2
-  l_3_0["%programfiles%\\Qualys\\QualysAgent\\QualysAgent.exe"] = 2
-  l_3_0["%programfiles%\\Altiris\\Altiris Agent\\AeXNSAgent.exe"] = 2
-  l_3_0["%programfiles%\\VMware\\VMware Tools"] = 2
-  l_3_0["%programfiles%\\VMware\\VMware Horizon View Client"] = 2
-  l_3_0["%programfiles%\\Common Files\\VMware\\Remote Experience"] = 2
-  l_3_0["%programfiles%\\Dell\\DTP\\InstrumentationSubAgent\\Dell.TechHub.Instrumentation.SubAgent.exe"] = 2
-  l_3_0["%programfiles%\\Rapid7\\Insight Agent\\components\\insight_agent\\*\\ir_agent.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft RDInfra\\RDMonitoringAgent_*\\Agent\\MonAgentCore.exe"] = 2
-  l_3_0["%programfiles%\\BMC*\\Client Management\\Client\\bin\\mtxagent.exe"] = 2
-  l_3_0["%programfiles%\\DisplayLink Core Software\\DisplayLinkHotDeskService.exe"] = 2
-  l_3_0["%programfiles%\\ManageSoft\\Tracker\\ndtrack.exe"] = 2
-  l_3_0["%programfiles%\\Websense\\Websense Endpoint\\wepsvc.exe"] = 2
-  l_3_0["%programfiles%\\Ricoh\\Streamline NX\\PC Client\\jre\\bin\\java.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Monitoring Agent\\Agent\\Health Service State\\Resources\\*\\pmfexe.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Monitoring Agent\\Agent\\MonitoringHost.exe"] = 2
-  l_3_0["%programfiles%\\AppSense\\Application Manager\\Agent\\AMAgent.exe"] = 2
-  l_3_0["%programfiles%\\Adobe\\Acrobat DC\\Acrobat\\AcroCEF\\SingleClientServicesUpdater.exe"] = 2
-  l_3_0["%programfiles%\\osquery\\osqueryd\\osqueryd.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft OneDrive\\OneDriveStandaloneUpdater.exe"] = 2
-  l_3_0["%programfiles%\\CyberArk\\Endpoint Privilege Manager\\Agent\\PASAgent\\PASAgent.exe"] = 2
-  l_3_0["%programfiles%\\Palo Alto Networks\\GlobalProtect\\PanGPS.exe"] = 2
-  l_3_0["%programfiles%\\Smart-X\\ControlUpAgent\\Version*\\cuAgent.exe"] = 2
-  l_3_0["%programfiles%\\Citrix\\*\\XenDesktopRestApiService.exe"] = 2
-  l_3_0["%programfiles%\\Palo Alto Networks\\DEM\\DEMAgentProcess.exe"] = 2
-  l_3_0["%programfiles%\\Phantom\\IBSA\\ibsaService.exe"] = 2
-  l_3_0["%programfiles%\\eGurkha\\lib\\AppPid.exe"] = 2
-  l_3_0["%programfiles%\\dynatrace\\oneagent\\agent\\lib64\\oneagentos.exe"] = 2
-  l_3_0["%programfiles%\\dynatrace\\oneagent\\agent\\lib64\\oneagentplugin.exe"] = 2
-  l_3_0["%programfiles%\\Remote Desktop WebRTC Redirector\\MsRdcWebRTCSvc.exe"] = 2
-  l_3_0["%programfiles%\\Sophos\\Sophos File Scanner\\SophosFileScanner.exe"] = 2
-  l_3_0["%programfiles%\\NetSupport\\NetSupport School"] = 2
-  l_3_0["%programfiles%\\OEM\\AMS\\Service\\ams.exe"] = 2
-  l_3_0["%programfiles%\\Eracent\\EPM\\epm.exe"] = 2
-  l_3_0["%programfiles%\\Cybereason ActiveProbe\\minionhost.exe"] = 2
-  l_3_0["%programfiles%\\Google\\Temp\\*\\GoogleUpdate.exe"] = 2
-  l_3_0["%programfiles%\\Orbit\\bin\\osqueryd\\windows\\stable\\osqueryd.exe"] = 2
-  l_3_0["%programfiles%\\1E\\Client\\1E.Client.exe"] = 2
-  l_3_0["%programfiles%\\Endgame\\esensor.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Cloud Managed Desktop Extension\\CMDExtension\\Microsoft.Management.Services.CloudManagedDesktop.Agent.exe"] = 2
-  l_3_0["%programfiles%\\common files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe"] = 2
-  l_3_0["%programfiles%\\Adobe\\Adobe Creative Cloud Experience\\libs\\node.exe"] = 2
-  l_3_0["%programfiles%\\Fortinet\\FortiClient\\FortiProxy.exe"] = 2
-  l_3_0["%programfiles%\\Guardicore\\gc-launcher.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Azure AD Connect Health Sync Agent\\Insights\\Microsoft.Identity.AadConnect.Health.AadSync.Host.exe"] = 2
-  l_3_0["%programfiles%\\Huntress\\HuntressAgent.exe"] = 2
-  l_3_0["%programfiles%\\vast limits\\uberAgent\\uberAgent.exe"] = 2
-  l_3_0["%programfiles%\\Adobe\\Acrobat DC\\Acrobat\\AcroCEF\\AcroServicesUpdater.exe"] = 2
-  l_3_0["%programfiles%\\Dell\\DellOptimizer\\DellOptimizer.exe"] = 2
-  l_3_0["%programfiles%\\Manufacturer\\Endpoint Agent\\edpa.exe"] = 2
-  l_3_0["%programfiles%\\CyberArk\\Endpoint Privilege Manager\\Agent\\vf_agent.exe"] = 2
-  l_3_0["%programfiles%\\Morphisec\\bin\\ProtectorService64.exe"] = 2
-  l_3_0["%programfiles%\\Zoom\\bin\\CptHost.exe"] = 2
-  l_3_0["%programfiles%\\TOLLAD\\GEMONPROC.exe"] = 2
-  l_3_0["%programfiles%\\SMS_CCM\\CcmExec.exe"] = 2
-  l_3_0["%programfiles%\\HEAT Software\\EMSSAgent\\*\\lmhost.exe"] = 2
-  l_3_0["%programfiles%\\Skyhigh\\SCP\\ScpService.exe"] = 2
-  l_3_0["%programfiles%\\VMware\\VMware View\\*\\bin\\wsnm.exe"] = 2
-  l_3_0["%programfiles%\\NetClean Technologies\\ProActive\\fsdaemon\\bin\\fsdaemon.exe"] = 2
-  l_3_0["%programfiles%\\Topaz OFD\\Warsaw\\core.exe"] = 2
-  l_3_0["%programfiles%\\Microsoft Dependency Agent\\bin\\MicrosoftDependencyAgent.exe"] = 2
-  l_3_0["%programfiles%\\Autodesk\\AdODIS\\V1\\Setup\\install_helper_tool.exe"] = 2
-  l_3_0["%programfiles%\\EPSON Projector\\Easy Interactive Driver Ver.??\\EIN_SV.exe"] = 2
-  l_3_0["%programfiles%\\FortiMonitorAgent\\bin\\Aggregator.Agent.exe"] = 2
-  l_3_0["%programfiles%\\SecureWorks\\Taegis Agent\\TaegisSvc.x??.exe"] = 2
-  l_3_0["%programfiles%\\VMware\\Endpoint Telemetry Service\\vmwetlm.exe"] = 2
-  l_3_0["C:\\Packages\\Plugins\\Microsoft.Azure.Diagnostics.IaaSDiagnostics\\*\\Monitor\\x64\\MonAgentCore.exe"] = 0
-  l_3_0["C:\\Packages\\Plugins\\Microsoft.Azure.Security.Monitoring.AzureSecurityWindowsAgent\\*\\Monitoring\\Agent\\Extensions\\AzureSecurityPack\\pmfexe.exe"] = 0
-  l_3_0["C:\\eGurkha\\lib\\AppPid.exe"] = 0
-  l_3_0["C:\\blp\\API\\Office Tools"] = 0
-  l_3_0["C:\\blp\\Wintrv"] = 0
-  l_3_0["%windir%\\System32\\DriverStore\\FileRepository\\hpanalyticscomp.*\\x64\\Provider Data Sources\\ProcInfo\\ProcInfo.exe"] = 2
-  l_3_0["%windir%\\system32\\RtkAudUService64.exe"] = 2
-  l_3_0["%windir%\\system32\\nvwmi64.exe"] = 2
-  l_3_0["%windir%\\system32\\lpksetup.exe"] = 2
-  l_3_0["%windir%\\system32\\LogonUI.exe"] = 2
-  l_3_0["%windir%\\system32\\DriverStore\\FileRepository\\hpcustomcapcomp.inf_amd64_*\\x64\\AppHelperCap.exe"] = 2
-  l_3_0["%windir%\\system32\\IntelBroadbandManagerSvc.exe"] = 2
-  l_3_0["%windir%\\system32\\inetsrv\\w3wp.exe"] = 2
-  l_3_0["%windir%\\AdminArsenal\\PDQInventory-Scanner\\service-1\\PDQInventory-Scanner-1.exe"] = 2
-  l_3_0["%windir%\\RtkBtManServ.exe"] = 2
-  l_3_0["%windir%\\CarbonBlack\\cb.exe"] = 2
-  l_3_0["%windir%\\LTSvc\\LTSVC.exe"] = 2
-  l_3_0["%windir%\\CCM\\CcmExec.exe"] = 2
-  l_3_0["%windir%\\CCM\\SensorLogonTask.exe"] = 2
-  l_3_0["%windir%\\CCM\\SleepAgentService.exe"] = 2
-  l_3_0["%windir%\\Sysmon64.exe"] = 2
-  l_3_0["%windir%\\sysmon.exe"] = 2
-  l_3_0["%windir%\\SysWOW64\\CCM\\CcmExec.exe"] = 2
-  l_3_0["%windir%\\Downloaded Program Files\\f5epi.exe"] = 2
-  l_3_0["%windir%\\AdminArsenal\\PDQDeployRunner\\service-1\\PDQDeployRunner-1.exe"] = 2
-  l_3_0["%windir%\\Temp\\Ctx-*\\Extract\\TrolleyExpress.exe"] = 2
-  l_3_0["%programdata%\\Citrix\\Citrix Receiver*\\TrolleyExpress.exe"] = 2
-  l_3_0["%programdata%\\Citrix\\Citrix Workspace *\\TrolleyExpress.exe"] = 2
-  l_3_0["%programdata%\\App-V\\*\\*\\Root\\VFS\\Windows\\CCM\\CcmExec.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Citrix\\Citrix Workspace *\\TrolleyExpress.exe"] = 2
-  l_3_0["%temp%\\Ctx-*\\Extract\\TrolleyExpress.exe"] = 1
-  l_3_0["%programfiles%\\Quest\\ChangeAuditor\\Agent\\NPSrvHost.exe"] = 2
-  l_3_0["%programfiles%\\Quest\\ChangeAuditor\\Service\\ChangeAuditor.Service.exe"] = 2
-  l_3_0["%programdata%\\Microsoft\\Windows Defender Advanced Threat Protection\\SenseNDR\\NdrSetup.exe"] = 2
-  l_3_0["%windir%\\system32\\DriverStore\\FileRepository\\hpqkbsoftwarecompnent.inf_amd64_*\\HotKeyServiceUWP.exe"] = 2
-  l_3_0["%windir%\\system32\\CompatTelRunner.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Printer Properties Pro\\Printer Installer Client\\PrinterInstallerClient.exe"] = 2
-  l_3_0["%programfiles%\\Printer Properties Pro\\Printer Installer Client\\PrinterInstallerClient.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Zscaler\\ZSATunnel\\ZSATunnel.exe"] = 2
-  l_3_0["%programfiles%\\Zscaler\\ZSATunnel\\ZSATunnel.exe"] = 2
-  l_3_0["%programfiles(x86)%\\ManageSoft\\Security Agent\\mgssecsvc.exe"] = 2
-  l_3_0["%programfiles%\\ManageSoft\\Security Agent\\mgssecsvc.exe"] = 2
-  l_3_0["%programfiles(x86)%\\Snow Software\\Inventory\\Agent\\snowagent.exe"] = 2
-  l_3_0["%programfiles%\\Snow Software\\Inventory\\Agent\\snowagent.exe"] = 2
-  l_3_0["c:\\windows\\system32\\WerFaultSecure.exe"] = 0
-  l_3_0["c:\\windows\\system32\\wbem\\WmiPrvSE.exe"] = 0
-  l_3_0["c:\\windows\\SysWOW64\\wbem\\WmiPrvSE.exe"] = 0
-  l_3_0["\\Device\\HarddiskVolume?\\Windows\\System32\\wbem\\wmiprvse.exe"] = 0
-  l_3_0["%windir%\\system32\\fsiso.exe"] = 2
-  return l_3_0
-end
 
-GetCommandLineExclusions = function()
-  -- function num : 0_3
-  local l_4_0 = "^\\\"?.:\\\\windows\\\\system32\\\\werfault\\.exe\\\"?((?!\\-s).)*$"
-  local l_4_1 = "\\\\powershell\\.exe\\\"?\\s+.+[a-z]:\\\\programdata\\\\microsoft\\\\windows defender advanced threat protection\\\\downloads\\\\psscript_[^\\.]+\\.ps1.+$"
-  local l_4_2 = {}
-  l_4_2[l_4_0] = 0
-  l_4_2[l_4_1] = 0
-  return l_4_2
-end
+; Function:        0_0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+
+    0 [-]: NEWTABLE  R0 0 4       ; R0 := {} (size = 0,4)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["Name"] := "Block credential stealing from the Windows local security authority subsystem (lsass.exe)"
+    2 [-]: SETTABLE  R0 K2 K3     ; R0["Description"] := "Windows Defender Exploit Guard detected an attempt to extract credentials from LSASS."
+    3 [-]: SETTABLE  R0 K4 K5     ; R0["NotificationDedupingInterval"] := 28800
+    4 [-]: GETGLOBAL R1 K7        ; R1 := HIPS
+    5 [-]: GETTABLE  R1 R1 K8     ; R1 := R1["DEDUPE_SCOPE_ALL"]
+    6 [-]: SETTABLE  R0 K6 R1     ; R0["NotificationDedupingScope"] := R1
+    7 [-]: RETURN    R0 2         ; return R0
+    8 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_1
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+
+    0 [-]: NEWTABLE  R0 0 1       ; R0 := {} (size = 0,1)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["%windir%\\system32\\lsass.exe"] := 2
+    2 [-]: LOADK     R1 K2        ; R1 := 7
+    3 [-]: MOVE      R2 R0        ; R2 := R0
+    4 [-]: RETURN    R1 3         ; return R1 to R2
+    5 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_2
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+
+    0 [-]: NEWTABLE  R0 0 46      ; R0 := {} (size = 0,46)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["%windir%\\system32\\WerFaultSecure.exe"] := 2
+    2 [-]: SETTABLE  R0 K2 K1     ; R0["%windir%\\system32\\mrt.exe"] := 2
+    3 [-]: SETTABLE  R0 K3 K1     ; R0["%windir%\\system32\\NETSTAT.EXE"] := 2
+    4 [-]: SETTABLE  R0 K4 K1     ; R0["%windir%\\syswow64\\NETSTAT.EXE"] := 2
+    5 [-]: SETTABLE  R0 K5 K1     ; R0["%windir%\\system32\\wbem\\WmiPrvSE.exe"] := 2
+    6 [-]: SETTABLE  R0 K6 K1     ; R0["%windir%\\SysWOW64\\wbem\\WmiPrvSE.exe"] := 2
+    7 [-]: SETTABLE  R0 K7 K1     ; R0["%windir%\\system32\\DriverStore\\FileRepository\\*\\NVWMI\\nvWmi64.exe"] := 2
+    8 [-]: SETTABLE  R0 K8 K1     ; R0["%programfiles(x86)%\\Microsoft Intune Management Extension\\ClientHealthEval.exe"] := 2
+    9 [-]: SETTABLE  R0 K9 K1     ; R0["%programfiles(x86)%\\Microsoft Intune Management Extension\\SensorLogonTask.exe"] := 2
+   10 [-]: SETTABLE  R0 K10 K1    ; R0["%programfiles(x86)%\\Microsoft Intune Management Extension\\Microsoft.Management.Services.IntuneWindowsAgent.exe"] := 2
+   11 [-]: SETTABLE  R0 K11 K1    ; R0["%programdata%\\Microsoft\\Windows Defender Advanced Threat Protection\\DataCollection\\*\\OpenHandleCollector.exe"] := 2
+   12 [-]: SETTABLE  R0 K12 K1    ; R0["%programfiles%\\WindowsApps\\Microsoft.GamingServices_*\\gamingservices.exe"] := 2
+   13 [-]: SETTABLE  R0 K13 K1    ; R0["%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\vpnagent.exe"] := 2
+   14 [-]: SETTABLE  R0 K14 K1    ; R0["%programfiles(x86)%\\Zoom\\bin\\CptHost.exe"] := 2
+   15 [-]: SETTABLE  R0 K15 K1    ; R0["%programfiles(x86)%\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe"] := 2
+   16 [-]: SETTABLE  R0 K16 K1    ; R0["%programfiles(x86)%\\Microsoft\\Edge\\Application\\*\\Installer\\setup.exe"] := 2
+   17 [-]: SETTABLE  R0 K17 K1    ; R0["%programfiles(x86)%\\Google\\Update\\GoogleUpdate.exe"] := 2
+   18 [-]: SETTABLE  R0 K18 K1    ; R0["%programfiles(x86)%\\Splunk\\bin\\splunkd.exe"] := 2
+   19 [-]: SETTABLE  R0 K19 K1    ; R0["%programfiles(x86)%\\Zscaler\\ZSAUpm\\ZSAUpm.exe"] := 2
+   20 [-]: SETTABLE  R0 K20 K1    ; R0["%programfiles(x86)%\\Fortinet\\FortiClient\\FortiESNAC.exe"] := 2
+   21 [-]: SETTABLE  R0 K21 K1    ; R0["%programfiles(x86)%\\FireEye\\xagt\\xagt.exe"] := 2
+   22 [-]: SETTABLE  R0 K22 K1    ; R0["%programfiles(x86)%\\Autodesk\\Autodesk Desktop App\\AdAppMgrSvc.exe"] := 2
+   23 [-]: SETTABLE  R0 K23 K1    ; R0["%programfiles(x86)%\\Dropbox\\Update\\DropboxUpdate.exe"] := 2
+   24 [-]: SETTABLE  R0 K24 K1    ; R0["%programfiles(x86)%\\HP\\HP Touchpoint Analytics Client\\Provider Data Sources\\ProcInfo\\ProcInfo.exe"] := 2
+   25 [-]: SETTABLE  R0 K25 K1    ; R0["%programfiles(x86)%\\Common Files\\Adobe\\AdobeGCClient\\AGMService.exe"] := 2
+   26 [-]: SETTABLE  R0 K26 K1    ; R0["%programfiles(x86)%\\Tanium\\Tanium Client"] := 2
+   27 [-]: SETTABLE  R0 K27 K1    ; R0["%programfiles(x86)%\\Airwatch\\AgentUI\\AWProcessCommands.exe"] := 2
+   28 [-]: SETTABLE  R0 K28 K1    ; R0["%programfiles(x86)%\\Bit9\\Parity Agent\\Parity.exe"] := 2
+   29 [-]: SETTABLE  R0 K29 K1    ; R0["%programfiles(x86)%\\Arctic Wolf Networks\\Agent\\ossec-agent.exe"] := 2
+   30 [-]: SETTABLE  R0 K30 K1    ; R0["%programfiles(x86)%\\Cordaware\\Infoband\\Infoclient.exe"] := 2
+   31 [-]: SETTABLE  R0 K31 K1    ; R0["%programfiles(x86)%\\Splunk\\bin\\splunk-regmon.exe"] := 2
+   32 [-]: SETTABLE  R0 K32 K1    ; R0["%programfiles(x86)%\\Lenovo\\VantageService\\*\\LenovoVantage-(LenovoBoostSystemAddin).exe"] := 2
+   33 [-]: SETTABLE  R0 K33 K1    ; R0["%programfiles(x86)%\\Micro Focus\\Discovery Agent\\bin32\\discagnt.exe"] := 2
+   34 [-]: SETTABLE  R0 K34 K1    ; R0["%programfiles(x86)%\\Hewlett-Packard\\Discovery Agent\\bin32\\discagnt.exe"] := 2
+   35 [-]: SETTABLE  R0 K35 K1    ; R0["%programfiles(x86)%\\Micro Focus\\Discovery Agent\\Plugins\\usage\\discusge.exe"] := 2
+   36 [-]: SETTABLE  R0 K36 K1    ; R0["%programfiles(x86)%\\Hewlett-Packard\\Discovery Agent\\Plugins\\usage\\discusge.exe"] := 2
+   37 [-]: SETTABLE  R0 K37 K1    ; R0["%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\aciseagent.exe"] := 2
+   38 [-]: SETTABLE  R0 K38 K1    ; R0["%programfiles(x86)%\\BigFix Enterprise\\BES Client\\BESClient.exe"] := 2
+   39 [-]: SETTABLE  R0 K39 K1    ; R0["%programfiles(x86)%\\Logitech\\LogiSync\\sync-agent\\LogiSyncHandler.exe"] := 2
+   40 [-]: SETTABLE  R0 K40 K1    ; R0["%programfiles(x86)%\\ManageSoft\\Tracker\\ndtrack.exe"] := 2
+   41 [-]: SETTABLE  R0 K41 K1    ; R0["%programfiles(x86)%\\Aternity Information Systems\\Agent"] := 2
+   42 [-]: SETTABLE  R0 K42 K1    ; R0["%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\vpndownloader.exe"] := 2
+   43 [-]: SETTABLE  R0 K43 K1    ; R0["%programfiles(x86)%\\Common Files\\Adobe\\ARM\\*\\AdobeARMHelper.exe"] := 2
+   44 [-]: SETTABLE  R0 K44 K1    ; R0["%programfiles(x86)%\\Common Files\\Adobe\\ARM\\*\\Temp\\*\\AdobeARMHelper.exe"] := 2
+   45 [-]: SETTABLE  R0 K45 K1    ; R0["%programfiles(x86)%\\Common Files\\Adobe\\ARM\\*\\AdobeARM.exe"] := 2
+   46 [-]: SETTABLE  R0 K46 K1    ; R0["%programfiles(x86)%\\Adobe\\Acrobat Reader DC\\Reader\\AcroCEF\\RdrServicesUpdater.exe"] := 2
+   47 [-]: SETTABLE  R0 K47 K1    ; R0["%programfiles(x86)%\\Aternity Information Systems\\Update\\AternityUpdate.exe"] := 2
+   48 [-]: SETTABLE  R0 K48 K1    ; R0["%programfiles(x86)%\\BraveSoftware\\Update\\BraveUpdate.exe"] := 2
+   49 [-]: SETTABLE  R0 K49 K1    ; R0["%programfiles(x86)%\\SysTrack\\LsiAgent\\LsiSupervisor\\*\\LsiSupervisor.exe"] := 2
+   50 [-]: SETTABLE  R0 K50 K1    ; R0["%programfiles(x86)%\\Cisco\\Cisco HostScan\\bin\\ciscod.exe"] := 2
+   51 [-]: SETTABLE  R0 K51 K1    ; R0["%programfiles(x86)%\\SysTrack\\LsiAgent\\LsiMods64.exe"] := 2
+   52 [-]: SETTABLE  R0 K52 K1    ; R0["%programfiles(x86)%\\CheckPoint\\Endpoint Connect\\Watchdog\\EPWD.exe"] := 2
+   53 [-]: SETTABLE  R0 K53 K1    ; R0["%programfiles(x86)%\\CheckPoint\\Endpoint Security\\Endpoint Common\\bin\\cpda.exe"] := 2
+   54 [-]: SETTABLE  R0 K54 K1    ; R0["%programfiles(x86)%\\VMware\\VMware Tools"] := 2
+   55 [-]: SETTABLE  R0 K55 K1    ; R0["%programfiles(x86)%\\VMware\\VMware Horizon View Client"] := 2
+   56 [-]: SETTABLE  R0 K56 K1    ; R0["%programfiles(x86)%\\Common Files\\VMware\\Remote Experience"] := 2
+   57 [-]: SETTABLE  R0 K57 K1    ; R0["%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\acswgagent.exe"] := 2
+   58 [-]: SETTABLE  R0 K58 K1    ; R0["%programfiles(x86)%\\N-able Technologies\\Windows Agent\\bin\\agent.exe"] := 2
+   59 [-]: SETTABLE  R0 K59 K1    ; R0["%programfiles(x86)%\\Digital Arts\\AC\\app\\bin\\acservice.exe"] := 2
+   60 [-]: SETTABLE  R0 K60 K1    ; R0["%programfiles(x86)%\\MOTEX\\LanScope Cat MR\\Lspcmr.exe"] := 2
+   61 [-]: SETTABLE  R0 K61 K1    ; R0["%programfiles(x86)%\\Power Automate Desktop\\Microsoft.Flow.RPA.LauncherService.exe"] := 2
+   62 [-]: SETTABLE  R0 K62 K1    ; R0["%programfiles(x86)%\\DesktopCentral_Agent\\bin\\dcagentservice.exe"] := 2
+   63 [-]: SETTABLE  R0 K63 K1    ; R0["%programfiles(x86)%\\CheckPoint\\Endpoint Security\\Endpoint Common\\bin\\IDAFServerHostService.exe"] := 2
+   64 [-]: SETTABLE  R0 K64 K1    ; R0["%programfiles(x86)%\\Arctic Wolf Networks\\Agent\\plugins\\osquery\\osqueryi.exe"] := 2
+   65 [-]: SETTABLE  R0 K65 K1    ; R0["%programfiles(x86)%\\Btc\\eAudytor\\eAgent\\Bin\\qati.exe"] := 2
+   66 [-]: SETTABLE  R0 K66 K1    ; R0["%programfiles(x86)%\\Adobe\\Adobe Sync\\CoreSync\\customhook\\CoreSyncCustomHook.exe"] := 2
+   67 [-]: SETTABLE  R0 K67 K1    ; R0["%programfiles(x86)%\\NetSupport\\NetSupport School"] := 2
+   68 [-]: SETTABLE  R0 K68 K1    ; R0["%programfiles(x86)%\\UEMS_Agent\\bin\\dcagentservice.exe"] := 2
+   69 [-]: SETTABLE  R0 K69 K1    ; R0["%programfiles(x86)%\\Google\\Temp\\*\\GoogleUpdate.exe"] := 2
+   70 [-]: SETTABLE  R0 K70 K1    ; R0["%programfiles(x86)%\\Adobe\\Acrobat DC\\Acrobat\\AcroCEF\\AcroServicesUpdater.exe"] := 2
+   71 [-]: SETTABLE  R0 K71 K1    ; R0["%programfiles(x86)%\\Ninite Agent\\NiniteAgent.exe"] := 2
+   72 [-]: SETTABLE  R0 K72 K1    ; R0["%programfiles(x86)%\\HP\\HP Classroom Manager\\Runplugin64.exe"] := 2
+   73 [-]: SETTABLE  R0 K73 K1    ; R0["%programfiles(x86)%\\SysTrack\\LsiAgent\\LsiAgent.exe"] := 2
+   74 [-]: SETTABLE  R0 K74 K1    ; R0["%programfiles(x86)%\\VMware\\VMware Player\\vmware-authd.exe"] := 2
+   75 [-]: SETTABLE  R0 K75 K1    ; R0["%programfiles(x86)%\\Dameware Remote Everywhere Agent\\BASupSysInf.exe"] := 2
+   76 [-]: SETTABLE  R0 K76 K1    ; R0["%programfiles(x86)%\\Power Automate Desktop\\Microsoft.Flow.RPA.*.exe"] := 2
+   77 [-]: SETTABLE  R0 K77 K1    ; R0["%programfiles(x86)%\\Common Files\\Adobe\\Adobe Desktop Common\\ElevationManager\\Adobe Installer.exe"] := 2
+   78 [-]: SETTABLE  R0 K78 K1    ; R0["%programfiles(x86)%\\Common Files\\Adobe\\Adobe Desktop Common\\HDBox\\Setup.exe"] := 2
+   79 [-]: SETTABLE  R0 K79 K1    ; R0["%programfiles(x86)%\\SolarWinds"] := 2
+   80 [-]: SETTABLE  R0 K80 K1    ; R0["%programfiles(x86)%\\checkmk\\service\\check_mk_agent.exe"] := 2
+   81 [-]: SETTABLE  R0 K81 K1    ; R0["%programfiles(x86)%\\ClassPolicyAgent\\PolicyAgent.exe"] := 2
+   82 [-]: SETTABLE  R0 K82 K1    ; R0["%programfiles(x86)%\\VMware\\VMware Workstation\\vmware-authd.exe"] := 2
+   83 [-]: SETTABLE  R0 K83 K1    ; R0["%programfiles(x86)%\\Balbix\\Update\\BalbixUpdate.exe"] := 2
+   84 [-]: SETTABLE  R0 K84 K1    ; R0["%programfiles(x86)%\\Bradford Networks\\Persistent Agent\\bndaemon.exe"] := 2
+   85 [-]: SETTABLE  R0 K85 K1    ; R0["%programfiles(x86)%\\Site24x7\\WinAgent\\monitoring\\bin\\MEAgentHelper.exe"] := 2
+   86 [-]: SETTABLE  R0 K86 K1    ; R0["%programfiles(x86)%\\Site24x7\\WinAgent\\monitoring\\bin\\AppBin\\Site24x7AppAgent.exe"] := 2
+   87 [-]: SETTABLE  R0 K87 K1    ; R0["%programfiles(x86)%\\Cato Networks\\Cato Client\\winvpnclient.cli.exe"] := 2
+   88 [-]: SETTABLE  R0 K88 K1    ; R0["%programfiles(x86)%\\ManageEngine\\UEMS_Agent\\bin\\dcagentservice.exe"] := 2
+   89 [-]: SETTABLE  R0 K89 K1    ; R0["%programfiles(x86)%\\Sky Product\\SKYSEA Client View"] := 2
+   90 [-]: SETTABLE  R0 K90 K1    ; R0["%programfiles(x86)%\\xagt\\xagt.exe"] := 2
+   91 [-]: SETTABLE  R0 K91 K1    ; R0["%programfiles(x86)%\\Microsoft Azure Site Recovery\\agent\\s2RCM.exe"] := 2
+   92 [-]: SETTABLE  R0 K92 K1    ; R0["%programfiles(x86)%\\Cisco\\Cisco Secure Client"] := 2
+   93 [-]: SETTABLE  R0 K93 K1    ; R0["%programfiles(x86)%\\HP\\HP Touchpoint Analytics Client\\TouchpointAnalyticsClientService.exe"] := 2
+   94 [-]: SETTABLE  R0 K94 K1    ; R0["%programfiles(x86)%\\CyberCNSAgent\\osqueryi.exe"] := 2
+   95 [-]: SETTABLE  R0 K95 K1    ; R0["%programfiles(x86)%\\FortiMonitorAgent\\bin\\Aggregator.Agent.exe"] := 2
+   96 [-]: SETTABLE  R0 K96 K1    ; R0["%programfiles(x86)%\\IBM\\Notes\\nsd.exe"] := 2
+   97 [-]: SETTABLE  R0 K97 K1    ; R0["%programfiles(x86)%\\Riverbed\\Steelhead Mobile\\rbtmon.exe"] := 2
+   98 [-]: SETTABLE  R0 K98 K1    ; R0["%programfiles%\\Avecto\\Privilege Guard Client\\DefendpointService.exe"] := 2
+   99 [-]: SETTABLE  R0 K99 K1    ; R0["%programfiles%\\Intel\\SUR\\QUEENCREEK\\x64\\esrv_svc.exe"] := 2
+  100 [-]: SETTABLE  R0 K100 K1   ; R0["%programfiles%\\Microsoft Monitoring Agent\\Agent\\HealthService.exe"] := 2
+  101 [-]: SETTABLE  R0 K101 K1   ; R0["%programfiles%\\Microsoft Monitoring Agent\\Agent\\MOMPerfSnapshotHelper.exe"] := 2
+  102 [-]: SETTABLE  R0 K102 K1   ; R0["%programfiles%\\Nexthink\\Collector\\Collector\\nxtsvc.exe"] := 2
+  103 [-]: SETTABLE  R0 K103 K1   ; R0["%programfiles%\\Splunk\\bin\\splunkd.exe"] := 2
+  104 [-]: SETTABLE  R0 K104 K1   ; R0["%programfiles%\\Azure Advanced Threat Protection Sensor\\*\\Microsoft.Tri.Sensor.Updater.exe"] := 2
+  105 [-]: SETTABLE  R0 K105 K1   ; R0["%programfiles%\\common files\\microsoft shared\\ClickToRun\\Updates\\*\\OfficeClickToRun.exe"] := 2
+  106 [-]: SETTABLE  R0 K106 K1   ; R0["%programfiles%\\Zscaler\\ZSAUpm\\ZSAUpm.exe"] := 2
+  107 [-]: SETTABLE  R0 K107 K1   ; R0["%programfiles%\\Fortinet\\FortiClient\\FortiESNAC.exe"] := 2
+  108 [-]: SETTABLE  R0 K108 K1   ; R0["%programfiles%\\FireEye\\xagt\\xagt.exe"] := 2
+  109 [-]: SETTABLE  R0 K109 K1   ; R0["%programfiles%\\Autodesk\\Autodesk Desktop App\\AdAppMgrSvc.exe"] := 2
+  110 [-]: SETTABLE  R0 K110 K1   ; R0["%programfiles%\\Qualys\\QualysAgent\\QualysAgent.exe"] := 2
+  111 [-]: SETTABLE  R0 K111 K1   ; R0["%programfiles%\\Altiris\\Altiris Agent\\AeXNSAgent.exe"] := 2
+  112 [-]: SETTABLE  R0 K112 K1   ; R0["%programfiles%\\VMware\\VMware Tools"] := 2
+  113 [-]: SETTABLE  R0 K113 K1   ; R0["%programfiles%\\VMware\\VMware Horizon View Client"] := 2
+  114 [-]: SETTABLE  R0 K114 K1   ; R0["%programfiles%\\Common Files\\VMware\\Remote Experience"] := 2
+  115 [-]: SETTABLE  R0 K115 K1   ; R0["%programfiles%\\Dell\\DTP\\InstrumentationSubAgent\\Dell.TechHub.Instrumentation.SubAgent.exe"] := 2
+  116 [-]: SETTABLE  R0 K116 K1   ; R0["%programfiles%\\Rapid7\\Insight Agent\\components\\insight_agent\\*\\ir_agent.exe"] := 2
+  117 [-]: SETTABLE  R0 K117 K1   ; R0["%programfiles%\\Microsoft RDInfra\\RDMonitoringAgent_*\\Agent\\MonAgentCore.exe"] := 2
+  118 [-]: SETTABLE  R0 K118 K1   ; R0["%programfiles%\\BMC*\\Client Management\\Client\\bin\\mtxagent.exe"] := 2
+  119 [-]: SETTABLE  R0 K119 K1   ; R0["%programfiles%\\DisplayLink Core Software\\DisplayLinkHotDeskService.exe"] := 2
+  120 [-]: SETTABLE  R0 K120 K1   ; R0["%programfiles%\\ManageSoft\\Tracker\\ndtrack.exe"] := 2
+  121 [-]: SETTABLE  R0 K121 K1   ; R0["%programfiles%\\Websense\\Websense Endpoint\\wepsvc.exe"] := 2
+  122 [-]: SETTABLE  R0 K122 K1   ; R0["%programfiles%\\Ricoh\\Streamline NX\\PC Client\\jre\\bin\\java.exe"] := 2
+  123 [-]: SETTABLE  R0 K123 K1   ; R0["%programfiles%\\Microsoft Monitoring Agent\\Agent\\Health Service State\\Resources\\*\\pmfexe.exe"] := 2
+  124 [-]: SETTABLE  R0 K124 K1   ; R0["%programfiles%\\Microsoft Monitoring Agent\\Agent\\MonitoringHost.exe"] := 2
+  125 [-]: SETTABLE  R0 K125 K1   ; R0["%programfiles%\\AppSense\\Application Manager\\Agent\\AMAgent.exe"] := 2
+  126 [-]: SETTABLE  R0 K126 K1   ; R0["%programfiles%\\Adobe\\Acrobat DC\\Acrobat\\AcroCEF\\SingleClientServicesUpdater.exe"] := 2
+  127 [-]: SETTABLE  R0 K127 K1   ; R0["%programfiles%\\osquery\\osqueryd\\osqueryd.exe"] := 2
+  128 [-]: SETTABLE  R0 K128 K1   ; R0["%programfiles%\\Microsoft OneDrive\\OneDriveStandaloneUpdater.exe"] := 2
+  129 [-]: SETTABLE  R0 K129 K1   ; R0["%programfiles%\\CyberArk\\Endpoint Privilege Manager\\Agent\\PASAgent\\PASAgent.exe"] := 2
+  130 [-]: SETTABLE  R0 K130 K1   ; R0["%programfiles%\\Palo Alto Networks\\GlobalProtect\\PanGPS.exe"] := 2
+  131 [-]: SETTABLE  R0 K131 K1   ; R0["%programfiles%\\Smart-X\\ControlUpAgent\\Version*\\cuAgent.exe"] := 2
+  132 [-]: SETTABLE  R0 K132 K1   ; R0["%programfiles%\\Citrix\\*\\XenDesktopRestApiService.exe"] := 2
+  133 [-]: SETTABLE  R0 K133 K1   ; R0["%programfiles%\\Palo Alto Networks\\DEM\\DEMAgentProcess.exe"] := 2
+  134 [-]: SETTABLE  R0 K134 K1   ; R0["%programfiles%\\Phantom\\IBSA\\ibsaService.exe"] := 2
+  135 [-]: SETTABLE  R0 K135 K1   ; R0["%programfiles%\\eGurkha\\lib\\AppPid.exe"] := 2
+  136 [-]: SETTABLE  R0 K136 K1   ; R0["%programfiles%\\dynatrace\\oneagent\\agent\\lib64\\oneagentos.exe"] := 2
+  137 [-]: SETTABLE  R0 K137 K1   ; R0["%programfiles%\\dynatrace\\oneagent\\agent\\lib64\\oneagentplugin.exe"] := 2
+  138 [-]: SETTABLE  R0 K138 K1   ; R0["%programfiles%\\Remote Desktop WebRTC Redirector\\MsRdcWebRTCSvc.exe"] := 2
+  139 [-]: SETTABLE  R0 K139 K1   ; R0["%programfiles%\\Sophos\\Sophos File Scanner\\SophosFileScanner.exe"] := 2
+  140 [-]: SETTABLE  R0 K140 K1   ; R0["%programfiles%\\NetSupport\\NetSupport School"] := 2
+  141 [-]: SETTABLE  R0 K141 K1   ; R0["%programfiles%\\OEM\\AMS\\Service\\ams.exe"] := 2
+  142 [-]: SETTABLE  R0 K142 K1   ; R0["%programfiles%\\Eracent\\EPM\\epm.exe"] := 2
+  143 [-]: SETTABLE  R0 K143 K1   ; R0["%programfiles%\\Cybereason ActiveProbe\\minionhost.exe"] := 2
+  144 [-]: SETTABLE  R0 K144 K1   ; R0["%programfiles%\\Google\\Temp\\*\\GoogleUpdate.exe"] := 2
+  145 [-]: SETTABLE  R0 K145 K1   ; R0["%programfiles%\\Orbit\\bin\\osqueryd\\windows\\stable\\osqueryd.exe"] := 2
+  146 [-]: SETTABLE  R0 K146 K1   ; R0["%programfiles%\\1E\\Client\\1E.Client.exe"] := 2
+  147 [-]: SETTABLE  R0 K147 K1   ; R0["%programfiles%\\Endgame\\esensor.exe"] := 2
+  148 [-]: SETTABLE  R0 K148 K1   ; R0["%programfiles%\\Microsoft Cloud Managed Desktop Extension\\CMDExtension\\Microsoft.Management.Services.CloudManagedDesktop.Agent.exe"] := 2
+  149 [-]: SETTABLE  R0 K149 K1   ; R0["%programfiles%\\common files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe"] := 2
+  150 [-]: SETTABLE  R0 K150 K1   ; R0["%programfiles%\\Adobe\\Adobe Creative Cloud Experience\\libs\\node.exe"] := 2
+  151 [-]: SETTABLE  R0 K151 K1   ; R0["%programfiles%\\Fortinet\\FortiClient\\FortiProxy.exe"] := 2
+  152 [-]: SETTABLE  R0 K152 K1   ; R0["%programfiles%\\Guardicore\\gc-launcher.exe"] := 2
+  153 [-]: SETTABLE  R0 K153 K1   ; R0["%programfiles%\\Microsoft Azure AD Connect Health Sync Agent\\Insights\\Microsoft.Identity.AadConnect.Health.AadSync.Host.exe"] := 2
+  154 [-]: SETTABLE  R0 K154 K1   ; R0["%programfiles%\\Huntress\\HuntressAgent.exe"] := 2
+  155 [-]: SETTABLE  R0 K155 K1   ; R0["%programfiles%\\vast limits\\uberAgent\\uberAgent.exe"] := 2
+  156 [-]: SETTABLE  R0 K156 K1   ; R0["%programfiles%\\Adobe\\Acrobat DC\\Acrobat\\AcroCEF\\AcroServicesUpdater.exe"] := 2
+  157 [-]: SETTABLE  R0 K157 K1   ; R0["%programfiles%\\Dell\\DellOptimizer\\DellOptimizer.exe"] := 2
+  158 [-]: SETTABLE  R0 K158 K1   ; R0["%programfiles%\\Manufacturer\\Endpoint Agent\\edpa.exe"] := 2
+  159 [-]: SETTABLE  R0 K159 K1   ; R0["%programfiles%\\CyberArk\\Endpoint Privilege Manager\\Agent\\vf_agent.exe"] := 2
+  160 [-]: SETTABLE  R0 K160 K1   ; R0["%programfiles%\\Morphisec\\bin\\ProtectorService64.exe"] := 2
+  161 [-]: SETTABLE  R0 K161 K1   ; R0["%programfiles%\\Zoom\\bin\\CptHost.exe"] := 2
+  162 [-]: SETTABLE  R0 K162 K1   ; R0["%programfiles%\\TOLLAD\\GEMONPROC.exe"] := 2
+  163 [-]: SETTABLE  R0 K163 K1   ; R0["%programfiles%\\SMS_CCM\\CcmExec.exe"] := 2
+  164 [-]: SETTABLE  R0 K164 K1   ; R0["%programfiles%\\HEAT Software\\EMSSAgent\\*\\lmhost.exe"] := 2
+  165 [-]: SETTABLE  R0 K165 K1   ; R0["%programfiles%\\Skyhigh\\SCP\\ScpService.exe"] := 2
+  166 [-]: SETTABLE  R0 K166 K1   ; R0["%programfiles%\\VMware\\VMware View\\*\\bin\\wsnm.exe"] := 2
+  167 [-]: SETTABLE  R0 K167 K1   ; R0["%programfiles%\\NetClean Technologies\\ProActive\\fsdaemon\\bin\\fsdaemon.exe"] := 2
+  168 [-]: SETTABLE  R0 K168 K1   ; R0["%programfiles%\\Topaz OFD\\Warsaw\\core.exe"] := 2
+  169 [-]: SETTABLE  R0 K169 K1   ; R0["%programfiles%\\Microsoft Dependency Agent\\bin\\MicrosoftDependencyAgent.exe"] := 2
+  170 [-]: SETTABLE  R0 K170 K1   ; R0["%programfiles%\\Autodesk\\AdODIS\\V1\\Setup\\install_helper_tool.exe"] := 2
+  171 [-]: SETTABLE  R0 K171 K1   ; R0["%programfiles%\\EPSON Projector\\Easy Interactive Driver Ver.??\\EIN_SV.exe"] := 2
+  172 [-]: SETTABLE  R0 K172 K1   ; R0["%programfiles%\\FortiMonitorAgent\\bin\\Aggregator.Agent.exe"] := 2
+  173 [-]: SETTABLE  R0 K173 K1   ; R0["%programfiles%\\SecureWorks\\Taegis Agent\\TaegisSvc.x??.exe"] := 2
+  174 [-]: SETTABLE  R0 K174 K1   ; R0["%programfiles%\\VMware\\Endpoint Telemetry Service\\vmwetlm.exe"] := 2
+  175 [-]: SETTABLE  R0 K175 K176 ; R0["C:\\Packages\\Plugins\\Microsoft.Azure.Diagnostics.IaaSDiagnostics\\*\\Monitor\\x64\\MonAgentCore.exe"] := 0
+  176 [-]: SETTABLE  R0 K177 K176 ; R0["C:\\Packages\\Plugins\\Microsoft.Azure.Security.Monitoring.AzureSecurityWindowsAgent\\*\\Monitoring\\Agent\\Extensions\\AzureSecurityPack\\pmfexe.exe"] := 0
+  177 [-]: SETTABLE  R0 K178 K176 ; R0["C:\\eGurkha\\lib\\AppPid.exe"] := 0
+  178 [-]: SETTABLE  R0 K179 K176 ; R0["C:\\blp\\API\\Office Tools"] := 0
+  179 [-]: SETTABLE  R0 K180 K176 ; R0["C:\\blp\\Wintrv"] := 0
+  180 [-]: SETTABLE  R0 K181 K1   ; R0["%windir%\\System32\\DriverStore\\FileRepository\\hpanalyticscomp.*\\x64\\Provider Data Sources\\ProcInfo\\ProcInfo.exe"] := 2
+  181 [-]: SETTABLE  R0 K182 K1   ; R0["%windir%\\system32\\RtkAudUService64.exe"] := 2
+  182 [-]: SETTABLE  R0 K183 K1   ; R0["%windir%\\system32\\nvwmi64.exe"] := 2
+  183 [-]: SETTABLE  R0 K184 K1   ; R0["%windir%\\system32\\lpksetup.exe"] := 2
+  184 [-]: SETTABLE  R0 K185 K1   ; R0["%windir%\\system32\\LogonUI.exe"] := 2
+  185 [-]: SETTABLE  R0 K186 K1   ; R0["%windir%\\system32\\DriverStore\\FileRepository\\hpcustomcapcomp.inf_amd64_*\\x64\\AppHelperCap.exe"] := 2
+  186 [-]: SETTABLE  R0 K187 K1   ; R0["%windir%\\system32\\IntelBroadbandManagerSvc.exe"] := 2
+  187 [-]: SETTABLE  R0 K188 K1   ; R0["%windir%\\system32\\inetsrv\\w3wp.exe"] := 2
+  188 [-]: SETTABLE  R0 K189 K1   ; R0["%windir%\\AdminArsenal\\PDQInventory-Scanner\\service-1\\PDQInventory-Scanner-1.exe"] := 2
+  189 [-]: SETTABLE  R0 K190 K1   ; R0["%windir%\\RtkBtManServ.exe"] := 2
+  190 [-]: SETTABLE  R0 K191 K1   ; R0["%windir%\\CarbonBlack\\cb.exe"] := 2
+  191 [-]: SETTABLE  R0 K192 K1   ; R0["%windir%\\LTSvc\\LTSVC.exe"] := 2
+  192 [-]: SETTABLE  R0 K193 K1   ; R0["%windir%\\CCM\\CcmExec.exe"] := 2
+  193 [-]: SETTABLE  R0 K194 K1   ; R0["%windir%\\CCM\\SensorLogonTask.exe"] := 2
+  194 [-]: SETTABLE  R0 K195 K1   ; R0["%windir%\\CCM\\SleepAgentService.exe"] := 2
+  195 [-]: SETTABLE  R0 K196 K1   ; R0["%windir%\\Sysmon64.exe"] := 2
+  196 [-]: SETTABLE  R0 K197 K1   ; R0["%windir%\\sysmon.exe"] := 2
+  197 [-]: SETTABLE  R0 K198 K1   ; R0["%windir%\\SysWOW64\\CCM\\CcmExec.exe"] := 2
+  198 [-]: SETTABLE  R0 K199 K1   ; R0["%windir%\\Downloaded Program Files\\f5epi.exe"] := 2
+  199 [-]: SETTABLE  R0 K200 K1   ; R0["%windir%\\AdminArsenal\\PDQDeployRunner\\service-1\\PDQDeployRunner-1.exe"] := 2
+  200 [-]: SETTABLE  R0 K201 K1   ; R0["%windir%\\Temp\\Ctx-*\\Extract\\TrolleyExpress.exe"] := 2
+  201 [-]: SETTABLE  R0 K202 K1   ; R0["%programdata%\\Citrix\\Citrix Receiver*\\TrolleyExpress.exe"] := 2
+  202 [-]: SETTABLE  R0 K203 K1   ; R0["%programdata%\\Citrix\\Citrix Workspace *\\TrolleyExpress.exe"] := 2
+  203 [-]: SETTABLE  R0 K204 K1   ; R0["%programdata%\\App-V\\*\\*\\Root\\VFS\\Windows\\CCM\\CcmExec.exe"] := 2
+  204 [-]: SETTABLE  R0 K205 K1   ; R0["%programfiles(x86)%\\Citrix\\Citrix Workspace *\\TrolleyExpress.exe"] := 2
+  205 [-]: SETTABLE  R0 K206 K207 ; R0["%temp%\\Ctx-*\\Extract\\TrolleyExpress.exe"] := 1
+  206 [-]: SETTABLE  R0 K208 K1   ; R0["%programfiles%\\Quest\\ChangeAuditor\\Agent\\NPSrvHost.exe"] := 2
+  207 [-]: SETTABLE  R0 K209 K1   ; R0["%programfiles%\\Quest\\ChangeAuditor\\Service\\ChangeAuditor.Service.exe"] := 2
+  208 [-]: SETTABLE  R0 K210 K1   ; R0["%programdata%\\Microsoft\\Windows Defender Advanced Threat Protection\\SenseNDR\\NdrSetup.exe"] := 2
+  209 [-]: SETTABLE  R0 K211 K1   ; R0["%windir%\\system32\\DriverStore\\FileRepository\\hpqkbsoftwarecompnent.inf_amd64_*\\HotKeyServiceUWP.exe"] := 2
+  210 [-]: SETTABLE  R0 K212 K1   ; R0["%windir%\\system32\\CompatTelRunner.exe"] := 2
+  211 [-]: SETTABLE  R0 K213 K1   ; R0["%programfiles(x86)%\\Printer Properties Pro\\Printer Installer Client\\PrinterInstallerClient.exe"] := 2
+  212 [-]: SETTABLE  R0 K214 K1   ; R0["%programfiles%\\Printer Properties Pro\\Printer Installer Client\\PrinterInstallerClient.exe"] := 2
+  213 [-]: SETTABLE  R0 K215 K1   ; R0["%programfiles(x86)%\\Zscaler\\ZSATunnel\\ZSATunnel.exe"] := 2
+  214 [-]: SETTABLE  R0 K216 K1   ; R0["%programfiles%\\Zscaler\\ZSATunnel\\ZSATunnel.exe"] := 2
+  215 [-]: SETTABLE  R0 K217 K1   ; R0["%programfiles(x86)%\\ManageSoft\\Security Agent\\mgssecsvc.exe"] := 2
+  216 [-]: SETTABLE  R0 K218 K1   ; R0["%programfiles%\\ManageSoft\\Security Agent\\mgssecsvc.exe"] := 2
+  217 [-]: SETTABLE  R0 K219 K1   ; R0["%programfiles(x86)%\\Snow Software\\Inventory\\Agent\\snowagent.exe"] := 2
+  218 [-]: SETTABLE  R0 K220 K1   ; R0["%programfiles%\\Snow Software\\Inventory\\Agent\\snowagent.exe"] := 2
+  219 [-]: SETTABLE  R0 K221 K176 ; R0["c:\\windows\\system32\\WerFaultSecure.exe"] := 0
+  220 [-]: SETTABLE  R0 K222 K176 ; R0["c:\\windows\\system32\\wbem\\WmiPrvSE.exe"] := 0
+  221 [-]: SETTABLE  R0 K223 K176 ; R0["c:\\windows\\SysWOW64\\wbem\\WmiPrvSE.exe"] := 0
+  222 [-]: SETTABLE  R0 K224 K176 ; R0["\\Device\\HarddiskVolume?\\Windows\\System32\\wbem\\wmiprvse.exe"] := 0
+  223 [-]: SETTABLE  R0 K225 K1   ; R0["%windir%\\system32\\fsiso.exe"] := 2
+  224 [-]: RETURN    R0 2         ; return R0
+  225 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_3
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+
+    0 [-]: LOADK     R0 K0        ; R0 := "^\\\"?.:\\\\windows\\\\system32\\\\werfault\\.exe\\\"?((?!\\-s).)*$"
+    1 [-]: LOADK     R1 K1        ; R1 := "\\\\powershell\\.exe\\\"?\\s+.+[a-z]:\\\\programdata\\\\microsoft\\\\windows defender advanced threat protection\\\\downloads\\\\psscript_[^\\.]+\\.ps1.+$"
+    2 [-]: NEWTABLE  R2 0 2       ; R2 := {} (size = 0,2)
+    3 [-]: SETTABLE  R2 R0 K2     ; R2[R0] := 0
+    4 [-]: SETTABLE  R2 R1 K2     ; R2[R1] := 0
+    5 [-]: RETURN    R2 2         ; return R2
+    6 [-]: RETURN    R0 1         ; return 
 
 

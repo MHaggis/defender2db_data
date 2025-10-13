@@ -1,14 +1,29 @@
--- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: asr_lua_1.bin 
+; Disassembled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+; Command line: -dis asr_lua/asr_lua_1.bin 
 
--- params : ...
--- function num : 0
-GetRuleInfo = function()
-  -- function num : 0_0
-  local l_1_0 = {}
-  l_1_0.Name = "Aplha Test for ASR in Block Mode"
-  l_1_0.Description = "Generic ASR Block mode use for unit testing"
-  return l_1_0
-end
+; Function:        0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       2
+; Max Stack Size:  2
+
+    0 [-]: CLOSURE   R0 0         ; R0 := closure(Function #0_0)
+    1 [-]: SETGLOBAL R0 K0        ; GetRuleInfo := R0
+    2 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+
+    0 [-]: NEWTABLE  R0 0 2       ; R0 := {} (size = 0,2)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["Name"] := "Aplha Test for ASR in Block Mode"
+    2 [-]: SETTABLE  R0 K2 K3     ; R0["Description"] := "Generic ASR Block mode use for unit testing"
+    3 [-]: RETURN    R0 2         ; return R0
+    4 [-]: RETURN    R0 1         ; return 
 
 

@@ -1,51 +1,90 @@
--- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: asr_lua_18.bin 
+; Disassembled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+; Command line: -dis asr_lua/asr_lua_18.bin 
 
--- params : ...
--- function num : 0
-GetRuleInfo = function()
-  -- function num : 0_0
-  local l_1_0 = {}
-  l_1_0.Name = "Use advanced protection against ransomware"
-  l_1_0.Description = "Windows Defender Exploit Guard detected execution of file that exhibit characteristics similar to ransomware"
-  l_1_0.NotificationDedupingInterval = 120
-  l_1_0.NotificationDedupingScope = HIPS.DEDUPE_SCOPE_UI
-  return l_1_0
-end
+; Function:        0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       2
+; Max Stack Size:  2
 
-GetMonitoredLocations = function()
-  -- function num : 0_1
-  return HIPS.MONITOR_PROCESSCREATE
-end
+    0 [-]: CLOSURE   R0 0         ; R0 := closure(Function #0_0)
+    1 [-]: SETGLOBAL R0 K0        ; GetRuleInfo := R0
+    2 [-]: CLOSURE   R0 1         ; R0 := closure(Function #0_1)
+    3 [-]: SETGLOBAL R0 K1        ; GetMonitoredLocations := R0
+    4 [-]: CLOSURE   R0 2         ; R0 := closure(Function #0_2)
+    5 [-]: SETGLOBAL R0 K2        ; GetPathInclusions := R0
+    6 [-]: CLOSURE   R0 3         ; R0 := closure(Function #0_3)
+    7 [-]: SETGLOBAL R0 K3        ; GetCommandLineInclusions := R0
+    8 [-]: RETURN    R0 1         ; return 
 
-GetPathInclusions = function()
-  -- function num : 0_2
-  local l_3_0 = {}
-  l_3_0["%systemroot%\\system32\\vssadmin.exe"] = 2
-  l_3_0["%systemroot%\\system32\\wbem\\wmic.exe"] = 2
-  l_3_0["%systemroot%\\syswow64\\wbem\\wmic.exe"] = 2
-  if (versioning.IsSampled)(45000, false, true, true) == true then
-    l_3_0["%systemroot%\\syswow64\\vssadmin.exe"] = 2
-    l_3_0["%systemroot%\\system32\\windowspowershell\\*\\powershell.exe"] = 2
-    l_3_0["%systemroot%\\syswow64\\windowspowershell\\*\\powershell.exe"] = 2
-  end
-  return l_3_0
-end
 
-GetCommandLineInclusions = function()
-  -- function num : 0_3
-  local l_4_0 = "vssadmin(\\.exe)?[\\s\\\"]+delete\\s+shadows"
-  local l_4_1 = "wmic(\\.exe)?[\\s\\\"]+shadowcopy\\s+delete"
-  local l_4_2 = {}
-  l_4_2[l_4_0] = 0
-  l_4_2[l_4_1] = 0
-  if (versioning.IsSampled)(45000, false, true, true) == true then
-    l_4_2["powershell(.exe)?\"?s+.*\"?get-wmiobjects+win32_shadowcopys*|s*remove-wmiobjects*\"?"] = 0
-  end
-  if (versioning.IsSampled)(4000, false, true, true) == true then
-    l_4_2["vssadmin(.exe)?[s\"]+resizes+shadowstorages+.+?/maxsize=[0]+(((g|m)b)|%)"] = 0
-  end
-  return l_4_2
-end
+; Function:        0_0
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+
+    0 [-]: NEWTABLE  R0 0 4       ; R0 := {} (size = 0,4)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["Name"] := "Use advanced protection against ransomware"
+    2 [-]: SETTABLE  R0 K2 K3     ; R0["Description"] := "Windows Defender Exploit Guard detected execution of file that exhibit characteristics similar to ransomware"
+    3 [-]: SETTABLE  R0 K4 K5     ; R0["NotificationDedupingInterval"] := 120
+    4 [-]: GETGLOBAL R1 K7        ; R1 := HIPS
+    5 [-]: GETTABLE  R1 R1 K8     ; R1 := R1["DEDUPE_SCOPE_UI"]
+    6 [-]: SETTABLE  R0 K6 R1     ; R0["NotificationDedupingScope"] := R1
+    7 [-]: RETURN    R0 2         ; return R0
+    8 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_1
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+
+    0 [-]: GETGLOBAL R0 K0        ; R0 := HIPS
+    1 [-]: GETTABLE  R0 R0 K1     ; R0 := R0["MONITOR_PROCESSCREATE"]
+    2 [-]: RETURN    R0 2         ; return R0
+    3 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_2
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+
+    0 [-]: NEWTABLE  R0 0 3       ; R0 := {} (size = 0,3)
+    1 [-]: SETTABLE  R0 K0 K1     ; R0["%systemroot%\\system32\\vssadmin.exe"] := 2
+    2 [-]: SETTABLE  R0 K2 K1     ; R0["%systemroot%\\system32\\wbem\\wmic.exe"] := 2
+    3 [-]: SETTABLE  R0 K3 K1     ; R0["%systemroot%\\syswow64\\wbem\\wmic.exe"] := 2
+    4 [-]: SETTABLE  R0 K4 K1     ; R0["%systemroot%\\syswow64\\vssadmin.exe"] := 2
+    5 [-]: SETTABLE  R0 K5 K1     ; R0["%systemroot%\\system32\\windowspowershell\\*\\powershell.exe"] := 2
+    6 [-]: SETTABLE  R0 K6 K1     ; R0["%systemroot%\\syswow64\\windowspowershell\\*\\powershell.exe"] := 2
+    7 [-]: RETURN    R0 2         ; return R0
+    8 [-]: RETURN    R0 1         ; return 
+
+
+; Function:        0_3
+; Defined at line: 0
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  5
+
+    0 [-]: LOADK     R0 K0        ; R0 := "vssadmin(\\.exe)?[\\s\\\"]+delete\\s+shadows"
+    1 [-]: LOADK     R1 K1        ; R1 := "wmic(\\.exe)?[\\s\\\"]+shadowcopy\\s+delete"
+    2 [-]: NEWTABLE  R2 0 2       ; R2 := {} (size = 0,2)
+    3 [-]: SETTABLE  R2 R0 K2     ; R2[R0] := 0
+    4 [-]: SETTABLE  R2 R1 K2     ; R2[R1] := 0
+    5 [-]: LOADK     R3 K3        ; R3 := "powershell(.exe)?\\\"?\\s+.*\\\"?get-wmiobject\\s+win32_shadowcopy\\s*\\|\\s*remove-wmiobject\\s*\\\"?"
+    6 [-]: SETTABLE  R2 R3 K2     ; R2[R3] := 0
+    7 [-]: LOADK     R4 K4        ; R4 := "vssadmin(\\.exe)?[\\s\\\"]+resize\\s+shadowstorage\\s+.+?/maxsize=[0]+(((g|m)b)|%)"
+    8 [-]: SETTABLE  R2 R4 K2     ; R2[R4] := 0
+    9 [-]: RETURN    R2 2         ; return R2
+   10 [-]: RETURN    R0 1         ; return 
 
 
