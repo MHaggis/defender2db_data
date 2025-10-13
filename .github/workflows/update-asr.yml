@@ -1,0 +1,55 @@
+name: Update ASR Lua
+
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install defender2db
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "git+https://github.com/dobin/defender2db@main"
+
+      - name: Fetch luadec (Linux)
+        run: |
+          mkdir -p scripts/bin
+          curl -fsSL -o scripts/bin/luadec https://raw.githubusercontent.com/dobin/defender2db/main/luadec
+          chmod +x scripts/bin/luadec
+
+      - name: Run updater (download, extract, decompile)
+        env:
+          LUADEC: ${{ github.workspace }}/scripts/bin/luadec
+          PIP_INDEX_URL: https://pypi.org/simple
+          PIP_CONFIG_FILE: /dev/null
+        run: |
+          python scripts/update_asr.py --no-install
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add asr_lua asr_index.csv || true
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update ASR Lua and index"
+            git push
+          fi
+
+
