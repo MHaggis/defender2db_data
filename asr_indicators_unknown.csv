@@ -1,0 +1,792 @@
+indicator_basename,example_string,matched_files,count_files
+"""?","((windowsapps\\[^\\]+\\)|(microsoft office\\(root\\)?))office..\\[^\.]+\.exe\""?[^\""]+\""([^\""]+)\""?",asr_lua_15.bin;asr_lua_16.bin;asr_lua_18.bin;asr_lua_19.bin;asr_lua_20.bin;asr_lua_22.bin;asr_lua_23.bin;asr_lua_24.bin;asr_lua_6.bin,9
+fsiso.exe,%windir%\system32\fsiso.exe,asr_lua_19.bin;asr_lua_20.bin;asr_lua_21.bin;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,9
+werfault.exe,%windir%\system32\WerFault.exe,asr_lua_19.bin;asr_lua_20.bin;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt;asr_lua_5.bin,9
+chrome.exe,%programfiles%\Google\Chrome\Application\chrome.exe,asr_lua_20.bin;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,7
+drivers,%windir%\system32\spool\drivers,asr_lua_19.bin;asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt;asr_lua_5.bin,7
+msedge.exe,%programfiles(x86)%\Microsoft\Edge\Application\msedge.exe,asr_lua_20.bin;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,7
+msedgewebview2.exe,%programfiles(x86)%\Microsoft\EdgeWebView\Application\*\msedgewebview2.exe,asr_lua_20.bin;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,7
+splwow64.exe,%windir%\splwow64.exe,asr_lua_20.bin;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,7
+app-v,%programdata%\App-V,asr_lua_20.bin;asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,6
+dwwin.exe,%windir%\system32\DWWIN.EXE,asr_lua_20.bin;asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,6
+filecoauth.exe,%programfiles%\Microsoft OneDrive\*\FileCoAuth.exe,asr_lua_20.bin;asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,6
+firefox.exe,%programfiles%\WindowsApps\Mozilla.Firefox_*\VFS\ProgramFiles\Firefox Package Root\firefox.exe,asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,6
+microsoftedgecp.exe,%windir%\systemapps\*\microsoftedgecp.exe,asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,6
+verclsid.exe,%windir%\system32\verclsid.exe,asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,6
+wermgr.exe,%windir%\system32\wermgr.exe,asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,6
+xpsrchvw.exe,%windir%\system32\xpsrchvw.exe,asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,6
+2010,%programfiles%\microsoft office\2010,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+ai.exe,%programfiles%\WindowsApps\Microsoft.Office.Desktop_*\VFS\ProgramFilesCommonX??\Microsoft Shared\OFFICE16\ai.exe,asr_lua_20.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+aimgr.exe,%programfiles%\WindowsApps\Microsoft.Office.Desktop_*\VFS\ProgramFilesCommonX??\Microsoft Shared\OFFICE16\aimgr.exe,asr_lua_20.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+bdeunlock.exe,%windir%\system32\bdeunlock.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+brave.exe,%programfiles%\BraveSoftware\Brave-Browser\Application\brave.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+bucappnt.exe,%windir%\system32\BuCAppNT.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+bumappnt.exe,%windir%\system32\BuMAppNT.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+ctfmon.exe,%windir%\system32\ctfmon.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+epic.exe,%localappdata%\epic privacy browser\application\epic.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+flashplayerupdateservice.exe,%windir%\system32\macromed\flash\flashplayerupdateservice.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+igfxem.exe,%windir%\system32\igfxem.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+igfxhk.exe,%windir%\system32\igfxhk.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+igfxtray.exe,%windir%\system32\igfxtray.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+live meeting 8,%programfiles%\microsoft office\live meeting 8,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+microsoft office 15,%programfiles%\microsoft office 15,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+microsoft office 2003,%programfiles%\microsoft office 2003,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+microsoft office 2010,%programfiles%\microsoft office 2010,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+microsoft office 2016,%programfiles%\microsoft office 2016,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+microsoft office2003,%programfiles%\microsoft office2003,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+microsoft office2007,%programfiles%\microsoft office2007,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+microsoft.uev.synccontroller.exe,%windir%\system32\microsoft.uev.synccontroller.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+mozilla firefox,%programfiles%\mozilla firefox,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+mspaint.exe,%programfiles%\WindowsApps\Microsoft.Paint_*\PaintApp\mspaint.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+notepad.exe,%programfiles%\WindowsApps\Microsoft.WindowsNotepad_*\Notepad\Notepad.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+notes.exe,%programfiles(x86)%\IBM\Notes\notes.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+office,%programfiles%\microsoft office\office,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+office10,%programfiles%\microsoft office\office10,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+office11,%programfiles%\microsoft office\office11,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+office12,%programfiles%\microsoft office\office12,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+office13,%programfiles%\microsoft office\office13,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+office14,%programfiles%\microsoft office\office14,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+office15,%programfiles%\microsoft office\office15,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+office16,%programfiles%\microsoft office\office16,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+opera,%programfiles%\opera,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+prevhost.exe,%windir%\syswow64\prevhost.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+sogouinput,%programfiles%\sogouinput,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+tencent,%programfiles%\tencent,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+ucbrowser,%programfiles%\ucbrowser,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+updates,%programfiles%\microsoft office\root\updates,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+vfs,%programfiles%\microsoft office\root\vfs,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+visio,%programfiles%\microsoft office\root\visio,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+visio10,%programfiles%\microsoft office\root\visio10,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+visio11,%programfiles%\microsoft office\root\visio11,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+visio12,%programfiles%\microsoft office\root\visio12,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+visio13,%programfiles%\microsoft office\root\visio13,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+wevtutil.exe,%windir%\system32\wevtutil.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+wfs.exe,%windir%\system32\wfs.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+winrar,%programfiles%\winrar,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+winzip,%programfiles%\winzip,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,5
+.windowsterminal).,.:\\program files( \(x86\))?\\windowsapps\\(?!microsoft\.windowsterminal).*,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+360chrome.exe,%localappdata%\360chrome\chrome\application\360chrome.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+360se.exe,%userprofile%\appdata\roaming\360se6\application\360se.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+appdiag.exe,%localappdata%\packages\*\localcache\roaming\oracle\oracle sales cloud for outlook\loader\appdiag.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+bin,%programfiles(x86)%\Kofax\Power PDF *\bin,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+bootcodeflow.exe,%localappdata%\cflauncher\bootcodeflow.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+browser.exe,%localappdata%\yandex\yandexbrowser\application\browser.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+bupappnt.exe,%windir%\system32\bupappnt.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+cefsharp.browsersubprocess.exe,%programfiles%\ArcGISMaps\Office\CefSharp.BrowserSubprocess.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+cmtrace.exe,%windir%\system32\cmtrace.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+colorcpl.exe,%windir%\syswow64\colorcpl.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+comet,%localappdata%\Perplexity\Comet,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+doclauncher.exe,%localappdata%\seclore\filesecure\filesecure lite\doclauncher.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+driveforoffice.synchelper.exe,%localappdata%\google\drive plugin for office\driveforoffice.synchelper.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+dw20.exe,%programfiles%\Microsoft Office\root\VFS\ProgramFilesCommonX64\Microsoft Shared\DW\dw20.exe,asr_lua_20.bin;asr_lua_22.bin;asr_lua_24.bin;asr_lua_24.bin.txt,4
+eowp.exe,%programfiles(x86)%\Apttus\X-Author Contracts\eowp.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+eventvwr.exe,%windir%\system32\eventvwr.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+fiddler.exe,%localappdata%\packages\*\localcache\local\programs\fiddler\fiddler.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+fondue.exe,%windir%\system32\fondue.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+fontview.exe,%windir%\system32\fontview.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+g2mstart.exe,%localappdata%\gotomeeting\*\g2mstart.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+gpgme-w32spawn.exe,%localappdata%\gpg4win\bin\gpgme-w32spawn.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+hh.exe,%windir%\hh.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+ime,%windir%\system32\ime,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+infoslips.viewer.exe,%userprofile%\appdata\roaming\infoslipsforme\infoslips.viewer.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+launcher.exe,%localappdata%\packages\*\localcache\local\programs\opera\launcher.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+microsoft dynamics nav,%programfiles%\Microsoft Dynamics NAV,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+microsoft power bi desktop,%programfiles%\Microsoft Power BI Desktop,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+microsoft power query for excel,%programfiles%\Microsoft Power Query for Excel,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+microsoft product studio,%programfiles%\Microsoft Product Studio,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+microsoft rights management sharing application,%programfiles%\Microsoft Rights Management sharing application,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+microsoft silverlight,%programfiles%\Microsoft Silverlight,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+microsoft sql server,%programfiles%\Microsoft SQL Server,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+microsoft visual studio,%programfiles%\Microsoft Visual Studio,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+microsoft visual studio 12.0,%programfiles%\Microsoft Visual Studio 12.0,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+microsoft visual studio 14.0,%programfiles%\Microsoft Visual Studio 14.0,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+microsoft vs code,%programfiles%\Microsoft VS Code,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+mimecast,%programfiles%\Mimecast,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+mqtechnologies,%programfiles%\MQTechnologies,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+msiexec.exe,%windir%\system32\msiexec.exe,asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt,4
+mssolvehelper-databroker.exe,%localappdata%\mssolvehelper databroker\*\mssolvehelper-databroker.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+netdocuments,%programfiles%\NetDocuments,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+nitro,%programfiles%\nitro,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+nitro pdf,%programfiles%\Nitro PDF,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+notepad++,%programfiles%\Notepad++,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+nuance,%programfiles%\Nuance,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+offcat_rts.exe,%localappdata%\microsoft\offcat\offcat_rts.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+onecal.exe,%appdata%\onetastic\onecal.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+onedrive,%userprofile%\appdata\local\microsoft\onedrive,asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt,4
+onedrive.exe,%programfiles%\Microsoft OneDrive\OneDrive.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+open-eid,%programfiles%\Open-EID,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+opentext,%programfiles%\OpenText,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+opera developer,%programfiles%\Opera developer,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+oracle,%programfiles%\Oracle,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+paint.net,%programfiles%\paint.net,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+parallels,%programfiles%\Parallels,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+pdf annotator,%programfiles%\PDF Annotator,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+pdf architect 5,%programfiles%\PDF Architect 5,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+pdf995,%programfiles%\pdf995,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+pdflauncher.exe,%programfiles%\PDFgear\PDFLauncher.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+peazip,%programfiles%\PeaZip,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+photoscape,%programfiles%\PhotoScape,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+policypak,%programfiles%\policypak,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+powerarchiver,%programfiles%\PowerArchiver,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+pptlauncher.exe,%localappdata%\seclore\filesecure\filesecure lite\pptlauncher.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+ptupdate.exe,%userprofile%\appdata\roaming\webex\applications\ptupdate.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+quicktime,%programfiles%\QuickTime,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+rmactivate.exe,%windir%\system32\rmactivate.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+runtimebroker.exe,%windir%\system32\runtimebroker.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+safer technologies,%programfiles%\Safer Technologies,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+sage,%programfiles%\Sage,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+sap,%programfiles%\SAP,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+sogouexplorer.exe,%localappdata%\sogouexplorer\sogouexplorer.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+sublime text 3,%programfiles%\sublime text 3,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+sumatrapdf,%programfiles%\SumatraPDF,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+superoffice,%programfiles%\SuperOffice,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+symantec.cloud,%programfiles%\Symantec.cloud,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+tableau,%programfiles%\Tableau,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+teammate,%programfiles%\TeamMate,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+teams.exe,%programfiles%\Microsoft\Teams\current\Teams.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+techsmith,%programfiles%\TechSmith,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+textpad 7,%programfiles%\TextPad 7,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+textpad 8,%programfiles%\TextPad 8,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+thomson reuters,%programfiles%\Thomson Reuters,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+tikit,%programfiles%\tikit,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+todoist.helper.exe,%localappdata%\outlooktodoistadx\todoist.helper.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+tokenbrokercookies.exe,%windir%\system32\tokenbrokercookies.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+tortoisegit,%programfiles%\TortoiseGit,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+tortoisesvn,%programfiles%\TortoiseSVN,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+tracker software,%programfiles%\Tracker Software,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+tstpfltk.exe,%userprofile%\appdata\locallow\copitrak\tstpfltk.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+updater.exe,%userprofile%\appdata\roaming\vision\updater.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+verpatch.exe,%localappdata%\mssolvehelper databroker\*\verpatch.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+videolan,%programfiles%\VideoLAN,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+vim,%programfiles%\Vim,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+vivaldi,%programfiles%\vivaldi,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+vivaldi.exe,%localappdata%\vivaldi\application\vivaldi.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+webconferencing,%programfiles%\WebConferencing,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+webex,%programfiles%\WebEx,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+windows mail,%programfiles%\windows mail,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+windows media player,%programfiles%\Windows Media Player,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+wisptis.exe,%windir%\system32\wisptis.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+wondershare,%programfiles%\Wondershare,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+wordpad.exe,%programfiles%\windows nt\accessories\wordpad.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+workshare,%programfiles%\workshare,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+xlslauncher.exe,%localappdata%\seclore\filesecure\filesecure lite\xlslauncher.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+xnview,%programfiles%\XnView,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+yeswarechromium.exe,%localappdata%\yesware\yesware for outlook\yeswareshadow\yeswarechromium.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+yeswarechromiumx64.exe,%localappdata%\yesware\yesware for outlook\yeswareshadow\yeswarechromiumx64.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+zoom,%programfiles%\zoom,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+zoom.exe,%appdata%\zoom\bin\zoom.exe,asr_lua_23.bin;asr_lua_23.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4
+.+,.:\\windows\\ccmcache\\.+,asr_lua_19.bin;asr_lua_19.bin.txt;asr_lua_24.bin,3
+acrobat,%programfiles%\acrobat,asr_lua_22.bin;asr_lua_23.bin;asr_lua_24.bin,3
+adobe,%commonprogramfiles%\adobe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_24.bin,3
+application,%programfiles%\Microsoft\Edge\Application,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt,3
+applicationfocus.exe,%programfiles(x86)%\Dania Software\DynamicTemplate for Office\ApplicationFocus.exe,asr_lua_20.bin;asr_lua_23.bin;asr_lua_23.bin.txt,3
+appvdllsurrogate32.exe,%programfiles%\microsoft application virtualization\client\subsystems\appvdllsurrogate32.exe,asr_lua_22.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+appvdllsurrogate64.exe,%programfiles%\microsoft application virtualization\client\subsystems\appvdllsurrogate64.exe,asr_lua_22.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+browsersubprocess.exe,%programfiles%\DevScope\*\BrowserSubprocess.exe,asr_lua_23.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+conhost.exe,%windir%\system32\conhost.exe,asr_lua_22.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+explorer.exe,%windir%\explorer.exe,asr_lua_22.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+fdsbrowser.exe,%programfiles(x86)%\FactSet\FDSBrowser.exe,asr_lua_22.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+fdsbrowser_x??.exe,%programfiles%\FactSet\FDSBrowser_x??.exe,asr_lua_23.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+firefox developer edition,%programfiles%\firefox developer edition,asr_lua_22.bin;asr_lua_23.bin;asr_lua_24.bin,3
+foxit software,%programfiles%\foxit software,asr_lua_22.bin;asr_lua_23.bin;asr_lua_24.bin,3
+google,%programfiles%\google,asr_lua_22.bin;asr_lua_23.bin;asr_lua_24.bin,3
+identityfindercmd.exe,%programfiles(x86)%\Spirion\IdentityFinderCmd.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt,3
+internet explorer,%programfiles%\internet explorer,asr_lua_22.bin;asr_lua_23.bin;asr_lua_24.bin,3
+lindenhouse software ltd,%programfiles%\Lindenhouse Software Ltd,asr_lua_23.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+lotus,%programfiles%\lotus,asr_lua_23.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+lumgr.exe,%programfiles(x86)%\SamsungPrinterLiveUpdateInstaller\LUMgr.exe,asr_lua_22.bin;asr_lua_23.bin;asr_lua_23.bin.txt,3
+metaswitch,%programfiles%\Metaswitch,asr_lua_23.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+microsoft access2007,%programfiles%\Microsoft Access2007,asr_lua_23.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+microsoft azure information protection,%programfiles%\Microsoft Azure Information Protection,asr_lua_23.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+microsoft dynamics crm,%programfiles%\microsoft dynamics crm,asr_lua_23.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+microsoft dynamics crm 2013 client,%programfiles%\Microsoft Dynamics CRM 2013 Client,asr_lua_23.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+microsoft shared,%commonprogramfiles%\microsoft shared,asr_lua_22.bin;asr_lua_23.bin;asr_lua_24.bin,3
+olk.exe,%programfiles%\WindowsApps\Microsoft.OutlookForWindows_*\olk.exe,asr_lua_22.bin;asr_lua_24.bin;asr_lua_24.bin.txt,3
+wmiprvse.exe,%windir%\system32\wbem\WmiPrvSE.exe,asr_lua_19.bin;asr_lua_21.bin;asr_lua_5.bin,3
+"""","cmd[^\s]*\s+/c\s+\""chcp\s+65001\s+&\s+.:\\windows\\system32\\inetsrv\\appcmd\.exe\s+list[^>]+>\s+\""\\\\127\.0\.0\.1\\.\$\\temp\\[^\""]+\""\s+2>&1\""",asr_lua_19.bin;asr_lua_24.bin,2
+"""?$","\""?.:\\windows\\system32\\control\.exe\""?\s+\""?input\.dll\""?$",asr_lua_23.bin;asr_lua_24.bin,2
+.bat,.:\\apps\\tc\\tc12\\tccs\\starttccs\.bat,asr_lua_23.bin;asr_lua_23.bin.txt,2
+.dll,"rundll32(\.exe)?[\""\s]+[a-z]:\\program files[^\\]*\\rapid7\\insight agent\\components\\armor\\common\\armor\\mvarmor64\.dll",asr_lua_23.bin;asr_lua_24.bin,2
+2.0,%localappdata%\apps\2.0,asr_lua_23.bin;asr_lua_23.bin.txt,2
+28hands,%programfiles%\28Hands,asr_lua_23.bin;asr_lua_24.bin,2
+7-zip,%programfiles%\7-Zip,asr_lua_23.bin;asr_lua_24.bin,2
+acd systems,%programfiles%\ACD Systems,asr_lua_23.bin;asr_lua_24.bin,2
+add-on products,%programfiles%\Add-On Products,asr_lua_23.bin;asr_lua_24.bin,2
+addins,%appdata%\microsoft\addins,asr_lua_23.bin;asr_lua_23.bin.txt,2
+admin by request,%programdata%\FastTrack Software\Admin By Request,asr_lua_24.bin;asr_lua_24.bin.txt,2
+aetherclientx.exe,%localappdata%\apps\2.0\*\*\*\AEtherClientX.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+agentconnectix.exe,%programfiles%\Druide\Connectix 11\Application\Bin64\AgentConnectix.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+alicobv.exe,%programfiles%\Amebis Besana\ALicObv.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+appvdllsurrogate.exe,%programfiles%\Microsoft Office\root\client\AppVDllSurrogate.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+aqmauscreenaermod.exe,%systemdrive%\Screening_Tool\SCREEN\AERMODPRIME\AQMAUScreenAermod.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+autodesk,%programfiles%\Autodesk,asr_lua_23.bin;asr_lua_24.bin,2
+babteccaq.exe,%localappdata%\apps\2.0\*\*\*\BabtecCAQ.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+bbcomm.exe,%programfiles%\blp\DAPI\bbcomm.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+bcdedit.exe,%systemroot%\system32\bcdedit.exe,asr_lua_17.bin;asr_lua_5.bin,2
+block credential stealing from the windows local security authority subsystem (lsass.exe),Block credential stealing from the Windows local security authority subsystem (lsass.exe),asr_lua_21.bin;asr_lua_21.bin.txt,2
+bluebeam software,%programfiles%\bluebeam software,asr_lua_23.bin;asr_lua_24.bin,2
+bombbomb.browsers.chromium.x??.exe,%programfiles%\BombBomb\BombBomb Outlook Desktop Add-in\BombBomb.Browsers.Chromium.x??.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+bpipprm.exe,%systemdrive%\Screening_Tool\SCREEN\AERMODPRIME\Bpipprm.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+browserouter.exe,%programfiles%\BrowseRouter\BrowseRouter.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+browserprocesshelper.exe,%localappdata%\apps\2.0\*\*\*\BrowserProcessHelper.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+browserprocesshelper64.exe,%localappdata%\apps\2.0\*\*\*\BrowserProcessHelper64.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+brp.exe,%localappdata%\apps\2.0\*\*\*\BRP.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+btcloudphoneforoutlook.browsersubprocess-x??.exe,%programfiles(x86)%\BTCloudPhoneForOutlook\BTCloudPhoneForOutlook.BrowserSubProcess-x??.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+ca dataminder,%programfiles%\CA\CA DataMinder,asr_lua_23.bin;asr_lua_24.bin,2
+casebuddy64.exe,%localappdata%\apps\2.0\*\*\*\CaseBuddy64.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+cdlauncher.exe,%localappdata%\apps\2.0\*\*\*\CDLauncher.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+cerenade shared,%programfiles%\Common Files\Cerenade Shared,asr_lua_23.bin;asr_lua_24.bin,2
+cfsendto.exe,%programfiles(x86)%\ShareFile\ShareFile for Outlook\CFSendTo.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+chrome,%userprofile%\appdata\local\google\chrome,asr_lua_22.bin;asr_lua_22.bin.txt,2
+ciscojabber.exe,%programfiles(x86)%\Cisco Systems\Cisco Jabber\CiscoJabber.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+citrix,%programfiles%\Citrix,asr_lua_23.bin;asr_lua_24.bin,2
+client,%programfiles%\Microsoft Office\root\client,asr_lua_23.bin;asr_lua_23.bin.txt,2
+compattelrunner.exe,%windir%\system32\CompatTelRunner.exe,asr_lua_21.bin;asr_lua_5.bin,2
+copitrak,%userprofile%\appdata\locallow\copitrak,asr_lua_22.bin;asr_lua_22.bin.txt,2
+crm.terminal.exe,%localappdata%\apps\2.0\*\*\*\CRM.Terminal.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+current,%programfiles(x86)%\Office Timeline\Current,asr_lua_23.bin;asr_lua_23.bin.txt,2
+cwin64.exe,%programfiles(x86)%\CaseWare\cwin64.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+dealcloud.addin.webbrowserhost.exe,%localappdata%\apps\2.0\*\*\*\DealCloud.AddIn.WebBrowserHost.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+dismhost.exe,%windir%\Temp\*\DismHost.exe,asr_lua_19.bin;asr_lua_5.bin,2
+dnbrowserprocess.exe,%programfiles(x86)%\Staffbase\StaffbaseEmailClassic\WebBrowser\DNBrowserProcess.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+doaddinmonitor.exe,%programfiles(x86)%\DotOffice\Corporate Identity\doAddinMonitor.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+docscorp,%programfiles%\DocsCorp,asr_lua_23.bin;asr_lua_24.bin,2
+docsexpert,%programfiles%\DocsExpert,asr_lua_23.bin;asr_lua_24.bin,2
+docstofast.exe,%programfiles(x86)%\First American\DocsToFAST\DocsToFAST.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+dsregcmd.exe,%windir%\system32\dsregcmd.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+eikonboxnet.exe,%userprofile%\appdata\local\Thomson Reuters\Eikon\Y\Bin\EikonBoxNet.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+epic.excavator.exe,%localappdata%\apps\2.0\*\*\*\Epic.Excavator.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+excel.exe,%programfiles(x86)%\Microsoft Office\root\Office16\EXCEL.EXE,asr_lua_20.bin;asr_lua_23.bin,2
+exoaagent.exe,%programfiles(x86)%\EMC SourceOne\Offline Access\ExOAAgent.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+expressviewer.exe,%commonprogramfiles%\Autodesk Shared\DWF Common\ExpressViewer.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+factset,%programfiles(x86)%\FactSet,asr_lua_23.bin;asr_lua_23.bin.txt,2
+fds*.exe,%programfiles(x86)%\FactSet\FDS*.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+fdsbrowser_x64.exe,%programfiles(x86)%\FactSet\FDSBrowser_x64.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+fiddler2,%programfiles%\Fiddler2,asr_lua_23.bin;asr_lua_24.bin,2
+filzip,%programfiles%\filzip,asr_lua_23.bin;asr_lua_24.bin,2
+firefox,%programfiles%\Firefox,asr_lua_23.bin;asr_lua_24.bin,2
+firefox nightly,%programfiles%\firefox nightly,asr_lua_23.bin;asr_lua_24.bin,2
+flow.exe,%programfiles(x86)%\iGrafx\Pro\*\flow.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+framework,%windir%\microsoft.net\framework,asr_lua_23.bin;asr_lua_23.bin.txt,2
+framework64,%windir%\microsoft.net\framework64,asr_lua_23.bin;asr_lua_23.bin.txt,2
+fusionclient,%programfiles(x86)%\Unify\Fusion for MS Office\FusionClient,asr_lua_24.bin;asr_lua_24.bin.txt,2
+git,%programfiles%\Git,asr_lua_23.bin;asr_lua_24.bin,2
+gnu,%programfiles%\GNU,asr_lua_23.bin;asr_lua_24.bin,2
+gpg.exe,%programfiles(x86)%\gnupg\bin\gpg.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+gpg4win,%programfiles%\Gpg4win,asr_lua_23.bin;asr_lua_24.bin,2
+gpsoftware,%programfiles%\GPSoftware,asr_lua_23.bin;asr_lua_24.bin,2
+harmon.ie.browserhost.exe,%programfiles%\harmon.ie\harmon.ie for SharePoint\bin\harmon.ie.BrowserHost.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+hewlett packard enterprise,%programfiles%\Hewlett Packard Enterprise,asr_lua_23.bin;asr_lua_24.bin,2
+hyland.canvas.financialclosemanagement.client.exe,%localappdata%\apps\2.0\*\*\*\Hyland.Canvas.FinancialCloseManagement.Client.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+ibm,%programfiles%\Common Files\IBM,asr_lua_23.bin;asr_lua_24.bin,2
+idm computer solutions,%programfiles%\IDM Computer Solutions,asr_lua_23.bin;asr_lua_24.bin,2
+iexplore.exe,%programfiles(x86)%\Citrix\System32\iexplore.exe,asr_lua_22.bin;asr_lua_22.bin.txt,2
+iken,%programfiles(x86)%\Iken,asr_lua_24.bin;asr_lua_24.bin.txt,2
+imeutil.exe,%programfiles(x86)%\SogouWBInput\*\ImeUtil.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+intellimagic,%programfiles%\IntelliMagic,asr_lua_23.bin;asr_lua_24.bin,2
+interactive intelligence,%programfiles%\Interactive Intelligence,asr_lua_23.bin;asr_lua_24.bin,2
+ipfx,%programfiles%\IPFX,asr_lua_23.bin;asr_lua_24.bin,2
+irfanview,%programfiles%\irfanview,asr_lua_23.bin;asr_lua_24.bin,2
+iwsessioncache.exe,%programfiles(x86)%\Litera\Metadact\Metadact for Outlook\DmsIntegrations\iwSessionCache.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+izarc,%programfiles%\IZArc,asr_lua_23.bin;asr_lua_24.bin,2
+jedox,%programfiles(x86)%\Jedox,asr_lua_23.bin;asr_lua_23.bin.txt,2
+jetfrontserver.exe,%programfiles(x86)%\JetReports\JetFrontServer.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+just great software,%programfiles%\Just Great Software,asr_lua_23.bin;asr_lua_24.bin,2
+justsystems,%programfiles%\JustSystems,asr_lua_23.bin;asr_lua_24.bin,2
+kapish,%programfiles%\Kapish,asr_lua_23.bin;asr_lua_24.bin,2
+ksomisc.exe,%localappdata%\Kingsoft\WPS Office\*\office6\ksomisc.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+kvoop.exe,%programfiles%\Micro Focus\Content Manager\kvoop.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+laserform,%programfiles%\Laserform,asr_lua_23.bin;asr_lua_24.bin,2
+launchwinapp.exe,%windir%\syswow64\launchwinapp.exe,asr_lua_22.bin;asr_lua_22.bin.txt,2
+lhaplus,%programfiles%\Lhaplus,asr_lua_23.bin;asr_lua_24.bin,2
+libreoffice 5,%programfiles%\LibreOffice 5,asr_lua_23.bin;asr_lua_24.bin,2
+liquidfileswindowsagent.exe,%programfiles(x86)%\LiquidFiles Windows Agent\LiquidFilesWindowsAgent.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+localcloudlauncher.exe,%localappdata%\apps\2.0\*\*\*\LocalCloudLauncher.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+lookeenfileparser.exe,%programfiles(x86)%\Axonic\Lookeen\LookeenFileParser.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+mathtype.exe,%programfiles(x86)%\MathType\MathType.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+matrix.toolbox.trayapp.exe,%localappdata%\apps\2.0\*\*\*\Matrix.Toolbox.TrayApp.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+microsoftedgewebview2setup.exe,%localappdata%\microsoft\olk\cache\microsoftedgewebview2setup.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+moodysbrowser.exe,%programfiles(x86)%\Moody's Analytics\Moody's Add-In for Excel\MoodysBrowser.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+msoffice-crypt.exe,%localappdata%\apps\2.0\*\*\*\msoffice-crypt.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+mssolvehelper databroker,%localappdata%\mssolvehelper databroker,asr_lua_23.bin;asr_lua_23.bin.txt,2
+obunity.exe,%localappdata%\apps\2.0\*\*\*\obunity.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+office integration,%programfiles%\Hyland\Office Integration,asr_lua_24.bin;asr_lua_24.bin.txt,2
+officeclicktorun.exe,%programfiles%\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe,asr_lua_20.bin;asr_lua_21.bin,2
+offlineclient.webhost.exe,%localappdata%\apps\2.0\*\*\*\OfflineClient.WebHost.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+onenote.exe,%programfiles(x86)%\Microsoft Office\root\Office16\ONENOTE.EXE,asr_lua_20.bin;asr_lua_23.bin,2
+otportal.exe,%localappdata%\apps\2.0\*\*\*\OTPortal.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+palisade,%programfiles(x86)%\Palisade,asr_lua_23.bin;asr_lua_23.bin.txt,2
+partnerproposition.exe,%localappdata%\apps\2.0\*\*\*\PartnerProposition.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+passportoffice.browsersubprocess.exe,%userprofile%\appdata\local\Wolters Kluwer ELM Solutions\Office Companion\Application\PassportOffice.BrowserSubprocess.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+pdf architect 9,%programfiles%\PDF Architect 9,asr_lua_24.bin;asr_lua_24.bin.txt,2
+pdf24-reader.exe,%programfiles%\PDF24\pdf24-Reader.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+pdfxedit.exe,%programfiles(x86)%\PDF Editor\PDFXEdit.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+pname,"\""?rundll32(\.exe)?\""?\s+\""?.:\\windows\\system32\\spool\\drivers\\x64\\\d+\\hpmsn\d+\.dll\""?,monitorprintjobstatus\s+/pjob=\d+\s+/pname",asr_lua_22.bin;asr_lua_23.bin,2
+pollev presenter,%programfiles(x86)%\Poll Everywhere\PollEv Presenter,asr_lua_23.bin;asr_lua_23.bin.txt,2
+powerpdf.exe,%programfiles(x86)%\Kofax\Power PDF-??\bin\PowerPDF.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+powerpnt.exe,%programfiles(x86)%\Microsoft Office\root\Office16\POWERPNT.EXE,asr_lua_20.bin;asr_lua_23.bin,2
+promecefpluginhost.exe,%userprofile%\AppData\Local\Kingsoft\WPS Office\*\office??\promecefpluginhost.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+protocolhandler.exe,%localappdata%\*\APT - SO\ProtocolHandler.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+ptsrv.exe,%programdata%\WebEx\WebEx\Applications\ptSrv.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+ptwbxoni.exe,%programdata%\WebEx\WebEx\Applications\ptWbxONI.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+pwdsinst.exe,%programfiles(x86)%\Open Text\DM Extensions\EMail Integration\*\pwdsinst.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+pwrgate.exe,%programfiles(x86)%\Ivanti\Workspace Control\pwrgate.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+q-pulse.exe,%localappdata%\apps\2.0\*\*\*\Q-Pulse.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+qdocsviewer.exe,%localappdata%\apps\2.0\*\*\*\qDocsViewer.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+refinitivworkspace.exe,%programfiles%\Refinitiv\Refinitiv Workspace\RefinitivWorkspace.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+renderprocess.exe,%programfiles%\Fiserv\Nautilus\Office Integration\*\*\RenderProcess.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+ringcentralforoutlook.browsersubprocess-x??.exe,%programfiles(x86)%\RingCentralForOutlook\RingCentralForOutlook.BrowserSubProcess-x??.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+sage software shared,%programfiles%\Common Files\Sage Software Shared,asr_lua_23.bin;asr_lua_24.bin,2
+scuserdialog.exe,%programfiles(x86)%\KnowBe4\Second Chance\scuserdialog.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+secmsg.queuemonitor.exe,%localappdata%\apps\2.0\*\*\*\SecMsg.QueueMonitor.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+setup.exe,%programfiles(x86)%\Microsoft\Edge\Application\*\Installer\setup.exe,asr_lua_21.bin;asr_lua_5.bin,2
+shellhelper64.dll,%programdata%\FastTrack Software\Admin By Request\ShellHelper64.dll,asr_lua_23.bin;asr_lua_23.bin.txt,2
+smartink-sbsdkproxy.exe,%programfiles(x86)%\SMART Technologies\SMART Product Drivers\Office\SMARTInk-SBSDKProxy.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+sme-browser.exe,%localappdata%\apps\2.0\*\*\*\sme-browser.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+snl.clients.office.host.exe,%programfiles%\S&P Global Market Intelligence\SPGMI Office\SNL.Clients.Office.Host.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+sp global market intelligence,%programfiles%\SP Global Market Intelligence,asr_lua_23.bin;asr_lua_23.bin.txt,2
+ss_crm.exe,%localappdata%\apps\2.0\*\*\*\SS_CRM.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+studio,%programfiles(x86)%\Articulate\360\Studio,asr_lua_23.bin;asr_lua_23.bin.txt,2
+swexplorerlauncher.exe,%localappdata%\apps\2.0\*\*\*\swExplorerLauncher.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+taskmgr.exe,%windir%\system32\taskmgr.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+telsheetchecker.exe,%localappdata%\apps\2.0\*\*\*\TELSheetChecker.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+telusbusinessconnectforoutlook.browsersubprocess-x??.exe,%programfiles(x86)%\TELUSBusinessConnectForOutlook\TELUSBusinessConnectForOutlook.BrowserSubProcess-x??.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+think-cell,%programfiles%\think-cell,asr_lua_23.bin;asr_lua_23.bin.txt,2
+tilde shared,%programfiles%\Common Files\Tilde shared,asr_lua_23.bin;asr_lua_24.bin,2
+trayexec.exe,%programfiles(x86)%\Egress\Switch\trayexec.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+ucsinglesignon.exe,%programfiles(x86)%\Common Files\C4B\UCSingleSignOn\UCSingleSignOn.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+unify.openscape.exe,%programfiles(x86)%\Unify\Fusion for MS Office\FusionClient\Client\Unify.OpenScape.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2
+viewsjpk.exe,%localappdata%\assembly\tmp\*\viewsjpk.exe,asr_lua_23.bin;asr_lua_23.bin.txt,2
+werfaultsecure.exe,%windir%\system32\WerFaultSecure.exe,asr_lua_21.bin;asr_lua_22.bin,2
+winsxs,%windir%\winsxs,asr_lua_24.bin;asr_lua_24.bin.txt,2
+winword.exe,%programfiles(x86)%\Microsoft Office\root\Office16\WINWORD.EXE,asr_lua_20.bin;asr_lua_23.bin,2
+wise alert,%programfiles(x86)%\WISE Alert,asr_lua_24.bin;asr_lua_24.bin.txt,2
+work,%programfiles%\iManage\Work,asr_lua_24.bin;asr_lua_24.bin.txt,2
+worksite,%programfiles%\interwoven\worksite,asr_lua_23.bin;asr_lua_24.bin,2
+""",]+)","rundll32(\.exe)?[\""\s]+([^'\"",]+)",asr_lua_24.bin,1
+"""]","cmd(\.exe)?[\s\""]+(/c)?[\s\""]*(.+\w+)[\s\""]*",asr_lua_24.bin,1
+"""|$)).","explorer\.exe\""?\s+(?!.+\.exe(\s|\""|$)).*",asr_lua_23.bin,1
+' population within msft org,This is a Test HIPS Rule that exposes rule logic in audit mode to \'X\' population within MSFT org,asr_lua_3.bin.txt,1
+-s).)*$,"^\""?.:\\windows\\system32\\werfault\.exe\""?((?!\-s).)*$",asr_lua_21.bin,1
+.cmd,"cmd(\.exe)?\""?\s+\/c\s+.+runadhocallocupdate\.cmd",asr_lua_23.bin,1
+.csb$,"\""?rundll32(\.exe)?\""?\s+\""?.:\\progra~.\\ser\\doxis.~.\\wincub~.\.dll\""?,openstgfile\s+.+\.csb$",asr_lua_24.bin,1
+.emc$,"\""?rundll32(\.exe)?\""?\s+\""?.:\\program files\\striata-reader\\keymail.dll\""?,opendocument\s+.+\.emc$",asr_lua_24.bin,1
+.log,"\""?[a-z]:\\windows\\system32\\msiexec\.exe\""?\s+.+\{[0-9a-f]+\-[0-9a-f]+\-[0-9a-f]+\-[0-9a-f]+\-[0-9a-f]+\}\s+.+[a-z]:\\windows\\temp\\nmwlogs\\wvdapps\\[^\\\.]+\.log",asr_lua_19.bin,1
+.ps1.+$,"\\powershell\.exe\""?\s+.+[a-z]:\\programdata\\microsoft\\windows defender advanced threat protection\\downloads\\psscript_[^\.]+\.ps1.+$",asr_lua_21.bin,1
+.txt,"\""?.:\\windows\\system32\\sc\.exe\""?\s+start\s+tenable_mw_scan\s+output=nessus_[^\s\.]+\.txt",asr_lua_19.bin,1
+.vsto$,"\""?rundll32(\.exe)?\""?\s+\""?.:\\program files( \(x86\))?\\common files\\microsoft shared\\vsto\\vstoee.dll\""?,installvstosolution\s+.+\.vsto$",asr_lua_23.bin,1
+1e.client.exe,%programfiles%\1E\Client\1E.Client.exe,asr_lua_21.bin,1
+3dxservice.exe,%programfiles%\3Dconnexion\3DxWare\3DxWinCore\3DxService.exe,asr_lua_24.bin,1
+aacambienthal,%programfiles%\ASUS\AacAmbientHal,asr_lua_5.bin,1
+aacmb,%programfiles%\ASUS\AacMB,asr_lua_5.bin,1
+acer office manager agent,%programfiles%\Acer\Acer Office Manager Agent,asr_lua_5.bin,1
+acer power management,%programfiles%\Acer\Acer Power Management,asr_lua_5.bin,1
+acer proshield plus,%programfiles%\Acer\Acer ProShield Plus,asr_lua_5.bin,1
+acer quick access,%programfiles%\Acer\Acer Quick Access,asr_lua_5.bin,1
+acerincorporated,%programfiles%\WindowsApps\AcerIncorporated,asr_lua_5.bin,1
+aciseagent.exe,%programfiles(x86)%\Cisco\Cisco AnyConnect Secure Mobility Client\aciseagent.exe,asr_lua_21.bin,1
+aclauncher.exe,%programfiles%\Common Files\Autodesk Shared\AcShellEx\AcLauncher.exe,asr_lua_24.bin,1
+aconepackagetemp,%programfiles%\ASUS\ACOnePackageTemp,asr_lua_5.bin,1
+acrobat dc,%programfiles(x86)%\acrobat dc,asr_lua_22.bin,1
+acrobat.exe,%programfiles%\adobe\acrobat 10.0\acrobat\acrobat.exe,asr_lua_22.bin,1
+acrord32.exe,%programfiles%\adobe\acrobat reader 2015\reader\acrord32.exe,asr_lua_22.bin,1
+acrord??.exe,%programfiles(x86)%\Adobe\Acrobat Reader DC\Reader\AcroRd??.exe,asr_lua_20.bin,1
+acroservicesupdater.exe,%programfiles(x86)%\Adobe\Acrobat DC\Acrobat\AcroCEF\AcroServicesUpdater.exe,asr_lua_21.bin,1
+acservice.exe,%programfiles(x86)%\Digital Arts\AC\app\bin\acservice.exe,asr_lua_21.bin,1
+acswgagent.exe,%programfiles(x86)%\Cisco\Cisco AnyConnect Secure Mobility Client\acswgagent.exe,asr_lua_21.bin,1
+adappmgrsvc.exe,%programfiles(x86)%\Autodesk\Autodesk Desktop App\AdAppMgrSvc.exe,asr_lua_21.bin,1
+adobe installer.exe,%programfiles(x86)%\Common Files\Adobe\Adobe Desktop Common\ElevationManager\Adobe Installer.exe,asr_lua_21.bin,1
+adobearm.exe,%programfiles(x86)%\Common Files\Adobe\ARM\*\AdobeARM.exe,asr_lua_21.bin,1
+adobearmhelper.exe,%programfiles(x86)%\Common Files\Adobe\ARM\*\AdobeARMHelper.exe,asr_lua_21.bin,1
+aexnsagent.exe,%programfiles%\Altiris\Altiris Agent\AeXNSAgent.exe,asr_lua_21.bin,1
+agent,%programfiles(x86)%\Aternity Information Systems\Agent,asr_lua_21.bin,1
+agent.exe,%programfiles(x86)%\N-able Technologies\Windows Agent\bin\agent.exe,asr_lua_21.bin,1
+agentpackagemonitoring.exe,%programfiles%\ATERA Networks\AteraAgent\Packages\AgentPackageMonitoring\AgentPackageMonitoring.exe,asr_lua_5.bin,1
+aggregator.agent.exe,%programfiles(x86)%\FortiMonitorAgent\bin\Aggregator.Agent.exe,asr_lua_21.bin,1
+agmservice.exe,%programfiles(x86)%\Common Files\Adobe\AdobeGCClient\AGMService.exe,asr_lua_21.bin,1
+ai suite iii,%programfiles(x86)%\ASUS\AI Suite III,asr_lua_5.bin,1
+aicreator_pytorch,%programfiles%\ASUS\AICreator_pytorch,asr_lua_5.bin,1
+amagent.exe,%programfiles%\AppSense\Application Manager\Agent\AMAgent.exe,asr_lua_21.bin,1
+ammessage.exe,%programfiles%\AppSense\Application Manager\Agent\AMMessage.exe,asr_lua_22.bin,1
+ams,%programfiles%\Hewlett-Packard\AMS,asr_lua_5.bin,1
+ams.exe,%programfiles%\OEM\AMS\Service\ams.exe,asr_lua_21.bin,1
+apphelpercap.exe,%windir%\system32\DriverStore\FileRepository\hpcustomcapcomp.inf_amd64_*\x64\AppHelperCap.exe,asr_lua_21.bin,1
+apppid.exe,%programfiles%\eGurkha\lib\AppPid.exe,asr_lua_21.bin,1
+arelliadisplayxamlaction.exe,%programfiles%\Thycotic\Agents\ApplicationControl\ArelliaDisplayXamlAction.exe,asr_lua_24.bin,1
+armoury crate lite service,%programfiles%\ASUS\ARMOURY CRATE Lite Service,asr_lua_5.bin,1
+armoury crate se service,%programfiles%\ASUS\ARMOURY CRATE SE Service,asr_lua_5.bin,1
+armoury crate service,%programfiles%\ASUS\Armoury Crate Service,asr_lua_5.bin,1
+assistant,%programdata%\Lenovo\TPQM\Assistant,asr_lua_5.bin,1
+asus dial control panel toolkit,%programfiles%\ASUS\ASUS Dial Control Panel Toolkit,asr_lua_5.bin,1
+asus hotplug controller,%programfiles%\ASUS\ASUS Hotplug Controller,asr_lua_5.bin,1
+asus monitor control,%programfiles%\ASUS\ASUS Monitor Control,asr_lua_5.bin,1
+asus system control interface,%programdata%\ASUS\ASUS System Control Interface,asr_lua_5.bin,1
+asus-driverhub-installer.exe,%programfiles(x86)%\ASUS\ASUS-DriverHub-Installer.exe,asr_lua_5.bin,1
+asus_framework.exe,%programfiles(x86)%\ASUS\ArmouryDevice\asus_framework.exe,asr_lua_5.bin,1
+asusaicrosslink,%programdata%\ASUS\ASUSAiCrosslink,asr_lua_5.bin,1
+asusdriverhub,%programfiles%\ASUS\AsusDriverHub,asr_lua_5.bin,1
+asusfancontrolservice,%programfiles(x86)%\ASUS\AsusFanControlService,asr_lua_5.bin,1
+asusfcnotification,%programfiles(x86)%\ASUS\AsusFCNotification,asr_lua_5.bin,1
+asusgamingcenterinstallpackage,%programfiles(x86)%\ASUS\AsusGamingCenterInstallPackage,asr_lua_5.bin,1
+asusremotewake,%programfiles(x86)%\ASUS\ASUSRemoteWake,asr_lua_5.bin,1
+asusroglslservice,%programfiles(x86)%\ASUS\AsusROGLSLService,asr_lua_5.bin,1
+asusscreenxpert,%programfiles%\ASUS\AsusScreenXpert,asr_lua_5.bin,1
+atbroker.exe,%windir%\system32\atbroker.exe,asr_lua_22.bin,1
+aternityupdate.exe,%programfiles(x86)%\Aternity Information Systems\Update\AternityUpdate.exe,asr_lua_21.bin,1
+atfsvr??.exe,%programfiles(x86)%\JustSystems\ATOK??\ATFSVR??.EXE,asr_lua_22.bin,1
+atkexcomsvc.exe,%programfiles(x86)%\ASUS\AXSP\*\atkexComSvc.exe,asr_lua_5.bin,1
+auraconnect.exe,%programfiles(x86)%\ASUS\AURACONNECT\AuraConnect.exe,asr_lua_5.bin,1
+awprocesscommands.exe,%programfiles(x86)%\Airwatch\AgentUI\AWProcessCommands.exe,asr_lua_21.bin,1
+balbixupdate.exe,%programfiles(x86)%\Balbix\Update\BalbixUpdate.exe,asr_lua_21.bin,1
+besclient.exe,%programfiles(x86)%\BigFix Enterprise\BES Client\BESClient.exe,asr_lua_21.bin,1
+bndaemon.exe,%programfiles(x86)%\Bradford Networks\Persistent Agent\bndaemon.exe,asr_lua_21.bin,1
+bootcfg.exe,%systemroot%\system32\bootcfg.exe,asr_lua_17.bin,1
+braveupdate.exe,%programfiles(x86)%\BraveSoftware\Update\BraveUpdate.exe,asr_lua_21.bin,1
+buaappnt.exe,%windir%\system32\buaappnt.exe,asr_lua_22.bin,1
+care center,%programfiles(x86)%\Acer\Care Center,asr_lua_5.bin,1
+cb.exe,%windir%\CarbonBlack\cb.exe,asr_lua_21.bin,1
+ccm32bitlauncher.exe,%windir%\CCM\Ccm32BitLauncher.exe,asr_lua_19.bin,1
+ccmexec.exe,%programfiles%\SMS_CCM\CcmExec.exe,asr_lua_21.bin,1
+changeauditor.service.exe,%programfiles%\Quest\ChangeAuditor\Service\ChangeAuditor.Service.exe,asr_lua_21.bin,1
+check_mk_agent.exe,%programfiles(x86)%\checkmk\service\check_mk_agent.exe,asr_lua_21.bin,1
+chkdsk.exe,%windir%\system32\chkdsk.exe,asr_lua_5.bin,1
+cisco secure client,%programfiles(x86)%\Cisco\Cisco Secure Client,asr_lua_21.bin,1
+ciscod.exe,%programfiles(x86)%\Cisco\Cisco HostScan\bin\ciscod.exe,asr_lua_21.bin,1
+clear.fi,%programfiles(x86)%\Acer\clear.fi,asr_lua_5.bin,1
+clienthealtheval.exe,%programfiles(x86)%\Microsoft Intune Management Extension\ClientHealthEval.exe,asr_lua_21.bin,1
+command monitor,%programfiles%\Dell\Command Monitor,asr_lua_5.bin,1
+controlcenter,%programfiles(x86)%\Acer\ControlCenter,asr_lua_5.bin,1
+core.exe,%programfiles%\Topaz OFD\Warsaw\core.exe,asr_lua_21.bin,1
+coresynccustomhook.exe,%programfiles(x86)%\Adobe\Adobe Sync\CoreSync\customhook\CoreSyncCustomHook.exe,asr_lua_21.bin,1
+cpc10q.exe,%windir%\system32\spool\drivers\x64\3\CPC10Q.EXE,asr_lua_20.bin,1
+cpda.exe,%programfiles(x86)%\CheckPoint\Endpoint Security\Endpoint Common\bin\cpda.exe,asr_lua_21.bin,1
+cpthost.exe,%programfiles(x86)%\Zoom\bin\CptHost.exe,asr_lua_21.bin,1
+cpuz_asus.exe,%programfiles%\CPUID\ASUS CPU-Z\cpuz_asus.exe,asr_lua_5.bin,1
+cpuz_tuf.exe,%programfiles%\CPUID\ASUS CPU-Z\cpuz_tuf.exe,asr_lua_5.bin,1
+cuagent.exe,%programfiles%\Smart-X\ControlUpAgent\Version*\cuAgent.exe,asr_lua_21.bin,1
+d+,"pwsh(\.exe)?\""?\s+-noexit\s+-file\s+\""?[a-z]:\\users\\[^\\]+\\appdata\\local\\temp\\regressionfinder\.ps1\""?\s+-launchspecificversion\s+-version\s+\d+\.\d+\.\d+\.\d+",asr_lua_24.bin,1
+defendpointservice.exe,%programfiles%\Avecto\Privilege Guard Client\DefendpointService.exe,asr_lua_21.bin,1
+dell backup and recovery,%programfiles(x86)%\Dell Backup and Recovery,asr_lua_5.bin,1
+dell data protection,%programfiles%\Dell\Dell Data Protection,asr_lua_5.bin,1
+dell datasafe local backup,%programfiles(x86)%\Dell DataSafe Local Backup,asr_lua_5.bin,1
+dell insights,%programfiles%\Dell\Dell Insights,asr_lua_5.bin,1
+dell.techhub.instrumentation.subagent.exe,%programfiles%\Dell\DTP\InstrumentationSubAgent\Dell.TechHub.Instrumentation.SubAgent.exe,asr_lua_21.bin,1
+delldatavault,%programfiles%\Dell\DellDataVault,asr_lua_5.bin,1
+delloptimizer.exe,%programfiles%\Dell\DellOptimizer\DellOptimizer.exe,asr_lua_21.bin,1
+demagentprocess.exe,%programfiles%\Palo Alto Networks\DEM\DEMAgentProcess.exe,asr_lua_21.bin,1
+discagnt.exe,%programfiles(x86)%\Micro Focus\Discovery Agent\bin32\discagnt.exe,asr_lua_21.bin,1
+discusge.exe,%programfiles(x86)%\Micro Focus\Discovery Agent\Plugins\usage\discusge.exe,asr_lua_21.bin,1
+displaylinkhotdeskservice.exe,%programfiles%\DisplayLink Core Software\DisplayLinkHotDeskService.exe,asr_lua_21.bin,1
+dll,%programfiles(x86)%\ASUS\ArmouryDevice\dll,asr_lua_5.bin,1
+draw.io.exe,%programfiles%\draw.io\draw.io.exe,asr_lua_24.bin,1
+driverupdate,%programdata%\Lenovo\DriverUpdate,asr_lua_5.bin,1
+dropboxupdate.exe,%programfiles(x86)%\Dropbox\Update\DropboxUpdate.exe,asr_lua_21.bin,1
+dtp,%programfiles%\Dell\DTP,asr_lua_5.bin,1
+edmserver.exe,%programfiles%\SOLIDWORKS Corp\SOLIDWORKS PDM\EdmServer.exe,asr_lua_24.bin,1
+edpa.exe,%programfiles%\Manufacturer\Endpoint Agent\edpa.exe,asr_lua_21.bin,1
+ein_sv.exe,%programfiles%\EPSON Projector\Easy Interactive Driver Ver.??\EIN_SV.exe,asr_lua_21.bin,1
+eloactivatejc.exe,%programfiles%\ELO Digital Office GmbH\ELO Java Client\EloActivateJC.exe,asr_lua_22.bin,1
+encpt.bat,"\""?.:\\windows\\system32\\cmd(\.exe)?\""?\s+\/c\s+.:\\bbl-icash\\bblkeyin\\ext\\encpt.bat",asr_lua_23.bin,1
+energy management,%programfiles(x86)%\Lenovo\Energy Management,asr_lua_5.bin,1
+epm.exe,%programfiles%\Eracent\EPM\epm.exe,asr_lua_21.bin,1
+epmclient,%programfiles%\Microsoft EPM Agent\EPMClient,asr_lua_23.bin,1
+epwd.exe,%programfiles(x86)%\CheckPoint\Endpoint Connect\Watchdog\EPWD.exe,asr_lua_21.bin,1
+eqnedt32.exe,%programfiles%\Microsoft Office\root\VFS\ProgramFilesCommonX86\Microsoft Shared\EQUATION\eqnedt32.exe,asr_lua_23.bin,1
+esensor.exe,%programfiles%\Endgame\esensor.exe,asr_lua_21.bin,1
+esrv_svc.exe,%programfiles%\Intel\SUR\QUEENCREEK\x64\esrv_svc.exe,asr_lua_21.bin,1
+f5epi.exe,%windir%\Downloaded Program Files\f5epi.exe,asr_lua_21.bin,1
+fdsofcexec.exe,%programfiles%\FactSet\FdsOfcExec.exe,asr_lua_23.bin,1
+firstrun.exe,%programfiles(x86)%\Microsoft Office\Office*\FIRSTRUN.EXE,asr_lua_20.bin,1
+flexengine.exe,%programfiles%\Immidio\Flex Profiles\FlexEngine.exe,asr_lua_24.bin,1
+format.com,%windir%\system32\format.com,asr_lua_5.bin,1
+fortiesnac.exe,%programfiles(x86)%\Fortinet\FortiClient\FortiESNAC.exe,asr_lua_21.bin,1
+fortiproxy.exe,%programfiles%\Fortinet\FortiClient\FortiProxy.exe,asr_lua_21.bin,1
+fsdaemon.exe,%programfiles%\NetClean Technologies\ProActive\fsdaemon\bin\fsdaemon.exe,asr_lua_21.bin,1
+fusionengine,%programfiles%\Lenovo\FusionEngine,asr_lua_5.bin,1
+fusionexecutor.exe,%programfiles%\Unify\Fusion for MS Office\FusionPlugins\FusionExecutor.exe,asr_lua_22.bin,1
+gamingservices.exe,%programfiles%\WindowsApps\Microsoft.GamingServices_*\gamingservices.exe,asr_lua_21.bin,1
+gc-launcher.exe,%programfiles%\Guardicore\gc-launcher.exe,asr_lua_21.bin,1
+gemonproc.exe,%programfiles%\TOLLAD\GEMONPROC.exe,asr_lua_21.bin,1
+getjcid.exe,%programfiles(x86)%\FUJIFILM\DocumentMonitor\DocMon\GetJCID.exe,asr_lua_22.bin,1
+glidex,%programfiles%\ASUS\GlideX,asr_lua_5.bin,1
+googleupdate.exe,%programfiles(x86)%\Google\Update\GoogleUpdate.exe,asr_lua_21.bin,1
+gpupdate.exe,%windir%\system32\gpupdate.exe,asr_lua_19.bin,1
+gputweakiii,%programfiles(x86)%\ASUS\GPUTweakIII,asr_lua_5.bin,1
+grabforwindows,%programfiles%\Dell\GrabForWindows,asr_lua_5.bin,1
+grid,%programfiles(x86)%\ASUS\Grid,asr_lua_5.bin,1
+healthservice.exe,%programfiles%\Microsoft Monitoring Agent\Agent\HealthService.exe,asr_lua_21.bin,1
+hosts,%programdata%\Lenovo\Udc\Hosts,asr_lua_5.bin,1
+hotkeyserviceuwp.exe,%windir%\system32\DriverStore\FileRepository\hpqkbsoftwarecompnent.inf_amd64_*\HotKeyServiceUWP.exe,asr_lua_21.bin,1
+hp,%programdata%\EasyRaidCheck\HP,asr_lua_5.bin,1
+hp bto software,%programdata%\HP\HP BTO Software,asr_lua_5.bin,1
+hp deskjet,%programfiles(x86)%\HP\HP DeskJet,asr_lua_5.bin,1
+hp display control service,%programfiles%\Portrait Displays\HP Display Control Service,asr_lua_5.bin,1
+hp enabling services,%programfiles%\HP\HP Enabling Services,asr_lua_5.bin,1
+hp envy,%programfiles(x86)%\HP\HP ENVY,asr_lua_5.bin,1
+hp health check,%programfiles(x86)%\Hewlett-Packard\HP Health Check,asr_lua_5.bin,1
+hp image assistant,%programfiles%\HP Image Assistant,asr_lua_5.bin,1
+hp ink tank wireless,%programfiles(x86)%\HP\HP Ink Tank Wireless,asr_lua_5.bin,1
+hp media network,%programfiles%\HP\HP Media Network,asr_lua_5.bin,1
+hp mik client,%programfiles(x86)%\HP\HP MIK Client,asr_lua_5.bin,1
+hp officejet,%programfiles(x86)%\HP\HP OfficeJet,asr_lua_5.bin,1
+hp one agent,%programfiles%\HP\HP One Agent,asr_lua_5.bin,1
+hp performance advisor,%programfiles(x86)%\HP\HP Performance Advisor,asr_lua_5.bin,1
+hp support framework,%programfiles(x86)%\Hewlett-Packard\HP Support Framework,asr_lua_5.bin,1
+hp support solutions,%programfiles(x86)%\Hewlett-Packard\HP Support Solutions,asr_lua_5.bin,1
+hp thinupdate,%programfiles%\HP\HP ThinUpdate,asr_lua_5.bin,1
+hp touchpoint analytics client,%programfiles(x86)%\HP\HP Touchpoint Analytics Client,asr_lua_5.bin,1
+hp touchpoint manager,%programfiles(x86)%\Hewlett-Packard\HP Touchpoint Manager,asr_lua_5.bin,1
+hphwdiag,%programfiles(x86)%\HP\HpHwDiag,asr_lua_5.bin,1
+hpia,%programfiles%\HP\HPIA,asr_lua_5.bin,1
+hpimageassistant,%programfiles(x86)%\HPImageAssistant,asr_lua_5.bin,1
+hpljut,%programfiles(x86)%\HP\HPLJUT,asr_lua_5.bin,1
+hpssacli,%programfiles%\HP\hpssacli,asr_lua_5.bin,1
+huntressagent.exe,%programfiles%\Huntress\HuntressAgent.exe,asr_lua_21.bin,1
+ibsaservice.exe,%programfiles%\Phantom\IBSA\ibsaService.exe,asr_lua_21.bin,1
+icacarddialogs.exe,%programfiles%\I.CA SecureStore\IcaCardDialogs\ICACardDialogs.exe,asr_lua_22.bin,1
+idafserverhostservice.exe,%programfiles(x86)%\CheckPoint\Endpoint Security\Endpoint Common\bin\IDAFServerHostService.exe,asr_lua_21.bin,1
+idiaglite,%programfiles%\Dell\iDiagLite,asr_lua_5.bin,1
+ie4uinit.exe,%windir%\system32\ie4uinit.exe,asr_lua_22.bin,1
+ieunatt.exe,%windir%\syswow64\ieunatt.exe,asr_lua_22.bin,1
+image assistant,%programfiles%\HP\Image Assistant,asr_lua_5.bin,1
+imcontroller,%programdata%\Lenovo\ImController,asr_lua_5.bin,1
+imecfmui.exe,%windir%\syswow64\ime\shared\imecfmui.exe,asr_lua_22.bin,1
+imepadsv.exe,%windir%\syswow64\ime\shared\imepadsv.exe,asr_lua_22.bin,1
+imjpdct.exe,%windir%\syswow64\ime\imejp\imjpdct.exe,asr_lua_22.bin,1
+ines.userservice.exe,%programfiles(x86)%\Office Timeline\Current\Ines.UserService.Exe,asr_lua_20.bin,1
+infocagefileshell,%programfiles(x86)%\NEC\InfoCageFileShell,asr_lua_22.bin,1
+infoclient.exe,%programfiles(x86)%\Cordaware\Infoband\Infoclient.exe,asr_lua_21.bin,1
+injectlibrary.exe,%programfiles%\Equitrac\Office\Common\InjectLibrary.exe,asr_lua_24.bin,1
+install_helper_tool.exe,%programfiles%\Autodesk\AdODIS\V1\Setup\install_helper_tool.exe,asr_lua_21.bin,1
+intelbroadbandmanagersvc.exe,%windir%\system32\IntelBroadbandManagerSvc.exe,asr_lua_21.bin,1
+ismccfhook86.exe,%programfiles%\Quality\ISMC\ISMCClient\ISMCCFHook86.exe,asr_lua_22.bin,1
+jato.v5.ui.tutorial.exe,%programfiles%\JATO\V5\JATO.V5.UI.Tutorial.exe,asr_lua_23.bin,1
+java.exe,%programfiles%\Ricoh\Streamline NX\PC Client\jre\bin\java.exe,asr_lua_21.bin,1
+jedox.browsersubprocess.exe,%programfiles%\Jedox\Jedox Suite\xladdin\Jedox.BrowserSubprocess.exe,asr_lua_23.bin,1
+justpdf5creator.exe,%programfiles(x86)%\JustSystems\JustPdf5\Creator\JustPdf5Creator.exe,asr_lua_22.bin,1
+knowbe4.secondchance.userdialog.exe,%programfiles(x86)%\KnowBe4\Second Chance\knowbe4.secondchance.userdialog.exe,asr_lua_22.bin,1
+laserfiche.officemonitor.exe,%programfiles%\Laserfiche\Client\LFOffice64\Laserfiche.OfficeMonitor.exe,asr_lua_24.bin,1
+lcd-cs.exe,%programfiles%\Acer DT\LCD-CS.exe,asr_lua_5.bin,1
+leappstore,%programfiles(x86)%\Lenovo\LeAppStore,asr_lua_5.bin,1
+legionzone,%programfiles(x86)%\Lenovo\LegionZone,asr_lua_5.bin,1
+lenovo,%systemroot%\System32\drivers\Lenovo,asr_lua_5.bin,1
+lenovo diagnostics evolution,%programfiles%\Lenovo\Lenovo Diagnostics Evolution,asr_lua_5.bin,1
+lenovo diagnostics tool,%programfiles%\Lenovo\Lenovo Diagnostics Tool,asr_lua_5.bin,1
+lenovo home,%programfiles(x86)%\Lenovo\Lenovo Home,asr_lua_5.bin,1
+lenovo solution center,%programfiles%\Lenovo\Lenovo Solution Center,asr_lua_5.bin,1
+lenovodiagnosticscli.exe,%programfiles(x86)%\Lenovo\ldiagx64\LenovoDiagnosticsCLI.exe,asr_lua_5.bin,1
+lenovovantage-(lenovoboostsystemaddin).exe,%programfiles(x86)%\Lenovo\VantageService\*\LenovoVantage-(LenovoBoostSystemAddin).exe,asr_lua_21.bin,1
+liveupdatehub.exe,%programfiles(x86)%\empower\charts\LiveUpdateHub.exe,asr_lua_20.bin,1
+llm-server.exe,%programfiles%\ASUS\llm-server\llm-server.exe,asr_lua_5.bin,1
+lmhost.exe,%programfiles%\HEAT Software\EMSSAgent\*\lmhost.exe,asr_lua_21.bin,1
+localservicelauncher.exe,%programfiles%\MacroView\DMF\LocalServiceLauncher.exe,asr_lua_24.bin,1
+logisynchandler.exe,%programfiles(x86)%\Logitech\LogiSync\sync-agent\LogiSyncHandler.exe,asr_lua_21.bin,1
+logonui.exe,%windir%\system32\LogonUI.exe,asr_lua_21.bin,1
+lpksetup.exe,%windir%\system32\lpksetup.exe,asr_lua_21.bin,1
+lsass.exe,%windir%\system32\lsass.exe,asr_lua_21.bin,1
+lsiagent.exe,%programfiles(x86)%\SysTrack\LsiAgent\LsiAgent.exe,asr_lua_21.bin,1
+lsimods64.exe,%programfiles(x86)%\SysTrack\LsiAgent\LsiMods64.exe,asr_lua_21.bin,1
+lsisupervisor.exe,%programfiles(x86)%\SysTrack\LsiAgent\LsiSupervisor\*\LsiSupervisor.exe,asr_lua_21.bin,1
+lspcmr.exe,%programfiles(x86)%\MOTEX\LanScope Cat MR\Lspcmr.exe,asr_lua_21.bin,1
+maxsize=[0]+(((g|m)b)|%),"vssadmin(\.exe)?[\s\""]+resize\s+shadowstorage\s+.+?/maxsize=[0]+(((g|m)b)|%)",asr_lua_18.bin,1
+mbr2gpt.exe,%windir%\system32\MBR2GPT.EXE,asr_lua_5.bin,1
+mdatpclientanalyzer.exe,%systemdrive%\*\Tools\MDATPClientAnalyzer.exe,asr_lua_19.bin,1
+mdeclientanalyzer.exe,%systemdrive%\MDE\Tools\MDEClientAnalyzer.exe,asr_lua_19.bin,1
+media,%programfiles(x86)%\Hewlett-Packard\Media,asr_lua_5.bin,1
+metrics_tool.exe,%programfiles%\Nitro\PDF Pro\*\metrics_tool.exe,asr_lua_22.bin,1
+mgssecsvc.exe,%programfiles(x86)%\ManageSoft\Security Agent\mgssecsvc.exe,asr_lua_21.bin,1
+microsoft office,%programfiles%\microsoft office,asr_lua_22.bin,1
+microsoft security client,%programfiles%\microsoft security client,asr_lua_22.bin,1
+microsoft shared debug,%programfiles%\Common Files\Microsoft Shared Debug,asr_lua_23.bin,1
+microsoft.flow.rpa.*.exe,%programfiles(x86)%\Power Automate Desktop\Microsoft.Flow.RPA.*.exe,asr_lua_21.bin,1
+microsoft.flow.rpa.launcherservice.exe,%programfiles(x86)%\Power Automate Desktop\Microsoft.Flow.RPA.LauncherService.exe,asr_lua_21.bin,1
+microsoft.identity.aadconnect.health.aadsync.host.exe,%programfiles%\Microsoft Azure AD Connect Health Sync Agent\Insights\Microsoft.Identity.AadConnect.Health.AadSync.Host.exe,asr_lua_21.bin,1
+microsoft.management.services.cloudmanageddesktop.agent.exe,%programfiles%\Microsoft Cloud Managed Desktop Extension\CMDExtension\Microsoft.Management.Services.CloudManagedDesktop.Agent.exe,asr_lua_21.bin,1
+microsoft.management.services.intunewindowsagent.exe,%programfiles(x86)%\Microsoft Intune Management Extension\Microsoft.Management.Services.IntuneWindowsAgent.exe,asr_lua_21.bin,1
+microsoft.mashup.container.loader.exe,%programfiles%\Microsoft Office\root\Office16\ADDINS\Microsoft Power Query for Excel Integrated\bin\Microsoft.Mashup.Container.Loader.exe,asr_lua_20.bin,1
+microsoft.tri.sensor.updater.exe,%programfiles%\Azure Advanced Threat Protection Sensor\*\Microsoft.Tri.Sensor.Updater.exe,asr_lua_21.bin,1
+microsoftdependencyagent.exe,%programfiles%\Microsoft Dependency Agent\bin\MicrosoftDependencyAgent.exe,asr_lua_21.bin,1
+microsoftedgeupdate.exe,%programfiles(x86)%\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe,asr_lua_21.bin,1
+minionhost.exe,%programfiles%\Cybereason ActiveProbe\minionhost.exe,asr_lua_21.bin,1
+mofcomp.exe,%windir%\system32\wbem\mofcomp.exe,asr_lua_19.bin,1
+momperfsnapshothelper.exe,%programfiles%\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe,asr_lua_21.bin,1
+monagentcore.exe,%programfiles%\Microsoft RDInfra\RDMonitoringAgent_*\Agent\MonAgentCore.exe,asr_lua_21.bin,1
+monitoringhost.exe,%programfiles%\Microsoft Monitoring Agent\Agent\MonitoringHost.exe,asr_lua_21.bin,1
+mousocoreworker.exe,%windir%\system32\MoUsoCoreWorker.exe,asr_lua_5.bin,1
+mprecovertaskbar.exe,%windir%\MpRecoverTaskbar.exe,asr_lua_5.bin,1
+mptaskbarrecover.exe,%windir%\MpTaskBarRecover.exe,asr_lua_5.bin,1
+mrt.exe,%windir%\system32\mrt.exe,asr_lua_21.bin,1
+ms-teams.exe,%programfiles%\WindowsApps\MSTeams_*\ms-teams.exe,asr_lua_20.bin,1
+msaccess.exe,%programfiles(x86)%\Microsoft Office\Office??\MSACCESS.EXE,asr_lua_23.bin,1
+msip.executionhost.exe,%programfiles(x86)%\Microsoft Azure Information Protection\MSIP.ExecutionHost.exe,asr_lua_20.bin,1
+msip.executionhost32.exe,%programfiles(x86)%\Microsoft Azure Information Protection\MSIP.ExecutionHost32.exe,asr_lua_20.bin,1
+msrdcwebrtcsvc.exe,%programfiles%\Remote Desktop WebRTC Redirector\MsRdcWebRTCSvc.exe,asr_lua_21.bin,1
+mtxagent.exe,%programfiles%\BMC*\Client Management\Client\bin\mtxagent.exe,asr_lua_21.bin,1
+ndrsetup.exe,%programdata%\Microsoft\Windows Defender Advanced Threat Protection\SenseNDR\NdrSetup.exe,asr_lua_21.bin,1
+ndtrack.exe,%programfiles(x86)%\ManageSoft\Tracker\ndtrack.exe,asr_lua_21.bin,1
+nessus_,"\""?.:\\windows\\system32\\cmd\.exe\""?\s+/c\s+echo\s+nessus_cmd_[^\s=]+=_start\s+>>\s+\""?.:\\windows\\temp\\nessus_",asr_lua_19.bin,1
+netstat.exe,%windir%\system32\NETSTAT.EXE,asr_lua_21.bin,1
+netsupport school,%programfiles(x86)%\NetSupport\NetSupport School,asr_lua_21.bin,1
+niniteagent.exe,%programfiles(x86)%\Ninite Agent\NiniteAgent.exe,asr_lua_21.bin,1
+node.exe,%programfiles%\Adobe\Adobe Creative Cloud Experience\libs\node.exe,asr_lua_21.bin,1
+npsrvhost.exe,%programfiles%\Quest\ChangeAuditor\Agent\NPSrvHost.exe,asr_lua_21.bin,1
+nsd.exe,%programfiles(x86)%\IBM\Notes\nsd.exe,asr_lua_21.bin,1
+ntprint.exe,%windir%\system32\ntprint.exe,asr_lua_22.bin,1
+nvwmi64.exe,%windir%\system32\DriverStore\FileRepository\*\NVWMI\nvWmi64.exe,asr_lua_21.bin,1
+nxpdfcreator.exe,%programfiles%\Nitro\PDF Pro\*\NxPdfCreator.exe,asr_lua_22.bin,1
+nxtsvc.exe,%programfiles%\Nexthink\Collector\Collector\nxtsvc.exe,asr_lua_21.bin,1
+office tools,C:\blp\API\Office Tools,asr_lua_21.bin,1
+omadmclient.exe,%windir%\system32\omadmclient.exe,asr_lua_5.bin,1
+omeninstallmonitor,%programfiles%\HP\OmenInstallMonitor,asr_lua_5.bin,1
+oneagentos.exe,%programfiles%\dynatrace\oneagent\agent\lib64\oneagentos.exe,asr_lua_21.bin,1
+oneagentplugin.exe,%programfiles%\dynatrace\oneagent\agent\lib64\oneagentplugin.exe,asr_lua_21.bin,1
+onedrivestandaloneupdater.exe,%programfiles%\Microsoft OneDrive\OneDriveStandaloneUpdater.exe,asr_lua_21.bin,1
+onekey app,%programfiles%\Lenovo\OneKey App,asr_lua_5.bin,1
+onenotem.exe,%programfiles(x86)%\Microsoft Office\root\Office16\ONENOTEM.EXE,asr_lua_20.bin,1
+openhandlecollector.exe,%programdata%\Microsoft\Windows Defender Advanced Threat Protection\DataCollection\*\OpenHandleCollector.exe,asr_lua_21.bin,1
+openwith.exe,%windir%\syswow64\openwith.exe,asr_lua_22.bin,1
+os recovery tool,%programfiles%\Dell\OS Recovery Tool,asr_lua_5.bin,1
+osqueryd.exe,%programfiles%\osquery\osqueryd\osqueryd.exe,asr_lua_21.bin,1
+osqueryi.exe,%programfiles(x86)%\Arctic Wolf Networks\Agent\plugins\osquery\osqueryi.exe,asr_lua_21.bin,1
+ossec-agent.exe,%programfiles(x86)%\Arctic Wolf Networks\Agent\ossec-agent.exe,asr_lua_21.bin,1
+otedittray.exe,%programfiles(x86)%\OpenText\Office Editor\OTEditTray.exe,asr_lua_22.bin,1
+outlook.exe,%programfiles(x86)%\Microsoft Office\Office??\OUTLOOK.EXE,asr_lua_24.bin,1
+overlay,%programfiles%\HP\Overlay,asr_lua_5.bin,1
+packagedcwalauncher.exe,%windir%\system32\PackagedCWALauncher.exe,asr_lua_5.bin,1
+pangps.exe,%programfiles%\Palo Alto Networks\GlobalProtect\PanGPS.exe,asr_lua_21.bin,1
+parity.exe,%programfiles(x86)%\Bit9\Parity Agent\Parity.exe,asr_lua_21.bin,1
+pasagent.exe,%programfiles%\CyberArk\Endpoint Privilege Manager\Agent\PASAgent\PASAgent.exe,asr_lua_21.bin,1
+pcaui.exe,%windir%\system32\pcaui.exe,asr_lua_22.bin,1
+pcmanager,%programfiles(x86)%\Lenovo\PCManager,asr_lua_5.bin,1
+pdfcreator.exe,%programfiles%\PDFCreator\PDFCreator.exe,asr_lua_24.bin,1
+pdfsam enhanced 7,%programfiles%\PDFsam Enhanced 7,asr_lua_24.bin,1
+pdfsaver.exe,%programfiles%\Tracker Software\PDF-XChange Standard\pdfSaver.exe,asr_lua_22.bin,1
+pdqdeployrunner-1.exe,%windir%\AdminArsenal\PDQDeployRunner\service-1\PDQDeployRunner-1.exe,asr_lua_21.bin,1
+pdqinventory-scanner-1.exe,%windir%\AdminArsenal\PDQInventory-Scanner\service-1\PDQInventory-Scanner-1.exe,asr_lua_21.bin,1
+photos.exe,%programfiles%\WindowsApps\Microsoft.Windows.Photos_*\Photos.exe,asr_lua_22.bin,1
+pmfexe.exe,%programfiles%\Microsoft Monitoring Agent\Agent\Health Service State\Resources\*\pmfexe.exe,asr_lua_21.bin,1
+policyagent.exe,%programfiles(x86)%\ClassPolicyAgent\PolicyAgent.exe,asr_lua_21.bin,1
+poqexec.exe,%windir%\system32\poqexec.exe,asr_lua_5.bin,1
+power2go,%programfiles(x86)%\Lenovo\Power2Go,asr_lua_5.bin,1
+power2go8,%programfiles(x86)%\Acer\Power2Go8,asr_lua_5.bin,1
+powerdvd12,%programfiles(x86)%\Lenovo\PowerDVD12,asr_lua_5.bin,1
+powermgr,%systemroot%\System32\Lenovo\PowerMgr,asr_lua_5.bin,1
+powershell.exe,%systemroot%\system32\windowspowershell\*\powershell.exe,asr_lua_18.bin,1
+ppbragent.exe,%programfiles%\PolicyPak\Browser Router\Client\PPBRAgent.exe,asr_lua_22.bin,1
+printerinstallerclient.exe,%programfiles(x86)%\Printer Properties Pro\Printer Installer Client\PrinterInstallerClient.exe,asr_lua_21.bin,1
+proart creator hub,%programfiles%\ASUS\ProArt Creator Hub,asr_lua_5.bin,1
+procinfo.exe,%programfiles(x86)%\HP\HP Touchpoint Analytics Client\Provider Data Sources\ProcInfo\ProcInfo.exe,asr_lua_21.bin,1
+prodreactivate.exe,%programfiles%\PTI\FusionPro\ProdReActivate.exe,asr_lua_22.bin,1
+protectorservice64.exe,%programfiles%\Morphisec\bin\ProtectorService64.exe,asr_lua_21.bin,1
+psexesvc.exe,%windir%\PSEXESVC.exe,asr_lua_19.bin,1
+qati.exe,%programfiles(x86)%\Btc\eAudytor\eAgent\Bin\qati.exe,asr_lua_21.bin,1
+qn,"\""?[a-z]:\\windows\\system32\\msiexec\.exe\""?\s+\/x\s+\{[0-9a-f]+\-[0-9a-f]+\-[0-9a-f]+\-[0-9a-f]+\-[0-9a-f]+\}\s+\/q.*\s+\/qn",asr_lua_19.bin,1
+qualysagent.exe,%programfiles%\Qualys\QualysAgent\QualysAgent.exe,asr_lua_21.bin,1
+quick access service,%programfiles%\Acer\Quick Access Service,asr_lua_5.bin,1
+quickpanel,%programfiles%\Acer\QuickPanel,asr_lua_5.bin,1
+rapidboot hdd accelerator,%programfiles(x86)%\Lenovo\RapidBoot HDD Accelerator,asr_lua_5.bin,1
+rbtmon.exe,%programfiles(x86)%\Riverbed\Steelhead Mobile\rbtmon.exe,asr_lua_21.bin,1
+rdrservicesupdater.exe,%programfiles(x86)%\Adobe\Acrobat Reader DC\Reader\AcroCEF\RdrServicesUpdater.exe,asr_lua_21.bin,1
+reader,%programfiles%\reader,asr_lua_22.bin,1
+reagentc.exe,%windir%\system32\ReAgentc.exe,asr_lua_5.bin,1
+recovery,%programfiles(x86)%\Hewlett-Packard\Recovery,asr_lua_5.bin,1
+relaunchnativehost.exe,%programfiles%\WindowsApps\Microsoft.OutlookForWindows_*\relaunchNativeHost.exe,asr_lua_24.bin,1
+remote experience,%programfiles(x86)%\Common Files\VMware\Remote Experience,asr_lua_21.bin,1
+rlsdownload,%programfiles%\ASUS\RLSDownload,asr_lua_5.bin,1
+rog live service,%programfiles(x86)%\ASUS\ROG Live Service,asr_lua_5.bin,1
+roglsloader,%programfiles(x86)%\ASUS\ROGLSLoader,asr_lua_5.bin,1
+rtkauduservice64.exe,%windir%\system32\RtkAudUService64.exe,asr_lua_21.bin,1
+rtkbtmanserv.exe,%windir%\RtkBtManServ.exe,asr_lua_21.bin,1
+runplugin64.exe,%programfiles(x86)%\HP\HP Classroom Manager\Runplugin64.exe,asr_lua_21.bin,1
+s+))?safeboot,"bcdedit(\.exe)?[\s\""]+(-noninteractive\s+)?(/store\s.+\s)?(-|/)set\s+(([^\s]+\s+)|(-encodedcommand\s+[^\s]+\s+))?safeboot",asr_lua_17.bin,1
+s+--start-)),"\\newoutlookinstall\\newoutlookinstaller\.exe\""?\s+((--silent)|(--quiet\s+--start-))",asr_lua_24.bin,1
+s+-embedding,"\""?rundll32(\.exe)?\""?\s+\""?.:\\windows\\system32\\shell32\.dll\""?,shcreatelocalserverrundll\s+\{3eef301f-b596-4c0b-bd92-013beafce793\}\s+-embedding",asr_lua_23.bin,1
+s+-forcev1)?,"conhost\.exe\""?\s+0x(ffffffff|4)(\s+-forcev1)?",asr_lua_23.bin,1
+s+.+fivearrows_external_flows,"cmd(\.exe)?\""?\s+\/c\s+.+fivearrows_external_flows",asr_lua_23.bin,1
+s+delete,"wmic(\.exe)?[\s\""]+shadowcopy\s+delete",asr_lua_18.bin,1
+s+shadows,"vssadmin(\.exe)?[\s\""]+delete\s+shadows",asr_lua_18.bin,1
+s2rcm.exe,%programfiles(x86)%\Microsoft Azure Site Recovery\agent\s2RCM.exe,asr_lua_21.bin,1
+s]*$,"\s+(.:\\windows\\temp\\)?nessus_[^\.\s]+\.txt[\""\'\;\s]*$",asr_lua_19.bin,1
+safeboot,"bootcfg(\.exe)?[\s\""]+/raw\s+/a\s+/safeboot",asr_lua_17.bin,1
+sam.exe,%programfiles%\PDFsam Enhanced ??\sam.exe,asr_lua_24.bin,1
+saremediation,%programfiles%\Dell\SARemediation,asr_lua_5.bin,1
+scpservice.exe,%programfiles%\Skyhigh\SCP\ScpService.exe,asr_lua_21.bin,1
+searchindexer.exe,%windir%\system32\SearchIndexer.exe,asr_lua_5.bin,1
+searchprotocolhost.exe,%windir%\system32\searchprotocolhost.exe,asr_lua_22.bin,1
+sendmail.exe,%programfiles(x86)%\Nuance\Power PDF ??\bin\SendMail.exe,asr_lua_22.bin,1
+sensorlogontask.exe,%programfiles(x86)%\Microsoft Intune Management Extension\SensorLogonTask.exe,asr_lua_21.bin,1
+services.exe,%windir%\system32\services.exe,asr_lua_5.bin,1
+setuphost.exe,%systemdrive%\$WINDOWS.~BT\Sources\SetupHost.exe,asr_lua_5.bin,1
+setupplatform.exe,%windir%\system32\oobe\SetupPlatform\SetupPlatform.exe,asr_lua_5.bin,1
+sgtool.exe,%windir%\syswow64\config\systemprofile\sogouinput\*\sgtool.exe,asr_lua_22.bin,1
+sharetool.exe,%programfiles%\AnyShare\sharetool.exe,asr_lua_22.bin,1
+singleclientservicesupdater.exe,%programfiles%\Adobe\Acrobat DC\Acrobat\AcroCEF\SingleClientServicesUpdater.exe,asr_lua_21.bin,1
+site24x7appagent.exe,%programfiles(x86)%\Site24x7\WinAgent\monitoring\bin\AppBin\Site24x7AppAgent.exe,asr_lua_21.bin,1
+skysea client view,%programfiles(x86)%\Sky Product\SKYSEA Client View,asr_lua_21.bin,1
+sleepagentservice.exe,%windir%\CCM\SleepAgentService.exe,asr_lua_21.bin,1
+slui.exe,%windir%\system32\slui.exe,asr_lua_22.bin,1
+smon.exe,%programfiles(x86)%\SHARP\Printer Status Monitor\Smon.exe,asr_lua_22.bin,1
+snowagent.exe,%programfiles(x86)%\Snow Software\Inventory\Agent\snowagent.exe,asr_lua_21.bin,1
+solarwinds,%programfiles(x86)%\SolarWinds,asr_lua_21.bin,1
+sophosfilescanner.exe,%programfiles%\Sophos\Sophos File Scanner\SophosFileScanner.exe,asr_lua_21.bin,1
+spatiallabs,%programfiles%\Acer\SpatialLabs,asr_lua_5.bin,1
+splunk-regmon.exe,%programfiles(x86)%\Splunk\bin\splunk-regmon.exe,asr_lua_21.bin,1
+splunkd.exe,%programfiles(x86)%\Splunk\bin\splunkd.exe,asr_lua_21.bin,1
+ssdal.exe,%windir%\ssdal.exe,asr_lua_22.bin,1
+storpsctl,%programfiles%\Acer\StorPSCTL,asr_lua_5.bin,1
+storycube,%programfiles%\ASUS\StoryCube,asr_lua_5.bin,1
+supportassist,%programfiles%\Dell\SupportAssist,asr_lua_5.bin,1
+sure click,%programfiles%\HP\Sure Click,asr_lua_5.bin,1
+surun.exe,%windir%\SuRun.exe,asr_lua_22.bin,1
+svchost.exe,%windir%\system32\svchost.exe,asr_lua_19.bin,1
+sysmgt,%programfiles%\Dell\SysMgt,asr_lua_5.bin,1
+sysmon.exe,%windir%\sysmon.exe,asr_lua_21.bin,1
+sysmon64.exe,%windir%\Sysmon64.exe,asr_lua_21.bin,1
+system update,%programfiles(x86)%\Lenovo\System Update,asr_lua_5.bin,1
+system_monitor,%programfiles(x86)%\Acer\system_monitor,asr_lua_5.bin,1
+systemupdate,%programdata%\Lenovo\SystemUpdate,asr_lua_5.bin,1
+taegissvc.x??.exe,%programfiles%\SecureWorks\Taegis Agent\TaegisSvc.x??.exe,asr_lua_21.bin,1
+tanium client,%programfiles(x86)%\Tanium\Tanium Client,asr_lua_21.bin,1
+taskhostw.exe,%windir%\system32\taskhostw.exe,asr_lua_5.bin,1
+telemetry,%programdata%\HP\Telemetry,asr_lua_5.bin,1
+thininstaller,%programdata%\Lenovo\ThinInstaller,asr_lua_5.bin,1
+thunderbird.exe,%programfiles(x86)%\Mozilla Thunderbird\thunderbird.exe,asr_lua_22.bin,1
+tiworker.exe,%windir%\winsxs\*\TiWorker.exe,asr_lua_5.bin,1
+touchpointanalyticsclientservice.exe,%programfiles(x86)%\HP\HP Touchpoint Analytics Client\TouchpointAnalyticsClientService.exe,asr_lua_21.bin,1
+touchsmart,%programfiles(x86)%\Hewlett-Packard\TouchSmart,asr_lua_5.bin,1
+trimwatcher.exe,%programfiles%\Micro Focus\Content Manager\TRIMWatcher.exe,asr_lua_23.bin,1
+trolleyexpress.exe,%windir%\Temp\Ctx-*\Extract\TrolleyExpress.exe,asr_lua_21.bin,1
+turbolan,%programfiles(x86)%\ASUS\SCD\Software\TurboLAN,asr_lua_5.bin,1
+uberagent.exe,%programfiles%\vast limits\uberAgent\uberAgent.exe,asr_lua_21.bin,1
+update,%programfiles(x86)%\ASUS\Update,asr_lua_5.bin,1
+update.exe,%localappdata%\microsoft\Teams\Update.exe,asr_lua_5.bin,1
+updater2,%programdata%\Acer\updater2,asr_lua_5.bin,1
+updateservice,%programfiles(x86)%\Dell\UpdateService,asr_lua_5.bin,1
+user experience improvement program service,%programfiles%\Acer\User Experience Improvement Program Service,asr_lua_5.bin,1
+vantage,%programdata%\Lenovo\Vantage,asr_lua_5.bin,1
+vantageservice,%programfiles(x86)%\Lenovo\VantageService,asr_lua_5.bin,1
+vf_agent.exe,%programfiles%\CyberArk\Endpoint Privilege Manager\Agent\vf_agent.exe,asr_lua_21.bin,1
+virtual pet,%programfiles%\ASUS\Virtual Pet,asr_lua_5.bin,1
+virtualpet,%programfiles(x86)%\ASUS\VirtualPet,asr_lua_5.bin,1
+vmware horizon view client,%programfiles(x86)%\VMware\VMware Horizon View Client,asr_lua_21.bin,1
+vmware tools,%programfiles(x86)%\VMware\VMware Tools,asr_lua_21.bin,1
+vmware-authd.exe,%programfiles(x86)%\VMware\VMware Player\vmware-authd.exe,asr_lua_21.bin,1
+vmwetlm.exe,%programfiles%\VMware\Endpoint Telemetry Service\vmwetlm.exe,asr_lua_21.bin,1
+vpnagent.exe,%programfiles(x86)%\Cisco\Cisco AnyConnect Secure Mobility Client\vpnagent.exe,asr_lua_21.bin,1
+vpndownloader.exe,%programfiles(x86)%\Cisco\Cisco AnyConnect Secure Mobility Client\vpndownloader.exe,asr_lua_21.bin,1
+vssadmin.exe,%systemroot%\system32\vssadmin.exe,asr_lua_18.bin,1
+w3wp.exe,%windir%\system32\inetsrv\w3wp.exe,asr_lua_21.bin,1
+wepsvc.exe,%programfiles%\Websense\Websense Endpoint\wepsvc.exe,asr_lua_21.bin,1
+windowsupdatebox.exe,%windir%\SoftwareDistribution\Download\*\WindowsUpdateBox.exe,asr_lua_5.bin,1
+wintrv,C:\blp\Wintrv,asr_lua_21.bin,1
+winvpnclient.cli.exe,%programfiles(x86)%\Cato Networks\Cato Client\winvpnclient.cli.exe,asr_lua_21.bin,1
+wmic.exe,%systemroot%\system32\wbem\wmic.exe,asr_lua_18.bin,1
+wsnm.exe,%programfiles%\VMware\VMware View\*\bin\wsnm.exe,asr_lua_21.bin,1
+wtwindows.exe,%programfiles%\PTC\Desktop Integration\WTWindows.exe,asr_lua_23.bin,1
+wuauclt.exe,%windir%\system32\wuauclt.exe,asr_lua_19.bin,1
+wuaucltcore.exe,%windir%\system32\wuaucltcore.exe,asr_lua_5.bin,1
+xagt.exe,%programfiles(x86)%\FireEye\xagt\xagt.exe,asr_lua_21.bin,1
+xendesktoprestapiservice.exe,%programfiles%\Citrix\*\XenDesktopRestApiService.exe,asr_lua_21.bin,1
+xpdagent.exe,%programfiles%\WindowsApps\Microsoft.OutlookForWindows_*\xpdAgent.exe,asr_lua_24.bin,1
+zsatunnel.exe,%programfiles(x86)%\Zscaler\ZSATunnel\ZSATunnel.exe,asr_lua_21.bin,1
+zsaupm.exe,%programfiles(x86)%\Zscaler\ZSAUpm\ZSAUpm.exe,asr_lua_21.bin,1

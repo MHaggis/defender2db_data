@@ -1,0 +1,26 @@
+file,name,description,vendors,guids
+asr_lua_0.bin.txt,Aplha Test for ASR in Audit Mode,Generic ASR Audit mode use for unit testing,,
+asr_lua_1.bin.txt,Aplha Test for ASR in Block Mode,Generic ASR Block mode use for unit testing,,
+asr_lua_10.bin.txt,Block abuse of in-the-wild exploited vulnerable signed drivers,Windows Defender Exploit Guard detected an application writing an exploited vulnerable signed driver to the disk,,
+asr_lua_11.bin.txt,Block persistence through WMI event subscription,Windows Defender Exploit Guard detected an attempted installation of a persistent entity in the WMI repo via event subscription,,
+asr_lua_12.bin.txt,"Block executable files from running unless they meet a prevalence, age, or trusted list criteria",Windows Defender Exploit Guard detected the launch of a newly created untrusted executable file,,
+asr_lua_13.bin.txt,Block JavaScript or VBScript from launching downloaded executable content,"Windows Defender Exploit Guard detected a script interpreter process running obfuscated JavaScript, VBScript, or macro code.",,
+asr_lua_14.bin.txt,Block use of copied or impersonated system tools,Windows Defender Exploit Guard detected use of copied or impersonated system tool,,
+asr_lua_15.bin.txt,Block execution of potentially obfuscated scripts,"Windows Defender Exploit Guard detected either obfuscated JavaScript, VBScript, or macro code.",,
+asr_lua_16.bin.txt,Block Office applications from creating executable content,Windows Defender Exploit Guard detected the Office application creating executable content.,,
+asr_lua_17.bin.txt,Block rebooting machine in Safe Mode,Windows Defender Exploit Guard detected system changes to reboot machine in Safe Mode,,
+asr_lua_18.bin.txt,Use advanced protection against ransomware,Windows Defender Exploit Guard detected execution of file that exhibit characteristics similar to ransomware,,
+asr_lua_19.bin.txt,Block Process Creations originating from PSExec & WMI commands,Windows Defender Exploit Guard detected remoting application (wmiprvse and psexesvc) creating child process,goto;nable,3216b490-71ee-4a94-b228-13b1c1582e3b
+asr_lua_2.bin.txt,WIAD org test rule,This is a Test HIPS Rule that exposes rule logic in audit mode to entire WIAD org,,
+asr_lua_20.bin.txt,Block Office applications from injecting code into other processes,Windows Defender Exploit Guard detected Office application injecting code into the process.,,
+asr_lua_21.bin.txt,Block credential stealing from the Windows local security authority subsystem (lsass.exe),Windows Defender Exploit Guard detected an attempt to extract credentials from LSASS.,Dameware;ManageEngine;N-able,
+asr_lua_22.bin.txt,Block Adobe Reader from creating child processes,Windows Defender Exploit Guard detected Adobe Reader launching child process,,
+asr_lua_23.bin.txt,Block all Office applications from creating child processes,Windows Defender Exploit Guard detected Office application creating the child process,goto,23356722-c906-4042-943d-cf158e848200;2d7e690e-b8ca-484d-bb19-f3f4d460bebb;3eef301f-b596-4c0b-bd92-013beafce793;5b6f47cc-82e3-4a14-a807-2356e5874779;70823b4b-bb48-4d30-adf4-be67a41e2f65;b96c46d4-a2bf-4e3d-954f-f082b14fe155;d7c7c745-195f-4223-9c7a-99fb420fd000
+asr_lua_24.bin.txt,Block Office communication application from creating child processes,Windows Defender Exploit Guard detected Outlook application creating the child process,goto,d7c7c745-195f-4223-9c7a-99fb420fd000
+asr_lua_3.bin.txt,MSFT org test rule,This is a Test HIPS Rule that exposes rule logic in audit mode to \'X\' population within MSFT org,,
+asr_lua_4.bin.txt,Block execution of files related to Remote Monitoring & Management tools,Windows Defender Exploit Guard detected execution of a file related to an RMM tool,goto,d7c7c745-195f-4223-9c7a-99fb420fd000
+asr_lua_5.bin.txt,Controlled folder access,Windows Defender Exploit Guard detected the unauthorized modification of files in protected folder,ATERA;Atera,
+asr_lua_6.bin.txt,Block Win32 API calls from Office macro,Windows Defender Exploit Guard detected use of Win32 APIs from Macro code in Office files,,
+asr_lua_7.bin.txt,Block Webshell creation for Servers,Windows Defender Exploit Guard detected Webshell creation,,
+asr_lua_8.bin.txt,Block Launching of executable content from email attachment,Windows Defender Exploit Guard detected launching of executable content from the email attachment,,
+asr_lua_9.bin.txt,Block untrusted and unsigned processes that run from USB,Windows Defender Exploit Guard detected launching of an untrusted or unsigned executable from a removable USB media.,,
