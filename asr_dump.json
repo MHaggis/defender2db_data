@@ -1606,7 +1606,7 @@
       "%programfiles%\\TortoiseSVN",
       "%programfiles%\\Tracker Software"
     ],
-    "strings_count": 709,
+    "strings_count": 706,
     "strings_guid": [
       "23356722-c906-4042-943d-cf158e848200",
       "2d7e690e-b8ca-484d-bb19-f3f4d460bebb",
@@ -1614,7 +1614,7 @@
       "5b6f47cc-82e3-4a14-a807-2356e5874779",
       "70823b4b-bb48-4d30-adf4-be67a41e2f65",
       "b96c46d4-a2bf-4e3d-954f-f082b14fe155",
-      "d7c7c745-195f-4223-9c7a-99fb420fd000"
+      "fe87d1eb-b138-42e6-bae7-9e4a186319d5"
     ],
     "strings_paths": [
       "%programfiles%\\Microsoft Office\\Office??\\EXCEL.EXE",
@@ -1829,7 +1829,7 @@
       "5b6f47cc-82e3-4a14-a807-2356e5874779",
       "70823b4b-bb48-4d30-adf4-be67a41e2f65",
       "b96c46d4-a2bf-4e3d-954f-f082b14fe155",
-      "d7c7c745-195f-4223-9c7a-99fb420fd000"
+      "fe87d1eb-b138-42e6-bae7-9e4a186319d5"
     ],
     "txt_file": "asr_dump_txt/asr_lua_23.bin.txt"
   },
@@ -2037,7 +2037,7 @@
       "%programfiles%\\iManage\\Work",
       "%programfiles%\\Hyland\\Office Integration"
     ],
-    "strings_count": 758,
+    "strings_count": 754,
     "strings_guid": [
       "d7c7c745-195f-4223-9c7a-99fb420fd000"
     ],
@@ -2359,6 +2359,13 @@
       "%programfiles%\\ATERA Networks\\AteraAgent\\Packages\\AgentPackageMonitoring\\AgentPackageMonitoring.exe",
       "%windir%\\system32\\format.com",
       "%windir%\\SysWOW64\\format.com",
+      "versioning",
+      "GetOrgID",
+      "string",
+      "lower",
+      "d7c7c745-195f-4223-9c7a-99fb420fd000",
+      "IsSampled",
+      "%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe",
       "%programfiles(x86)%\\ASUS\\ArmouryDevice\\asus_framework.exe",
       "%programfiles(x86)%\\ASUS\\ASUS-DriverHub-Installer.exe",
       "%programfiles(x86)%\\ASUS\\AURACONNECT\\AuraConnect.exe",
@@ -2503,11 +2510,12 @@
       "%programdata%\\Lenovo\\Vantage",
       "%systemroot%\\Lenovo\\ImController",
       "%systemroot%\\System32\\drivers\\Lenovo",
-      "%systemroot%\\System32\\Lenovo\\PowerMgr",
-      "%systemroot%\\SysWOW64\\Lenovo\\PowerMgr"
+      "%systemroot%\\System32\\Lenovo\\PowerMgr"
     ],
-    "strings_count": 194,
-    "strings_guid": [],
+    "strings_count": 201,
+    "strings_guid": [
+      "d7c7c745-195f-4223-9c7a-99fb420fd000"
+    ],
     "strings_paths": [
       "%windir%\\SysWOW64\\WerFault.exe",
       "%windir%\\system32\\WerFault.exe",
@@ -2548,6 +2556,7 @@
       "%programfiles%\\ATERA Networks\\AteraAgent\\Packages\\AgentPackageMonitoring\\AgentPackageMonitoring.exe",
       "%windir%\\system32\\format.com",
       "%windir%\\SysWOW64\\format.com",
+      "%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe",
       "%programfiles%\\Acer DT\\LCD-CS.exe",
       "%programfiles%\\ASUS\\llm-server\\llm-server.exe",
       "%programfiles%\\ASUS\\Turbo LAN\\setup.exe",
@@ -2643,7 +2652,9 @@
     "hex_file": "asr_dump_hex/asr_lua_5.bin.hex.txt",
     "name": "Controlled folder access",
     "description": "Windows Defender Exploit Guard detected the unauthorized modification of files in protected folder",
-    "guids": [],
+    "guids": [
+      "d7c7c745-195f-4223-9c7a-99fb420fd000"
+    ],
     "txt_file": "asr_dump_txt/asr_lua_5.bin.txt"
   },
   {

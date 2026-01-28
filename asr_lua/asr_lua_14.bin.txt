@@ -23,7 +23,7 @@
     0 [-]: NEWTABLE  R0 0 5       ; R0 := {} (size = 0,5)
     1 [-]: SETTABLE  R0 K0 K1     ; R0["Name"] := "Block use of copied or impersonated system tools"
     2 [-]: SETTABLE  R0 K2 K3     ; R0["Description"] := "Windows Defender Exploit Guard detected use of copied or impersonated system tool"
-    3 [-]: SETTABLE  R0 K4 K5     ; R0["NotificationDedupingInterval"] := 120
+    3 [-]: SETTABLE  R0 K4 K5     ; R0["NotificationDedupingInterval"] := 28800
     4 [-]: GETGLOBAL R1 K7        ; R1 := HIPS
     5 [-]: GETTABLE  R1 R1 K8     ; R1 := R1["DEDUPE_SCOPE_UI"]
     6 [-]: SETTABLE  R0 K6 R1     ; R0["NotificationDedupingScope"] := R1

@@ -12,7 +12,7 @@ Senso.cloud,SensoClient.exe;SensoService.exe;aadg.exe,,0,
 LabTech RMM (Now ConnectWise Automate),ltsvc.exe;ltsvcmon.exe;lttray.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
 ExtraPuTTY,C:\Users\*\ExtraPuTTY-0.30-2016-01-28-installer.exe;*Users\*\ExtraPuTTY-0.30-2016-01-28-installer.exe;*\ExtraPuTTY-0.30-2016-01-28-installer.exe,,0,
 Guacamole,guacd.exe,,0,
-Adobe Connect,ConnectAppSetup*.exe;ConnectShellSetup*.exe;Connect.exe;ConnectDetector.exe,asr_lua_5.bin;asr_lua_5.bin.txt,2,
+Adobe Connect,ConnectAppSetup*.exe;ConnectShellSetup*.exe;Connect.exe;ConnectDetector.exe,asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 rdp2tcp,tdp2tcp.exe;rdp2tcp.py,,0,
 NetBird,C:\Program Files\Netbird\netbird.exe;C:\Program Files\Netbird\netbird-ui.exe;C:\ProgramData\Netbird\*;/usr/bin/netbird;/usr/local/bin/netbird;/opt/netbird/*;netbird.exe;netbird-ui.exe;netbird,,0,
 Rocket Remote Desktop,RDConsole.exe;RocketRemoteDesktop_Setup.exe,,0,
@@ -175,7 +175,7 @@ TeamViewer,C:\Program Files\TeamViewer\;teamviewer_desktop.exe;teamviewer_servic
 ZeroTier,zerotier*.msi;zerotier*.exe;zero-powershell.exe,,0,
 FleetDeck.io,C:\Program Files (x86)\FleetDeck Agent\fleetdeck_agent_svc.exe;C:\Program Files (x86)\FleetDeck Agent\*\fleetdeck_agent.exe;C:\Program Files (x86)\FleetDeck Agent\*\fd_agent.dll;C:\Windows\Temp\FleetDeck\*;fleetdeck-agent.exe;fleetdeck_agent_svc.exe;fleetdeck_commander_svc.exe;fleetdeck_installer.exe;fleetdeck_commander_launcher.exe;fleetdeck_agent.exe;fleetdeck-agent.msi;fleetdeck-agent.mst,,0,
 Pcnow,mwcliun.exe;pcnmgr.exe;webexpcnow.exe,,0,
-MSP360,Online Backup.exe;CBBackupPlan.exe;Cloud.Backup.Scheduler.exe;Cloud.Backup.RM.Service.exe;cbb.exe;CloudRaService.exe;CloudRaSd.exe;CloudRaCmd.exe;CloudRaUtilities.exe;Remote Desktop.exe;Connect.exe,asr_lua_5.bin;asr_lua_5.bin.txt,2,
+MSP360,Online Backup.exe;CBBackupPlan.exe;Cloud.Backup.Scheduler.exe;Cloud.Backup.RM.Service.exe;cbb.exe;CloudRaService.exe;CloudRaSd.exe;CloudRaCmd.exe;CloudRaUtilities.exe;Remote Desktop.exe;Connect.exe,asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 PuTTY Tray,C:\*\puttytray.exe;*\puttytray.exe,,0,
 PDQ Connect,pdq-connect*.exe;PDQConnectUpdater-*.msi,,0,
 ShowMyPC,SMPCSetup.exe;showmypc*.exe;showmypc.exe;smpcsetup.exe,,0,
@@ -203,7 +203,7 @@ Level.io,level-windows-amd64.exe;level.exe;level-remote-control-ffmpeg.exe,,0,
 Splashtop,C:\Program Files (x86)\Splashtop\*;*\Splashtop\Splashtop Remote\Client for RMM\*;strwinclt.exe,,0,
 Pocket Controller (Soti Xsight),pocketcontroller.exe;wysebrowser.exe;XSightService.exe,,0,
 Connectwise Automate (LabTech),ltsvc.exe;ltsvcmon.exe;lttray.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
-RuDesktop,rd.exe;rudesktop*.exe,asr_lua_20.bin;asr_lua_20.bin.txt;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt,6,23356722-c906-4042-943d-cf158e848200;2d7e690e-b8ca-484d-bb19-f3f4d460bebb;3eef301f-b596-4c0b-bd92-013beafce793;5b6f47cc-82e3-4a14-a807-2356e5874779;70823b4b-bb48-4d30-adf4-be67a41e2f65;b96c46d4-a2bf-4e3d-954f-f082b14fe155;d7c7c745-195f-4223-9c7a-99fb420fd000
+RuDesktop,rd.exe;rudesktop*.exe,asr_lua_20.bin;asr_lua_20.bin.txt;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt,6,23356722-c906-4042-943d-cf158e848200;2d7e690e-b8ca-484d-bb19-f3f4d460bebb;3eef301f-b596-4c0b-bd92-013beafce793;5b6f47cc-82e3-4a14-a807-2356e5874779;70823b4b-bb48-4d30-adf4-be67a41e2f65;b96c46d4-a2bf-4e3d-954f-f082b14fe155;fe87d1eb-b138-42e6-bae7-9e4a186319d5
 MyIVO,myivomgr.exe;myivomanager.exe,,0,
 Veyon,C:\Program Files\Veyon\*;C:\Program Files (x86)\Veyon\*;veyon-wcli.exe;veyon-worker.exe;veyon-server.exe;veyon-service.exe;veyon-master.exe,,0,
 CentraStage (Now Datto),CagService.exe;AEMAgent.exe,,0,
@@ -225,7 +225,7 @@ ManageEngine,InstallShield Setup.exe;ManageEngine_Remote_Access_Plus.exe;*\dcage
 GetScreen,GetScreen.exe;getscreen.exe,,0,
 Netviewer,netviewer*.exe;netviewer.exe,,0,
 Microsoft TSC,termsrv.exe;mstsc.exe,,0,
-Zoho Assist,zaservice.exe;ZMAgent.exe;C:\*\ZA_Access.exe;ZohoMeeting.exe;Zohours.exe;zohotray.exe;ZohoURSService.exe;*\ZA_Access.exe;Zaservice.exe;za_connect.exe;connect.exe,asr_lua_5.bin;asr_lua_5.bin.txt,2,
+Zoho Assist,zaservice.exe;ZMAgent.exe;C:\*\ZA_Access.exe;ZohoMeeting.exe;Zohours.exe;zohotray.exe;ZohoURSService.exe;*\ZA_Access.exe;Zaservice.exe;za_connect.exe;connect.exe,asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 DeskDay,ultimate_*.exe,,0,
 TigerVNC,tigervnc*.exe;winvnc4.exe;C:\Program Files\TightVNC\*;*\TightVNC\*;*\tvnserver.exe,,0,
 LANDesk,issuser.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;C:\Program Files (x86)\LANDesk\*;*\LANDesk\*;*\issuser.exe;*\softmon.exe;*\tmcsvc.exe,,0,
@@ -233,7 +233,7 @@ HeartbeatRM,C:\Program Files (x86)\HeartbeatRM\*;C:\Program Files\HeartbeatRM\*;
 247ithelp.com (ConnectWise),Remote Workforce Client.exe,,0,
 Zabbix Agent,zabbix_agent*.exe,,0,
 SimpleHelp,simplehelpcustomer.exe;simpleservice.exe;simplegatewayservice.exe;remote access.exe;windowslauncher.exe,,0,
-Atera,*\AgentPackageNetworkDiscovery.exe;*\AgentPackageTaskScheduler.exe;*\ATERA Networks\AteraAgent\*;*\AteraAgent.exe;atera_agent.exe;atera_agent.exe;ateraagent.exe;C:\Program Files\ATERA Networks\AteraAgent\*;C:\Program Files\Atera Networks;C:\Program Files (x86)\Atera Networks;syncrosetup.exe,asr_lua_5.bin;asr_lua_5.bin.txt,2,
+Atera,*\AgentPackageNetworkDiscovery.exe;*\AgentPackageTaskScheduler.exe;*\ATERA Networks\AteraAgent\*;*\AteraAgent.exe;atera_agent.exe;atera_agent.exe;ateraagent.exe;C:\Program Files\ATERA Networks\AteraAgent\*;C:\Program Files\Atera Networks;C:\Program Files (x86)\Atera Networks;syncrosetup.exe,asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 Bitvise SSH Client,C:\Program Files (x86)\Bitvise SSH Client\*;*\Bitvise SSH Client\*;*\BvSshClient-Inst.exe,,0,
 VNC,winvnc*.exe;vncserver.exe;winwvc.exe;winvncsc.exe;vncserverui.exe;vncviewer.exe;winvnc.exe,,0,
 Ericom Connect,EricomConnectRemoteHost*.exe;ericomconnnectconfigurationtool.exe,,0,
