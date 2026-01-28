@@ -53,13 +53,20 @@ def run_defender2yara(download: bool, asr: bool) -> None:
     Path('rules').mkdir(parents=True, exist_ok=True)
     Path('cache').mkdir(parents=True, exist_ok=True)
     
+    # CRITICAL: Remove existing database BEFORE running defender2yara
+    # The database is at cache/threats.db (hardcoded in defender2yara/defender/dbthreat.py)
+    # If it exists but has no tables, the tool crashes. Clean slate every time.
+    db_path = Path('cache/threats.db')
+    if db_path.exists():
+        print(f"Removing existing database: {db_path}")
+        db_path.unlink()
+    
     if download:
         # Download signatures (returns after download, doesn't create DB)
         run([sys.executable, "-m", "defender2yara", "--download"])
     
     if asr:
-        # Extract ASR rules - this also creates the database if needed
-        # Note: --asr must be run WITHOUT --download (download returns early)
+        # Extract ASR rules - this creates the database and extracts rules
         run([sys.executable, "-m", "defender2yara", "--asr"])
 
 
