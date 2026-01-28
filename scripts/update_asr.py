@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+"""
+Fetch and extract latest Microsoft Defender ASR Lua rules.
+
+This script downloads the latest Defender signatures and extracts ASR rules.
+It works around bugs in the upstream defender2db tool by directly calling
+the relevant functions instead of using the CLI.
+"""
 import argparse
 import hashlib
 import os
@@ -22,7 +29,6 @@ def in_virtualenv() -> bool:
 
 
 def ensure_tool_installed(tool_ref: str) -> None:
-    # Force PyPI and ignore local pip config/env
     env = os.environ.copy()
     env["PIP_INDEX_URL"] = "https://pypi.org/simple"
     env["PIP_EXTRA_INDEX_URL"] = ""
@@ -30,44 +36,163 @@ def ensure_tool_installed(tool_ref: str) -> None:
 
     args_common = [sys.executable, "-m", "pip", "--isolated", "install", "--index-url", "https://pypi.org/simple"]
     if in_virtualenv():
-        # Safe to upgrade pip in a venv
         try:
             run([sys.executable, "-m", "pip", "--isolated", "install", "--upgrade", "pip", "--index-url", "https://pypi.org/simple"], env=env)
         except Exception:
             pass
         user_args: list[str] = []
     else:
-        # Avoid PEP 668 issues by using --user when not in a venv
         user_args = ["--user"]
 
     try:
         run(args_common + user_args + [tool_ref], env=env)
     except subprocess.CalledProcessError:
-        # Fallback: explicitly install build requirements then retry
         run(args_common + user_args + ["poetry-core", "build", "setuptools", "wheel"], env=env)
         run(args_common + user_args + [tool_ref], env=env)
 
 
+def download_signatures(cache_dir: str = "cache") -> tuple[str, str]:
+    """Download latest signatures using defender2yara's download function."""
+    from defender2yara.defender.download import download_latest_signature
+    
+    Path(cache_dir).mkdir(parents=True, exist_ok=True)
+    signature_version, engine_version, _ = download_latest_signature(cache_dir)
+    print(f"Downloaded signatures: {signature_version}, engine: {engine_version}")
+    return signature_version, engine_version
+
+
+def get_version_from_cache(cache_dir: str = "cache") -> tuple[str, str]:
+    """Get version info from cached files."""
+    from packaging.version import Version
+    
+    vdm_path = os.path.join(cache_dir, "vdm")
+    engine_path = os.path.join(cache_dir, "engine")
+    
+    # Get signature version
+    sig_version = None
+    if os.path.exists(vdm_path):
+        major_minor_versions = []
+        for entry in os.listdir(vdm_path):
+            if os.path.isdir(os.path.join(vdm_path, entry)):
+                try:
+                    major_minor_versions.append(Version(entry))
+                except:
+                    continue
+        if major_minor_versions:
+            latest_major_minor = str(max(major_minor_versions))
+            sub_path = os.path.join(vdm_path, latest_major_minor)
+            builds = []
+            for entry in os.listdir(sub_path):
+                try:
+                    builds.append(Version(entry))
+                except:
+                    continue
+            if builds:
+                latest_build = str(max(builds))
+                sig_version = f"{latest_major_minor}.{latest_build}"
+    
+    # Get engine version
+    eng_version = None
+    if os.path.exists(engine_path):
+        versions = []
+        for entry in os.listdir(engine_path):
+            try:
+                versions.append(Version(entry))
+            except:
+                continue
+        if versions:
+            eng_version = str(max(versions))
+    
+    return sig_version or "", eng_version or ""
+
+
+def extract_asr_rules(cache_dir: str = "cache", output_dir: str = "rules") -> int:
+    """Extract ASR rules directly from VDM files, bypassing the buggy database code."""
+    from defender2yara.defender.vdm import Vdm
+    from defender2yara.defender.luaparse import fixup_lua_data
+    
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    
+    sig_version, _ = get_version_from_cache(cache_dir)
+    if not sig_version:
+        raise RuntimeError("No signature files found in cache")
+    
+    major_version = ".".join(sig_version.split(".")[0:2])
+    minor_version = ".".join(sig_version.split(".")[2:4])
+    
+    n = 0
+    for name in ["mpav", "mpas"]:
+        vdm_base_path = os.path.join(cache_dir, "vdm", major_version, '0.0')
+        vdm_delta_path = os.path.join(cache_dir, "vdm", major_version, minor_version)
+        base_file = os.path.join(vdm_base_path, name + "base.vdm")
+        delta_file = os.path.join(vdm_delta_path, name + "dlta.vdm")
+        
+        if not os.path.exists(base_file):
+            print(f"Base file not found: {base_file}")
+            continue
+            
+        print(f"Loading VDM: {base_file}")
+        vdm = Vdm(base_file)
+        vdm.parse_files()
+        
+        if os.path.exists(delta_file):
+            print(f"Applying delta: {delta_file}")
+            vdm.apply_delta_vdm(delta_file)
+        
+        # Extract ASR rules
+        threats = vdm.get_threats()
+        for threat in threats:
+            if threat.threat_id != 2147483632:  # !InfrastructureShared
+                continue
+            
+            for sig in threat.signatures:
+                if len(sig.sig_data) < 42:
+                    continue
+                idx = sig.sig_data.find(b'-')
+                if idx == -1:
+                    continue
+                
+                # Heuristics to find GUID format
+                if (sig.sig_data[16] == 0x2d and 
+                    sig.sig_data[idx+5] == 0x2d and 
+                    sig.sig_data[idx+5+5] == 0x2d and 
+                    sig.sig_data[idx+5+5+5] == 0x2d):
+                    
+                    # Skip CVE false positives
+                    if sig.sig_data[8:8+4] == b"CVE-":
+                        continue
+                    
+                    lua_header_offset = sig.sig_data.find(b'\x1bLuaQ')
+                    if lua_header_offset == -1:
+                        continue
+                    
+                    lua_fixed, error = fixup_lua_data(sig.sig_data[lua_header_offset:])
+                    if lua_fixed is None:
+                        print(f"Failed to fixup Lua: {error}")
+                        continue
+                    
+                    filename_out = os.path.join(output_dir, f"asr_lua_{n}.bin")
+                    with open(filename_out, "wb") as f:
+                        f.write(lua_fixed)
+                    print(f"Extracted: {filename_out}")
+                    n += 1
+    
+    return n
+
+
 def run_defender2yara(download: bool, asr: bool) -> None:
-    # Ensure output directories exist
+    """Run defender2yara operations with proper error handling."""
     Path('rules').mkdir(parents=True, exist_ok=True)
     Path('cache').mkdir(parents=True, exist_ok=True)
     
-    # CRITICAL: Remove existing database BEFORE running defender2yara
-    # The database is at cache/threats.db (hardcoded in defender2yara/defender/dbthreat.py)
-    # If it exists but has no tables, the tool crashes. Clean slate every time.
-    db_path = Path('cache/threats.db')
-    if db_path.exists():
-        print(f"Removing existing database: {db_path}")
-        db_path.unlink()
-    
     if download:
-        # Download signatures (returns after download, doesn't create DB)
-        run([sys.executable, "-m", "defender2yara", "--download"])
+        print("Downloading latest signatures...")
+        download_signatures("cache")
     
     if asr:
-        # Extract ASR rules - this creates the database and extracts rules
-        run([sys.executable, "-m", "defender2yara", "--asr"])
+        print("Extracting ASR rules...")
+        count = extract_asr_rules("cache", "rules")
+        print(f"Extracted {count} ASR rules")
 
 
 def mirror_tree(source_dir: Path, dest_dir: Path) -> None:
@@ -88,20 +213,17 @@ def mirror_tree(source_dir: Path, dest_dir: Path) -> None:
             try:
                 dst_stat = dst.stat()
                 src_stat = src.stat()
-                # Copy if size differs or src is newer
                 if src_stat.st_size != dst_stat.st_size or src_stat.st_mtime > dst_stat.st_mtime:
                     shutil.copy2(src, dst)
             except FileNotFoundError:
                 shutil.copy2(src, dst)
 
-    # Remove files in dest that are not in source
     for root, _dirs, files in os.walk(dest_dir):
         for name in files:
             candidate = Path(root) / name
             if candidate not in source_files:
                 candidate.unlink(missing_ok=True)
 
-    # Clean up empty directories
     for root, dirs, _files in os.walk(dest_dir, topdown=False):
         for d in dirs:
             p = Path(root) / d
@@ -129,17 +251,14 @@ def build_index(root: Path, output_csv: Path) -> int:
 
 
 def ensure_luadec_binary() -> Path | None:
-    # Prefer env override
     env_path = os.environ.get('LUADEC')
     if env_path and Path(env_path).is_file():
         return Path(env_path)
 
-    # PATH lookup
     found = which('luadec')
     if found:
         return Path(found)
 
-    # Try download a bundled binary from upstream
     try:
         bin_dir = Path('scripts') / 'bin'
         bin_dir.mkdir(parents=True, exist_ok=True)
@@ -163,7 +282,6 @@ def decompile_bins_with_luadec(root: Path, luadec: Path) -> int:
                 continue
             src = Path(dirpath) / fn
             out = Path(dirpath) / f"{fn}.txt"
-            # Skip if up-to-date
             try:
                 if out.exists() and out.stat().st_mtime >= src.stat().st_mtime:
                     continue
@@ -174,7 +292,6 @@ def decompile_bins_with_luadec(root: Path, luadec: Path) -> int:
                 out.write_text(res.stdout, encoding='utf-8', errors='ignore')
                 made += 1
             except Exception:
-                # Leave a stub so diffs show an attempt
                 out.write_text('// decompile failed\n', encoding='utf-8')
     return made
 
@@ -190,7 +307,6 @@ def find_unluac_jar() -> Path | None:
 
 
 def decompile_bins_with_unluac(root: Path, jar_path: Path) -> int:
-    # Requires a working 'java' on PATH
     if which('java') is None:
         return 0
     made = 0
@@ -210,7 +326,6 @@ def decompile_bins_with_unluac(root: Path, jar_path: Path) -> int:
                 out.write_text(res.stdout, encoding='utf-8', errors='ignore')
                 made += 1
             except Exception:
-                # leave as is
                 pass
     return made
 
@@ -219,7 +334,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Fetch and extract latest Defender ASR Lua")
     parser.add_argument('--tool-ref', default='git+https://github.com/dobin/defender2db@main', help='pip reference for defender2db tool')
     parser.add_argument('--no-install', action='store_true', help='skip pip install of tool')
-    parser.add_argument('--result-dir', default='result/asr_rules', help='source dir produced by defender2yara --asr')
+    parser.add_argument('--result-dir', default='rules', help='source dir for extracted rules')
     parser.add_argument('--dest-dir', default='asr_lua', help='destination dir in repo')
     args = parser.parse_args()
 
@@ -230,23 +345,16 @@ def main() -> None:
 
     source_dir = Path(args.result_dir)
     if not source_dir.exists():
-        # Fallback to defender2yara default output location
-        fallback = Path('rules')
-        if fallback.exists():
-            source_dir = fallback
-        else:
-            raise SystemExit(f"Source directory not found: {source_dir}")
+        raise SystemExit(f"Source directory not found: {source_dir}")
 
     dest_dir = Path(args.dest_dir)
     mirror_tree(source_dir, dest_dir)
 
-    # Decompile .bin to .bin.txt for readability
     luadec = ensure_luadec_binary()
     if luadec:
         made = decompile_bins_with_luadec(dest_dir, luadec)
         print(f"luadec wrote {made} files")
     else:
-        # Optional alternative if luadec not available
         jar = find_unluac_jar()
         alt = 0
         if jar:
@@ -262,5 +370,3 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-
-
