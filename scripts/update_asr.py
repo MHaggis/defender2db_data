@@ -49,28 +49,16 @@ def ensure_tool_installed(tool_ref: str) -> None:
 
 
 def run_defender2yara(download: bool, asr: bool) -> None:
-    # Clean any partial database to ensure fresh start
-    db_path = Path('threats.db')
-    if db_path.exists():
-        print(f"Removing existing database: {db_path}")
-        db_path.unlink()
+    # Ensure output directories exist
+    Path('rules').mkdir(parents=True, exist_ok=True)
+    Path('result').mkdir(parents=True, exist_ok=True)
     
     if download:
         run([sys.executable, "-m", "defender2yara", "--download"])
     
     if asr:
-        # Ensure default output dir used by defender2yara exists
-        Path('rules').mkdir(parents=True, exist_ok=True)
-        # Run extract first to populate the database schema
-        print("Initializing database with --extract...")
-        try:
-            run([sys.executable, "-m", "defender2yara", "--extract"])
-        except subprocess.CalledProcessError as e:
-            print(f"Extract step had issues (exit {e.returncode}), continuing to ASR...")
-            # Extract might have partial failures but still initialize DB
-        # Now run ASR extraction
-        print("Extracting ASR rules...")
-        run([sys.executable, "-m", "defender2yara", "--asr"])
+        # Use --createdb to initialize database schema, then extract ASR rules
+        run([sys.executable, "-m", "defender2yara", "--createdb", "--asr"])
 
 
 def mirror_tree(source_dir: Path, dest_dir: Path) -> None:
