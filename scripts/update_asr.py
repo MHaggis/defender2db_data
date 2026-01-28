@@ -51,14 +51,16 @@ def ensure_tool_installed(tool_ref: str) -> None:
 def run_defender2yara(download: bool, asr: bool) -> None:
     # Ensure output directories exist
     Path('rules').mkdir(parents=True, exist_ok=True)
-    Path('result').mkdir(parents=True, exist_ok=True)
+    Path('cache').mkdir(parents=True, exist_ok=True)
     
     if download:
+        # Download signatures (returns after download, doesn't create DB)
         run([sys.executable, "-m", "defender2yara", "--download"])
     
     if asr:
-        # Use --createdb to initialize database schema, then extract ASR rules
-        run([sys.executable, "-m", "defender2yara", "--createdb", "--asr"])
+        # Extract ASR rules - this also creates the database if needed
+        # Note: --asr must be run WITHOUT --download (download returns early)
+        run([sys.executable, "-m", "defender2yara", "--asr"])
 
 
 def mirror_tree(source_dir: Path, dest_dir: Path) -> None:
