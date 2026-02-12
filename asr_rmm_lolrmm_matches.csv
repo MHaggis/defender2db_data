@@ -9,7 +9,7 @@ NoteOn-desktop sharing,nateon*.exe;nateon.exe;nateonmain.exe,,0,
 Any Support,ManualLauncher.exe,,0,
 ITSupport247 (ConnectWise),saazapsc.exe,,0,
 Senso.cloud,SensoClient.exe;SensoService.exe;aadg.exe,,0,
-LabTech RMM (Now ConnectWise Automate),ltsvc.exe;ltsvcmon.exe;lttray.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
+LabTech RMM (Now ConnectWise Automate),ltsvc.exe;ltsvcmon.exe;lttray.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 ExtraPuTTY,C:\Users\*\ExtraPuTTY-0.30-2016-01-28-installer.exe;*Users\*\ExtraPuTTY-0.30-2016-01-28-installer.exe;*\ExtraPuTTY-0.30-2016-01-28-installer.exe,,0,
 Guacamole,guacd.exe,,0,
 Adobe Connect,ConnectAppSetup*.exe;ConnectShellSetup*.exe;Connect.exe;ConnectDetector.exe,asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
@@ -66,10 +66,10 @@ Lite Manager,C:\Program Files\LiteManager Pro – Viewer\*;*\LiteManager Pro –
 ScreenMeet,ScreenMeetSupport.exe;ScreenMeet.Support.exe,,0,
 Centurion,ctiserv.exe,,0,
 BeInSync,Beinsync*.exe,,0,
-Site24x7,MEAgentHelper.exe;MonitoringAgent.exe;Site24x7WindowsAgentTrayIcon.exe;Site24x7PluginAgent.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
+Site24x7,MEAgentHelper.exe;MonitoringAgent.exe;Site24x7WindowsAgentTrayIcon.exe;Site24x7PluginAgent.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 GoToAssist,gotoassist.exe;g2a*.exe;GoTo Assist Opener.exe;g2mcomm.exe;g2mupdate.com;goto opener.exe;g2ax_comm_customer.exe,,0,
 Netop Remote Control (aka Impero Connect),nhostsvc.exe;nhstw32.exe;nldrw32.exe;rmserverconsolemediator.exe,,0,
-Rapid7,ir_agent.exe;rapid7_agent_core.exe;rapid7_endpoint_broker.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
+Rapid7,ir_agent.exe;rapid7_agent_core.exe;rapid7_endpoint_broker.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 DesktopNow,desktopnow.exe,,0,
 eHorus,C:\Program Files\ehorus_agent\*;ehorus standalone.exe;ehorus_agent.exe;ehorus_cmd.exe;ehorus_launcher.exe;ehorus_uit.exe,,0,
 Xpra,C:\Program Files (x86)\Xpra\*;*\Xpra\*;*\Xpra-Launcher.exe;*\Xpra-x86_64_Setup.exe,,0,
@@ -144,7 +144,7 @@ N-Able Advanced Monitoring Agent,BASupSrvc.exe;winagent.exe;BASupApp.exe;BASupTS
 Tailscale,tailscale-*.exe;tailscaled.exe;tailscale-ipn.exe,,0,
 UltraVNC,UltraVNC*.exe,,0,
 ManageEngine ServiceDesk Plus,ManageEngine_ServiceDesk_Plus.exe;ManageEngine_ServiceDesk_Plus.bin;ISBEW64.exe;C:\Program Files\ManageEngine\ServiceDesk\*;C:\Program Files (x86)\ManageEngine\ServiceDesk\*,,0,
-BeAnyWhere,basuptshelper.exe;basupsrvcupdate.exe;BASupApp.exe;BASupSysInf.exe;BASupAppSrvc.exe;TakeControl.exe;BASupAppElev.exe;basupsrvc.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
+BeAnyWhere,basuptshelper.exe;basupsrvcupdate.exe;BASupApp.exe;BASupSysInf.exe;BASupAppSrvc.exe;TakeControl.exe;BASupAppElev.exe;basupsrvc.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 Microsoft Quick Assist,quickassist.exe,,0,
 Remote Ripple,C:\Program Files\Remote Ripple\*;C:\Program Files (x86)\Remote Ripple\*;RemoteRipple.exe,,0,
 Seetrol,seetrolcenter.exe;seetrolclient.exe;seetrolmyservice.exe;seetrolremote.exe;seetrolsetting.exe,,0,
@@ -154,7 +154,7 @@ Ammyy Admin,C:\\ProgramData\\AMMYY\\*;AMMYY_Admin.exe;aa_v*.exe;C:\Users\*\Downl
 pcAnywhere,awhost32.exe;awrem32.exe;pcaquickconnect.exe;winaw32.exe,,0,
 NoMachine,nomachine*.exe;nxservice*.ese;nxd.exe,,0,
 Insync,C:\Users\USERNAME\AppData\Roaming\Insync\App\Insync.exe;*Users\*\AppData\Roaming\Insync\App\Insync.exe;*\Insync.exe,,0,
-LabTeach (Connectwise Automate),ltsvc.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
+LabTeach (Connectwise Automate),ltsvc.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 S3 Browser,C:\Program Files (x86)\S3 Browser\*;*\S3 Browser\*;*\s3browser*.exe,,0,
 HopToDesk,C:\Program Files (x86)\HopToDesk\HopToDesk.exe;HopToDesk.exe;HopToDesk-Standalone.exe,,0,
 GatherPlace-desktop sharing,gp3.exe;gp4.exe;gp5.exe,,0,
@@ -165,7 +165,7 @@ SkyFex,Deskroll.exe;DeskRollUA.exe,,0,
 OCS inventory,ocsinventory.exe;ocsservice.exe,,0,
 RES Automation Manager,wisshell*.exe;wmc.exe;wmc_deployer.exe;wmcsvc.exe,,0,
 rdpwrap,RDPWInst.exe;RDPCheck.exe;RDPConf.exe,,0,
-Parsec,C:\Program Files\Parsec\*;parsecd.exe;pservice.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
+Parsec,C:\Program Files\Parsec\*;parsecd.exe;pservice.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 CrossTec Remote Control,PCIVIDEO.EXE;supporttool.exe,,0,
 Supremo,*\\supremoremotedesktop\\supremosystem.exe;%USERPROFILE%\\AppData\\Local\\Temp\\SupremoRemoteDesktop\\;C:\\ProgramData\\SupremoRemoteDesktop\\;supremo.exe;supremohelper.exe;supremoservice.exe;SupremoSystem.exe,,0,
 NetSupport Manager,pcictlui.exe;client32.exe;pcicfgui.exe,,0,
@@ -180,7 +180,7 @@ PuTTY Tray,C:\*\puttytray.exe;*\puttytray.exe,,0,
 PDQ Connect,pdq-connect*.exe;PDQConnectUpdater-*.msi,,0,
 ShowMyPC,SMPCSetup.exe;showmypc*.exe;showmypc.exe;smpcsetup.exe,,0,
 Aspia,*\aspia_client.exe;C:\Program Files\Aspia\;C:\Program Files (x86)\Aspia\,,0,
-Itarian,ITSMAgent.exe;RViewer.exe;ItsmRsp.exe;RAccess.exe;RmmService.exe;ITarianRemoteAccessSetup.exe;RDesktop.exe;ComodoRemoteControl.exe;ITSMService.exe;RHost.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
+Itarian,ITSMAgent.exe;RViewer.exe;ItsmRsp.exe;RAccess.exe;RmmService.exe;ITarianRemoteAccessSetup.exe;RDesktop.exe;ComodoRemoteControl.exe;ITSMService.exe;RHost.exe,asr_lua_24.bin;asr_lua_24.bin.txt,2,
 iDrive,C:\ProgramData\IDrive\*;C:\Program Files\IDrive\*;C:\Program Files (x86)\IDrive\*;C:\Users\*\AppData\Local\IDrive\*;C:\Users\*\Downloads\IDriveWinSetup.exe;IDriveWinSetup.exe;IDriveEClassic.exe;id_tray.exe;IDComponent.dll,,0,
 TeleDesktop,pstlaunch.exe;ptdskclient.exe;ptdskhost.exe,,0,
 CloudFlare Tunnel,cloudflared.exe,,0,
@@ -193,7 +193,7 @@ Tactical RMM,tacticalrmm.exe;tacticalrmm.exe,,0,
 Comodo RMM,itsmagent.exe;rviewer.exe,,0,
 Ivanti Remote Control,IvantiRemoteControl.exe;ArcUI.exe;AgentlessRC.exe,,0,
 ImmyBot,C:\Program Files\ImmyBot\ImmyAgent.exe;C:\Program Files\ImmyBot\ImmyUpdater.exe;C:\Program Files (x86)\ImmyBot\ImmyAgent.exe;C:\Program Files (x86)\ImmyBot\ImmyUpdater.exe;*\ImmyBot\*;C:\Windows\Temp\ImmyBot\*;ImmyAgent.exe;ImmyUpdater.exe;ImmyBot.Agent.Ephemeral.exe;ImmyBot.msi,,0,
-Manage Engine (Desktop Central),dcagentservice.exe;dcagentregister.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
+Manage Engine (Desktop Central),dcagentservice.exe;dcagentregister.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 mstsc,C:\Windows\System32\mstsc.exe;*Windows\System32\mstsc.exe,,0,
 Tanium,TaniumClient.exe;TaniumCX.exe;TaniumExecWrapper.exe;TaniumFileInfo.exe;TPowerShell.exe,,0,
 NetSupport Manager,pcictlui.exe;pcicfgui.exe;client32.exe,,0,
@@ -202,8 +202,8 @@ ZOC,C:\Program Files\ZOC8\*;*\ZOC?\*;*\zoc.exe,,0,
 Level.io,level-windows-amd64.exe;level.exe;level-remote-control-ffmpeg.exe,,0,
 Splashtop,C:\Program Files (x86)\Splashtop\*;*\Splashtop\Splashtop Remote\Client for RMM\*;strwinclt.exe,,0,
 Pocket Controller (Soti Xsight),pocketcontroller.exe;wysebrowser.exe;XSightService.exe,,0,
-Connectwise Automate (LabTech),ltsvc.exe;ltsvcmon.exe;lttray.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
-RuDesktop,rd.exe;rudesktop*.exe,asr_lua_20.bin;asr_lua_20.bin.txt;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt,6,23356722-c906-4042-943d-cf158e848200;2d7e690e-b8ca-484d-bb19-f3f4d460bebb;3eef301f-b596-4c0b-bd92-013beafce793;5b6f47cc-82e3-4a14-a807-2356e5874779;70823b4b-bb48-4d30-adf4-be67a41e2f65;b96c46d4-a2bf-4e3d-954f-f082b14fe155;fe87d1eb-b138-42e6-bae7-9e4a186319d5
+Connectwise Automate (LabTech),ltsvc.exe;ltsvcmon.exe;lttray.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
+RuDesktop,rd.exe;rudesktop*.exe,asr_lua_20.bin;asr_lua_20.bin.txt;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt,6,23356722-c906-4042-943d-cf158e848200;2d7e690e-b8ca-484d-bb19-f3f4d460bebb;3eef301f-b596-4c0b-bd92-013beafce793;5b6f47cc-82e3-4a14-a807-2356e5874779;70823b4b-bb48-4d30-adf4-be67a41e2f65;b96c46d4-a2bf-4e3d-954f-f082b14fe155;d7c7c745-195f-4223-9c7a-99fb420fd000;fe87d1eb-b138-42e6-bae7-9e4a186319d5
 MyIVO,myivomgr.exe;myivomanager.exe,,0,
 Veyon,C:\Program Files\Veyon\*;C:\Program Files (x86)\Veyon\*;veyon-wcli.exe;veyon-worker.exe;veyon-server.exe;veyon-service.exe;veyon-master.exe,,0,
 CentraStage (Now Datto),CagService.exe;AEMAgent.exe,,0,
@@ -221,7 +221,7 @@ LiteManager,lmnoipserver.exe;ROMFUSClient.exe;romfusclient.exe;romviewer.exe;rom
 TightVNC,tvnviewer.exe;TightVNCViewerPortable*.exe;tvnserver.exe,,0,
 Netviewer (GoToMeet),nvClient.exe;netviewer.exe,,0,
 Weezo,weezohttpd.exe;weezo.exe;weezo setup*.exe,,0,
-ManageEngine,InstallShield Setup.exe;ManageEngine_Remote_Access_Plus.exe;*\dcagentservice.exe;C:\Program Files (x86)\DesktopCentral_Agent\bin\*;*\DesktopCentral_Agent\bin\*,asr_lua_21.bin;asr_lua_21.bin.txt,2,
+ManageEngine,InstallShield Setup.exe;ManageEngine_Remote_Access_Plus.exe;*\dcagentservice.exe;C:\Program Files (x86)\DesktopCentral_Agent\bin\*;*\DesktopCentral_Agent\bin\*,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 GetScreen,GetScreen.exe;getscreen.exe,,0,
 Netviewer,netviewer*.exe;netviewer.exe,,0,
 Microsoft TSC,termsrv.exe;mstsc.exe,,0,

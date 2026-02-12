@@ -1685,7 +1685,7 @@
 ; #Upvalues:       0
 ; #Parameters:     0
 ; Is_vararg:       0
-; Max Stack Size:  22
+; Max Stack Size:  18
 
     0 [-]: LOADK     R0 K0        ; R0 := "\\\"?rundll32(\\.exe)?\\\"?\\s+\\\"?.:\\\\progra~.\\\\ser\\\\doxis.~.\\\\wincub~.\\.dll\\\"?,openstgfile\\s+.+\\.csb$"
     1 [-]: LOADK     R1 K1        ; R1 := "\\\"?rundll32(\\.exe)?\\\"?\\s+\\\"?.:\\\\progra~.\\\\ser\\\\compon~.\\\\swa\\\\wincub~.\\.dll\\\"?,openstgfile\\s+.+\\.csb$"
@@ -1702,48 +1702,28 @@
    12 [-]: LOADK     R12 K12      ; R12 := "rundll32(\\.exe)?[\\\"\\s]+[a-z]:\\\\program files[^\\\\]*\\\\rapid7\\\\insight agent\\\\components\\\\armor\\\\common\\\\armor\\\\mvarmor64\\.dll"
    13 [-]: LOADK     R13 K13      ; R13 := "pwsh(\\.exe)?\\\"?\\s+-noexit.+-file\\s+\\\"?[a-z]:\\\\users\\\\[^\\\\]+\\\\appdata\\\\local\\\\temp\\\\regressionfinder\\.ps1\\\"?\\s+-launchspecificversion\\s+-version\\s+\\d+\\.\\d+\\.\\d+\\.\\d+"
    14 [-]: LOADK     R14 K14      ; R14 := "powershell(\\.exe)?\\\"?\\s+-noexit.+-file\\s+\\\"?[a-z]:\\\\users\\\\[^\\\\]+\\\\appdata\\\\local\\\\temp\\\\regressionfinder\\.ps1\\\"?\\s+-launchspecificversion\\s+-version\\s+\\d+\\.\\d+\\.\\d+\\.\\d+"
-   15 [-]: NEWTABLE  R15 0 15     ; R15 := {} (size = 0,15)
-   16 [-]: SETTABLE  R15 R0 K15   ; R15[R0] := 0
-   17 [-]: SETTABLE  R15 R1 K15   ; R15[R1] := 0
-   18 [-]: SETTABLE  R15 R2 K15   ; R15[R2] := 0
-   19 [-]: SETTABLE  R15 R3 K15   ; R15[R3] := 0
-   20 [-]: SETTABLE  R15 R4 K15   ; R15[R4] := 0
-   21 [-]: SETTABLE  R15 R5 K15   ; R15[R5] := 0
-   22 [-]: SETTABLE  R15 R6 K15   ; R15[R6] := 0
-   23 [-]: SETTABLE  R15 R7 K15   ; R15[R7] := 0
-   24 [-]: SETTABLE  R15 R8 K15   ; R15[R8] := 0
-   25 [-]: SETTABLE  R15 R9 K15   ; R15[R9] := 0
-   26 [-]: SETTABLE  R15 R10 K15  ; R15[R10] := 0
-   27 [-]: SETTABLE  R15 R11 K15  ; R15[R11] := 0
-   28 [-]: SETTABLE  R15 R12 K15  ; R15[R12] := 0
-   29 [-]: SETTABLE  R15 R13 K15  ; R15[R13] := 0
-   30 [-]: SETTABLE  R15 R14 K15  ; R15[R14] := 0
-   31 [-]: GETGLOBAL R16 K16      ; R16 := versioning
-   32 [-]: GETTABLE  R16 R16 K17  ; R16 := R16["GetOrgID"]
-   33 [-]: CALL      R16 1 2      ; R16 := R16()
-   34 [-]: EQ        1 R16 K18    ; if R16 ~= nil then goto 36 else goto 42
-   35 [-]: JMP       6            ; PC += 6 (goto 42)
-   36 [-]: GETGLOBAL R17 K19      ; R17 := string
-   37 [-]: GETTABLE  R17 R17 K20  ; R17 := R17["lower"]
-   38 [-]: MOVE      R18 R16      ; R18 := R16
-   39 [-]: CALL      R17 2 2      ; R17 := R17(R18)
-   40 [-]: EQ        1 R17 K21    ; if R17 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 42 else goto 51
-   41 [-]: JMP       9            ; PC += 9 (goto 51)
-   42 [-]: GETGLOBAL R17 K16      ; R17 := versioning
-   43 [-]: GETTABLE  R17 R17 K22  ; R17 := R17["IsSampled"]
-   44 [-]: LOADK     R18 K23      ; R18 := 30000
-   45 [-]: LOADBOOL  R19 0 0      ; R19 := false
-   46 [-]: LOADBOOL  R20 1 0      ; R20 := true
-   47 [-]: LOADBOOL  R21 1 0      ; R21 := true
-   48 [-]: CALL      R17 5 2      ; R17 := R17(R18 to R21)
-   49 [-]: EQ        0 R17 K24    ; if R17 == true then goto 51 else goto 55
-   50 [-]: JMP       4            ; PC += 4 (goto 55)
-   51 [-]: LOADK     R17 K25      ; R17 := "pwsh(\\.exe)?\\\"?\\s+-noexit.+-file\\s+\\\"?[a-z]:\\\\users\\\\[^\\\\]+\\\\appdata\\\\local\\\\temp\\\\regressionfinder\\.ps1\\\"?\\s+-searchbuilds\\s+-startdate\\s+\\d+/\\d+/\\d+\\s+-enddate\\s+\\d+/\\d+/\\d+\\s+-revert"
-   52 [-]: LOADK     R18 K26      ; R18 := "powershell(\\.exe)?\\\"?\\s+-noexit.+-file\\s+\\\"?[a-z]:\\\\users\\\\[^\\\\]+\\\\appdata\\\\local\\\\temp\\\\regressionfinder\\.ps1\\\"?\\s+-searchbuilds\\s+-startdate\\s+\\d+/\\d+/\\d+\\s+-enddate\\s+\\d+/\\d+/\\d+\\s+-revert"
-   53 [-]: SETTABLE  R15 R17 K15  ; R15[R17] := 0
-   54 [-]: SETTABLE  R15 R18 K15  ; R15[R18] := 0
-   55 [-]: RETURN    R15 2        ; return R15
-   56 [-]: RETURN    R0 1         ; return 
+   15 [-]: LOADK     R15 K15      ; R15 := "pwsh(\\.exe)?\\\"?\\s+-noexit.+-file\\s+\\\"?[a-z]:\\\\users\\\\[^\\\\]+\\\\appdata\\\\local\\\\temp\\\\regressionfinder\\.ps1\\\"?\\s+-searchbuilds\\s+-startdate\\s+\\d+/\\d+/\\d+\\s+-enddate\\s+\\d+/\\d+/\\d+\\s+-revert"
+   16 [-]: LOADK     R16 K16      ; R16 := "powershell(\\.exe)?\\\"?\\s+-noexit.+-file\\s+\\\"?[a-z]:\\\\users\\\\[^\\\\]+\\\\appdata\\\\local\\\\temp\\\\regressionfinder\\.ps1\\\"?\\s+-searchbuilds\\s+-startdate\\s+\\d+/\\d+/\\d+\\s+-enddate\\s+\\d+/\\d+/\\d+\\s+-revert"
+   17 [-]: NEWTABLE  R17 0 17     ; R17 := {} (size = 0,17)
+   18 [-]: SETTABLE  R17 R0 K17   ; R17[R0] := 0
+   19 [-]: SETTABLE  R17 R1 K17   ; R17[R1] := 0
+   20 [-]: SETTABLE  R17 R2 K17   ; R17[R2] := 0
+   21 [-]: SETTABLE  R17 R3 K17   ; R17[R3] := 0
+   22 [-]: SETTABLE  R17 R4 K17   ; R17[R4] := 0
+   23 [-]: SETTABLE  R17 R5 K17   ; R17[R5] := 0
+   24 [-]: SETTABLE  R17 R6 K17   ; R17[R6] := 0
+   25 [-]: SETTABLE  R17 R7 K17   ; R17[R7] := 0
+   26 [-]: SETTABLE  R17 R8 K17   ; R17[R8] := 0
+   27 [-]: SETTABLE  R17 R9 K17   ; R17[R9] := 0
+   28 [-]: SETTABLE  R17 R10 K17  ; R17[R10] := 0
+   29 [-]: SETTABLE  R17 R11 K17  ; R17[R11] := 0
+   30 [-]: SETTABLE  R17 R12 K17  ; R17[R12] := 0
+   31 [-]: SETTABLE  R17 R13 K17  ; R17[R13] := 0
+   32 [-]: SETTABLE  R17 R14 K17  ; R17[R14] := 0
+   33 [-]: SETTABLE  R17 R15 K17  ; R17[R15] := 0
+   34 [-]: SETTABLE  R17 R16 K17  ; R17[R16] := 0
+   35 [-]: RETURN    R17 2        ; return R17
+   36 [-]: RETURN    R0 1         ; return 
 
 
 ; Function:        0_4

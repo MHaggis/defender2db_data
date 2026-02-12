@@ -848,8 +848,10 @@
       "%windir%\\system32\\DriverStore\\FileRepository\\hpcustomcapcomp.inf_amd64_*\\x64\\AppHelperCap.exe",
       "%windir%\\system32\\IntelBroadbandManagerSvc.exe"
     ],
-    "strings_count": 239,
-    "strings_guid": [],
+    "strings_count": 247,
+    "strings_guid": [
+      "d7c7c745-195f-4223-9c7a-99fb420fd000"
+    ],
     "strings_paths": [
       "%windir%\\system32\\lsass.exe",
       "%windir%\\system32\\WerFaultSecure.exe",
@@ -977,6 +979,7 @@
       "c:\\windows\\SysWOW64\\wbem\\WmiPrvSE.exe",
       "\\Device\\HarddiskVolume?\\Windows\\System32\\wbem\\wmiprvse.exe",
       "%windir%\\system32\\fsiso.exe",
+      "%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe",
       "^\\\"?.:\\\\windows\\\\system32\\\\werfault\\.exe\\\"?((?!\\-s).)*$",
       "\\\\powershell\\.exe\\\"?\\s+.+[a-z]:\\\\programdata\\\\microsoft\\\\windows defender advanced threat protection\\\\downloads\\\\psscript_[^\\.]+\\.ps1.+$"
     ],
@@ -984,7 +987,9 @@
     "hex_file": "asr_dump_hex/asr_lua_21.bin.hex.txt",
     "name": "Block credential stealing from the Windows local security authority subsystem (lsass.exe)",
     "description": "Windows Defender Exploit Guard detected an attempt to extract credentials from LSASS.",
-    "guids": [],
+    "guids": [
+      "d7c7c745-195f-4223-9c7a-99fb420fd000"
+    ],
     "txt_file": "asr_dump_txt/asr_lua_21.bin.txt"
   },
   {
@@ -1606,7 +1611,7 @@
       "%programfiles%\\TortoiseSVN",
       "%programfiles%\\Tracker Software"
     ],
-    "strings_count": 706,
+    "strings_count": 709,
     "strings_guid": [
       "23356722-c906-4042-943d-cf158e848200",
       "2d7e690e-b8ca-484d-bb19-f3f4d460bebb",
@@ -1614,6 +1619,7 @@
       "5b6f47cc-82e3-4a14-a807-2356e5874779",
       "70823b4b-bb48-4d30-adf4-be67a41e2f65",
       "b96c46d4-a2bf-4e3d-954f-f082b14fe155",
+      "d7c7c745-195f-4223-9c7a-99fb420fd000",
       "fe87d1eb-b138-42e6-bae7-9e4a186319d5"
     ],
     "strings_paths": [
@@ -1829,6 +1835,7 @@
       "5b6f47cc-82e3-4a14-a807-2356e5874779",
       "70823b4b-bb48-4d30-adf4-be67a41e2f65",
       "b96c46d4-a2bf-4e3d-954f-f082b14fe155",
+      "d7c7c745-195f-4223-9c7a-99fb420fd000",
       "fe87d1eb-b138-42e6-bae7-9e4a186319d5"
     ],
     "txt_file": "asr_dump_txt/asr_lua_23.bin.txt"
@@ -2037,10 +2044,8 @@
       "%programfiles%\\iManage\\Work",
       "%programfiles%\\Hyland\\Office Integration"
     ],
-    "strings_count": 754,
-    "strings_guid": [
-      "d7c7c745-195f-4223-9c7a-99fb420fd000"
-    ],
+    "strings_count": 748,
+    "strings_guid": [],
     "strings_paths": [
       "%programfiles%\\Microsoft Office\\Office??\\OUTLOOK.EXE",
       "%programfiles%\\Microsoft Office\\root\\Office??\\OUTLOOK.EXE",
@@ -2247,9 +2252,7 @@
     "hex_file": "asr_dump_hex/asr_lua_24.bin.hex.txt",
     "name": "Block Office communication application from creating child processes",
     "description": "Windows Defender Exploit Guard detected Outlook application creating the child process",
-    "guids": [
-      "d7c7c745-195f-4223-9c7a-99fb420fd000"
-    ],
+    "guids": [],
     "txt_file": "asr_dump_txt/asr_lua_24.bin.txt"
   },
   {
@@ -2365,6 +2368,7 @@
       "lower",
       "d7c7c745-195f-4223-9c7a-99fb420fd000",
       "IsSampled",
+      "%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe",
       "%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe",
       "%programfiles(x86)%\\ASUS\\ArmouryDevice\\asus_framework.exe",
       "%programfiles(x86)%\\ASUS\\ASUS-DriverHub-Installer.exe",
@@ -2509,10 +2513,9 @@
       "%programdata%\\Lenovo\\Udc\\Hosts",
       "%programdata%\\Lenovo\\Vantage",
       "%systemroot%\\Lenovo\\ImController",
-      "%systemroot%\\System32\\drivers\\Lenovo",
-      "%systemroot%\\System32\\Lenovo\\PowerMgr"
+      "%systemroot%\\System32\\drivers\\Lenovo"
     ],
-    "strings_count": 201,
+    "strings_count": 202,
     "strings_guid": [
       "d7c7c745-195f-4223-9c7a-99fb420fd000"
     ],
