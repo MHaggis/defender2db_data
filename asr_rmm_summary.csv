@@ -1,17 +1,17 @@
 rmm_name,sample_indicators,asr_files,count_files,guids
 RuDesktop,rd.exe;rudesktop*.exe,asr_lua_20.bin;asr_lua_20.bin.txt;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt,6,23356722-c906-4042-943d-cf158e848200;2d7e690e-b8ca-484d-bb19-f3f4d460bebb;3eef301f-b596-4c0b-bd92-013beafce793;5b6f47cc-82e3-4a14-a807-2356e5874779;70823b4b-bb48-4d30-adf4-be67a41e2f65;b96c46d4-a2bf-4e3d-954f-f082b14fe155;d7c7c745-195f-4223-9c7a-99fb420fd000;fe87d1eb-b138-42e6-bae7-9e4a186319d5
 RemoteView,remoteview.exe;rv.exe;rvagent.exe;rvagtray.exe,asr_lua_21.bin;asr_lua_21.bin.txt;asr_lua_24.bin;asr_lua_24.bin.txt,4,d7c7c745-195f-4223-9c7a-99fb420fd000
+BeAnyWhere,basuptshelper.exe;basupsrvcupdate.exe;BASupApp.exe;BASupSysInf.exe;BASupAppSrvc.exe;...(3 more),asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
+Zoho Assist,zaservice.exe;ZMAgent.exe;C:\*\ZA_Access.exe;ZohoMeeting.exe;Zohours.exe;...(6 more),asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 LabTech RMM (Now ConnectWise Automate),ltsvc.exe;ltsvcmon.exe;lttray.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 Adobe Connect,ConnectAppSetup*.exe;ConnectShellSetup*.exe;Connect.exe;ConnectDetector.exe,asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
-Site24x7,MEAgentHelper.exe;MonitoringAgent.exe;Site24x7WindowsAgentTrayIcon.exe;Site24x7PluginAgent.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
-Rapid7,ir_agent.exe;rapid7_agent_core.exe;rapid7_endpoint_broker.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
-BeAnyWhere,basuptshelper.exe;basupsrvcupdate.exe;BASupApp.exe;BASupSysInf.exe;BASupAppSrvc.exe;...(3 more),asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
-LabTeach (Connectwise Automate),ltsvc.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
-Parsec,C:\Program Files\Parsec\*;parsecd.exe;pservice.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
-MSP360,Online Backup.exe;CBBackupPlan.exe;Cloud.Backup.Scheduler.exe;Cloud.Backup.RM.Service.exe;cbb.exe;...(6 more),asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
-Itarian,ITSMAgent.exe;RViewer.exe;ItsmRsp.exe;RAccess.exe;RmmService.exe;...(5 more),asr_lua_24.bin;asr_lua_24.bin.txt,2,
-Manage Engine (Desktop Central),dcagentservice.exe;dcagentregister.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 Connectwise Automate (LabTech),ltsvc.exe;ltsvcmon.exe;lttray.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
-ManageEngine,InstallShield Setup.exe;ManageEngine_Remote_Access_Plus.exe;*\dcagentservice.exe;C:\Program Files (x86)\DesktopCentral_Agent\bin\*;*\DesktopCentral_Agent\bin\*,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
-Zoho Assist,zaservice.exe;ZMAgent.exe;C:\*\ZA_Access.exe;ZohoMeeting.exe;Zohours.exe;...(6 more),asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
+MSP360,Online Backup.exe;CBBackupPlan.exe;Cloud.Backup.Scheduler.exe;Cloud.Backup.RM.Service.exe;cbb.exe;...(6 more),asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
+Rapid7,ir_agent.exe;rapid7_agent_core.exe;rapid7_endpoint_broker.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
+Site24x7,MEAgentHelper.exe;MonitoringAgent.exe;Site24x7WindowsAgentTrayIcon.exe;Site24x7PluginAgent.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 Atera,*\AgentPackageNetworkDiscovery.exe;*\AgentPackageTaskScheduler.exe;*\ATERA Networks\AteraAgent\*;*\AteraAgent.exe;atera_agent.exe;...(6 more),asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
+Parsec,C:\Program Files\Parsec\*;parsecd.exe;pservice.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
+ManageEngine,InstallShield Setup.exe;ManageEngine_Remote_Access_Plus.exe;*\dcagentservice.exe;C:\Program Files (x86)\DesktopCentral_Agent\bin\*;*\DesktopCentral_Agent\bin\*,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
+Itarian,ITSMAgent.exe;RViewer.exe;ItsmRsp.exe;RAccess.exe;RmmService.exe;...(5 more),asr_lua_24.bin;asr_lua_24.bin.txt,2,
+LabTeach (Connectwise Automate),ltsvc.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
+Manage Engine (Desktop Central),dcagentservice.exe;dcagentregister.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
