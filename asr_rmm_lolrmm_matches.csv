@@ -11,7 +11,7 @@ Syncthing,C:\Users\*\AppData\Roaming\SyncTrayzor\*;*Users\*\AppData\Roaming\Sync
 Tanium,TaniumClient.exe;TaniumCX.exe;TaniumExecWrapper.exe;TaniumFileInfo.exe;TPowerShell.exe,,0,
 Zabbix Agent,zabbix_agent*.exe,,0,
 Pocket Controller (Soti Xsight),pocketcontroller.exe;wysebrowser.exe;XSightService.exe,,0,
-Zoho Assist,zaservice.exe;ZMAgent.exe;C:\*\ZA_Access.exe;ZohoMeeting.exe;Zohours.exe;zohotray.exe;ZohoURSService.exe;*\ZA_Access.exe;Zaservice.exe;za_connect.exe;connect.exe,asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
+Zoho Assist,toolsiq.exe;zaservice.exe;ZMAgent.exe;ZohoMeeting.exe;Zohours.exe;zohotray.exe;ZohoURSService.exe;*\ZA_Access.exe;za_connect.exe;connect.exe,asr_lua_5.bin;asr_lua_5.bin.txt,2,d7c7c745-195f-4223-9c7a-99fb420fd000
 Netviewer (GoToMeet),nvClient.exe;netviewer.exe,,0,
 SecureCRT,C:\*\SecureCRT.EXE;*\SecureCRT.EXE;*\VanDyke Software\ClientPack\*,,0,
 Pulseway,PCMonitorManager.exe;pcmonitorsrv.exe,,0,
@@ -206,6 +206,7 @@ Devolutions Remote Desktop Manager,C:\Program Files\Devolutions\Remote Desktop M
 RuDesktop,rd.exe;rudesktop*.exe,asr_lua_20.bin;asr_lua_20.bin.txt;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt,6,23356722-c906-4042-943d-cf158e848200;2d7e690e-b8ca-484d-bb19-f3f4d460bebb;3eef301f-b596-4c0b-bd92-013beafce793;5b6f47cc-82e3-4a14-a807-2356e5874779;70823b4b-bb48-4d30-adf4-be67a41e2f65;b96c46d4-a2bf-4e3d-954f-f082b14fe155;d7c7c745-195f-4223-9c7a-99fb420fd000;fe87d1eb-b138-42e6-bae7-9e4a186319d5
 Quick Assist,quickassist.exe,,0,
 TightVNC,tvnviewer.exe;TightVNCViewerPortable*.exe;tvnserver.exe,,0,
+Net Monitor for Employees,C:\Program Files (x86)\Net Monitor for Employees Pro\*;C:\Program Files\Net Monitor for Employees Pro\*;nmep_agtconfig.exe;nmep_ctrlagent.exe;nmep_ctrlagentsvc.exe;winpty-agent.exe;winpty-agent64.exe,,0,
 TurboMeeting,pcstarter.exe;turbomeeting.exe;turbomeetingstarter.exe,,0,
 BeamYourScreen,beamyourscreen.exe;beamyourscreen-host.exe,,0,
 NetBird,C:\Program Files\Netbird\netbird.exe;C:\Program Files\Netbird\netbird-ui.exe;C:\ProgramData\Netbird\*;/usr/bin/netbird;/usr/local/bin/netbird;/opt/netbird/*;netbird.exe;netbird-ui.exe;netbird,,0,
