@@ -409,11 +409,11 @@ c:\\windows\\system32\\wbem\\WmiPrvSE.exe,asr_lua_21.bin,Block credential steali
 c:\\windows\\SysWOW64\\wbem\\WmiPrvSE.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,15,283
 \\Device\\HarddiskVolume?\\Windows\\System32\\wbem\\wmiprvse.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,14,284
 %windir%\\system32\\fsiso.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,13,285
-%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,11,309
-%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,12,310
-^\\\,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,24,322
-?((?!\\-s).)*$,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,24,322
-\\\\powershell\\.exe\\\,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,25,323
+%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,11,311
+%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,12,312
+^\\\,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,24,324
+?((?!\\-s).)*$,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,24,324
+\\\\powershell\\.exe\\\,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,25,325
 %programfiles%\\adobe\\acrobat reader 2015\\reader\\acrord32.exe,asr_lua_22.bin,Block Adobe Reader from creating child processes,,,48
 %programfiles%\\adobe\\acrobat reader 2017\\reader\\acrord32.exe,asr_lua_22.bin,Block Adobe Reader from creating child processes,,,49
 %programfiles%\\adobe\\acrobat reader 2018\\reader\\acrord32.exe,asr_lua_22.bin,Block Adobe Reader from creating child processes,,,50
@@ -1431,14 +1431,15 @@ cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child
 cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,2d7e690e-b8ca-484d-bb19-f3f4d460bebb,4,1538
 cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,70823b4b-bb48-4d30-adf4-be67a41e2f65,2,1544
 explorer(%.)?(\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,2,1550
-taskkill(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,11,1565
-cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,13,1567
-?c:\\\\windows\\\\system32\\\\reg\\.exe\\s+add\\s+\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,13,1567
-?\\s+/v\\s+dumpfolder,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,13,1567
-explorer\\.exe\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,15,1569
-((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\[^\\.]+\\.exe\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,28,1582
-]+\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,28,1582
-]+)\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,28,1582
+taskkill(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,6,1565
+cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,4,1567
+?c:\\\\windows\\\\system32\\\\reg\\.exe\\s+add\\s+\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,4,1567
+?\\s+/v\\s+dumpfolder,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,4,1567
+explorer(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,11,1582
+explorer\\.exe\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,14,1585
+((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\[^\\.]+\\.exe\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,27,1598
+]+\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,27,1598
+]+)\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,27,1598
 %programfiles(x86)%\\Microsoft Office\\Office??\\OUTLOOK.EXE,asr_lua_24.bin,Block Office communication application from creating child processes,,,50
 %programfiles(x86)%\\Microsoft Office\\root\\Office??\\OUTLOOK.EXE,asr_lua_24.bin,Block Office communication application from creating child processes,,,51
 %programfiles%\\Microsoft Office\\Office??\\OUTLOOK.EXE,asr_lua_24.bin,Block Office communication application from creating child processes,,,52
@@ -2231,154 +2232,154 @@ This is a Test HIPS Rule that exposes rule logic in audit mode to \'X\' populati
 %programfiles%\\ATERA Networks\\AteraAgent\\Packages\\AgentPackageMonitoring\\AgentPackageMonitoring.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,15,78
 %windir%\\system32\\format.com,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,14,79
 %windir%\\SysWOW64\\format.com,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,13,80
-%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,11,104
-%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,12,105
-%programfiles(x86)%\\ASUS\\ArmouryDevice\\asus_framework.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,13,106
-%programfiles(x86)%\\ASUS\\ASUS-DriverHub-Installer.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,14,107
-%programfiles(x86)%\\ASUS\\AURACONNECT\\AuraConnect.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,15,108
-%programfiles(x86)%\\ASUS\\AXSP\\*\\atkexComSvc.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,16,109
-%programfiles(x86)%\\Lenovo\\ldiagx64\\LenovoDiagnosticsCLI.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,17,110
-%programfiles%\\Acer DT\\LCD-CS.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,18,111
-%programfiles%\\ASUS\\llm-server\\llm-server.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,19,112
-%programfiles%\\ASUS\\Turbo LAN\\setup.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,20,113
-%programfiles%\\CPUID\\ASUS CPU-Z\\cpuz_tuf.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,21,114
-%programfiles%\\CPUID\\ASUS CPU-Z\\cpuz_asus.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,22,115
-%programfiles%\\WindowsApps\\AcerIncorporated,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,23,116
-%programfiles(x86)%\\ASUS\\AI Suite III,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,24,117
-%programfiles(x86)%\\ASUS\\ArmouryDevice\\dll,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,25,118
-%programfiles(x86)%\\ASUS\\AsusFanControlService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,26,119
-%programfiles(x86)%\\ASUS\\AsusFCNotification,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,27,120
-%programfiles(x86)%\\ASUS\\AsusGamingCenterInstallPackage,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,28,121
-%programfiles(x86)%\\ASUS\\ASUSRemoteWake,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,29,122
-%programfiles(x86)%\\ASUS\\AsusROGLSLService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,30,123
-%programfiles(x86)%\\ASUS\\GPUTweakIII,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,31,124
-%programfiles(x86)%\\ASUS\\Grid,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,32,125
-%programfiles(x86)%\\ASUS\\ROGLSLoader,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,33,126
-%programfiles(x86)%\\ASUS\\ROG Live Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,34,127
-%programfiles(x86)%\\ASUS\\SCD\\Software\\TurboLAN,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,35,128
-%programfiles(x86)%\\ASUS\\Update,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,36,129
-%programfiles(x86)%\\ASUS\\VirtualPet,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,37,130
-%programfiles(x86)%\\Acer\\Care Center,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,38,131
-%programfiles(x86)%\\Acer\\ControlCenter,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,39,132
-%programfiles(x86)%\\Acer\\clear.fi,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,40,133
-%programfiles(x86)%\\Acer\\Power2Go8,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,41,134
-%programfiles(x86)%\\Acer\\system_monitor,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,42,135
-%programfiles(x86)%\\Dell\\Power2Go8,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,43,136
-%programfiles(x86)%\\Dell\\UpdateService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,44,137
-%programfiles(x86)%\\Dell Backup and Recovery,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,45,138
-%programfiles(x86)%\\Dell DataSafe Local Backup,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,46,139
-%programfiles(x86)%\\Hewlett-Packard\\HP Health Check,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,47,140
-%programfiles(x86)%\\Hewlett-Packard\\HP Touchpoint Manager,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,48,141
-%programfiles(x86)%\\Hewlett-Packard\\HP Support Framework,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,49,142
-%programfiles(x86)%\\Hewlett-Packard\\HP Support Solutions,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,50,143
-%programfiles(x86)%\\Hewlett-Packard\\Media,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,51,144
-%programfiles(x86)%\\Hewlett-Packard\\Recovery,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,52,145
-%programfiles(x86)%\\Hewlett-Packard\\TouchSmart,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,53,146
-%programfiles(x86)%\\HPImageAssistant,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,54,147
-%programfiles(x86)%\\HP\\HpHwDiag,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,55,148
-%programfiles(x86)%\\HP\\HPLJUT,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,56,149
-%programfiles(x86)%\\HP\\HP DeskJet,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,57,150
-%programfiles(x86)%\\HP\\HP ENVY,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,58,151
-%programfiles(x86)%\\HP\\HP Ink Tank Wireless,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,59,152
-%programfiles(x86)%\\HP\\HP MIK Client,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,60,153
-%programfiles(x86)%\\HP\\HP OfficeJet,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,61,154
-%programfiles(x86)%\\HP\\HP Performance Advisor,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,62,155
-%programfiles(x86)%\\HP\\HP Support Framework,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,63,156
-%programfiles(x86)%\\HP\\HP Touchpoint Analytics Client,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,64,157
-%programfiles(x86)%\\Lenovo\\Energy Management,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,65,158
-%programfiles(x86)%\\Lenovo\\LeAppStore,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,66,159
-%programfiles(x86)%\\Lenovo\\LegionZone,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,67,160
-%programfiles(x86)%\\Lenovo\\Lenovo Home,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,68,161
-%programfiles(x86)%\\Lenovo\\PCManager,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,69,162
-%programfiles(x86)%\\Lenovo\\Power2Go,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,70,163
-%programfiles(x86)%\\Lenovo\\PowerDVD12,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,71,164
-%programfiles(x86)%\\Lenovo\\RapidBoot HDD Accelerator,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,72,165
-%programfiles(x86)%\\Lenovo\\System Update,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,73,166
-%programfiles(x86)%\\Lenovo\\VantageService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,74,167
-%programfiles%\\ASUS\\AICreator_pytorch,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,75,168
-%programfiles%\\ASUS\\AacAmbientHal,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,76,169
-%programfiles%\\ASUS\\AacMB,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,77,170
-%programfiles%\\ASUS\\ACOnePackageTemp,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,78,171
-%programfiles%\\ASUS\\Armoury Crate Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,79,172
-%programfiles%\\ASUS\\ARMOURY CRATE SE Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,80,173
-%programfiles%\\ASUS\\ARMOURY CRATE Lite Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,81,174
-%programfiles%\\ASUS\\AsusDriverHub,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,82,175
-%programfiles%\\ASUS\\AsusScreenXpert,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,83,176
-%programfiles%\\ASUS\\ASUS Dial Control Panel Toolkit,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,84,177
-%programfiles%\\ASUS\\ASUS Hotplug Controller,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,85,178
-%programfiles%\\ASUS\\GlideX,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,86,179
-%programfiles%\\ASUS\\ASUS Monitor Control,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,87,180
-%programfiles%\\ASUS\\ProArt Creator Hub,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,88,181
-%programfiles%\\ASUS\\RLSDownload,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,89,182
-%programfiles%\\ASUS\\ROG Live Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,90,183
-%programfiles%\\ASUS\\StoryCube,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,91,184
-%programfiles%\\ASUS\\Virtual Pet,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,92,185
-%programfiles%\\Acer\\Acer Office Manager Agent,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,93,186
-%programfiles%\\Acer\\Acer Power Management,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,94,187
-%programfiles%\\Acer\\Acer ProShield Plus,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,95,188
-%programfiles%\\Acer\\Acer Quick Access,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,96,189
-%programfiles%\\Acer\\Care Center,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,97,190
-%programfiles%\\Acer\\Quick Access Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,98,191
-%programfiles%\\Acer\\QuickPanel,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,99,192
-%programfiles%\\Acer\\SpatialLabs,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,100,193
-%programfiles%\\Acer\\StorPSCTL,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,101,194
-%programfiles%\\Acer\\User Experience Improvement Program Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,102,195
-%programfiles%\\Dell\\Command Monitor,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,103,196
-%programfiles%\\Dell\\DellDataVault,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,104,197
-%programfiles%\\Dell\\Dell Data Protection,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,105,198
-%programfiles%\\Dell\\Dell Insights,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,106,199
-%programfiles%\\Dell\\DTP,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,107,200
-%programfiles%\\Dell\\GrabForWindows,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,108,201
-%programfiles%\\Dell\\iDiagLite,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,109,202
-%programfiles%\\Dell\\OS Recovery Tool,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,110,203
-%programfiles%\\Dell\\SARemediation,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,111,204
-%programfiles%\\Dell\\SupportAssist,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,112,205
-%programfiles%\\Dell\\SysMgt,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,113,206
-%programfiles%\\Dell\\UpdateService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,114,207
-%programfiles%\\Dell DataSafe Local Backup,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,115,208
-%programfiles%\\Hewlett-Packard\\AMS,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,116,209
-%programfiles%\\Hewlett-Packard\\HP Health Check,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,117,210
-%programfiles%\\Hewlett-Packard\\Recovery,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,118,211
-%programfiles%\\HP\\HpHwDiag,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,119,212
-%programfiles%\\HP\\HPIA,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,120,213
-%programfiles%\\HP\\hpssacli,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,121,214
-%programfiles%\\HP\\HP Enabling Services,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,122,215
-%programfiles%\\HP\\HP Media Network,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,123,216
-%programfiles%\\HP\\HP One Agent,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,124,217
-%programfiles%\\HP\\HP ThinUpdate,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,125,218
-%programfiles%\\HP\\HP Touchpoint Analytics Client,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,126,219
-%programfiles%\\HP\\Image Assistant,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,127,220
-%programfiles%\\HP\\OmenInstallMonitor,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,128,221
-%programfiles%\\HP\\Overlay,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,129,222
-%programfiles%\\HP\\Sure Click,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,130,223
-%programfiles%\\HP Image Assistant,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,131,224
-%programfiles%\\Portrait Displays\\HP Display Control Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,132,225
-%programfiles%\\Lenovo\\FusionEngine,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,133,226
-%programfiles%\\Lenovo\\Lenovo Diagnostics Evolution,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,134,227
-%programfiles%\\Lenovo\\Lenovo Diagnostics Tool,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,135,228
-%programfiles%\\Lenovo\\Lenovo Solution Center,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,136,229
-%programfiles%\\Lenovo\\OneKey App,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,137,230
-%programdata%\\ASUS\\ASUSAiCrosslink,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,138,231
-%programdata%\\ASUS\\AsusDriverHub,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,139,232
-%programdata%\\ASUS\\ASUS System Control Interface,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,140,233
-%programdata%\\Acer\\updater2,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,141,234
-%programdata%\\Dell\\drivers,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,142,235
-%programdata%\\Dell\\UpdateService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,143,236
-%programdata%\\EasyRaidCheck\\HP,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,144,237
-%programdata%\\HP\\ExternalApps\\HPIA,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,145,238
-%programdata%\\HP\\Telemetry,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,146,239
-%programdata%\\HP\\HP BTO Software,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,147,240
-%programdata%\\Lenovo\\DriverUpdate,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,148,241
-%programdata%\\Lenovo\\ImController,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,149,242
-%programdata%\\Lenovo\\SystemUpdate,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,150,243
-%programdata%\\Lenovo\\ThinInstaller,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,151,244
-%programdata%\\Lenovo\\TPQM\\Assistant,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,152,245
-%programdata%\\Lenovo\\Udc\\Hosts,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,153,246
-%programdata%\\Lenovo\\Vantage,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,154,247
-%systemroot%\\Lenovo\\ImController,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,155,248
-%systemroot%\\System32\\drivers\\Lenovo,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,156,249
-%systemroot%\\System32\\Lenovo\\PowerMgr,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,157,250
-%systemroot%\\SysWOW64\\Lenovo\\PowerMgr,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,158,251
+%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,11,106
+%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,12,107
+%programfiles(x86)%\\ASUS\\ArmouryDevice\\asus_framework.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,13,108
+%programfiles(x86)%\\ASUS\\ASUS-DriverHub-Installer.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,14,109
+%programfiles(x86)%\\ASUS\\AURACONNECT\\AuraConnect.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,15,110
+%programfiles(x86)%\\ASUS\\AXSP\\*\\atkexComSvc.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,16,111
+%programfiles(x86)%\\Lenovo\\ldiagx64\\LenovoDiagnosticsCLI.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,17,112
+%programfiles%\\Acer DT\\LCD-CS.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,18,113
+%programfiles%\\ASUS\\llm-server\\llm-server.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,19,114
+%programfiles%\\ASUS\\Turbo LAN\\setup.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,20,115
+%programfiles%\\CPUID\\ASUS CPU-Z\\cpuz_tuf.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,21,116
+%programfiles%\\CPUID\\ASUS CPU-Z\\cpuz_asus.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,22,117
+%programfiles%\\WindowsApps\\AcerIncorporated,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,23,118
+%programfiles(x86)%\\ASUS\\AI Suite III,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,24,119
+%programfiles(x86)%\\ASUS\\ArmouryDevice\\dll,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,25,120
+%programfiles(x86)%\\ASUS\\AsusFanControlService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,26,121
+%programfiles(x86)%\\ASUS\\AsusFCNotification,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,27,122
+%programfiles(x86)%\\ASUS\\AsusGamingCenterInstallPackage,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,28,123
+%programfiles(x86)%\\ASUS\\ASUSRemoteWake,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,29,124
+%programfiles(x86)%\\ASUS\\AsusROGLSLService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,30,125
+%programfiles(x86)%\\ASUS\\GPUTweakIII,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,31,126
+%programfiles(x86)%\\ASUS\\Grid,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,32,127
+%programfiles(x86)%\\ASUS\\ROGLSLoader,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,33,128
+%programfiles(x86)%\\ASUS\\ROG Live Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,34,129
+%programfiles(x86)%\\ASUS\\SCD\\Software\\TurboLAN,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,35,130
+%programfiles(x86)%\\ASUS\\Update,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,36,131
+%programfiles(x86)%\\ASUS\\VirtualPet,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,37,132
+%programfiles(x86)%\\Acer\\Care Center,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,38,133
+%programfiles(x86)%\\Acer\\ControlCenter,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,39,134
+%programfiles(x86)%\\Acer\\clear.fi,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,40,135
+%programfiles(x86)%\\Acer\\Power2Go8,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,41,136
+%programfiles(x86)%\\Acer\\system_monitor,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,42,137
+%programfiles(x86)%\\Dell\\Power2Go8,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,43,138
+%programfiles(x86)%\\Dell\\UpdateService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,44,139
+%programfiles(x86)%\\Dell Backup and Recovery,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,45,140
+%programfiles(x86)%\\Dell DataSafe Local Backup,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,46,141
+%programfiles(x86)%\\Hewlett-Packard\\HP Health Check,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,47,142
+%programfiles(x86)%\\Hewlett-Packard\\HP Touchpoint Manager,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,48,143
+%programfiles(x86)%\\Hewlett-Packard\\HP Support Framework,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,49,144
+%programfiles(x86)%\\Hewlett-Packard\\HP Support Solutions,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,50,145
+%programfiles(x86)%\\Hewlett-Packard\\Media,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,51,146
+%programfiles(x86)%\\Hewlett-Packard\\Recovery,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,52,147
+%programfiles(x86)%\\Hewlett-Packard\\TouchSmart,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,53,148
+%programfiles(x86)%\\HPImageAssistant,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,54,149
+%programfiles(x86)%\\HP\\HpHwDiag,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,55,150
+%programfiles(x86)%\\HP\\HPLJUT,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,56,151
+%programfiles(x86)%\\HP\\HP DeskJet,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,57,152
+%programfiles(x86)%\\HP\\HP ENVY,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,58,153
+%programfiles(x86)%\\HP\\HP Ink Tank Wireless,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,59,154
+%programfiles(x86)%\\HP\\HP MIK Client,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,60,155
+%programfiles(x86)%\\HP\\HP OfficeJet,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,61,156
+%programfiles(x86)%\\HP\\HP Performance Advisor,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,62,157
+%programfiles(x86)%\\HP\\HP Support Framework,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,63,158
+%programfiles(x86)%\\HP\\HP Touchpoint Analytics Client,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,64,159
+%programfiles(x86)%\\Lenovo\\Energy Management,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,65,160
+%programfiles(x86)%\\Lenovo\\LeAppStore,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,66,161
+%programfiles(x86)%\\Lenovo\\LegionZone,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,67,162
+%programfiles(x86)%\\Lenovo\\Lenovo Home,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,68,163
+%programfiles(x86)%\\Lenovo\\PCManager,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,69,164
+%programfiles(x86)%\\Lenovo\\Power2Go,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,70,165
+%programfiles(x86)%\\Lenovo\\PowerDVD12,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,71,166
+%programfiles(x86)%\\Lenovo\\RapidBoot HDD Accelerator,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,72,167
+%programfiles(x86)%\\Lenovo\\System Update,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,73,168
+%programfiles(x86)%\\Lenovo\\VantageService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,74,169
+%programfiles%\\ASUS\\AICreator_pytorch,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,75,170
+%programfiles%\\ASUS\\AacAmbientHal,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,76,171
+%programfiles%\\ASUS\\AacMB,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,77,172
+%programfiles%\\ASUS\\ACOnePackageTemp,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,78,173
+%programfiles%\\ASUS\\Armoury Crate Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,79,174
+%programfiles%\\ASUS\\ARMOURY CRATE SE Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,80,175
+%programfiles%\\ASUS\\ARMOURY CRATE Lite Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,81,176
+%programfiles%\\ASUS\\AsusDriverHub,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,82,177
+%programfiles%\\ASUS\\AsusScreenXpert,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,83,178
+%programfiles%\\ASUS\\ASUS Dial Control Panel Toolkit,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,84,179
+%programfiles%\\ASUS\\ASUS Hotplug Controller,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,85,180
+%programfiles%\\ASUS\\GlideX,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,86,181
+%programfiles%\\ASUS\\ASUS Monitor Control,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,87,182
+%programfiles%\\ASUS\\ProArt Creator Hub,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,88,183
+%programfiles%\\ASUS\\RLSDownload,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,89,184
+%programfiles%\\ASUS\\ROG Live Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,90,185
+%programfiles%\\ASUS\\StoryCube,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,91,186
+%programfiles%\\ASUS\\Virtual Pet,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,92,187
+%programfiles%\\Acer\\Acer Office Manager Agent,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,93,188
+%programfiles%\\Acer\\Acer Power Management,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,94,189
+%programfiles%\\Acer\\Acer ProShield Plus,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,95,190
+%programfiles%\\Acer\\Acer Quick Access,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,96,191
+%programfiles%\\Acer\\Care Center,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,97,192
+%programfiles%\\Acer\\Quick Access Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,98,193
+%programfiles%\\Acer\\QuickPanel,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,99,194
+%programfiles%\\Acer\\SpatialLabs,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,100,195
+%programfiles%\\Acer\\StorPSCTL,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,101,196
+%programfiles%\\Acer\\User Experience Improvement Program Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,102,197
+%programfiles%\\Dell\\Command Monitor,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,103,198
+%programfiles%\\Dell\\DellDataVault,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,104,199
+%programfiles%\\Dell\\Dell Data Protection,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,105,200
+%programfiles%\\Dell\\Dell Insights,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,106,201
+%programfiles%\\Dell\\DTP,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,107,202
+%programfiles%\\Dell\\GrabForWindows,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,108,203
+%programfiles%\\Dell\\iDiagLite,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,109,204
+%programfiles%\\Dell\\OS Recovery Tool,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,110,205
+%programfiles%\\Dell\\SARemediation,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,111,206
+%programfiles%\\Dell\\SupportAssist,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,112,207
+%programfiles%\\Dell\\SysMgt,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,113,208
+%programfiles%\\Dell\\UpdateService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,114,209
+%programfiles%\\Dell DataSafe Local Backup,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,115,210
+%programfiles%\\Hewlett-Packard\\AMS,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,116,211
+%programfiles%\\Hewlett-Packard\\HP Health Check,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,117,212
+%programfiles%\\Hewlett-Packard\\Recovery,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,118,213
+%programfiles%\\HP\\HpHwDiag,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,119,214
+%programfiles%\\HP\\HPIA,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,120,215
+%programfiles%\\HP\\hpssacli,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,121,216
+%programfiles%\\HP\\HP Enabling Services,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,122,217
+%programfiles%\\HP\\HP Media Network,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,123,218
+%programfiles%\\HP\\HP One Agent,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,124,219
+%programfiles%\\HP\\HP ThinUpdate,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,125,220
+%programfiles%\\HP\\HP Touchpoint Analytics Client,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,126,221
+%programfiles%\\HP\\Image Assistant,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,127,222
+%programfiles%\\HP\\OmenInstallMonitor,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,128,223
+%programfiles%\\HP\\Overlay,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,129,224
+%programfiles%\\HP\\Sure Click,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,130,225
+%programfiles%\\HP Image Assistant,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,131,226
+%programfiles%\\Portrait Displays\\HP Display Control Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,132,227
+%programfiles%\\Lenovo\\FusionEngine,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,133,228
+%programfiles%\\Lenovo\\Lenovo Diagnostics Evolution,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,134,229
+%programfiles%\\Lenovo\\Lenovo Diagnostics Tool,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,135,230
+%programfiles%\\Lenovo\\Lenovo Solution Center,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,136,231
+%programfiles%\\Lenovo\\OneKey App,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,137,232
+%programdata%\\ASUS\\ASUSAiCrosslink,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,138,233
+%programdata%\\ASUS\\AsusDriverHub,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,139,234
+%programdata%\\ASUS\\ASUS System Control Interface,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,140,235
+%programdata%\\Acer\\updater2,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,141,236
+%programdata%\\Dell\\drivers,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,142,237
+%programdata%\\Dell\\UpdateService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,143,238
+%programdata%\\EasyRaidCheck\\HP,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,144,239
+%programdata%\\HP\\ExternalApps\\HPIA,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,145,240
+%programdata%\\HP\\Telemetry,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,146,241
+%programdata%\\HP\\HP BTO Software,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,147,242
+%programdata%\\Lenovo\\DriverUpdate,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,148,243
+%programdata%\\Lenovo\\ImController,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,149,244
+%programdata%\\Lenovo\\SystemUpdate,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,150,245
+%programdata%\\Lenovo\\ThinInstaller,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,151,246
+%programdata%\\Lenovo\\TPQM\\Assistant,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,152,247
+%programdata%\\Lenovo\\Udc\\Hosts,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,153,248
+%programdata%\\Lenovo\\Vantage,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,154,249
+%systemroot%\\Lenovo\\ImController,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,155,250
+%systemroot%\\System32\\drivers\\Lenovo,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,156,251
+%systemroot%\\System32\\Lenovo\\PowerMgr,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,157,252
+%systemroot%\\SysWOW64\\Lenovo\\PowerMgr,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,158,253
 ((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\[^\\.]+\\.exe\\\,asr_lua_6.bin,Block Win32 API calls from Office macro,,,46
 ]+\\\,asr_lua_6.bin,Block Win32 API calls from Office macro,,,46
 ]+)\\\,asr_lua_6.bin,Block Win32 API calls from Office macro,,,46

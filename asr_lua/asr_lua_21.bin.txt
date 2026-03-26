@@ -295,21 +295,23 @@
   233 [-]: MOVE      R3 R1        ; R3 := R1
   234 [-]: CALL      R2 2 2       ; R2 := R2(R3)
   235 [-]: MOVE      R1 R2        ; R1 := R2
-  236 [-]: EQ        0 R1 K232    ; if R1 == "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 238 else goto 249
+  236 [-]: EQ        1 R1 K232    ; if R1 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 238 else goto 249
   237 [-]: JMP       11           ; PC += 11 (goto 249)
-  238 [-]: GETGLOBAL R2 K226      ; R2 := versioning
-  239 [-]: GETTABLE  R2 R2 K233   ; R2 := R2["IsSampled"]
-  240 [-]: LOADK     R3 K234      ; R3 := 4000
-  241 [-]: LOADBOOL  R4 0 0       ; R4 := false
-  242 [-]: LOADBOOL  R5 1 0       ; R5 := true
-  243 [-]: LOADBOOL  R6 1 0       ; R6 := true
-  244 [-]: CALL      R2 5 2       ; R2 := R2(R3 to R6)
-  245 [-]: EQ        0 R2 K235    ; if R2 == true then goto 247 else goto 249
-  246 [-]: JMP       2            ; PC += 2 (goto 249)
-  247 [-]: SETTABLE  R0 K236 K1   ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe"] := 2
-  248 [-]: SETTABLE  R0 K237 K1   ; R0["%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe"] := 2
-  249 [-]: RETURN    R0 2         ; return R0
-  250 [-]: RETURN    R0 1         ; return 
+  238 [-]: EQ        1 R1 K232    ; if R1 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 240 else goto 251
+  239 [-]: JMP       11           ; PC += 11 (goto 251)
+  240 [-]: GETGLOBAL R2 K226      ; R2 := versioning
+  241 [-]: GETTABLE  R2 R2 K233   ; R2 := R2["IsSampled"]
+  242 [-]: LOADK     R3 K234      ; R3 := 8000
+  243 [-]: LOADBOOL  R4 0 0       ; R4 := false
+  244 [-]: LOADBOOL  R5 1 0       ; R5 := true
+  245 [-]: LOADBOOL  R6 1 0       ; R6 := true
+  246 [-]: CALL      R2 5 2       ; R2 := R2(R3 to R6)
+  247 [-]: EQ        0 R2 K235    ; if R2 == true then goto 249 else goto 251
+  248 [-]: JMP       2            ; PC += 2 (goto 251)
+  249 [-]: SETTABLE  R0 K236 K1   ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe"] := 2
+  250 [-]: SETTABLE  R0 K237 K1   ; R0["%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe"] := 2
+  251 [-]: RETURN    R0 2         ; return R0
+  252 [-]: RETURN    R0 1         ; return 
 
 
 ; Function:        0_3
