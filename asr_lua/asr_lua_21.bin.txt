@@ -301,7 +301,7 @@
   239 [-]: JMP       11           ; PC += 11 (goto 251)
   240 [-]: GETGLOBAL R2 K226      ; R2 := versioning
   241 [-]: GETTABLE  R2 R2 K233   ; R2 := R2["IsSampled"]
-  242 [-]: LOADK     R3 K234      ; R3 := 8000
+  242 [-]: LOADK     R3 K234      ; R3 := 60000
   243 [-]: LOADBOOL  R4 0 0       ; R4 := false
   244 [-]: LOADBOOL  R5 1 0       ; R5 := true
   245 [-]: LOADBOOL  R6 1 0       ; R6 := true

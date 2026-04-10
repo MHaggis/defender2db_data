@@ -96,7 +96,7 @@
    57 [-]: JMP       10           ; PC += 10 (goto 68)
    58 [-]: GETGLOBAL R2 K44       ; R2 := versioning
    59 [-]: GETTABLE  R2 R2 K51    ; R2 := R2["IsSampled"]
-   60 [-]: LOADK     R3 K52       ; R3 := 8000
+   60 [-]: LOADK     R3 K52       ; R3 := 60000
    61 [-]: LOADBOOL  R4 0 0       ; R4 := false
    62 [-]: LOADBOOL  R5 1 0       ; R5 := true
    63 [-]: LOADBOOL  R6 1 0       ; R6 := true

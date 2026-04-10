@@ -1555,7 +1555,7 @@
    74 [-]: JMP       13           ; PC += 13 (goto 88)
    75 [-]: GETGLOBAL R12 K11      ; R12 := versioning
    76 [-]: GETTABLE  R12 R12 K31  ; R12 := R12["IsSampled"]
-   77 [-]: LOADK     R13 K32      ; R13 := 8000
+   77 [-]: LOADK     R13 K32      ; R13 := 60000
    78 [-]: LOADBOOL  R14 0 0      ; R14 := false
    79 [-]: LOADBOOL  R15 1 0      ; R15 := true
    80 [-]: LOADBOOL  R16 1 0      ; R16 := true
@@ -1566,26 +1566,28 @@
    85 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
    86 [-]: LOADK     R13 K35      ; R13 := "cmd(\\.exe)?\\\"?\\s+/c\\s+\\\"?c:\\\\windows\\\\system32\\\\reg\\.exe\\s+add\\s+\\\"?hklm\\\\software\\\\microsoft\\\\windows\\\\windows error reporting\\\\localdumps\\\\microsoft\\.mashup\\.container\\.loader\\.exe\\\"?\\s+/v\\s+dumpfolder"
    87 [-]: SETTABLE  R10 R13 K10  ; R10[R13] := 0
-   88 [-]: EQ        1 R11 K13    ; if R11 ~= nil then goto 90 else goto 104
-   89 [-]: JMP       14           ; PC += 14 (goto 104)
-   90 [-]: EQ        0 R11 K30    ; if R11 == "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 92 else goto 104
-   91 [-]: JMP       12           ; PC += 12 (goto 104)
-   92 [-]: GETGLOBAL R12 K11      ; R12 := versioning
-   93 [-]: GETTABLE  R12 R12 K31  ; R12 := R12["IsSampled"]
-   94 [-]: LOADK     R13 K36      ; R13 := 30000
-   95 [-]: LOADBOOL  R14 0 0      ; R14 := false
-   96 [-]: LOADBOOL  R15 1 0      ; R15 := true
-   97 [-]: LOADBOOL  R16 1 0      ; R16 := true
-   98 [-]: CALL      R12 5 2      ; R12 := R12(R13 to R16)
-   99 [-]: EQ        0 R12 K33    ; if R12 == true then goto 101 else goto 104
-  100 [-]: JMP       3            ; PC += 3 (goto 104)
-  101 [-]: LOADK     R12 K37      ; R12 := "explorer(\\.exe)?\\\"?\\s+(?!.+\\.exe(\\s|\\\"|$)).*"
-  102 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
-  103 [-]: JMP       2            ; PC += 2 (goto 106)
-  104 [-]: LOADK     R12 K38      ; R12 := "explorer\\.exe\\\"?\\s+(?!.+\\.exe(\\s|\\\"|$)).*"
-  105 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
-  106 [-]: RETURN    R10 2        ; return R10
-  107 [-]: RETURN    R0 1         ; return 
+   88 [-]: EQ        1 R11 K13    ; if R11 ~= nil then goto 90 else goto 106
+   89 [-]: JMP       16           ; PC += 16 (goto 106)
+   90 [-]: EQ        1 R11 K30    ; if R11 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 92 else goto 103
+   91 [-]: JMP       11           ; PC += 11 (goto 103)
+   92 [-]: EQ        1 R11 K30    ; if R11 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 94 else goto 106
+   93 [-]: JMP       12           ; PC += 12 (goto 106)
+   94 [-]: GETGLOBAL R12 K11      ; R12 := versioning
+   95 [-]: GETTABLE  R12 R12 K31  ; R12 := R12["IsSampled"]
+   96 [-]: LOADK     R13 K36      ; R13 := 1000
+   97 [-]: LOADBOOL  R14 0 0      ; R14 := false
+   98 [-]: LOADBOOL  R15 0 0      ; R15 := false
+   99 [-]: LOADBOOL  R16 0 0      ; R16 := false
+  100 [-]: CALL      R12 5 2      ; R12 := R12(R13 to R16)
+  101 [-]: EQ        0 R12 K33    ; if R12 == true then goto 103 else goto 106
+  102 [-]: JMP       3            ; PC += 3 (goto 106)
+  103 [-]: LOADK     R12 K37      ; R12 := "explorer(\\.exe)?\\\"?\\s+(?!.+\\.exe(\\s|\\\"|$)).*"
+  104 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
+  105 [-]: JMP       2            ; PC += 2 (goto 108)
+  106 [-]: LOADK     R12 K38      ; R12 := "explorer\\.exe\\\"?\\s+(?!.+\\.exe(\\s|\\\"|$)).*"
+  107 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
+  108 [-]: RETURN    R10 2        ; return R10
+  109 [-]: RETURN    R0 1         ; return 
 
 
 ; Function:        0_4
