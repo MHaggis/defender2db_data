@@ -182,6 +182,7 @@ Splashtop,C:\Program Files (x86)\Splashtop\*;*\Splashtop\Splashtop Remote\Client
 CrossLoop,crossloopservice.exe;CrossLoopConnect.exe;WinVNCStub.exe,,0,
 DW Service,dwagsvc.exe;dwagent.exe;dwagsvc.exe,,0,
 BeamYourScreen,beamyourscreen.exe;beamyourscreen-host.exe,,0,
+Komari,komari-windows-386.exe;komari-windows-amd64.exe;komari-windows-arm64.exe;komari-agent.exe,,0,
 Centurion,ctiserv.exe,,0,
 Rocket Remote Desktop,RDConsole.exe;RocketRemoteDesktop_Setup.exe,,0,
 HopToDesk,C:\Program Files (x86)\HopToDesk\HopToDesk.exe;HopToDesk.exe;HopToDesk-Standalone.exe,,0,
