@@ -573,10 +573,21 @@
       "%programfiles(x86)%\\Dania Software\\DynamicTemplate for Office\\ApplicationFocus.exe",
       "%windir%\\splwow64.exe",
       "%windir%\\system32\\fsiso.exe",
+      "versioning",
+      "GetOrgID",
+      "string",
+      "lower",
+      "d7c7c745-195f-4223-9c7a-99fb420fd000",
+      "IsSampled",
+      "%programfiles%\\WindowsApps\\Microsoft.OutlookForWindows_*\\olk.exe",
+      "%userprofile%\\appdata\\local\\outlook\\olk.exe",
+      "%userprofile%\\appdata\\local\\outlook\\app-*\\olk.exe",
       "((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\(winword|excel|powerpnt|onenote)\\.exe\\\"?[^\\\"]+\\\"([^\\\"]+)\\\"?"
     ],
-    "strings_count": 123,
-    "strings_guid": [],
+    "strings_count": 132,
+    "strings_guid": [
+      "d7c7c745-195f-4223-9c7a-99fb420fd000"
+    ],
     "strings_paths": [
       "%programfiles%\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
       "%programfiles%\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
@@ -635,13 +646,18 @@
       "%programfiles(x86)%\\Office Timeline\\Current\\Ines.UserService.Exe",
       "%windir%\\splwow64.exe",
       "%windir%\\system32\\fsiso.exe",
+      "%programfiles%\\WindowsApps\\Microsoft.OutlookForWindows_*\\olk.exe",
+      "%userprofile%\\appdata\\local\\outlook\\olk.exe",
+      "%userprofile%\\appdata\\local\\outlook\\app-*\\olk.exe",
       "((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\(winword|excel|powerpnt|onenote)\\.exe\\\"?[^\\\"]+\\\"([^\\\"]+)\\\"?"
     ],
     "strings_file": "asr_dump_strings/asr_lua_20.bin.strings.txt",
     "hex_file": "asr_dump_hex/asr_lua_20.bin.hex.txt",
     "name": "Block Office applications from injecting code into other processes",
     "description": "Windows Defender Exploit Guard detected Office application injecting code into the process.",
-    "guids": [],
+    "guids": [
+      "d7c7c745-195f-4223-9c7a-99fb420fd000"
+    ],
     "txt_file": "asr_dump_txt/asr_lua_20.bin.txt"
   },
   {
@@ -848,10 +864,8 @@
       "%windir%\\system32\\DriverStore\\FileRepository\\hpcustomcapcomp.inf_amd64_*\\x64\\AppHelperCap.exe",
       "%windir%\\system32\\IntelBroadbandManagerSvc.exe"
     ],
-    "strings_count": 247,
-    "strings_guid": [
-      "d7c7c745-195f-4223-9c7a-99fb420fd000"
-    ],
+    "strings_count": 241,
+    "strings_guid": [],
     "strings_paths": [
       "%windir%\\system32\\lsass.exe",
       "%windir%\\system32\\WerFaultSecure.exe",
@@ -987,9 +1001,7 @@
     "hex_file": "asr_dump_hex/asr_lua_21.bin.hex.txt",
     "name": "Block credential stealing from the Windows local security authority subsystem (lsass.exe)",
     "description": "Windows Defender Exploit Guard detected an attempt to extract credentials from LSASS.",
-    "guids": [
-      "d7c7c745-195f-4223-9c7a-99fb420fd000"
-    ],
+    "guids": [],
     "txt_file": "asr_dump_txt/asr_lua_21.bin.txt"
   },
   {
@@ -1611,7 +1623,7 @@
       "%programfiles%\\TortoiseSVN",
       "%programfiles%\\Tracker Software"
     ],
-    "strings_count": 710,
+    "strings_count": 707,
     "strings_guid": [
       "23356722-c906-4042-943d-cf158e848200",
       "2d7e690e-b8ca-484d-bb19-f3f4d460bebb",
@@ -1619,7 +1631,6 @@
       "5b6f47cc-82e3-4a14-a807-2356e5874779",
       "70823b4b-bb48-4d30-adf4-be67a41e2f65",
       "b96c46d4-a2bf-4e3d-954f-f082b14fe155",
-      "d7c7c745-195f-4223-9c7a-99fb420fd000",
       "fe87d1eb-b138-42e6-bae7-9e4a186319d5"
     ],
     "strings_paths": [
@@ -1835,7 +1846,6 @@
       "5b6f47cc-82e3-4a14-a807-2356e5874779",
       "70823b4b-bb48-4d30-adf4-be67a41e2f65",
       "b96c46d4-a2bf-4e3d-954f-f082b14fe155",
-      "d7c7c745-195f-4223-9c7a-99fb420fd000",
       "fe87d1eb-b138-42e6-bae7-9e4a186319d5"
     ],
     "txt_file": "asr_dump_txt/asr_lua_23.bin.txt"
@@ -2362,12 +2372,6 @@
       "%programfiles%\\ATERA Networks\\AteraAgent\\Packages\\AgentPackageMonitoring\\AgentPackageMonitoring.exe",
       "%windir%\\system32\\format.com",
       "%windir%\\SysWOW64\\format.com",
-      "versioning",
-      "GetOrgID",
-      "string",
-      "lower",
-      "d7c7c745-195f-4223-9c7a-99fb420fd000",
-      "IsSampled",
       "%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe",
       "%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe",
       "%programfiles(x86)%\\ASUS\\ArmouryDevice\\asus_framework.exe",
@@ -2513,12 +2517,12 @@
       "%programdata%\\Lenovo\\Udc\\Hosts",
       "%programdata%\\Lenovo\\Vantage",
       "%systemroot%\\Lenovo\\ImController",
-      "%systemroot%\\System32\\drivers\\Lenovo"
+      "%systemroot%\\System32\\drivers\\Lenovo",
+      "%systemroot%\\System32\\Lenovo\\PowerMgr",
+      "%systemroot%\\SysWOW64\\Lenovo\\PowerMgr"
     ],
-    "strings_count": 202,
-    "strings_guid": [
-      "d7c7c745-195f-4223-9c7a-99fb420fd000"
-    ],
+    "strings_count": 196,
+    "strings_guid": [],
     "strings_paths": [
       "%windir%\\SysWOW64\\WerFault.exe",
       "%windir%\\system32\\WerFault.exe",
@@ -2655,9 +2659,7 @@
     "hex_file": "asr_dump_hex/asr_lua_5.bin.hex.txt",
     "name": "Controlled folder access",
     "description": "Windows Defender Exploit Guard detected the unauthorized modification of files in protected folder",
-    "guids": [
-      "d7c7c745-195f-4223-9c7a-99fb420fd000"
-    ],
+    "guids": [],
     "txt_file": "asr_dump_txt/asr_lua_5.bin.txt"
   },
   {

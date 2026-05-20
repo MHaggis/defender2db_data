@@ -1476,7 +1476,7 @@
 ; #Upvalues:       0
 ; #Parameters:     0
 ; Is_vararg:       0
-; Max Stack Size:  17
+; Max Stack Size:  15
 
     0 [-]: LOADK     R0 K0        ; R0 := "\\\"?rundll32(\\.exe)?\\\"?\\s+\\\"?.:\\\\windows\\\\system32\\\\shell32\\.dll\\\"?,shcreatelocalserverrundll\\s+\\{3eef301f-b596-4c0b-bd92-013beafce793\\}\\s+-embedding"
     1 [-]: LOADK     R1 K1        ; R1 := "conhost\\.exe\\\"?\\s+0x(ffffffff|4)(\\s+-forcev1)?"
@@ -1549,45 +1549,14 @@
    68 [-]: JMP       2            ; PC += 2 (goto 71)
    69 [-]: LOADK     R12 K29      ; R12 := "explorer(%.)?(\\\")?\\s+.+\\\\departm\\\\industry\\\\maint_serv_panels\\\\specialized_services\\\\valve\\\\planning\\\\fotos_camera\\\\.*"
    70 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
-   71 [-]: EQ        1 R11 K30    ; if R11 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 73 else goto 84
-   72 [-]: JMP       11           ; PC += 11 (goto 84)
-   73 [-]: EQ        1 R11 K30    ; if R11 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 75 else goto 88
-   74 [-]: JMP       13           ; PC += 13 (goto 88)
-   75 [-]: GETGLOBAL R12 K11      ; R12 := versioning
-   76 [-]: GETTABLE  R12 R12 K31  ; R12 := R12["IsSampled"]
-   77 [-]: LOADK     R13 K32      ; R13 := 60000
-   78 [-]: LOADBOOL  R14 0 0      ; R14 := false
-   79 [-]: LOADBOOL  R15 1 0      ; R15 := true
-   80 [-]: LOADBOOL  R16 1 0      ; R16 := true
-   81 [-]: CALL      R12 5 2      ; R12 := R12(R13 to R16)
-   82 [-]: EQ        0 R12 K33    ; if R12 == true then goto 84 else goto 88
-   83 [-]: JMP       4            ; PC += 4 (goto 88)
-   84 [-]: LOADK     R12 K34      ; R12 := "taskkill(\\.exe)?\\\"?\\s+/f\\s+(/t\\s+)?/im\\s+microsoft\\.mashup\\.container\\.loader\\.exe"
-   85 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
-   86 [-]: LOADK     R13 K35      ; R13 := "cmd(\\.exe)?\\\"?\\s+/c\\s+\\\"?c:\\\\windows\\\\system32\\\\reg\\.exe\\s+add\\s+\\\"?hklm\\\\software\\\\microsoft\\\\windows\\\\windows error reporting\\\\localdumps\\\\microsoft\\.mashup\\.container\\.loader\\.exe\\\"?\\s+/v\\s+dumpfolder"
-   87 [-]: SETTABLE  R10 R13 K10  ; R10[R13] := 0
-   88 [-]: EQ        1 R11 K13    ; if R11 ~= nil then goto 90 else goto 106
-   89 [-]: JMP       16           ; PC += 16 (goto 106)
-   90 [-]: EQ        1 R11 K30    ; if R11 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 92 else goto 103
-   91 [-]: JMP       11           ; PC += 11 (goto 103)
-   92 [-]: EQ        1 R11 K30    ; if R11 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 94 else goto 106
-   93 [-]: JMP       12           ; PC += 12 (goto 106)
-   94 [-]: GETGLOBAL R12 K11      ; R12 := versioning
-   95 [-]: GETTABLE  R12 R12 K31  ; R12 := R12["IsSampled"]
-   96 [-]: LOADK     R13 K36      ; R13 := 1000
-   97 [-]: LOADBOOL  R14 0 0      ; R14 := false
-   98 [-]: LOADBOOL  R15 0 0      ; R15 := false
-   99 [-]: LOADBOOL  R16 0 0      ; R16 := false
-  100 [-]: CALL      R12 5 2      ; R12 := R12(R13 to R16)
-  101 [-]: EQ        0 R12 K33    ; if R12 == true then goto 103 else goto 106
-  102 [-]: JMP       3            ; PC += 3 (goto 106)
-  103 [-]: LOADK     R12 K37      ; R12 := "explorer(\\.exe)?\\\"?\\s+(?!.+\\.exe(\\s|\\\"|$)).*"
-  104 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
-  105 [-]: JMP       2            ; PC += 2 (goto 108)
-  106 [-]: LOADK     R12 K38      ; R12 := "explorer\\.exe\\\"?\\s+(?!.+\\.exe(\\s|\\\"|$)).*"
-  107 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
-  108 [-]: RETURN    R10 2        ; return R10
-  109 [-]: RETURN    R0 1         ; return 
+   71 [-]: LOADK     R12 K30      ; R12 := "taskkill(\\.exe)?\\\"?\\s+/f\\s+(/t\\s+)?/im\\s+microsoft\\.mashup\\.container\\.loader\\.exe"
+   72 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
+   73 [-]: LOADK     R13 K31      ; R13 := "cmd(\\.exe)?\\\"?\\s+/c\\s+\\\"?c:\\\\windows\\\\system32\\\\reg\\.exe\\s+add\\s+\\\"?hklm\\\\software\\\\microsoft\\\\windows\\\\windows error reporting\\\\localdumps\\\\microsoft\\.mashup\\.container\\.loader\\.exe\\\"?\\s+/v\\s+dumpfolder"
+   74 [-]: SETTABLE  R10 R13 K10  ; R10[R13] := 0
+   75 [-]: LOADK     R14 K32      ; R14 := "explorer(\\.exe)?\\\"?\\s+(?!.+\\.exe(\\s|\\\"|$)).*"
+   76 [-]: SETTABLE  R10 R14 K10  ; R10[R14] := 0
+   77 [-]: RETURN    R10 2        ; return R10
+   78 [-]: RETURN    R0 1         ; return 
 
 
 ; Function:        0_4

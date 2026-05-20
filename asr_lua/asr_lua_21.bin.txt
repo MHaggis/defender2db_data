@@ -57,7 +57,7 @@
 ; #Upvalues:       0
 ; #Parameters:     0
 ; Is_vararg:       0
-; Max Stack Size:  7
+; Max Stack Size:  2
 
     0 [-]: NEWTABLE  R0 0 46      ; R0 := {} (size = 0,46)
     1 [-]: SETTABLE  R0 K0 K1     ; R0["%windir%\\system32\\WerFaultSecure.exe"] := 2
@@ -283,35 +283,10 @@
   221 [-]: SETTABLE  R0 K223 K176 ; R0["c:\\windows\\SysWOW64\\wbem\\WmiPrvSE.exe"] := 0
   222 [-]: SETTABLE  R0 K224 K176 ; R0["\\Device\\HarddiskVolume?\\Windows\\System32\\wbem\\wmiprvse.exe"] := 0
   223 [-]: SETTABLE  R0 K225 K1   ; R0["%windir%\\system32\\fsiso.exe"] := 2
-  224 [-]: GETGLOBAL R1 K226      ; R1 := versioning
-  225 [-]: GETTABLE  R1 R1 K227   ; R1 := R1["GetOrgID"]
-  226 [-]: CALL      R1 1 2       ; R1 := R1()
-  227 [-]: EQ        1 R1 K228    ; if R1 ~= nil then goto 229 else goto 236
-  228 [-]: JMP       7            ; PC += 7 (goto 236)
-  229 [-]: EQ        1 R1 K229    ; if R1 ~= "" then goto 231 else goto 236
-  230 [-]: JMP       5            ; PC += 5 (goto 236)
-  231 [-]: GETGLOBAL R2 K230      ; R2 := string
-  232 [-]: GETTABLE  R2 R2 K231   ; R2 := R2["lower"]
-  233 [-]: MOVE      R3 R1        ; R3 := R1
-  234 [-]: CALL      R2 2 2       ; R2 := R2(R3)
-  235 [-]: MOVE      R1 R2        ; R1 := R2
-  236 [-]: EQ        1 R1 K232    ; if R1 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 238 else goto 249
-  237 [-]: JMP       11           ; PC += 11 (goto 249)
-  238 [-]: EQ        1 R1 K232    ; if R1 ~= "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 240 else goto 251
-  239 [-]: JMP       11           ; PC += 11 (goto 251)
-  240 [-]: GETGLOBAL R2 K226      ; R2 := versioning
-  241 [-]: GETTABLE  R2 R2 K233   ; R2 := R2["IsSampled"]
-  242 [-]: LOADK     R3 K234      ; R3 := 60000
-  243 [-]: LOADBOOL  R4 0 0       ; R4 := false
-  244 [-]: LOADBOOL  R5 1 0       ; R5 := true
-  245 [-]: LOADBOOL  R6 1 0       ; R6 := true
-  246 [-]: CALL      R2 5 2       ; R2 := R2(R3 to R6)
-  247 [-]: EQ        0 R2 K235    ; if R2 == true then goto 249 else goto 251
-  248 [-]: JMP       2            ; PC += 2 (goto 251)
-  249 [-]: SETTABLE  R0 K236 K1   ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe"] := 2
-  250 [-]: SETTABLE  R0 K237 K1   ; R0["%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe"] := 2
-  251 [-]: RETURN    R0 2         ; return R0
-  252 [-]: RETURN    R0 1         ; return 
+  224 [-]: SETTABLE  R0 K226 K1   ; R0["%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe"] := 2
+  225 [-]: SETTABLE  R0 K227 K1   ; R0["%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe"] := 2
+  226 [-]: RETURN    R0 2         ; return R0
+  227 [-]: RETURN    R0 1         ; return 
 
 
 ; Function:        0_3

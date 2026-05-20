@@ -78,342 +78,345 @@ msiexec\\\,asr_lua_19.bin,Block Process Creations originating from PSExec & WMI 
 *([a-z]:\\\\.+\\.msi)\\\,asr_lua_19.bin,Block Process Creations originating from PSExec & WMI commands,3216b490-71ee-4a94-b228-13b1c1582e3b,24,155
 msiexec\\.exe\\\,asr_lua_19.bin,Block Process Creations originating from PSExec & WMI commands,3216b490-71ee-4a94-b228-13b1c1582e3b,25,156
 *([a-z]:\\\\.+\\.msi)\\\,asr_lua_19.bin,Block Process Creations originating from PSExec & WMI commands,3216b490-71ee-4a94-b228-13b1c1582e3b,25,156
-%programfiles(x86)%\\Microsoft Office\\root\\Office16\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,59
-%programfiles(x86)%\\Microsoft Office\\root\\Office16\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,60
-%programfiles(x86)%\\Microsoft Office\\root\\Office16\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,61
-%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,62
-%programfiles(x86)%\\Microsoft Office\\root\\Office15\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,63
-%programfiles(x86)%\\Microsoft Office\\root\\Office15\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,64
-%programfiles(x86)%\\Microsoft Office\\root\\Office15\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,65
-%programfiles(x86)%\\Microsoft Office\\root\\Office15\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,66
-%programfiles(x86)%\\Microsoft Office\\root\\Office14\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,67
-%programfiles(x86)%\\Microsoft Office\\root\\Office14\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,68
-%programfiles(x86)%\\Microsoft Office\\root\\Office14\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,69
-%programfiles(x86)%\\Microsoft Office\\root\\Office14\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,70
-%programfiles(x86)%\\Microsoft Office\\Office16\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,71
-%programfiles(x86)%\\Microsoft Office\\Office16\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,72
-%programfiles(x86)%\\Microsoft Office\\Office16\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,73
-%programfiles(x86)%\\Microsoft Office\\Office16\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,74
-%programfiles(x86)%\\Microsoft Office\\Office15\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,75
-%programfiles(x86)%\\Microsoft Office\\Office15\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,76
-%programfiles(x86)%\\Microsoft Office\\Office15\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,77
-%programfiles(x86)%\\Microsoft Office\\Office15\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,78
-%programfiles(x86)%\\Microsoft Office\\Office14\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,79
-%programfiles(x86)%\\Microsoft Office\\Office14\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,80
-%programfiles(x86)%\\Microsoft Office\\Office14\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,81
-%programfiles(x86)%\\Microsoft Office\\Office14\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,82
-%programfiles%\\Microsoft Office\\root\\Office16\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,83
-%programfiles%\\Microsoft Office\\root\\Office16\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,84
-%programfiles%\\Microsoft Office\\root\\Office16\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,85
-%programfiles%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,86
-%programfiles%\\Microsoft Office\\root\\Office15\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,87
-%programfiles%\\Microsoft Office\\root\\Office15\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,88
-%programfiles%\\Microsoft Office\\root\\Office15\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,89
-%programfiles%\\Microsoft Office\\root\\Office15\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,90
-%programfiles%\\Microsoft Office\\root\\Office14\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,91
-%programfiles%\\Microsoft Office\\root\\Office14\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,92
-%programfiles%\\Microsoft Office\\root\\Office14\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,93
-%programfiles%\\Microsoft Office\\root\\Office14\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,94
-%programfiles%\\Microsoft Office\\Office16\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,95
-%programfiles%\\Microsoft Office\\Office16\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,96
-%programfiles%\\Microsoft Office\\Office16\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,97
-%programfiles%\\Microsoft Office\\Office16\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,98
-%programfiles%\\Microsoft Office\\Office15\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,99
-%programfiles%\\Microsoft Office\\Office15\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,100
-%programfiles%\\Microsoft Office\\Office15\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,101
-%programfiles%\\Microsoft Office\\Office15\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,102
-%programfiles%\\Microsoft Office\\Office14\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,103
-%programfiles%\\Microsoft Office\\Office14\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,104
-%programfiles%\\Microsoft Office\\Office14\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,105
-%programfiles%\\Microsoft Office\\Office14\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,106
-%windir%\\system32\\WerFault.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,121
-%windir%\\SysWOW64\\WerFault.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,122
-%windir%\\system32\\DWWIN.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,123
-%windir%\\SysWOW64\\DWWIN.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,124
-C:\\Windows\\system32\\DWWIN.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,125
-C:\\Windows\\SysWOW64\\DWWIN.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,126
-%windir%\\system32\\spool\\drivers\\x64\\3\\CPC10Q.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,127
-%programfiles(x86)%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,128
-%programfiles(x86)%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost32.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,129
-%programfiles%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,130
-%programfiles%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost32.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,131
-%programfiles%\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,132
-%programfiles%\\Microsoft OneDrive\\*\\FileCoAuth.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,133
-%programfiles%\\WindowsApps\\MSTeams_*\\ms-teams.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,134
-%programdata%\\App-V,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,135
-%programfiles%\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\DW\\dw20.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,136
-%programfiles(x86)%\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\DW\\dw20.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,137
-%programfiles(x86)%\\Common Files\\microsoft shared\\DW\\DW20.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,138
-%programfiles%\\Common Files\\microsoft shared\\DW\\DW20.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,139
-%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,140
-%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,141
-%programfiles(x86)%\\Microsoft\\EdgeWebView\\Application\\*\\msedgewebview2.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,142
-%programfiles%\\Microsoft\\EdgeWebView\\Application\\*\\msedgewebview2.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,143
-%programfiles(x86)%\\Microsoft\\Edge Beta\\Application\\*\\msedgewebview2.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,144
-%programfiles(x86)%\\Microsoft\\Edge\\Application\\msedge.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,145
-%programfiles%\\Microsoft\\Edge\\Application\\msedge.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,146
-%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ONENOTEM.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,147
-%programfiles%\\Microsoft Office\\root\\Office16\\ONENOTEM.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,148
-%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,149
-%programfiles%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,150
-%programfiles(x86)%\\Microsoft Office\\Office*\\FIRSTRUN.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,151
-%programfiles%\\Microsoft Office\\Office*\\FIRSTRUN.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,152
-%programfiles%\\Google\\Chrome\\Application\\chrome.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,153
-%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,154
-%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,155
-%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,156
-%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,157
-%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,158
-%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,159
-%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,160
-%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,161
-%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,162
-%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,163
-%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,164
-%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,165
-%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,166
-%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,167
-%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,168
-%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,169
-%programfiles(x86)%\\Adobe\\Acrobat Reader DC\\Reader\\AcroRd??.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,170
-%programfiles(x86)%\\Office Timeline\\Current\\Ines.UserService.Exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,171
-%programfiles(x86)%\\empower\\charts\\LiveUpdateHub.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,172
-%programfiles(x86)%\\Dania Software\\DynamicTemplate for Office\\ApplicationFocus.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,173
-%windir%\\splwow64.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,174
-%windir%\\system32\\fsiso.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,175
-((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\(winword|excel|powerpnt|onenote)\\.exe\\\,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,187
-]+\\\,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,187
-]+)\\\,asr_lua_20.bin,Block Office applications from injecting code into other processes,,,187
-Block credential stealing from the Windows local security authority subsystem (lsass.exe),asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,268,30
-%windir%\\system32\\lsass.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,250,48
-%windir%\\system32\\WerFaultSecure.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,235,63
-%windir%\\system32\\mrt.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,234,64
-%windir%\\system32\\NETSTAT.EXE,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,233,65
-%windir%\\syswow64\\NETSTAT.EXE,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,232,66
-%windir%\\system32\\wbem\\WmiPrvSE.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,231,67
-%windir%\\SysWOW64\\wbem\\WmiPrvSE.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,230,68
-%windir%\\system32\\DriverStore\\FileRepository\\*\\NVWMI\\nvWmi64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,229,69
-%programfiles(x86)%\\Microsoft Intune Management Extension\\ClientHealthEval.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,228,70
-%programfiles(x86)%\\Microsoft Intune Management Extension\\SensorLogonTask.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,227,71
-%programfiles(x86)%\\Microsoft Intune Management Extension\\Microsoft.Management.Services.IntuneWindowsAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,226,72
-%programdata%\\Microsoft\\Windows Defender Advanced Threat Protection\\DataCollection\\*\\OpenHandleCollector.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,225,73
-%programfiles%\\WindowsApps\\Microsoft.GamingServices_*\\gamingservices.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,224,74
-%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\vpnagent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,223,75
-%programfiles(x86)%\\Zoom\\bin\\CptHost.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,222,76
-%programfiles(x86)%\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,221,77
-%programfiles(x86)%\\Microsoft\\Edge\\Application\\*\\Installer\\setup.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,220,78
-%programfiles(x86)%\\Google\\Update\\GoogleUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,219,79
-%programfiles(x86)%\\Splunk\\bin\\splunkd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,218,80
-%programfiles(x86)%\\Zscaler\\ZSAUpm\\ZSAUpm.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,217,81
-%programfiles(x86)%\\Fortinet\\FortiClient\\FortiESNAC.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,216,82
-%programfiles(x86)%\\FireEye\\xagt\\xagt.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,215,83
-%programfiles(x86)%\\Autodesk\\Autodesk Desktop App\\AdAppMgrSvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,214,84
-%programfiles(x86)%\\Dropbox\\Update\\DropboxUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,213,85
-%programfiles(x86)%\\HP\\HP Touchpoint Analytics Client\\Provider Data Sources\\ProcInfo\\ProcInfo.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,212,86
-%programfiles(x86)%\\Common Files\\Adobe\\AdobeGCClient\\AGMService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,211,87
-%programfiles(x86)%\\Tanium\\Tanium Client,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,210,88
-%programfiles(x86)%\\Airwatch\\AgentUI\\AWProcessCommands.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,209,89
-%programfiles(x86)%\\Bit9\\Parity Agent\\Parity.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,208,90
-%programfiles(x86)%\\Arctic Wolf Networks\\Agent\\ossec-agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,207,91
-%programfiles(x86)%\\Cordaware\\Infoband\\Infoclient.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,206,92
-%programfiles(x86)%\\Splunk\\bin\\splunk-regmon.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,205,93
-%programfiles(x86)%\\Lenovo\\VantageService\\*\\LenovoVantage-(LenovoBoostSystemAddin).exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,204,94
-%programfiles(x86)%\\Micro Focus\\Discovery Agent\\bin32\\discagnt.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,203,95
-%programfiles(x86)%\\Hewlett-Packard\\Discovery Agent\\bin32\\discagnt.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,202,96
-%programfiles(x86)%\\Micro Focus\\Discovery Agent\\Plugins\\usage\\discusge.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,201,97
-%programfiles(x86)%\\Hewlett-Packard\\Discovery Agent\\Plugins\\usage\\discusge.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,200,98
-%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\aciseagent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,199,99
-%programfiles(x86)%\\BigFix Enterprise\\BES Client\\BESClient.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,198,100
-%programfiles(x86)%\\Logitech\\LogiSync\\sync-agent\\LogiSyncHandler.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,197,101
-%programfiles(x86)%\\ManageSoft\\Tracker\\ndtrack.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,196,102
-%programfiles(x86)%\\Aternity Information Systems\\Agent,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,195,103
-%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\vpndownloader.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,194,104
-%programfiles(x86)%\\Common Files\\Adobe\\ARM\\*\\AdobeARMHelper.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,193,105
-%programfiles(x86)%\\Common Files\\Adobe\\ARM\\*\\Temp\\*\\AdobeARMHelper.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,192,106
-%programfiles(x86)%\\Common Files\\Adobe\\ARM\\*\\AdobeARM.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,191,107
-%programfiles(x86)%\\Adobe\\Acrobat Reader DC\\Reader\\AcroCEF\\RdrServicesUpdater.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,190,108
-%programfiles(x86)%\\Aternity Information Systems\\Update\\AternityUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,189,109
-%programfiles(x86)%\\BraveSoftware\\Update\\BraveUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,188,110
-%programfiles(x86)%\\SysTrack\\LsiAgent\\LsiSupervisor\\*\\LsiSupervisor.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,187,111
-%programfiles(x86)%\\Cisco\\Cisco HostScan\\bin\\ciscod.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,186,112
-%programfiles(x86)%\\SysTrack\\LsiAgent\\LsiMods64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,185,113
-%programfiles(x86)%\\CheckPoint\\Endpoint Connect\\Watchdog\\EPWD.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,184,114
-%programfiles(x86)%\\CheckPoint\\Endpoint Security\\Endpoint Common\\bin\\cpda.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,183,115
-%programfiles(x86)%\\VMware\\VMware Tools,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,182,116
-%programfiles(x86)%\\VMware\\VMware Horizon View Client,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,181,117
-%programfiles(x86)%\\Common Files\\VMware\\Remote Experience,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,180,118
-%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\acswgagent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,179,119
-%programfiles(x86)%\\N-able Technologies\\Windows Agent\\bin\\agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,178,120
-%programfiles(x86)%\\Digital Arts\\AC\\app\\bin\\acservice.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,177,121
-%programfiles(x86)%\\MOTEX\\LanScope Cat MR\\Lspcmr.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,176,122
-%programfiles(x86)%\\Power Automate Desktop\\Microsoft.Flow.RPA.LauncherService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,175,123
-%programfiles(x86)%\\DesktopCentral_Agent\\bin\\dcagentservice.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,174,124
-%programfiles(x86)%\\CheckPoint\\Endpoint Security\\Endpoint Common\\bin\\IDAFServerHostService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,173,125
-%programfiles(x86)%\\Arctic Wolf Networks\\Agent\\plugins\\osquery\\osqueryi.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,172,126
-%programfiles(x86)%\\Btc\\eAudytor\\eAgent\\Bin\\qati.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,171,127
-%programfiles(x86)%\\Adobe\\Adobe Sync\\CoreSync\\customhook\\CoreSyncCustomHook.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,170,128
-%programfiles(x86)%\\NetSupport\\NetSupport School,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,169,129
-%programfiles(x86)%\\UEMS_Agent\\bin\\dcagentservice.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,168,130
-%programfiles(x86)%\\Google\\Temp\\*\\GoogleUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,167,131
-%programfiles(x86)%\\Adobe\\Acrobat DC\\Acrobat\\AcroCEF\\AcroServicesUpdater.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,166,132
-%programfiles(x86)%\\Ninite Agent\\NiniteAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,165,133
-%programfiles(x86)%\\HP\\HP Classroom Manager\\Runplugin64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,164,134
-%programfiles(x86)%\\SysTrack\\LsiAgent\\LsiAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,163,135
-%programfiles(x86)%\\VMware\\VMware Player\\vmware-authd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,162,136
-%programfiles(x86)%\\Dameware Remote Everywhere Agent\\BASupSysInf.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,161,137
-%programfiles(x86)%\\Power Automate Desktop\\Microsoft.Flow.RPA.*.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,160,138
-%programfiles(x86)%\\Common Files\\Adobe\\Adobe Desktop Common\\ElevationManager\\Adobe Installer.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,159,139
-%programfiles(x86)%\\Common Files\\Adobe\\Adobe Desktop Common\\HDBox\\Setup.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,158,140
-%programfiles(x86)%\\SolarWinds,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,157,141
-%programfiles(x86)%\\checkmk\\service\\check_mk_agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,156,142
-%programfiles(x86)%\\ClassPolicyAgent\\PolicyAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,155,143
-%programfiles(x86)%\\VMware\\VMware Workstation\\vmware-authd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,154,144
-%programfiles(x86)%\\Balbix\\Update\\BalbixUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,153,145
-%programfiles(x86)%\\Bradford Networks\\Persistent Agent\\bndaemon.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,152,146
-%programfiles(x86)%\\Site24x7\\WinAgent\\monitoring\\bin\\MEAgentHelper.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,151,147
-%programfiles(x86)%\\Site24x7\\WinAgent\\monitoring\\bin\\AppBin\\Site24x7AppAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,150,148
-%programfiles(x86)%\\Cato Networks\\Cato Client\\winvpnclient.cli.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,149,149
-%programfiles(x86)%\\ManageEngine\\UEMS_Agent\\bin\\dcagentservice.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,148,150
-%programfiles(x86)%\\Sky Product\\SKYSEA Client View,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,147,151
-%programfiles(x86)%\\xagt\\xagt.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,146,152
-%programfiles(x86)%\\Microsoft Azure Site Recovery\\agent\\s2RCM.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,145,153
-%programfiles(x86)%\\Cisco\\Cisco Secure Client,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,144,154
-%programfiles(x86)%\\HP\\HP Touchpoint Analytics Client\\TouchpointAnalyticsClientService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,143,155
-%programfiles(x86)%\\CyberCNSAgent\\osqueryi.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,142,156
-%programfiles(x86)%\\FortiMonitorAgent\\bin\\Aggregator.Agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,141,157
-%programfiles(x86)%\\IBM\\Notes\\nsd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,140,158
-%programfiles(x86)%\\Riverbed\\Steelhead Mobile\\rbtmon.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,139,159
-%programfiles%\\Avecto\\Privilege Guard Client\\DefendpointService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,138,160
-%programfiles%\\Intel\\SUR\\QUEENCREEK\\x64\\esrv_svc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,137,161
-%programfiles%\\Microsoft Monitoring Agent\\Agent\\HealthService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,136,162
-%programfiles%\\Microsoft Monitoring Agent\\Agent\\MOMPerfSnapshotHelper.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,135,163
-%programfiles%\\Nexthink\\Collector\\Collector\\nxtsvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,134,164
-%programfiles%\\Splunk\\bin\\splunkd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,133,165
-%programfiles%\\Azure Advanced Threat Protection Sensor\\*\\Microsoft.Tri.Sensor.Updater.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,132,166
-%programfiles%\\common files\\microsoft shared\\ClickToRun\\Updates\\*\\OfficeClickToRun.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,131,167
-%programfiles%\\Zscaler\\ZSAUpm\\ZSAUpm.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,130,168
-%programfiles%\\Fortinet\\FortiClient\\FortiESNAC.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,129,169
-%programfiles%\\FireEye\\xagt\\xagt.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,128,170
-%programfiles%\\Autodesk\\Autodesk Desktop App\\AdAppMgrSvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,127,171
-%programfiles%\\Qualys\\QualysAgent\\QualysAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,126,172
-%programfiles%\\Altiris\\Altiris Agent\\AeXNSAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,125,173
-%programfiles%\\VMware\\VMware Tools,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,124,174
-%programfiles%\\VMware\\VMware Horizon View Client,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,123,175
-%programfiles%\\Common Files\\VMware\\Remote Experience,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,122,176
-%programfiles%\\Dell\\DTP\\InstrumentationSubAgent\\Dell.TechHub.Instrumentation.SubAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,121,177
-%programfiles%\\Rapid7\\Insight Agent\\components\\insight_agent\\*\\ir_agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,120,178
-%programfiles%\\Microsoft RDInfra\\RDMonitoringAgent_*\\Agent\\MonAgentCore.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,119,179
-%programfiles%\\BMC*\\Client Management\\Client\\bin\\mtxagent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,118,180
-%programfiles%\\DisplayLink Core Software\\DisplayLinkHotDeskService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,117,181
-%programfiles%\\ManageSoft\\Tracker\\ndtrack.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,116,182
-%programfiles%\\Websense\\Websense Endpoint\\wepsvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,115,183
-%programfiles%\\Ricoh\\Streamline NX\\PC Client\\jre\\bin\\java.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,114,184
-%programfiles%\\Microsoft Monitoring Agent\\Agent\\Health Service State\\Resources\\*\\pmfexe.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,113,185
-%programfiles%\\Microsoft Monitoring Agent\\Agent\\MonitoringHost.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,112,186
-%programfiles%\\AppSense\\Application Manager\\Agent\\AMAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,111,187
-%programfiles%\\Adobe\\Acrobat DC\\Acrobat\\AcroCEF\\SingleClientServicesUpdater.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,110,188
-%programfiles%\\osquery\\osqueryd\\osqueryd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,109,189
-%programfiles%\\Microsoft OneDrive\\OneDriveStandaloneUpdater.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,108,190
-%programfiles%\\CyberArk\\Endpoint Privilege Manager\\Agent\\PASAgent\\PASAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,107,191
-%programfiles%\\Palo Alto Networks\\GlobalProtect\\PanGPS.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,106,192
-%programfiles%\\Smart-X\\ControlUpAgent\\Version*\\cuAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,105,193
-%programfiles%\\Citrix\\*\\XenDesktopRestApiService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,104,194
-%programfiles%\\Palo Alto Networks\\DEM\\DEMAgentProcess.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,103,195
-%programfiles%\\Phantom\\IBSA\\ibsaService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,102,196
-%programfiles%\\eGurkha\\lib\\AppPid.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,101,197
-%programfiles%\\dynatrace\\oneagent\\agent\\lib64\\oneagentos.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,100,198
-%programfiles%\\dynatrace\\oneagent\\agent\\lib64\\oneagentplugin.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,99,199
-%programfiles%\\Remote Desktop WebRTC Redirector\\MsRdcWebRTCSvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,98,200
-%programfiles%\\Sophos\\Sophos File Scanner\\SophosFileScanner.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,97,201
-%programfiles%\\NetSupport\\NetSupport School,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,96,202
-%programfiles%\\OEM\\AMS\\Service\\ams.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,95,203
-%programfiles%\\Eracent\\EPM\\epm.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,94,204
-%programfiles%\\Cybereason ActiveProbe\\minionhost.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,93,205
-%programfiles%\\Google\\Temp\\*\\GoogleUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,92,206
-%programfiles%\\Orbit\\bin\\osqueryd\\windows\\stable\\osqueryd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,91,207
-%programfiles%\\1E\\Client\\1E.Client.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,90,208
-%programfiles%\\Endgame\\esensor.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,89,209
-%programfiles%\\Microsoft Cloud Managed Desktop Extension\\CMDExtension\\Microsoft.Management.Services.CloudManagedDesktop.Agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,88,210
-%programfiles%\\common files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,87,211
-%programfiles%\\Adobe\\Adobe Creative Cloud Experience\\libs\\node.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,86,212
-%programfiles%\\Fortinet\\FortiClient\\FortiProxy.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,85,213
-%programfiles%\\Guardicore\\gc-launcher.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,84,214
-%programfiles%\\Microsoft Azure AD Connect Health Sync Agent\\Insights\\Microsoft.Identity.AadConnect.Health.AadSync.Host.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,83,215
-%programfiles%\\Huntress\\HuntressAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,82,216
-%programfiles%\\vast limits\\uberAgent\\uberAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,81,217
-%programfiles%\\Adobe\\Acrobat DC\\Acrobat\\AcroCEF\\AcroServicesUpdater.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,80,218
-%programfiles%\\Dell\\DellOptimizer\\DellOptimizer.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,79,219
-%programfiles%\\Manufacturer\\Endpoint Agent\\edpa.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,78,220
-%programfiles%\\CyberArk\\Endpoint Privilege Manager\\Agent\\vf_agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,77,221
-%programfiles%\\Morphisec\\bin\\ProtectorService64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,76,222
-%programfiles%\\Zoom\\bin\\CptHost.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,75,223
-%programfiles%\\TOLLAD\\GEMONPROC.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,74,224
-%programfiles%\\SMS_CCM\\CcmExec.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,73,225
-%programfiles%\\HEAT Software\\EMSSAgent\\*\\lmhost.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,72,226
-%programfiles%\\Skyhigh\\SCP\\ScpService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,71,227
-%programfiles%\\VMware\\VMware View\\*\\bin\\wsnm.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,70,228
-%programfiles%\\NetClean Technologies\\ProActive\\fsdaemon\\bin\\fsdaemon.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,69,229
-%programfiles%\\Topaz OFD\\Warsaw\\core.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,68,230
-%programfiles%\\Microsoft Dependency Agent\\bin\\MicrosoftDependencyAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,67,231
-%programfiles%\\Autodesk\\AdODIS\\V1\\Setup\\install_helper_tool.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,66,232
-%programfiles%\\EPSON Projector\\Easy Interactive Driver Ver.??\\EIN_SV.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,65,233
-%programfiles%\\FortiMonitorAgent\\bin\\Aggregator.Agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,64,234
-%programfiles%\\SecureWorks\\Taegis Agent\\TaegisSvc.x??.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,63,235
-%programfiles%\\VMware\\Endpoint Telemetry Service\\vmwetlm.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,62,236
-C:\\Packages\\Plugins\\Microsoft.Azure.Diagnostics.IaaSDiagnostics\\*\\Monitor\\x64\\MonAgentCore.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,61,237
-C:\\Packages\\Plugins\\Microsoft.Azure.Security.Monitoring.AzureSecurityWindowsAgent\\*\\Monitoring\\Agent\\Extensions\\AzureSecurityPack\\pmfexe.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,60,238
-C:\\eGurkha\\lib\\AppPid.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,59,239
-C:\\blp\\API\\Office Tools,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,58,240
-C:\\blp\\Wintrv,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,57,241
-%windir%\\System32\\DriverStore\\FileRepository\\hpanalyticscomp.*\\x64\\Provider Data Sources\\ProcInfo\\ProcInfo.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,56,242
-%windir%\\system32\\RtkAudUService64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,55,243
-%windir%\\system32\\nvwmi64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,54,244
-%windir%\\system32\\lpksetup.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,53,245
-%windir%\\system32\\LogonUI.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,52,246
-%windir%\\system32\\DriverStore\\FileRepository\\hpcustomcapcomp.inf_amd64_*\\x64\\AppHelperCap.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,51,247
-%windir%\\system32\\IntelBroadbandManagerSvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,50,248
-%windir%\\system32\\inetsrv\\w3wp.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,49,249
-%windir%\\AdminArsenal\\PDQInventory-Scanner\\service-1\\PDQInventory-Scanner-1.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,48,250
-%windir%\\RtkBtManServ.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,47,251
-%windir%\\CarbonBlack\\cb.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,46,252
-%windir%\\LTSvc\\LTSVC.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,45,253
-%windir%\\CCM\\CcmExec.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,44,254
-%windir%\\CCM\\SensorLogonTask.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,43,255
-%windir%\\CCM\\SleepAgentService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,42,256
-%windir%\\Sysmon64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,41,257
-%windir%\\sysmon.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,40,258
-%windir%\\SysWOW64\\CCM\\CcmExec.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,39,259
-%windir%\\Downloaded Program Files\\f5epi.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,38,260
-%windir%\\AdminArsenal\\PDQDeployRunner\\service-1\\PDQDeployRunner-1.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,37,261
-%windir%\\Temp\\Ctx-*\\Extract\\TrolleyExpress.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,36,262
-%programdata%\\Citrix\\Citrix Receiver*\\TrolleyExpress.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,35,263
-%programdata%\\Citrix\\Citrix Workspace *\\TrolleyExpress.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,34,264
-%programdata%\\App-V\\*\\*\\Root\\VFS\\Windows\\CCM\\CcmExec.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,33,265
-%programfiles(x86)%\\Citrix\\Citrix Workspace *\\TrolleyExpress.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,32,266
-%temp%\\Ctx-*\\Extract\\TrolleyExpress.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,31,267
-%programfiles%\\Quest\\ChangeAuditor\\Agent\\NPSrvHost.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,30,268
-%programfiles%\\Quest\\ChangeAuditor\\Service\\ChangeAuditor.Service.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,29,269
-%programdata%\\Microsoft\\Windows Defender Advanced Threat Protection\\SenseNDR\\NdrSetup.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,28,270
-%windir%\\system32\\DriverStore\\FileRepository\\hpqkbsoftwarecompnent.inf_amd64_*\\HotKeyServiceUWP.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,27,271
-%windir%\\system32\\CompatTelRunner.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,26,272
-%programfiles(x86)%\\Printer Properties Pro\\Printer Installer Client\\PrinterInstallerClient.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,25,273
-%programfiles%\\Printer Properties Pro\\Printer Installer Client\\PrinterInstallerClient.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,24,274
-%programfiles(x86)%\\Zscaler\\ZSATunnel\\ZSATunnel.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,23,275
-%programfiles%\\Zscaler\\ZSATunnel\\ZSATunnel.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,22,276
-%programfiles(x86)%\\ManageSoft\\Security Agent\\mgssecsvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,21,277
-%programfiles%\\ManageSoft\\Security Agent\\mgssecsvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,20,278
-%programfiles(x86)%\\Snow Software\\Inventory\\Agent\\snowagent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,19,279
-%programfiles%\\Snow Software\\Inventory\\Agent\\snowagent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,18,280
-c:\\windows\\system32\\WerFaultSecure.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,17,281
-c:\\windows\\system32\\wbem\\WmiPrvSE.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,16,282
-c:\\windows\\SysWOW64\\wbem\\WmiPrvSE.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,15,283
-\\Device\\HarddiskVolume?\\Windows\\System32\\wbem\\wmiprvse.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,14,284
-%windir%\\system32\\fsiso.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,13,285
-%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,11,311
-%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,12,312
-^\\\,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,24,324
-?((?!\\-s).)*$,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,24,324
-\\\\powershell\\.exe\\\,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),d7c7c745-195f-4223-9c7a-99fb420fd000,25,325
+%programfiles(x86)%\\Microsoft Office\\root\\Office16\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,129,59
+%programfiles(x86)%\\Microsoft Office\\root\\Office16\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,128,60
+%programfiles(x86)%\\Microsoft Office\\root\\Office16\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,127,61
+%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,126,62
+%programfiles(x86)%\\Microsoft Office\\root\\Office15\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,125,63
+%programfiles(x86)%\\Microsoft Office\\root\\Office15\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,124,64
+%programfiles(x86)%\\Microsoft Office\\root\\Office15\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,123,65
+%programfiles(x86)%\\Microsoft Office\\root\\Office15\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,122,66
+%programfiles(x86)%\\Microsoft Office\\root\\Office14\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,121,67
+%programfiles(x86)%\\Microsoft Office\\root\\Office14\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,120,68
+%programfiles(x86)%\\Microsoft Office\\root\\Office14\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,119,69
+%programfiles(x86)%\\Microsoft Office\\root\\Office14\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,118,70
+%programfiles(x86)%\\Microsoft Office\\Office16\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,117,71
+%programfiles(x86)%\\Microsoft Office\\Office16\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,116,72
+%programfiles(x86)%\\Microsoft Office\\Office16\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,115,73
+%programfiles(x86)%\\Microsoft Office\\Office16\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,114,74
+%programfiles(x86)%\\Microsoft Office\\Office15\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,113,75
+%programfiles(x86)%\\Microsoft Office\\Office15\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,112,76
+%programfiles(x86)%\\Microsoft Office\\Office15\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,111,77
+%programfiles(x86)%\\Microsoft Office\\Office15\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,110,78
+%programfiles(x86)%\\Microsoft Office\\Office14\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,109,79
+%programfiles(x86)%\\Microsoft Office\\Office14\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,108,80
+%programfiles(x86)%\\Microsoft Office\\Office14\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,107,81
+%programfiles(x86)%\\Microsoft Office\\Office14\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,106,82
+%programfiles%\\Microsoft Office\\root\\Office16\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,105,83
+%programfiles%\\Microsoft Office\\root\\Office16\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,104,84
+%programfiles%\\Microsoft Office\\root\\Office16\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,103,85
+%programfiles%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,102,86
+%programfiles%\\Microsoft Office\\root\\Office15\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,101,87
+%programfiles%\\Microsoft Office\\root\\Office15\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,100,88
+%programfiles%\\Microsoft Office\\root\\Office15\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,99,89
+%programfiles%\\Microsoft Office\\root\\Office15\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,98,90
+%programfiles%\\Microsoft Office\\root\\Office14\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,97,91
+%programfiles%\\Microsoft Office\\root\\Office14\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,96,92
+%programfiles%\\Microsoft Office\\root\\Office14\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,95,93
+%programfiles%\\Microsoft Office\\root\\Office14\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,94,94
+%programfiles%\\Microsoft Office\\Office16\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,93,95
+%programfiles%\\Microsoft Office\\Office16\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,92,96
+%programfiles%\\Microsoft Office\\Office16\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,91,97
+%programfiles%\\Microsoft Office\\Office16\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,90,98
+%programfiles%\\Microsoft Office\\Office15\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,89,99
+%programfiles%\\Microsoft Office\\Office15\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,88,100
+%programfiles%\\Microsoft Office\\Office15\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,87,101
+%programfiles%\\Microsoft Office\\Office15\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,86,102
+%programfiles%\\Microsoft Office\\Office14\\WINWORD.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,85,103
+%programfiles%\\Microsoft Office\\Office14\\EXCEL.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,84,104
+%programfiles%\\Microsoft Office\\Office14\\POWERPNT.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,83,105
+%programfiles%\\Microsoft Office\\Office14\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,82,106
+%windir%\\system32\\WerFault.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,67,121
+%windir%\\SysWOW64\\WerFault.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,66,122
+%windir%\\system32\\DWWIN.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,65,123
+%windir%\\SysWOW64\\DWWIN.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,64,124
+C:\\Windows\\system32\\DWWIN.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,63,125
+C:\\Windows\\SysWOW64\\DWWIN.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,62,126
+%windir%\\system32\\spool\\drivers\\x64\\3\\CPC10Q.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,61,127
+%programfiles(x86)%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,60,128
+%programfiles(x86)%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost32.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,59,129
+%programfiles%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,58,130
+%programfiles%\\Microsoft Azure Information Protection\\MSIP.ExecutionHost32.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,57,131
+%programfiles%\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,56,132
+%programfiles%\\Microsoft OneDrive\\*\\FileCoAuth.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,55,133
+%programfiles%\\WindowsApps\\MSTeams_*\\ms-teams.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,54,134
+%programdata%\\App-V,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,53,135
+%programfiles%\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\DW\\dw20.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,52,136
+%programfiles(x86)%\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\DW\\dw20.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,51,137
+%programfiles(x86)%\\Common Files\\microsoft shared\\DW\\DW20.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,50,138
+%programfiles%\\Common Files\\microsoft shared\\DW\\DW20.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,49,139
+%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,48,140
+%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,47,141
+%programfiles(x86)%\\Microsoft\\EdgeWebView\\Application\\*\\msedgewebview2.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,46,142
+%programfiles%\\Microsoft\\EdgeWebView\\Application\\*\\msedgewebview2.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,45,143
+%programfiles(x86)%\\Microsoft\\Edge Beta\\Application\\*\\msedgewebview2.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,44,144
+%programfiles(x86)%\\Microsoft\\Edge\\Application\\msedge.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,43,145
+%programfiles%\\Microsoft\\Edge\\Application\\msedge.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,42,146
+%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ONENOTEM.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,41,147
+%programfiles%\\Microsoft Office\\root\\Office16\\ONENOTEM.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,40,148
+%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,39,149
+%programfiles%\\Microsoft Office\\root\\Office16\\ONENOTE.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,38,150
+%programfiles(x86)%\\Microsoft Office\\Office*\\FIRSTRUN.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,37,151
+%programfiles%\\Microsoft Office\\Office*\\FIRSTRUN.EXE,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,36,152
+%programfiles%\\Google\\Chrome\\Application\\chrome.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,35,153
+%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,34,154
+%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,33,155
+%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,32,156
+%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,31,157
+%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,30,158
+%programfiles%\\WindowsApps\\Microsoft.Office.Desktop_*\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,29,159
+%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,28,160
+%programfiles%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,27,161
+%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,26,162
+%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,25,163
+%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,24,164
+%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\ai.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,23,165
+%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,22,166
+%programfiles(x86)%\\WindowsApps\\Microsoft.Office.Desktop_*\\VFS\\ProgramFilesCommonX??\\Microsoft Shared\\OFFICE16\\AI\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,21,167
+%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,20,168
+%programfiles(x86)%\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX??\\Microsoft Shared\\Office16\\AI\\aimgr.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,19,169
+%programfiles(x86)%\\Adobe\\Acrobat Reader DC\\Reader\\AcroRd??.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,18,170
+%programfiles(x86)%\\Office Timeline\\Current\\Ines.UserService.Exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,17,171
+%programfiles(x86)%\\empower\\charts\\LiveUpdateHub.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,16,172
+%programfiles(x86)%\\Dania Software\\DynamicTemplate for Office\\ApplicationFocus.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,15,173
+%windir%\\splwow64.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,14,174
+%windir%\\system32\\fsiso.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,13,175
+%programfiles%\\WindowsApps\\Microsoft.OutlookForWindows_*\\olk.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,11,199
+%userprofile%\\appdata\\local\\outlook\\olk.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,12,200
+%userprofile%\\appdata\\local\\outlook\\app-*\\olk.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,13,201
+((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\(winword|excel|powerpnt|onenote)\\.exe\\\,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,25,213
+]+\\\,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,25,213
+]+)\\\,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,25,213
+Block credential stealing from the Windows local security authority subsystem (lsass.exe),asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,30
+%windir%\\system32\\lsass.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,48
+%windir%\\system32\\WerFaultSecure.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,63
+%windir%\\system32\\mrt.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,64
+%windir%\\system32\\NETSTAT.EXE,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,65
+%windir%\\syswow64\\NETSTAT.EXE,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,66
+%windir%\\system32\\wbem\\WmiPrvSE.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,67
+%windir%\\SysWOW64\\wbem\\WmiPrvSE.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,68
+%windir%\\system32\\DriverStore\\FileRepository\\*\\NVWMI\\nvWmi64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,69
+%programfiles(x86)%\\Microsoft Intune Management Extension\\ClientHealthEval.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,70
+%programfiles(x86)%\\Microsoft Intune Management Extension\\SensorLogonTask.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,71
+%programfiles(x86)%\\Microsoft Intune Management Extension\\Microsoft.Management.Services.IntuneWindowsAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,72
+%programdata%\\Microsoft\\Windows Defender Advanced Threat Protection\\DataCollection\\*\\OpenHandleCollector.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,73
+%programfiles%\\WindowsApps\\Microsoft.GamingServices_*\\gamingservices.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,74
+%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\vpnagent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,75
+%programfiles(x86)%\\Zoom\\bin\\CptHost.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,76
+%programfiles(x86)%\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,77
+%programfiles(x86)%\\Microsoft\\Edge\\Application\\*\\Installer\\setup.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,78
+%programfiles(x86)%\\Google\\Update\\GoogleUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,79
+%programfiles(x86)%\\Splunk\\bin\\splunkd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,80
+%programfiles(x86)%\\Zscaler\\ZSAUpm\\ZSAUpm.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,81
+%programfiles(x86)%\\Fortinet\\FortiClient\\FortiESNAC.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,82
+%programfiles(x86)%\\FireEye\\xagt\\xagt.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,83
+%programfiles(x86)%\\Autodesk\\Autodesk Desktop App\\AdAppMgrSvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,84
+%programfiles(x86)%\\Dropbox\\Update\\DropboxUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,85
+%programfiles(x86)%\\HP\\HP Touchpoint Analytics Client\\Provider Data Sources\\ProcInfo\\ProcInfo.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,86
+%programfiles(x86)%\\Common Files\\Adobe\\AdobeGCClient\\AGMService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,87
+%programfiles(x86)%\\Tanium\\Tanium Client,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,88
+%programfiles(x86)%\\Airwatch\\AgentUI\\AWProcessCommands.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,89
+%programfiles(x86)%\\Bit9\\Parity Agent\\Parity.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,90
+%programfiles(x86)%\\Arctic Wolf Networks\\Agent\\ossec-agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,91
+%programfiles(x86)%\\Cordaware\\Infoband\\Infoclient.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,92
+%programfiles(x86)%\\Splunk\\bin\\splunk-regmon.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,93
+%programfiles(x86)%\\Lenovo\\VantageService\\*\\LenovoVantage-(LenovoBoostSystemAddin).exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,94
+%programfiles(x86)%\\Micro Focus\\Discovery Agent\\bin32\\discagnt.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,95
+%programfiles(x86)%\\Hewlett-Packard\\Discovery Agent\\bin32\\discagnt.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,96
+%programfiles(x86)%\\Micro Focus\\Discovery Agent\\Plugins\\usage\\discusge.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,97
+%programfiles(x86)%\\Hewlett-Packard\\Discovery Agent\\Plugins\\usage\\discusge.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,98
+%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\aciseagent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,99
+%programfiles(x86)%\\BigFix Enterprise\\BES Client\\BESClient.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,100
+%programfiles(x86)%\\Logitech\\LogiSync\\sync-agent\\LogiSyncHandler.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,101
+%programfiles(x86)%\\ManageSoft\\Tracker\\ndtrack.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,102
+%programfiles(x86)%\\Aternity Information Systems\\Agent,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,103
+%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\vpndownloader.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,104
+%programfiles(x86)%\\Common Files\\Adobe\\ARM\\*\\AdobeARMHelper.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,105
+%programfiles(x86)%\\Common Files\\Adobe\\ARM\\*\\Temp\\*\\AdobeARMHelper.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,106
+%programfiles(x86)%\\Common Files\\Adobe\\ARM\\*\\AdobeARM.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,107
+%programfiles(x86)%\\Adobe\\Acrobat Reader DC\\Reader\\AcroCEF\\RdrServicesUpdater.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,108
+%programfiles(x86)%\\Aternity Information Systems\\Update\\AternityUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,109
+%programfiles(x86)%\\BraveSoftware\\Update\\BraveUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,110
+%programfiles(x86)%\\SysTrack\\LsiAgent\\LsiSupervisor\\*\\LsiSupervisor.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,111
+%programfiles(x86)%\\Cisco\\Cisco HostScan\\bin\\ciscod.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,112
+%programfiles(x86)%\\SysTrack\\LsiAgent\\LsiMods64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,113
+%programfiles(x86)%\\CheckPoint\\Endpoint Connect\\Watchdog\\EPWD.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,114
+%programfiles(x86)%\\CheckPoint\\Endpoint Security\\Endpoint Common\\bin\\cpda.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,115
+%programfiles(x86)%\\VMware\\VMware Tools,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,116
+%programfiles(x86)%\\VMware\\VMware Horizon View Client,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,117
+%programfiles(x86)%\\Common Files\\VMware\\Remote Experience,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,118
+%programfiles(x86)%\\Cisco\\Cisco AnyConnect Secure Mobility Client\\acswgagent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,119
+%programfiles(x86)%\\N-able Technologies\\Windows Agent\\bin\\agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,120
+%programfiles(x86)%\\Digital Arts\\AC\\app\\bin\\acservice.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,121
+%programfiles(x86)%\\MOTEX\\LanScope Cat MR\\Lspcmr.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,122
+%programfiles(x86)%\\Power Automate Desktop\\Microsoft.Flow.RPA.LauncherService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,123
+%programfiles(x86)%\\DesktopCentral_Agent\\bin\\dcagentservice.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,124
+%programfiles(x86)%\\CheckPoint\\Endpoint Security\\Endpoint Common\\bin\\IDAFServerHostService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,125
+%programfiles(x86)%\\Arctic Wolf Networks\\Agent\\plugins\\osquery\\osqueryi.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,126
+%programfiles(x86)%\\Btc\\eAudytor\\eAgent\\Bin\\qati.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,127
+%programfiles(x86)%\\Adobe\\Adobe Sync\\CoreSync\\customhook\\CoreSyncCustomHook.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,128
+%programfiles(x86)%\\NetSupport\\NetSupport School,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,129
+%programfiles(x86)%\\UEMS_Agent\\bin\\dcagentservice.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,130
+%programfiles(x86)%\\Google\\Temp\\*\\GoogleUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,131
+%programfiles(x86)%\\Adobe\\Acrobat DC\\Acrobat\\AcroCEF\\AcroServicesUpdater.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,132
+%programfiles(x86)%\\Ninite Agent\\NiniteAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,133
+%programfiles(x86)%\\HP\\HP Classroom Manager\\Runplugin64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,134
+%programfiles(x86)%\\SysTrack\\LsiAgent\\LsiAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,135
+%programfiles(x86)%\\VMware\\VMware Player\\vmware-authd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,136
+%programfiles(x86)%\\Dameware Remote Everywhere Agent\\BASupSysInf.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,137
+%programfiles(x86)%\\Power Automate Desktop\\Microsoft.Flow.RPA.*.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,138
+%programfiles(x86)%\\Common Files\\Adobe\\Adobe Desktop Common\\ElevationManager\\Adobe Installer.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,139
+%programfiles(x86)%\\Common Files\\Adobe\\Adobe Desktop Common\\HDBox\\Setup.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,140
+%programfiles(x86)%\\SolarWinds,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,141
+%programfiles(x86)%\\checkmk\\service\\check_mk_agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,142
+%programfiles(x86)%\\ClassPolicyAgent\\PolicyAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,143
+%programfiles(x86)%\\VMware\\VMware Workstation\\vmware-authd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,144
+%programfiles(x86)%\\Balbix\\Update\\BalbixUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,145
+%programfiles(x86)%\\Bradford Networks\\Persistent Agent\\bndaemon.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,146
+%programfiles(x86)%\\Site24x7\\WinAgent\\monitoring\\bin\\MEAgentHelper.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,147
+%programfiles(x86)%\\Site24x7\\WinAgent\\monitoring\\bin\\AppBin\\Site24x7AppAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,148
+%programfiles(x86)%\\Cato Networks\\Cato Client\\winvpnclient.cli.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,149
+%programfiles(x86)%\\ManageEngine\\UEMS_Agent\\bin\\dcagentservice.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,150
+%programfiles(x86)%\\Sky Product\\SKYSEA Client View,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,151
+%programfiles(x86)%\\xagt\\xagt.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,152
+%programfiles(x86)%\\Microsoft Azure Site Recovery\\agent\\s2RCM.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,153
+%programfiles(x86)%\\Cisco\\Cisco Secure Client,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,154
+%programfiles(x86)%\\HP\\HP Touchpoint Analytics Client\\TouchpointAnalyticsClientService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,155
+%programfiles(x86)%\\CyberCNSAgent\\osqueryi.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,156
+%programfiles(x86)%\\FortiMonitorAgent\\bin\\Aggregator.Agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,157
+%programfiles(x86)%\\IBM\\Notes\\nsd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,158
+%programfiles(x86)%\\Riverbed\\Steelhead Mobile\\rbtmon.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,159
+%programfiles%\\Avecto\\Privilege Guard Client\\DefendpointService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,160
+%programfiles%\\Intel\\SUR\\QUEENCREEK\\x64\\esrv_svc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,161
+%programfiles%\\Microsoft Monitoring Agent\\Agent\\HealthService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,162
+%programfiles%\\Microsoft Monitoring Agent\\Agent\\MOMPerfSnapshotHelper.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,163
+%programfiles%\\Nexthink\\Collector\\Collector\\nxtsvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,164
+%programfiles%\\Splunk\\bin\\splunkd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,165
+%programfiles%\\Azure Advanced Threat Protection Sensor\\*\\Microsoft.Tri.Sensor.Updater.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,166
+%programfiles%\\common files\\microsoft shared\\ClickToRun\\Updates\\*\\OfficeClickToRun.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,167
+%programfiles%\\Zscaler\\ZSAUpm\\ZSAUpm.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,168
+%programfiles%\\Fortinet\\FortiClient\\FortiESNAC.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,169
+%programfiles%\\FireEye\\xagt\\xagt.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,170
+%programfiles%\\Autodesk\\Autodesk Desktop App\\AdAppMgrSvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,171
+%programfiles%\\Qualys\\QualysAgent\\QualysAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,172
+%programfiles%\\Altiris\\Altiris Agent\\AeXNSAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,173
+%programfiles%\\VMware\\VMware Tools,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,174
+%programfiles%\\VMware\\VMware Horizon View Client,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,175
+%programfiles%\\Common Files\\VMware\\Remote Experience,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,176
+%programfiles%\\Dell\\DTP\\InstrumentationSubAgent\\Dell.TechHub.Instrumentation.SubAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,177
+%programfiles%\\Rapid7\\Insight Agent\\components\\insight_agent\\*\\ir_agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,178
+%programfiles%\\Microsoft RDInfra\\RDMonitoringAgent_*\\Agent\\MonAgentCore.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,179
+%programfiles%\\BMC*\\Client Management\\Client\\bin\\mtxagent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,180
+%programfiles%\\DisplayLink Core Software\\DisplayLinkHotDeskService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,181
+%programfiles%\\ManageSoft\\Tracker\\ndtrack.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,182
+%programfiles%\\Websense\\Websense Endpoint\\wepsvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,183
+%programfiles%\\Ricoh\\Streamline NX\\PC Client\\jre\\bin\\java.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,184
+%programfiles%\\Microsoft Monitoring Agent\\Agent\\Health Service State\\Resources\\*\\pmfexe.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,185
+%programfiles%\\Microsoft Monitoring Agent\\Agent\\MonitoringHost.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,186
+%programfiles%\\AppSense\\Application Manager\\Agent\\AMAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,187
+%programfiles%\\Adobe\\Acrobat DC\\Acrobat\\AcroCEF\\SingleClientServicesUpdater.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,188
+%programfiles%\\osquery\\osqueryd\\osqueryd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,189
+%programfiles%\\Microsoft OneDrive\\OneDriveStandaloneUpdater.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,190
+%programfiles%\\CyberArk\\Endpoint Privilege Manager\\Agent\\PASAgent\\PASAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,191
+%programfiles%\\Palo Alto Networks\\GlobalProtect\\PanGPS.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,192
+%programfiles%\\Smart-X\\ControlUpAgent\\Version*\\cuAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,193
+%programfiles%\\Citrix\\*\\XenDesktopRestApiService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,194
+%programfiles%\\Palo Alto Networks\\DEM\\DEMAgentProcess.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,195
+%programfiles%\\Phantom\\IBSA\\ibsaService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,196
+%programfiles%\\eGurkha\\lib\\AppPid.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,197
+%programfiles%\\dynatrace\\oneagent\\agent\\lib64\\oneagentos.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,198
+%programfiles%\\dynatrace\\oneagent\\agent\\lib64\\oneagentplugin.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,199
+%programfiles%\\Remote Desktop WebRTC Redirector\\MsRdcWebRTCSvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,200
+%programfiles%\\Sophos\\Sophos File Scanner\\SophosFileScanner.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,201
+%programfiles%\\NetSupport\\NetSupport School,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,202
+%programfiles%\\OEM\\AMS\\Service\\ams.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,203
+%programfiles%\\Eracent\\EPM\\epm.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,204
+%programfiles%\\Cybereason ActiveProbe\\minionhost.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,205
+%programfiles%\\Google\\Temp\\*\\GoogleUpdate.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,206
+%programfiles%\\Orbit\\bin\\osqueryd\\windows\\stable\\osqueryd.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,207
+%programfiles%\\1E\\Client\\1E.Client.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,208
+%programfiles%\\Endgame\\esensor.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,209
+%programfiles%\\Microsoft Cloud Managed Desktop Extension\\CMDExtension\\Microsoft.Management.Services.CloudManagedDesktop.Agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,210
+%programfiles%\\common files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,211
+%programfiles%\\Adobe\\Adobe Creative Cloud Experience\\libs\\node.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,212
+%programfiles%\\Fortinet\\FortiClient\\FortiProxy.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,213
+%programfiles%\\Guardicore\\gc-launcher.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,214
+%programfiles%\\Microsoft Azure AD Connect Health Sync Agent\\Insights\\Microsoft.Identity.AadConnect.Health.AadSync.Host.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,215
+%programfiles%\\Huntress\\HuntressAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,216
+%programfiles%\\vast limits\\uberAgent\\uberAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,217
+%programfiles%\\Adobe\\Acrobat DC\\Acrobat\\AcroCEF\\AcroServicesUpdater.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,218
+%programfiles%\\Dell\\DellOptimizer\\DellOptimizer.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,219
+%programfiles%\\Manufacturer\\Endpoint Agent\\edpa.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,220
+%programfiles%\\CyberArk\\Endpoint Privilege Manager\\Agent\\vf_agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,221
+%programfiles%\\Morphisec\\bin\\ProtectorService64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,222
+%programfiles%\\Zoom\\bin\\CptHost.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,223
+%programfiles%\\TOLLAD\\GEMONPROC.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,224
+%programfiles%\\SMS_CCM\\CcmExec.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,225
+%programfiles%\\HEAT Software\\EMSSAgent\\*\\lmhost.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,226
+%programfiles%\\Skyhigh\\SCP\\ScpService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,227
+%programfiles%\\VMware\\VMware View\\*\\bin\\wsnm.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,228
+%programfiles%\\NetClean Technologies\\ProActive\\fsdaemon\\bin\\fsdaemon.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,229
+%programfiles%\\Topaz OFD\\Warsaw\\core.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,230
+%programfiles%\\Microsoft Dependency Agent\\bin\\MicrosoftDependencyAgent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,231
+%programfiles%\\Autodesk\\AdODIS\\V1\\Setup\\install_helper_tool.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,232
+%programfiles%\\EPSON Projector\\Easy Interactive Driver Ver.??\\EIN_SV.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,233
+%programfiles%\\FortiMonitorAgent\\bin\\Aggregator.Agent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,234
+%programfiles%\\SecureWorks\\Taegis Agent\\TaegisSvc.x??.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,235
+%programfiles%\\VMware\\Endpoint Telemetry Service\\vmwetlm.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,236
+C:\\Packages\\Plugins\\Microsoft.Azure.Diagnostics.IaaSDiagnostics\\*\\Monitor\\x64\\MonAgentCore.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,237
+C:\\Packages\\Plugins\\Microsoft.Azure.Security.Monitoring.AzureSecurityWindowsAgent\\*\\Monitoring\\Agent\\Extensions\\AzureSecurityPack\\pmfexe.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,238
+C:\\eGurkha\\lib\\AppPid.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,239
+C:\\blp\\API\\Office Tools,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,240
+C:\\blp\\Wintrv,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,241
+%windir%\\System32\\DriverStore\\FileRepository\\hpanalyticscomp.*\\x64\\Provider Data Sources\\ProcInfo\\ProcInfo.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,242
+%windir%\\system32\\RtkAudUService64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,243
+%windir%\\system32\\nvwmi64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,244
+%windir%\\system32\\lpksetup.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,245
+%windir%\\system32\\LogonUI.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,246
+%windir%\\system32\\DriverStore\\FileRepository\\hpcustomcapcomp.inf_amd64_*\\x64\\AppHelperCap.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,247
+%windir%\\system32\\IntelBroadbandManagerSvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,248
+%windir%\\system32\\inetsrv\\w3wp.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,249
+%windir%\\AdminArsenal\\PDQInventory-Scanner\\service-1\\PDQInventory-Scanner-1.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,250
+%windir%\\RtkBtManServ.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,251
+%windir%\\CarbonBlack\\cb.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,252
+%windir%\\LTSvc\\LTSVC.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,253
+%windir%\\CCM\\CcmExec.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,254
+%windir%\\CCM\\SensorLogonTask.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,255
+%windir%\\CCM\\SleepAgentService.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,256
+%windir%\\Sysmon64.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,257
+%windir%\\sysmon.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,258
+%windir%\\SysWOW64\\CCM\\CcmExec.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,259
+%windir%\\Downloaded Program Files\\f5epi.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,260
+%windir%\\AdminArsenal\\PDQDeployRunner\\service-1\\PDQDeployRunner-1.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,261
+%windir%\\Temp\\Ctx-*\\Extract\\TrolleyExpress.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,262
+%programdata%\\Citrix\\Citrix Receiver*\\TrolleyExpress.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,263
+%programdata%\\Citrix\\Citrix Workspace *\\TrolleyExpress.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,264
+%programdata%\\App-V\\*\\*\\Root\\VFS\\Windows\\CCM\\CcmExec.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,265
+%programfiles(x86)%\\Citrix\\Citrix Workspace *\\TrolleyExpress.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,266
+%temp%\\Ctx-*\\Extract\\TrolleyExpress.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,267
+%programfiles%\\Quest\\ChangeAuditor\\Agent\\NPSrvHost.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,268
+%programfiles%\\Quest\\ChangeAuditor\\Service\\ChangeAuditor.Service.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,269
+%programdata%\\Microsoft\\Windows Defender Advanced Threat Protection\\SenseNDR\\NdrSetup.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,270
+%windir%\\system32\\DriverStore\\FileRepository\\hpqkbsoftwarecompnent.inf_amd64_*\\HotKeyServiceUWP.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,271
+%windir%\\system32\\CompatTelRunner.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,272
+%programfiles(x86)%\\Printer Properties Pro\\Printer Installer Client\\PrinterInstallerClient.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,273
+%programfiles%\\Printer Properties Pro\\Printer Installer Client\\PrinterInstallerClient.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,274
+%programfiles(x86)%\\Zscaler\\ZSATunnel\\ZSATunnel.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,275
+%programfiles%\\Zscaler\\ZSATunnel\\ZSATunnel.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,276
+%programfiles(x86)%\\ManageSoft\\Security Agent\\mgssecsvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,277
+%programfiles%\\ManageSoft\\Security Agent\\mgssecsvc.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,278
+%programfiles(x86)%\\Snow Software\\Inventory\\Agent\\snowagent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,279
+%programfiles%\\Snow Software\\Inventory\\Agent\\snowagent.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,280
+c:\\windows\\system32\\WerFaultSecure.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,281
+c:\\windows\\system32\\wbem\\WmiPrvSE.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,282
+c:\\windows\\SysWOW64\\wbem\\WmiPrvSE.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,283
+\\Device\\HarddiskVolume?\\Windows\\System32\\wbem\\wmiprvse.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,284
+%windir%\\system32\\fsiso.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,285
+%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,286
+%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,287
+^\\\,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,299
+?((?!\\-s).)*$,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,299
+\\\\powershell\\.exe\\\,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,300
 %programfiles%\\adobe\\acrobat reader 2015\\reader\\acrord32.exe,asr_lua_22.bin,Block Adobe Reader from creating child processes,,,48
 %programfiles%\\adobe\\acrobat reader 2017\\reader\\acrord32.exe,asr_lua_22.bin,Block Adobe Reader from creating child processes,,,49
 %programfiles%\\adobe\\acrobat reader 2018\\reader\\acrord32.exe,asr_lua_22.bin,Block Adobe Reader from creating child processes,,,50
@@ -1431,15 +1434,14 @@ cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child
 cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,2d7e690e-b8ca-484d-bb19-f3f4d460bebb,4,1538
 cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,70823b4b-bb48-4d30-adf4-be67a41e2f65,2,1544
 explorer(%.)?(\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,2,1550
-taskkill(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,6,1565
-cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,4,1567
-?c:\\\\windows\\\\system32\\\\reg\\.exe\\s+add\\s+\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,4,1567
-?\\s+/v\\s+dumpfolder,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,4,1567
-explorer(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,11,1584
-explorer\\.exe\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,14,1587
-((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\[^\\.]+\\.exe\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,27,1600
-]+\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,27,1600
-]+)\\\,asr_lua_23.bin,Block all Office applications from creating child processes,d7c7c745-195f-4223-9c7a-99fb420fd000,27,1600
+taskkill(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,4,1552
+cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,6,1554
+?c:\\\\windows\\\\system32\\\\reg\\.exe\\s+add\\s+\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,6,1554
+?\\s+/v\\s+dumpfolder,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,6,1554
+explorer(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,8,1556
+((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\[^\\.]+\\.exe\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,21,1569
+]+\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,21,1569
+]+)\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,21,1569
 %programfiles(x86)%\\Microsoft Office\\Office??\\OUTLOOK.EXE,asr_lua_24.bin,Block Office communication application from creating child processes,,,50
 %programfiles(x86)%\\Microsoft Office\\root\\Office??\\OUTLOOK.EXE,asr_lua_24.bin,Block Office communication application from creating child processes,,,51
 %programfiles%\\Microsoft Office\\Office??\\OUTLOOK.EXE,asr_lua_24.bin,Block Office communication application from creating child processes,,,52
@@ -2193,193 +2195,193 @@ cmd(\\.exe)?[\\s\\\,asr_lua_24.bin,Block Office communication application from c
 ]*(.+\\w+)[\\s\\\,asr_lua_24.bin,Block Office communication application from creating child processes,,,1737
 rundll32(\\.exe)?[\\\,asr_lua_24.bin,Block Office communication application from creating child processes,,,1738
 This is a Test HIPS Rule that exposes rule logic in audit mode to \'X\' population within MSFT org,asr_lua_3.bin,MSFT org test rule,,,25
-%windir%\\SysWOW64\\WerFault.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,53,40
-%windir%\\system32\\WerFault.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,52,41
-%windir%\\system32\\bcdedit.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,49,44
-%windir%\\system32\\MBR2GPT.EXE,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,48,45
-%windir%\\system32\\CompatTelRunner.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,47,46
-%windir%\\system32\\ReAgentc.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,46,47
-%windir%\\SysWOW64\\wbem\\WmiPrvSE.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,45,48
-%windir%\\system32\\wbem\\WmiPrvSE.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,44,49
-%windir%\\system32\\chkdsk.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,43,50
-%windir%\\system32\\omadmclient.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,42,51
-%windir%\\system32\\SearchIndexer.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,41,52
-%windir%\\system32\\taskhostw.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,40,53
-%windir%\\MpTaskBarRecover.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,39,54
-%windir%\\MpRecoverTaskbar.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,38,55
-%windir%\\system32\\services.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,37,56
-%localappdata%\\microsoft\\Teams\\Update.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,36,57
-%systemdrive%\\$WINDOWS.~BT\\Sources\\SetupHost.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,35,58
-%systemdrive%\\$WINDOWS.~BT\\Work\\*\\DismHost.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,34,59
-%temp%\\*\\DismHost.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,33,60
-%windir%\\system32\\poqexec.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,32,61
-%windir%\\winsxs\\*\\TiWorker.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,31,62
-%windir%\\System32\\Dism\\DismHost.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,30,63
-%systemdrive%\\$WinREAgent\\Scratch\\*\\DismHost.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,29,64
-%localappdata%\\Temp\\*\\DismHost.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,28,65
-%windir%\\system32\\PackagedCWALauncher.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,27,66
-%windir%\\SysWOW64\\PackagedCWALauncher.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,26,67
-%windir%\\system32\\oobe\\SetupPlatform\\SetupPlatform.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,25,68
-%windir%\\SoftwareDistribution\\Download\\*\\WindowsUpdateBox.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,24,69
-%windir%\\system32\\MoUsoCoreWorker.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,23,70
-%windir%\\UUS\\amd64\\MoUsoCoreWorker.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,22,71
-%windir%\\UUS\\arm64\\MoUsoCoreWorker.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,21,72
-%programdata%\\Microsoft\\Windows\\UUS\\Packages\\*\\amd64\\MoUsoCoreWorker.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,20,73
-%windir%\\system32\\wuaucltcore.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,19,74
-%windir%\\UUS\\amd64\\wuaucltcore.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,18,75
-%windir%\\UUS\\arm64\\wuaucltcore.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,17,76
-%programdata%\\Microsoft\\Windows\\UUS\\Packages\\*\\amd64\\wuaucltcore.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,16,77
-%programfiles%\\ATERA Networks\\AteraAgent\\Packages\\AgentPackageMonitoring\\AgentPackageMonitoring.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,15,78
-%windir%\\system32\\format.com,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,14,79
-%windir%\\SysWOW64\\format.com,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,13,80
-%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,11,106
-%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,12,107
-%programfiles(x86)%\\ASUS\\ArmouryDevice\\asus_framework.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,13,108
-%programfiles(x86)%\\ASUS\\ASUS-DriverHub-Installer.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,14,109
-%programfiles(x86)%\\ASUS\\AURACONNECT\\AuraConnect.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,15,110
-%programfiles(x86)%\\ASUS\\AXSP\\*\\atkexComSvc.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,16,111
-%programfiles(x86)%\\Lenovo\\ldiagx64\\LenovoDiagnosticsCLI.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,17,112
-%programfiles%\\Acer DT\\LCD-CS.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,18,113
-%programfiles%\\ASUS\\llm-server\\llm-server.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,19,114
-%programfiles%\\ASUS\\Turbo LAN\\setup.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,20,115
-%programfiles%\\CPUID\\ASUS CPU-Z\\cpuz_tuf.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,21,116
-%programfiles%\\CPUID\\ASUS CPU-Z\\cpuz_asus.exe,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,22,117
-%programfiles%\\WindowsApps\\AcerIncorporated,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,23,118
-%programfiles(x86)%\\ASUS\\AI Suite III,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,24,119
-%programfiles(x86)%\\ASUS\\ArmouryDevice\\dll,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,25,120
-%programfiles(x86)%\\ASUS\\AsusFanControlService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,26,121
-%programfiles(x86)%\\ASUS\\AsusFCNotification,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,27,122
-%programfiles(x86)%\\ASUS\\AsusGamingCenterInstallPackage,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,28,123
-%programfiles(x86)%\\ASUS\\ASUSRemoteWake,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,29,124
-%programfiles(x86)%\\ASUS\\AsusROGLSLService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,30,125
-%programfiles(x86)%\\ASUS\\GPUTweakIII,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,31,126
-%programfiles(x86)%\\ASUS\\Grid,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,32,127
-%programfiles(x86)%\\ASUS\\ROGLSLoader,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,33,128
-%programfiles(x86)%\\ASUS\\ROG Live Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,34,129
-%programfiles(x86)%\\ASUS\\SCD\\Software\\TurboLAN,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,35,130
-%programfiles(x86)%\\ASUS\\Update,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,36,131
-%programfiles(x86)%\\ASUS\\VirtualPet,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,37,132
-%programfiles(x86)%\\Acer\\Care Center,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,38,133
-%programfiles(x86)%\\Acer\\ControlCenter,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,39,134
-%programfiles(x86)%\\Acer\\clear.fi,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,40,135
-%programfiles(x86)%\\Acer\\Power2Go8,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,41,136
-%programfiles(x86)%\\Acer\\system_monitor,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,42,137
-%programfiles(x86)%\\Dell\\Power2Go8,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,43,138
-%programfiles(x86)%\\Dell\\UpdateService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,44,139
-%programfiles(x86)%\\Dell Backup and Recovery,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,45,140
-%programfiles(x86)%\\Dell DataSafe Local Backup,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,46,141
-%programfiles(x86)%\\Hewlett-Packard\\HP Health Check,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,47,142
-%programfiles(x86)%\\Hewlett-Packard\\HP Touchpoint Manager,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,48,143
-%programfiles(x86)%\\Hewlett-Packard\\HP Support Framework,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,49,144
-%programfiles(x86)%\\Hewlett-Packard\\HP Support Solutions,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,50,145
-%programfiles(x86)%\\Hewlett-Packard\\Media,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,51,146
-%programfiles(x86)%\\Hewlett-Packard\\Recovery,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,52,147
-%programfiles(x86)%\\Hewlett-Packard\\TouchSmart,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,53,148
-%programfiles(x86)%\\HPImageAssistant,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,54,149
-%programfiles(x86)%\\HP\\HpHwDiag,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,55,150
-%programfiles(x86)%\\HP\\HPLJUT,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,56,151
-%programfiles(x86)%\\HP\\HP DeskJet,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,57,152
-%programfiles(x86)%\\HP\\HP ENVY,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,58,153
-%programfiles(x86)%\\HP\\HP Ink Tank Wireless,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,59,154
-%programfiles(x86)%\\HP\\HP MIK Client,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,60,155
-%programfiles(x86)%\\HP\\HP OfficeJet,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,61,156
-%programfiles(x86)%\\HP\\HP Performance Advisor,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,62,157
-%programfiles(x86)%\\HP\\HP Support Framework,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,63,158
-%programfiles(x86)%\\HP\\HP Touchpoint Analytics Client,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,64,159
-%programfiles(x86)%\\Lenovo\\Energy Management,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,65,160
-%programfiles(x86)%\\Lenovo\\LeAppStore,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,66,161
-%programfiles(x86)%\\Lenovo\\LegionZone,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,67,162
-%programfiles(x86)%\\Lenovo\\Lenovo Home,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,68,163
-%programfiles(x86)%\\Lenovo\\PCManager,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,69,164
-%programfiles(x86)%\\Lenovo\\Power2Go,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,70,165
-%programfiles(x86)%\\Lenovo\\PowerDVD12,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,71,166
-%programfiles(x86)%\\Lenovo\\RapidBoot HDD Accelerator,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,72,167
-%programfiles(x86)%\\Lenovo\\System Update,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,73,168
-%programfiles(x86)%\\Lenovo\\VantageService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,74,169
-%programfiles%\\ASUS\\AICreator_pytorch,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,75,170
-%programfiles%\\ASUS\\AacAmbientHal,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,76,171
-%programfiles%\\ASUS\\AacMB,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,77,172
-%programfiles%\\ASUS\\ACOnePackageTemp,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,78,173
-%programfiles%\\ASUS\\Armoury Crate Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,79,174
-%programfiles%\\ASUS\\ARMOURY CRATE SE Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,80,175
-%programfiles%\\ASUS\\ARMOURY CRATE Lite Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,81,176
-%programfiles%\\ASUS\\AsusDriverHub,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,82,177
-%programfiles%\\ASUS\\AsusScreenXpert,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,83,178
-%programfiles%\\ASUS\\ASUS Dial Control Panel Toolkit,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,84,179
-%programfiles%\\ASUS\\ASUS Hotplug Controller,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,85,180
-%programfiles%\\ASUS\\GlideX,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,86,181
-%programfiles%\\ASUS\\ASUS Monitor Control,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,87,182
-%programfiles%\\ASUS\\ProArt Creator Hub,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,88,183
-%programfiles%\\ASUS\\RLSDownload,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,89,184
-%programfiles%\\ASUS\\ROG Live Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,90,185
-%programfiles%\\ASUS\\StoryCube,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,91,186
-%programfiles%\\ASUS\\Virtual Pet,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,92,187
-%programfiles%\\Acer\\Acer Office Manager Agent,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,93,188
-%programfiles%\\Acer\\Acer Power Management,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,94,189
-%programfiles%\\Acer\\Acer ProShield Plus,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,95,190
-%programfiles%\\Acer\\Acer Quick Access,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,96,191
-%programfiles%\\Acer\\Care Center,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,97,192
-%programfiles%\\Acer\\Quick Access Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,98,193
-%programfiles%\\Acer\\QuickPanel,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,99,194
-%programfiles%\\Acer\\SpatialLabs,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,100,195
-%programfiles%\\Acer\\StorPSCTL,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,101,196
-%programfiles%\\Acer\\User Experience Improvement Program Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,102,197
-%programfiles%\\Dell\\Command Monitor,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,103,198
-%programfiles%\\Dell\\DellDataVault,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,104,199
-%programfiles%\\Dell\\Dell Data Protection,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,105,200
-%programfiles%\\Dell\\Dell Insights,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,106,201
-%programfiles%\\Dell\\DTP,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,107,202
-%programfiles%\\Dell\\GrabForWindows,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,108,203
-%programfiles%\\Dell\\iDiagLite,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,109,204
-%programfiles%\\Dell\\OS Recovery Tool,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,110,205
-%programfiles%\\Dell\\SARemediation,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,111,206
-%programfiles%\\Dell\\SupportAssist,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,112,207
-%programfiles%\\Dell\\SysMgt,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,113,208
-%programfiles%\\Dell\\UpdateService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,114,209
-%programfiles%\\Dell DataSafe Local Backup,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,115,210
-%programfiles%\\Hewlett-Packard\\AMS,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,116,211
-%programfiles%\\Hewlett-Packard\\HP Health Check,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,117,212
-%programfiles%\\Hewlett-Packard\\Recovery,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,118,213
-%programfiles%\\HP\\HpHwDiag,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,119,214
-%programfiles%\\HP\\HPIA,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,120,215
-%programfiles%\\HP\\hpssacli,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,121,216
-%programfiles%\\HP\\HP Enabling Services,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,122,217
-%programfiles%\\HP\\HP Media Network,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,123,218
-%programfiles%\\HP\\HP One Agent,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,124,219
-%programfiles%\\HP\\HP ThinUpdate,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,125,220
-%programfiles%\\HP\\HP Touchpoint Analytics Client,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,126,221
-%programfiles%\\HP\\Image Assistant,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,127,222
-%programfiles%\\HP\\OmenInstallMonitor,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,128,223
-%programfiles%\\HP\\Overlay,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,129,224
-%programfiles%\\HP\\Sure Click,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,130,225
-%programfiles%\\HP Image Assistant,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,131,226
-%programfiles%\\Portrait Displays\\HP Display Control Service,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,132,227
-%programfiles%\\Lenovo\\FusionEngine,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,133,228
-%programfiles%\\Lenovo\\Lenovo Diagnostics Evolution,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,134,229
-%programfiles%\\Lenovo\\Lenovo Diagnostics Tool,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,135,230
-%programfiles%\\Lenovo\\Lenovo Solution Center,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,136,231
-%programfiles%\\Lenovo\\OneKey App,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,137,232
-%programdata%\\ASUS\\ASUSAiCrosslink,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,138,233
-%programdata%\\ASUS\\AsusDriverHub,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,139,234
-%programdata%\\ASUS\\ASUS System Control Interface,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,140,235
-%programdata%\\Acer\\updater2,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,141,236
-%programdata%\\Dell\\drivers,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,142,237
-%programdata%\\Dell\\UpdateService,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,143,238
-%programdata%\\EasyRaidCheck\\HP,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,144,239
-%programdata%\\HP\\ExternalApps\\HPIA,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,145,240
-%programdata%\\HP\\Telemetry,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,146,241
-%programdata%\\HP\\HP BTO Software,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,147,242
-%programdata%\\Lenovo\\DriverUpdate,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,148,243
-%programdata%\\Lenovo\\ImController,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,149,244
-%programdata%\\Lenovo\\SystemUpdate,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,150,245
-%programdata%\\Lenovo\\ThinInstaller,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,151,246
-%programdata%\\Lenovo\\TPQM\\Assistant,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,152,247
-%programdata%\\Lenovo\\Udc\\Hosts,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,153,248
-%programdata%\\Lenovo\\Vantage,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,154,249
-%systemroot%\\Lenovo\\ImController,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,155,250
-%systemroot%\\System32\\drivers\\Lenovo,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,156,251
-%systemroot%\\System32\\Lenovo\\PowerMgr,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,157,252
-%systemroot%\\SysWOW64\\Lenovo\\PowerMgr,asr_lua_5.bin,Controlled folder access,d7c7c745-195f-4223-9c7a-99fb420fd000,158,253
+%windir%\\SysWOW64\\WerFault.exe,asr_lua_5.bin,Controlled folder access,,,40
+%windir%\\system32\\WerFault.exe,asr_lua_5.bin,Controlled folder access,,,41
+%windir%\\system32\\bcdedit.exe,asr_lua_5.bin,Controlled folder access,,,44
+%windir%\\system32\\MBR2GPT.EXE,asr_lua_5.bin,Controlled folder access,,,45
+%windir%\\system32\\CompatTelRunner.exe,asr_lua_5.bin,Controlled folder access,,,46
+%windir%\\system32\\ReAgentc.exe,asr_lua_5.bin,Controlled folder access,,,47
+%windir%\\SysWOW64\\wbem\\WmiPrvSE.exe,asr_lua_5.bin,Controlled folder access,,,48
+%windir%\\system32\\wbem\\WmiPrvSE.exe,asr_lua_5.bin,Controlled folder access,,,49
+%windir%\\system32\\chkdsk.exe,asr_lua_5.bin,Controlled folder access,,,50
+%windir%\\system32\\omadmclient.exe,asr_lua_5.bin,Controlled folder access,,,51
+%windir%\\system32\\SearchIndexer.exe,asr_lua_5.bin,Controlled folder access,,,52
+%windir%\\system32\\taskhostw.exe,asr_lua_5.bin,Controlled folder access,,,53
+%windir%\\MpTaskBarRecover.exe,asr_lua_5.bin,Controlled folder access,,,54
+%windir%\\MpRecoverTaskbar.exe,asr_lua_5.bin,Controlled folder access,,,55
+%windir%\\system32\\services.exe,asr_lua_5.bin,Controlled folder access,,,56
+%localappdata%\\microsoft\\Teams\\Update.exe,asr_lua_5.bin,Controlled folder access,,,57
+%systemdrive%\\$WINDOWS.~BT\\Sources\\SetupHost.exe,asr_lua_5.bin,Controlled folder access,,,58
+%systemdrive%\\$WINDOWS.~BT\\Work\\*\\DismHost.exe,asr_lua_5.bin,Controlled folder access,,,59
+%temp%\\*\\DismHost.exe,asr_lua_5.bin,Controlled folder access,,,60
+%windir%\\system32\\poqexec.exe,asr_lua_5.bin,Controlled folder access,,,61
+%windir%\\winsxs\\*\\TiWorker.exe,asr_lua_5.bin,Controlled folder access,,,62
+%windir%\\System32\\Dism\\DismHost.exe,asr_lua_5.bin,Controlled folder access,,,63
+%systemdrive%\\$WinREAgent\\Scratch\\*\\DismHost.exe,asr_lua_5.bin,Controlled folder access,,,64
+%localappdata%\\Temp\\*\\DismHost.exe,asr_lua_5.bin,Controlled folder access,,,65
+%windir%\\system32\\PackagedCWALauncher.exe,asr_lua_5.bin,Controlled folder access,,,66
+%windir%\\SysWOW64\\PackagedCWALauncher.exe,asr_lua_5.bin,Controlled folder access,,,67
+%windir%\\system32\\oobe\\SetupPlatform\\SetupPlatform.exe,asr_lua_5.bin,Controlled folder access,,,68
+%windir%\\SoftwareDistribution\\Download\\*\\WindowsUpdateBox.exe,asr_lua_5.bin,Controlled folder access,,,69
+%windir%\\system32\\MoUsoCoreWorker.exe,asr_lua_5.bin,Controlled folder access,,,70
+%windir%\\UUS\\amd64\\MoUsoCoreWorker.exe,asr_lua_5.bin,Controlled folder access,,,71
+%windir%\\UUS\\arm64\\MoUsoCoreWorker.exe,asr_lua_5.bin,Controlled folder access,,,72
+%programdata%\\Microsoft\\Windows\\UUS\\Packages\\*\\amd64\\MoUsoCoreWorker.exe,asr_lua_5.bin,Controlled folder access,,,73
+%windir%\\system32\\wuaucltcore.exe,asr_lua_5.bin,Controlled folder access,,,74
+%windir%\\UUS\\amd64\\wuaucltcore.exe,asr_lua_5.bin,Controlled folder access,,,75
+%windir%\\UUS\\arm64\\wuaucltcore.exe,asr_lua_5.bin,Controlled folder access,,,76
+%programdata%\\Microsoft\\Windows\\UUS\\Packages\\*\\amd64\\wuaucltcore.exe,asr_lua_5.bin,Controlled folder access,,,77
+%programfiles%\\ATERA Networks\\AteraAgent\\Packages\\AgentPackageMonitoring\\AgentPackageMonitoring.exe,asr_lua_5.bin,Controlled folder access,,,78
+%windir%\\system32\\format.com,asr_lua_5.bin,Controlled folder access,,,79
+%windir%\\SysWOW64\\format.com,asr_lua_5.bin,Controlled folder access,,,80
+%programfiles(x86)%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_5.bin,Controlled folder access,,,81
+%programfiles%\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\Microsoft.Mashup.Container.Loader.exe,asr_lua_5.bin,Controlled folder access,,,82
+%programfiles(x86)%\\ASUS\\ArmouryDevice\\asus_framework.exe,asr_lua_5.bin,Controlled folder access,,,83
+%programfiles(x86)%\\ASUS\\ASUS-DriverHub-Installer.exe,asr_lua_5.bin,Controlled folder access,,,84
+%programfiles(x86)%\\ASUS\\AURACONNECT\\AuraConnect.exe,asr_lua_5.bin,Controlled folder access,,,85
+%programfiles(x86)%\\ASUS\\AXSP\\*\\atkexComSvc.exe,asr_lua_5.bin,Controlled folder access,,,86
+%programfiles(x86)%\\Lenovo\\ldiagx64\\LenovoDiagnosticsCLI.exe,asr_lua_5.bin,Controlled folder access,,,87
+%programfiles%\\Acer DT\\LCD-CS.exe,asr_lua_5.bin,Controlled folder access,,,88
+%programfiles%\\ASUS\\llm-server\\llm-server.exe,asr_lua_5.bin,Controlled folder access,,,89
+%programfiles%\\ASUS\\Turbo LAN\\setup.exe,asr_lua_5.bin,Controlled folder access,,,90
+%programfiles%\\CPUID\\ASUS CPU-Z\\cpuz_tuf.exe,asr_lua_5.bin,Controlled folder access,,,91
+%programfiles%\\CPUID\\ASUS CPU-Z\\cpuz_asus.exe,asr_lua_5.bin,Controlled folder access,,,92
+%programfiles%\\WindowsApps\\AcerIncorporated,asr_lua_5.bin,Controlled folder access,,,93
+%programfiles(x86)%\\ASUS\\AI Suite III,asr_lua_5.bin,Controlled folder access,,,94
+%programfiles(x86)%\\ASUS\\ArmouryDevice\\dll,asr_lua_5.bin,Controlled folder access,,,95
+%programfiles(x86)%\\ASUS\\AsusFanControlService,asr_lua_5.bin,Controlled folder access,,,96
+%programfiles(x86)%\\ASUS\\AsusFCNotification,asr_lua_5.bin,Controlled folder access,,,97
+%programfiles(x86)%\\ASUS\\AsusGamingCenterInstallPackage,asr_lua_5.bin,Controlled folder access,,,98
+%programfiles(x86)%\\ASUS\\ASUSRemoteWake,asr_lua_5.bin,Controlled folder access,,,99
+%programfiles(x86)%\\ASUS\\AsusROGLSLService,asr_lua_5.bin,Controlled folder access,,,100
+%programfiles(x86)%\\ASUS\\GPUTweakIII,asr_lua_5.bin,Controlled folder access,,,101
+%programfiles(x86)%\\ASUS\\Grid,asr_lua_5.bin,Controlled folder access,,,102
+%programfiles(x86)%\\ASUS\\ROGLSLoader,asr_lua_5.bin,Controlled folder access,,,103
+%programfiles(x86)%\\ASUS\\ROG Live Service,asr_lua_5.bin,Controlled folder access,,,104
+%programfiles(x86)%\\ASUS\\SCD\\Software\\TurboLAN,asr_lua_5.bin,Controlled folder access,,,105
+%programfiles(x86)%\\ASUS\\Update,asr_lua_5.bin,Controlled folder access,,,106
+%programfiles(x86)%\\ASUS\\VirtualPet,asr_lua_5.bin,Controlled folder access,,,107
+%programfiles(x86)%\\Acer\\Care Center,asr_lua_5.bin,Controlled folder access,,,108
+%programfiles(x86)%\\Acer\\ControlCenter,asr_lua_5.bin,Controlled folder access,,,109
+%programfiles(x86)%\\Acer\\clear.fi,asr_lua_5.bin,Controlled folder access,,,110
+%programfiles(x86)%\\Acer\\Power2Go8,asr_lua_5.bin,Controlled folder access,,,111
+%programfiles(x86)%\\Acer\\system_monitor,asr_lua_5.bin,Controlled folder access,,,112
+%programfiles(x86)%\\Dell\\Power2Go8,asr_lua_5.bin,Controlled folder access,,,113
+%programfiles(x86)%\\Dell\\UpdateService,asr_lua_5.bin,Controlled folder access,,,114
+%programfiles(x86)%\\Dell Backup and Recovery,asr_lua_5.bin,Controlled folder access,,,115
+%programfiles(x86)%\\Dell DataSafe Local Backup,asr_lua_5.bin,Controlled folder access,,,116
+%programfiles(x86)%\\Hewlett-Packard\\HP Health Check,asr_lua_5.bin,Controlled folder access,,,117
+%programfiles(x86)%\\Hewlett-Packard\\HP Touchpoint Manager,asr_lua_5.bin,Controlled folder access,,,118
+%programfiles(x86)%\\Hewlett-Packard\\HP Support Framework,asr_lua_5.bin,Controlled folder access,,,119
+%programfiles(x86)%\\Hewlett-Packard\\HP Support Solutions,asr_lua_5.bin,Controlled folder access,,,120
+%programfiles(x86)%\\Hewlett-Packard\\Media,asr_lua_5.bin,Controlled folder access,,,121
+%programfiles(x86)%\\Hewlett-Packard\\Recovery,asr_lua_5.bin,Controlled folder access,,,122
+%programfiles(x86)%\\Hewlett-Packard\\TouchSmart,asr_lua_5.bin,Controlled folder access,,,123
+%programfiles(x86)%\\HPImageAssistant,asr_lua_5.bin,Controlled folder access,,,124
+%programfiles(x86)%\\HP\\HpHwDiag,asr_lua_5.bin,Controlled folder access,,,125
+%programfiles(x86)%\\HP\\HPLJUT,asr_lua_5.bin,Controlled folder access,,,126
+%programfiles(x86)%\\HP\\HP DeskJet,asr_lua_5.bin,Controlled folder access,,,127
+%programfiles(x86)%\\HP\\HP ENVY,asr_lua_5.bin,Controlled folder access,,,128
+%programfiles(x86)%\\HP\\HP Ink Tank Wireless,asr_lua_5.bin,Controlled folder access,,,129
+%programfiles(x86)%\\HP\\HP MIK Client,asr_lua_5.bin,Controlled folder access,,,130
+%programfiles(x86)%\\HP\\HP OfficeJet,asr_lua_5.bin,Controlled folder access,,,131
+%programfiles(x86)%\\HP\\HP Performance Advisor,asr_lua_5.bin,Controlled folder access,,,132
+%programfiles(x86)%\\HP\\HP Support Framework,asr_lua_5.bin,Controlled folder access,,,133
+%programfiles(x86)%\\HP\\HP Touchpoint Analytics Client,asr_lua_5.bin,Controlled folder access,,,134
+%programfiles(x86)%\\Lenovo\\Energy Management,asr_lua_5.bin,Controlled folder access,,,135
+%programfiles(x86)%\\Lenovo\\LeAppStore,asr_lua_5.bin,Controlled folder access,,,136
+%programfiles(x86)%\\Lenovo\\LegionZone,asr_lua_5.bin,Controlled folder access,,,137
+%programfiles(x86)%\\Lenovo\\Lenovo Home,asr_lua_5.bin,Controlled folder access,,,138
+%programfiles(x86)%\\Lenovo\\PCManager,asr_lua_5.bin,Controlled folder access,,,139
+%programfiles(x86)%\\Lenovo\\Power2Go,asr_lua_5.bin,Controlled folder access,,,140
+%programfiles(x86)%\\Lenovo\\PowerDVD12,asr_lua_5.bin,Controlled folder access,,,141
+%programfiles(x86)%\\Lenovo\\RapidBoot HDD Accelerator,asr_lua_5.bin,Controlled folder access,,,142
+%programfiles(x86)%\\Lenovo\\System Update,asr_lua_5.bin,Controlled folder access,,,143
+%programfiles(x86)%\\Lenovo\\VantageService,asr_lua_5.bin,Controlled folder access,,,144
+%programfiles%\\ASUS\\AICreator_pytorch,asr_lua_5.bin,Controlled folder access,,,145
+%programfiles%\\ASUS\\AacAmbientHal,asr_lua_5.bin,Controlled folder access,,,146
+%programfiles%\\ASUS\\AacMB,asr_lua_5.bin,Controlled folder access,,,147
+%programfiles%\\ASUS\\ACOnePackageTemp,asr_lua_5.bin,Controlled folder access,,,148
+%programfiles%\\ASUS\\Armoury Crate Service,asr_lua_5.bin,Controlled folder access,,,149
+%programfiles%\\ASUS\\ARMOURY CRATE SE Service,asr_lua_5.bin,Controlled folder access,,,150
+%programfiles%\\ASUS\\ARMOURY CRATE Lite Service,asr_lua_5.bin,Controlled folder access,,,151
+%programfiles%\\ASUS\\AsusDriverHub,asr_lua_5.bin,Controlled folder access,,,152
+%programfiles%\\ASUS\\AsusScreenXpert,asr_lua_5.bin,Controlled folder access,,,153
+%programfiles%\\ASUS\\ASUS Dial Control Panel Toolkit,asr_lua_5.bin,Controlled folder access,,,154
+%programfiles%\\ASUS\\ASUS Hotplug Controller,asr_lua_5.bin,Controlled folder access,,,155
+%programfiles%\\ASUS\\GlideX,asr_lua_5.bin,Controlled folder access,,,156
+%programfiles%\\ASUS\\ASUS Monitor Control,asr_lua_5.bin,Controlled folder access,,,157
+%programfiles%\\ASUS\\ProArt Creator Hub,asr_lua_5.bin,Controlled folder access,,,158
+%programfiles%\\ASUS\\RLSDownload,asr_lua_5.bin,Controlled folder access,,,159
+%programfiles%\\ASUS\\ROG Live Service,asr_lua_5.bin,Controlled folder access,,,160
+%programfiles%\\ASUS\\StoryCube,asr_lua_5.bin,Controlled folder access,,,161
+%programfiles%\\ASUS\\Virtual Pet,asr_lua_5.bin,Controlled folder access,,,162
+%programfiles%\\Acer\\Acer Office Manager Agent,asr_lua_5.bin,Controlled folder access,,,163
+%programfiles%\\Acer\\Acer Power Management,asr_lua_5.bin,Controlled folder access,,,164
+%programfiles%\\Acer\\Acer ProShield Plus,asr_lua_5.bin,Controlled folder access,,,165
+%programfiles%\\Acer\\Acer Quick Access,asr_lua_5.bin,Controlled folder access,,,166
+%programfiles%\\Acer\\Care Center,asr_lua_5.bin,Controlled folder access,,,167
+%programfiles%\\Acer\\Quick Access Service,asr_lua_5.bin,Controlled folder access,,,168
+%programfiles%\\Acer\\QuickPanel,asr_lua_5.bin,Controlled folder access,,,169
+%programfiles%\\Acer\\SpatialLabs,asr_lua_5.bin,Controlled folder access,,,170
+%programfiles%\\Acer\\StorPSCTL,asr_lua_5.bin,Controlled folder access,,,171
+%programfiles%\\Acer\\User Experience Improvement Program Service,asr_lua_5.bin,Controlled folder access,,,172
+%programfiles%\\Dell\\Command Monitor,asr_lua_5.bin,Controlled folder access,,,173
+%programfiles%\\Dell\\DellDataVault,asr_lua_5.bin,Controlled folder access,,,174
+%programfiles%\\Dell\\Dell Data Protection,asr_lua_5.bin,Controlled folder access,,,175
+%programfiles%\\Dell\\Dell Insights,asr_lua_5.bin,Controlled folder access,,,176
+%programfiles%\\Dell\\DTP,asr_lua_5.bin,Controlled folder access,,,177
+%programfiles%\\Dell\\GrabForWindows,asr_lua_5.bin,Controlled folder access,,,178
+%programfiles%\\Dell\\iDiagLite,asr_lua_5.bin,Controlled folder access,,,179
+%programfiles%\\Dell\\OS Recovery Tool,asr_lua_5.bin,Controlled folder access,,,180
+%programfiles%\\Dell\\SARemediation,asr_lua_5.bin,Controlled folder access,,,181
+%programfiles%\\Dell\\SupportAssist,asr_lua_5.bin,Controlled folder access,,,182
+%programfiles%\\Dell\\SysMgt,asr_lua_5.bin,Controlled folder access,,,183
+%programfiles%\\Dell\\UpdateService,asr_lua_5.bin,Controlled folder access,,,184
+%programfiles%\\Dell DataSafe Local Backup,asr_lua_5.bin,Controlled folder access,,,185
+%programfiles%\\Hewlett-Packard\\AMS,asr_lua_5.bin,Controlled folder access,,,186
+%programfiles%\\Hewlett-Packard\\HP Health Check,asr_lua_5.bin,Controlled folder access,,,187
+%programfiles%\\Hewlett-Packard\\Recovery,asr_lua_5.bin,Controlled folder access,,,188
+%programfiles%\\HP\\HpHwDiag,asr_lua_5.bin,Controlled folder access,,,189
+%programfiles%\\HP\\HPIA,asr_lua_5.bin,Controlled folder access,,,190
+%programfiles%\\HP\\hpssacli,asr_lua_5.bin,Controlled folder access,,,191
+%programfiles%\\HP\\HP Enabling Services,asr_lua_5.bin,Controlled folder access,,,192
+%programfiles%\\HP\\HP Media Network,asr_lua_5.bin,Controlled folder access,,,193
+%programfiles%\\HP\\HP One Agent,asr_lua_5.bin,Controlled folder access,,,194
+%programfiles%\\HP\\HP ThinUpdate,asr_lua_5.bin,Controlled folder access,,,195
+%programfiles%\\HP\\HP Touchpoint Analytics Client,asr_lua_5.bin,Controlled folder access,,,196
+%programfiles%\\HP\\Image Assistant,asr_lua_5.bin,Controlled folder access,,,197
+%programfiles%\\HP\\OmenInstallMonitor,asr_lua_5.bin,Controlled folder access,,,198
+%programfiles%\\HP\\Overlay,asr_lua_5.bin,Controlled folder access,,,199
+%programfiles%\\HP\\Sure Click,asr_lua_5.bin,Controlled folder access,,,200
+%programfiles%\\HP Image Assistant,asr_lua_5.bin,Controlled folder access,,,201
+%programfiles%\\Portrait Displays\\HP Display Control Service,asr_lua_5.bin,Controlled folder access,,,202
+%programfiles%\\Lenovo\\FusionEngine,asr_lua_5.bin,Controlled folder access,,,203
+%programfiles%\\Lenovo\\Lenovo Diagnostics Evolution,asr_lua_5.bin,Controlled folder access,,,204
+%programfiles%\\Lenovo\\Lenovo Diagnostics Tool,asr_lua_5.bin,Controlled folder access,,,205
+%programfiles%\\Lenovo\\Lenovo Solution Center,asr_lua_5.bin,Controlled folder access,,,206
+%programfiles%\\Lenovo\\OneKey App,asr_lua_5.bin,Controlled folder access,,,207
+%programdata%\\ASUS\\ASUSAiCrosslink,asr_lua_5.bin,Controlled folder access,,,208
+%programdata%\\ASUS\\AsusDriverHub,asr_lua_5.bin,Controlled folder access,,,209
+%programdata%\\ASUS\\ASUS System Control Interface,asr_lua_5.bin,Controlled folder access,,,210
+%programdata%\\Acer\\updater2,asr_lua_5.bin,Controlled folder access,,,211
+%programdata%\\Dell\\drivers,asr_lua_5.bin,Controlled folder access,,,212
+%programdata%\\Dell\\UpdateService,asr_lua_5.bin,Controlled folder access,,,213
+%programdata%\\EasyRaidCheck\\HP,asr_lua_5.bin,Controlled folder access,,,214
+%programdata%\\HP\\ExternalApps\\HPIA,asr_lua_5.bin,Controlled folder access,,,215
+%programdata%\\HP\\Telemetry,asr_lua_5.bin,Controlled folder access,,,216
+%programdata%\\HP\\HP BTO Software,asr_lua_5.bin,Controlled folder access,,,217
+%programdata%\\Lenovo\\DriverUpdate,asr_lua_5.bin,Controlled folder access,,,218
+%programdata%\\Lenovo\\ImController,asr_lua_5.bin,Controlled folder access,,,219
+%programdata%\\Lenovo\\SystemUpdate,asr_lua_5.bin,Controlled folder access,,,220
+%programdata%\\Lenovo\\ThinInstaller,asr_lua_5.bin,Controlled folder access,,,221
+%programdata%\\Lenovo\\TPQM\\Assistant,asr_lua_5.bin,Controlled folder access,,,222
+%programdata%\\Lenovo\\Udc\\Hosts,asr_lua_5.bin,Controlled folder access,,,223
+%programdata%\\Lenovo\\Vantage,asr_lua_5.bin,Controlled folder access,,,224
+%systemroot%\\Lenovo\\ImController,asr_lua_5.bin,Controlled folder access,,,225
+%systemroot%\\System32\\drivers\\Lenovo,asr_lua_5.bin,Controlled folder access,,,226
+%systemroot%\\System32\\Lenovo\\PowerMgr,asr_lua_5.bin,Controlled folder access,,,227
+%systemroot%\\SysWOW64\\Lenovo\\PowerMgr,asr_lua_5.bin,Controlled folder access,,,228
 ((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\[^\\.]+\\.exe\\\,asr_lua_6.bin,Block Win32 API calls from Office macro,,,46
 ]+\\\,asr_lua_6.bin,Block Win32 API calls from Office macro,,,46
 ]+)\\\,asr_lua_6.bin,Block Win32 API calls from Office macro,,,46

@@ -115,7 +115,7 @@
 ; #Upvalues:       0
 ; #Parameters:     0
 ; Is_vararg:       0
-; Max Stack Size:  2
+; Max Stack Size:  7
 
     0 [-]: NEWTABLE  R0 0 30      ; R0 := {} (size = 0,30)
     1 [-]: SETTABLE  R0 K0 K1     ; R0["%windir%\\system32\\WerFault.exe"] := 2
@@ -173,8 +173,34 @@
    53 [-]: SETTABLE  R0 K54 K1    ; R0["%programfiles(x86)%\\Dania Software\\DynamicTemplate for Office\\ApplicationFocus.exe"] := 2
    54 [-]: SETTABLE  R0 K55 K1    ; R0["%windir%\\splwow64.exe"] := 2
    55 [-]: SETTABLE  R0 K56 K1    ; R0["%windir%\\system32\\fsiso.exe"] := 2
-   56 [-]: RETURN    R0 2         ; return R0
-   57 [-]: RETURN    R0 1         ; return 
+   56 [-]: GETGLOBAL R1 K57       ; R1 := versioning
+   57 [-]: GETTABLE  R1 R1 K58    ; R1 := R1["GetOrgID"]
+   58 [-]: CALL      R1 1 2       ; R1 := R1()
+   59 [-]: EQ        1 R1 K59     ; if R1 ~= nil then goto 61 else goto 68
+   60 [-]: JMP       7            ; PC += 7 (goto 68)
+   61 [-]: EQ        1 R1 K60     ; if R1 ~= "" then goto 63 else goto 68
+   62 [-]: JMP       5            ; PC += 5 (goto 68)
+   63 [-]: GETGLOBAL R2 K61       ; R2 := string
+   64 [-]: GETTABLE  R2 R2 K62    ; R2 := R2["lower"]
+   65 [-]: MOVE      R3 R1        ; R3 := R1
+   66 [-]: CALL      R2 2 2       ; R2 := R2(R3)
+   67 [-]: MOVE      R1 R2        ; R1 := R2
+   68 [-]: EQ        0 R1 K63     ; if R1 == "d7c7c745-195f-4223-9c7a-99fb420fd000" then goto 70 else goto 82
+   69 [-]: JMP       12           ; PC += 12 (goto 82)
+   70 [-]: GETGLOBAL R2 K57       ; R2 := versioning
+   71 [-]: GETTABLE  R2 R2 K64    ; R2 := R2["IsSampled"]
+   72 [-]: LOADK     R3 K65       ; R3 := 45000
+   73 [-]: LOADBOOL  R4 0 0       ; R4 := false
+   74 [-]: LOADBOOL  R5 1 0       ; R5 := true
+   75 [-]: LOADBOOL  R6 1 0       ; R6 := true
+   76 [-]: CALL      R2 5 2       ; R2 := R2(R3 to R6)
+   77 [-]: EQ        0 R2 K66     ; if R2 == true then goto 79 else goto 82
+   78 [-]: JMP       3            ; PC += 3 (goto 82)
+   79 [-]: SETTABLE  R0 K67 K1    ; R0["%programfiles%\\WindowsApps\\Microsoft.OutlookForWindows_*\\olk.exe"] := 2
+   80 [-]: SETTABLE  R0 K68 K69   ; R0["%userprofile%\\appdata\\local\\outlook\\olk.exe"] := 1
+   81 [-]: SETTABLE  R0 K70 K69   ; R0["%userprofile%\\appdata\\local\\outlook\\app-*\\olk.exe"] := 1
+   82 [-]: RETURN    R0 2         ; return R0
+   83 [-]: RETURN    R0 1         ; return 
 
 
 ; Function:        0_3
