@@ -181,12 +181,12 @@ C:\\Windows\\SysWOW64\\DWWIN.EXE,asr_lua_20.bin,Block Office applications from i
 %programfiles(x86)%\\Dania Software\\DynamicTemplate for Office\\ApplicationFocus.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,15,173
 %windir%\\splwow64.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,14,174
 %windir%\\system32\\fsiso.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,13,175
-%programfiles%\\WindowsApps\\Microsoft.OutlookForWindows_*\\olk.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,11,199
-%userprofile%\\appdata\\local\\outlook\\olk.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,12,200
-%userprofile%\\appdata\\local\\outlook\\app-*\\olk.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,13,201
-((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\(winword|excel|powerpnt|onenote)\\.exe\\\,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,25,213
-]+\\\,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,25,213
-]+)\\\,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,25,213
+%programfiles%\\WindowsApps\\Microsoft.OutlookForWindows_*\\olk.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,11,201
+%userprofile%\\appdata\\local\\outlook\\olk.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,12,202
+%userprofile%\\appdata\\local\\outlook\\app-*\\olk.exe,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,13,203
+((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\(winword|excel|powerpnt|onenote)\\.exe\\\,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,25,215
+]+\\\,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,25,215
+]+)\\\,asr_lua_20.bin,Block Office applications from injecting code into other processes,d7c7c745-195f-4223-9c7a-99fb420fd000,25,215
 Block credential stealing from the Windows local security authority subsystem (lsass.exe),asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,30
 %windir%\\system32\\lsass.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,48
 %windir%\\system32\\WerFaultSecure.exe,asr_lua_21.bin,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,,63
