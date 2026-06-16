@@ -18,5 +18,5 @@ Connectwise Automate (LabTech),ltsvc.exe;ltsvcmon.exe;lttray.exe,asr_lua_21.bin;
 Rapid7,ir_agent.exe;rapid7_agent_core.exe;rapid7_endpoint_broker.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
 Parsec,C:\Program Files\Parsec\*;parsecd.exe;pservice.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
 LabTeach (Connectwise Automate),ltsvc.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
-MSP360,Online Backup.exe;CBBackupPlan.exe;Cloud.Backup.Scheduler.exe;Cloud.Backup.RM.Service.exe;cbb.exe;...(6 more),asr_lua_5.bin;asr_lua_5.bin.txt,2,
+MSP360,Online Backup.exe;CBBackupPlan.exe;Cloud.Backup.Scheduler.exe;Cloud.Backup.RM.Service.exe;cbb.exe;...(7 more),asr_lua_5.bin;asr_lua_5.bin.txt,2,
 LabTech RMM (Now ConnectWise Automate),ltsvc.exe;ltsvcmon.exe;lttray.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
