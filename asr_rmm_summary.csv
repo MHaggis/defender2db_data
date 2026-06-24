@@ -12,7 +12,7 @@ Zoho Assist,toolsiq.exe;zaservice.exe;ZMAgent.exe;ZohoMeeting.exe;Zohours.exe;..
 Itarian,ITSMAgent.exe;RViewer.exe;ItsmRsp.exe;RAccess.exe;RmmService.exe;...(5 more),asr_lua_24.bin;asr_lua_24.bin.txt,2,
 ManageEngine,InstallShield Setup.exe;ManageEngine_Remote_Access_Plus.exe;*\dcagentservice.exe;C:\Program Files (x86)\DesktopCentral_Agent\bin\*;*\DesktopCentral_Agent\bin\*,asr_lua_21.bin;asr_lua_21.bin.txt,2,
 BeAnyWhere,basuptshelper.exe;basupsrvcupdate.exe;BASupApp.exe;BASupSysInf.exe;BASupAppSrvc.exe;...(3 more),asr_lua_21.bin;asr_lua_21.bin.txt,2,
-Atera,*\AgentPackageNetworkDiscovery.exe;*\AgentPackageTaskScheduler.exe;*\ATERA Networks\AteraAgent\*;*\AteraAgent.exe;atera_agent.exe;...(6 more),asr_lua_5.bin;asr_lua_5.bin.txt,2,
+Atera,*\AgentPackageNetworkDiscovery.exe;*\AgentPackageTaskScheduler.exe;*\ATERA Networks\AteraAgent\*;*\AteraAgent.exe;atera_agent.exe;...(5 more),asr_lua_5.bin;asr_lua_5.bin.txt,2,
 Manage Engine (Desktop Central),dcagentservice.exe;dcagentregister.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
 Connectwise Automate (LabTech),ltsvc.exe;ltsvcmon.exe;lttray.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
 Rapid7,ir_agent.exe;rapid7_agent_core.exe;rapid7_endpoint_broker.exe,asr_lua_21.bin;asr_lua_21.bin.txt,2,
