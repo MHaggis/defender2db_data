@@ -156,7 +156,7 @@ RemoteCall,rcengmgru.exe;rcmgrsvc.exe;rxstartsupport.exe;rcstartsupport.exe;raau
 PDQ Connect,pdq-connect*.exe;PDQConnectUpdater-*.msi,,0,
 Remote Desktop Plus,rdp.exe,,0,
 InvGate,C:\Program Files (x86)\Inventec\InvGate.net Client\*;C:\Program Files (x86)\Inventec\InvGate.net Client\InvGate-ED.exe;C:\Program Files (x86)\Inventec\InvGate.net Client\DepHlp.exe;C:\Program Files (x86)\Inventec\InvGate.net Client\files\InvGateAssetsRD.exe;C:\Program Files (x86)\Inventec\InvGate.net Client\files\InvGateRD.exe;C:\Program Files (x86)\Inventec\InvGate.net Client\files\sas.dll;C:\Program Files (x86)\Inventec\InvGate.net Client\Software Matt.dll,,0,
-RuDesktop,rd.exe;rudesktop*.exe,asr_lua_20.bin;asr_lua_20.bin.txt;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt,6,23356722-c906-4042-943d-cf158e848200;2d7e690e-b8ca-484d-bb19-f3f4d460bebb;3eef301f-b596-4c0b-bd92-013beafce793;5b6f47cc-82e3-4a14-a807-2356e5874779;70823b4b-bb48-4d30-adf4-be67a41e2f65;b96c46d4-a2bf-4e3d-954f-f082b14fe155;d7c7c745-195f-4223-9c7a-99fb420fd000;fe87d1eb-b138-42e6-bae7-9e4a186319d5
+RuDesktop,rd.exe;rudesktop*.exe,asr_lua_20.bin;asr_lua_20.bin.txt;asr_lua_22.bin;asr_lua_22.bin.txt;asr_lua_23.bin;asr_lua_23.bin.txt,6,23356722-c906-4042-943d-cf158e848200;2d7e690e-b8ca-484d-bb19-f3f4d460bebb;3eef301f-b596-4c0b-bd92-013beafce793;5b6f47cc-82e3-4a14-a807-2356e5874779;70823b4b-bb48-4d30-adf4-be67a41e2f65;b96c46d4-a2bf-4e3d-954f-f082b14fe155;fe87d1eb-b138-42e6-bae7-9e4a186319d5
 TurboMeeting,pcstarter.exe;turbomeeting.exe;turbomeetingstarter.exe,,0,
 Sorillus,Sorillus-Launcher*.exe;Sorillus Launcher.exe,,0,
 ToDesk,todesk.exe;ToDesk_Service.exe;ToDesk_Setup.exe,,0,

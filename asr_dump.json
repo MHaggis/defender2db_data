@@ -573,21 +573,13 @@
       "%programfiles(x86)%\\Dania Software\\DynamicTemplate for Office\\ApplicationFocus.exe",
       "%windir%\\splwow64.exe",
       "%windir%\\system32\\fsiso.exe",
-      "versioning",
-      "GetOrgID",
-      "string",
-      "lower",
-      "d7c7c745-195f-4223-9c7a-99fb420fd000",
-      "IsSampled",
       "%programfiles%\\WindowsApps\\Microsoft.OutlookForWindows_*\\olk.exe",
       "%userprofile%\\appdata\\local\\outlook\\olk.exe",
       "%userprofile%\\appdata\\local\\outlook\\app-*\\olk.exe",
       "((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\(winword|excel|powerpnt|onenote)\\.exe\\\"?[^\\\"]+\\\"([^\\\"]+)\\\"?"
     ],
-    "strings_count": 132,
-    "strings_guid": [
-      "d7c7c745-195f-4223-9c7a-99fb420fd000"
-    ],
+    "strings_count": 126,
+    "strings_guid": [],
     "strings_paths": [
       "%programfiles%\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
       "%programfiles%\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
@@ -655,9 +647,7 @@
     "hex_file": "asr_dump_hex/asr_lua_20.bin.hex.txt",
     "name": "Block Office applications from injecting code into other processes",
     "description": "Windows Defender Exploit Guard detected Office application injecting code into the process.",
-    "guids": [
-      "d7c7c745-195f-4223-9c7a-99fb420fd000"
-    ],
+    "guids": [],
     "txt_file": "asr_dump_txt/asr_lua_20.bin.txt"
   },
   {
