@@ -627,7 +627,6 @@ ndtrack.exe,%programfiles(x86)%\ManageSoft\Tracker\ndtrack.exe,asr_lua_21.bin,1,
 nessus_,"\""?.:\\windows\\system32\\cmd\.exe\""?\s+/c\s+echo\s+nessus_cmd_[^\s=]+=_start\s+>>\s+\""?.:\\windows\\temp\\nessus_",asr_lua_19.bin,1,Block Process Creations originating from PSExec & WMI commands,3216b490-71ee-4a94-b228-13b1c1582e3b,no
 netstat.exe,%windir%\system32\NETSTAT.EXE,asr_lua_21.bin,1,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,no
 netsupport school,%programfiles(x86)%\NetSupport\NetSupport School,asr_lua_21.bin,1,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,no
-niniteagent.exe,%programfiles(x86)%\Ninite Agent\NiniteAgent.exe,asr_lua_21.bin,1,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,no
 node.exe,%programfiles%\Adobe\Adobe Creative Cloud Experience\libs\node.exe,asr_lua_21.bin,1,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,no
 npsrvhost.exe,%programfiles%\Quest\ChangeAuditor\Agent\NPSrvHost.exe,asr_lua_21.bin,1,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,no
 nsd.exe,%programfiles(x86)%\IBM\Notes\nsd.exe,asr_lua_21.bin,1,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,no
