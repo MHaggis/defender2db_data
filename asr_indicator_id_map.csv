@@ -1434,14 +1434,16 @@ cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child
 cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,2d7e690e-b8ca-484d-bb19-f3f4d460bebb,4,1538
 cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,70823b4b-bb48-4d30-adf4-be67a41e2f65,2,1544
 explorer(%.)?(\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,2,1550
-taskkill(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,4,1552
-cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,6,1554
-?c:\\\\windows\\\\system32\\\\reg\\.exe\\s+add\\s+\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,6,1554
-?\\s+/v\\s+dumpfolder,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,6,1554
-explorer(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,8,1556
-((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\[^\\.]+\\.exe\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,21,1569
-]+\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,21,1569
-]+)\\\,asr_lua_23.bin,Block all Office applications from creating child processes,fe87d1eb-b138-42e6-bae7-9e4a186319d5,21,1569
+cmd(\\.exe)?\\s+/c\\s+start[\\s\\\,asr_lua_23.bin,Block all Office applications from creating child processes,ba11743e-6a8f-4599-93fb-2425110e2a75,11,1565
+cmd(\\.exe)?\\s+/c\\s+start[\\s\\\,asr_lua_23.bin,Block all Office applications from creating child processes,ba11743e-6a8f-4599-93fb-2425110e2a75,12,1566
+taskkill(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,ba11743e-6a8f-4599-93fb-2425110e2a75,15,1569
+cmd(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,ba11743e-6a8f-4599-93fb-2425110e2a75,17,1571
+?c:\\\\windows\\\\system32\\\\reg\\.exe\\s+add\\s+\\\,asr_lua_23.bin,Block all Office applications from creating child processes,ba11743e-6a8f-4599-93fb-2425110e2a75,17,1571
+?\\s+/v\\s+dumpfolder,asr_lua_23.bin,Block all Office applications from creating child processes,ba11743e-6a8f-4599-93fb-2425110e2a75,17,1571
+explorer(\\.exe)?\\\,asr_lua_23.bin,Block all Office applications from creating child processes,ba11743e-6a8f-4599-93fb-2425110e2a75,19,1573
+((windowsapps\\\\[^\\\\]+\\\\)|(microsoft office\\\\(root\\\\)?))office..\\\\[^\\.]+\\.exe\\\,asr_lua_23.bin,Block all Office applications from creating child processes,ba11743e-6a8f-4599-93fb-2425110e2a75,32,1586
+]+\\\,asr_lua_23.bin,Block all Office applications from creating child processes,ba11743e-6a8f-4599-93fb-2425110e2a75,32,1586
+]+)\\\,asr_lua_23.bin,Block all Office applications from creating child processes,ba11743e-6a8f-4599-93fb-2425110e2a75,32,1586
 %programfiles(x86)%\\Microsoft Office\\Office??\\OUTLOOK.EXE,asr_lua_24.bin,Block Office communication application from creating child processes,,,50
 %programfiles(x86)%\\Microsoft Office\\root\\Office??\\OUTLOOK.EXE,asr_lua_24.bin,Block Office communication application from creating child processes,,,51
 %programfiles%\\Microsoft Office\\Office??\\OUTLOOK.EXE,asr_lua_24.bin,Block Office communication application from creating child processes,,,52
