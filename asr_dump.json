@@ -1613,7 +1613,7 @@
       "%programfiles%\\TortoiseSVN",
       "%programfiles%\\Tracker Software"
     ],
-    "strings_count": 711,
+    "strings_count": 710,
     "strings_guid": [
       "23356722-c906-4042-943d-cf158e848200",
       "2d7e690e-b8ca-484d-bb19-f3f4d460bebb",
@@ -2046,8 +2046,10 @@
       "%programfiles%\\iManage\\Work",
       "%programfiles%\\Hyland\\Office Integration"
     ],
-    "strings_count": 748,
-    "strings_guid": [],
+    "strings_count": 755,
+    "strings_guid": [
+      "d7c7c745-195f-4223-9c7a-99fb420fd000"
+    ],
     "strings_paths": [
       "%programfiles%\\Microsoft Office\\Office??\\OUTLOOK.EXE",
       "%programfiles%\\Microsoft Office\\root\\Office??\\OUTLOOK.EXE",
@@ -2254,7 +2256,9 @@
     "hex_file": "asr_dump_hex/asr_lua_24.bin.hex.txt",
     "name": "Block Office communication application from creating child processes",
     "description": "Windows Defender Exploit Guard detected Outlook application creating the child process",
-    "guids": [],
+    "guids": [
+      "d7c7c745-195f-4223-9c7a-99fb420fd000"
+    ],
     "txt_file": "asr_dump_txt/asr_lua_24.bin.txt"
   },
   {

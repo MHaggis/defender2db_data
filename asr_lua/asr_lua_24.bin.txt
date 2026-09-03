@@ -67,7 +67,7 @@
 ; #Upvalues:       0
 ; #Parameters:     0
 ; Is_vararg:       0
-; Max Stack Size:  3
+; Max Stack Size:  7
 
     0 [-]: NEWTABLE  R0 0 59      ; R0 := {} (size = 0,59)
     1 [-]: SETTABLE  R0 K0 K1     ; R0["%programfiles%\\28Hands"] := 2
@@ -1676,8 +1676,41 @@
  1604 [-]: LOADK     R1 K706      ; R1 := "%programfiles%\\BrowseRouter\\BrowseRouter.exe"
  1605 [-]: LOADK     R2 K1        ; R2 := 2
  1606 [-]: SETTABLE  R0 R1 R2     ; R0[R1] := R2
- 1607 [-]: RETURN    R0 2         ; return R0
- 1608 [-]: RETURN    R0 1         ; return 
+ 1607 [-]: GETGLOBAL R1 K707      ; R1 := versioning
+ 1608 [-]: LOADK     R2 K708      ; R2 := "GetOrgID"
+ 1609 [-]: GETTABLE  R1 R1 R2     ; R1 := R1[R2]
+ 1610 [-]: CALL      R1 1 2       ; R1 := R1()
+ 1611 [-]: LOADNIL   R2 R2        ; R2 := nil
+ 1612 [-]: EQ        1 R1 R2      ; if R1 ~= R2 then goto 1614 else goto 1623
+ 1613 [-]: JMP       9            ; PC += 9 (goto 1623)
+ 1614 [-]: LOADK     R2 K709      ; R2 := ""
+ 1615 [-]: EQ        1 R1 R2      ; if R1 ~= R2 then goto 1617 else goto 1623
+ 1616 [-]: JMP       6            ; PC += 6 (goto 1623)
+ 1617 [-]: GETGLOBAL R2 K710      ; R2 := string
+ 1618 [-]: LOADK     R3 K711      ; R3 := "lower"
+ 1619 [-]: GETTABLE  R2 R2 R3     ; R2 := R2[R3]
+ 1620 [-]: MOVE      R3 R1        ; R3 := R1
+ 1621 [-]: CALL      R2 2 2       ; R2 := R2(R3)
+ 1622 [-]: MOVE      R1 R2        ; R1 := R2
+ 1623 [-]: LOADK     R2 K712      ; R2 := "d7c7c745-195f-4223-9c7a-99fb420fd000"
+ 1624 [-]: EQ        1 R1 R2      ; if R1 ~= R2 then goto 1626 else goto 1637
+ 1625 [-]: JMP       11           ; PC += 11 (goto 1637)
+ 1626 [-]: GETGLOBAL R2 K707      ; R2 := versioning
+ 1627 [-]: LOADK     R3 K713      ; R3 := "IsSampled"
+ 1628 [-]: GETTABLE  R2 R2 R3     ; R2 := R2[R3]
+ 1629 [-]: LOADK     R3 K714      ; R3 := 100
+ 1630 [-]: LOADBOOL  R4 0 0       ; R4 := false
+ 1631 [-]: LOADBOOL  R5 1 0       ; R5 := true
+ 1632 [-]: LOADBOOL  R6 1 0       ; R6 := true
+ 1633 [-]: CALL      R2 5 2       ; R2 := R2(R3 to R6)
+ 1634 [-]: LOADBOOL  R3 1 0       ; R3 := true
+ 1635 [-]: EQ        0 R2 R3      ; if R2 == R3 then goto 1637 else goto 1640
+ 1636 [-]: JMP       3            ; PC += 3 (goto 1640)
+ 1637 [-]: LOADK     R2 K715      ; R2 := "%programfiles%\\WindowsApps\\Microsoft.OutlookForWindows_*\\olk.exe"
+ 1638 [-]: LOADK     R3 K1        ; R3 := 2
+ 1639 [-]: SETTABLE  R0 R2 R3     ; R0[R2] := R3
+ 1640 [-]: RETURN    R0 2         ; return R0
+ 1641 [-]: RETURN    R0 1         ; return 
 
 
 ; Function:        0_3

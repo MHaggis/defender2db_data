@@ -1476,7 +1476,7 @@
 ; #Upvalues:       0
 ; #Parameters:     0
 ; Is_vararg:       0
-; Max Stack Size:  17
+; Max Stack Size:  15
 
     0 [-]: LOADK     R0 K0        ; R0 := "\\\"?rundll32(\\.exe)?\\\"?\\s+\\\"?.:\\\\windows\\\\system32\\\\shell32\\.dll\\\"?,shcreatelocalserverrundll\\s+\\{3eef301f-b596-4c0b-bd92-013beafce793\\}\\s+-embedding"
     1 [-]: LOADK     R1 K1        ; R1 := "conhost\\.exe\\\"?\\s+0x(ffffffff|4)(\\s+-forcev1)?"
@@ -1549,31 +1549,22 @@
    68 [-]: JMP       2            ; PC += 2 (goto 71)
    69 [-]: LOADK     R12 K29      ; R12 := "explorer(%.)?(\\\")?\\s+.+\\\\departm\\\\industry\\\\maint_serv_panels\\\\specialized_services\\\\valve\\\\planning\\\\fotos_camera\\\\.*"
    70 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
-   71 [-]: EQ        1 R11 K13    ; if R11 ~= nil then goto 73 else goto 88
-   72 [-]: JMP       15           ; PC += 15 (goto 88)
-   73 [-]: EQ        0 R11 K30    ; if R11 == "ba11743e-6a8f-4599-93fb-2425110e2a75" then goto 75 else goto 88
-   74 [-]: JMP       13           ; PC += 13 (goto 88)
-   75 [-]: GETGLOBAL R12 K11      ; R12 := versioning
-   76 [-]: GETTABLE  R12 R12 K31  ; R12 := R12["IsSampled"]
-   77 [-]: LOADK     R13 K32      ; R13 := 60000
-   78 [-]: LOADBOOL  R14 0 0      ; R14 := false
-   79 [-]: LOADBOOL  R15 1 0      ; R15 := true
-   80 [-]: LOADBOOL  R16 1 0      ; R16 := true
-   81 [-]: CALL      R12 5 2      ; R12 := R12(R13 to R16)
-   82 [-]: EQ        0 R12 K33    ; if R12 == true then goto 84 else goto 88
-   83 [-]: JMP       4            ; PC += 4 (goto 88)
-   84 [-]: LOADK     R12 K34      ; R12 := "cmd(\\.exe)?\\s+/c\\s+start[\\s\\\"]+https://infinera\\.lightning\\.force\\.com/.*"
-   85 [-]: LOADK     R13 K35      ; R13 := "cmd(\\.exe)?\\s+/c\\s+start[\\s\\\"]+https://infinera--stg\\.sandbox\\.lightning\\.force\\.com/.*"
-   86 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
-   87 [-]: SETTABLE  R10 R13 K10  ; R10[R13] := 0
-   88 [-]: LOADK     R12 K36      ; R12 := "taskkill(\\.exe)?\\\"?\\s+/f\\s+(/t\\s+)?/im\\s+microsoft\\.mashup\\.container\\.loader\\.exe"
-   89 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
-   90 [-]: LOADK     R13 K37      ; R13 := "cmd(\\.exe)?\\\"?\\s+/c\\s+\\\"?c:\\\\windows\\\\system32\\\\reg\\.exe\\s+add\\s+\\\"?hklm\\\\software\\\\microsoft\\\\windows\\\\windows error reporting\\\\localdumps\\\\microsoft\\.mashup\\.container\\.loader\\.exe\\\"?\\s+/v\\s+dumpfolder"
-   91 [-]: SETTABLE  R10 R13 K10  ; R10[R13] := 0
-   92 [-]: LOADK     R14 K38      ; R14 := "explorer(\\.exe)?\\\"?\\s+(?!.+\\.exe(\\s|\\\"|$)).*"
-   93 [-]: SETTABLE  R10 R14 K10  ; R10[R14] := 0
-   94 [-]: RETURN    R10 2        ; return R10
-   95 [-]: RETURN    R0 1         ; return 
+   71 [-]: EQ        1 R11 K13    ; if R11 ~= nil then goto 73 else goto 79
+   72 [-]: JMP       6            ; PC += 6 (goto 79)
+   73 [-]: EQ        0 R11 K30    ; if R11 == "ba11743e-6a8f-4599-93fb-2425110e2a75" then goto 75 else goto 79
+   74 [-]: JMP       4            ; PC += 4 (goto 79)
+   75 [-]: LOADK     R12 K31      ; R12 := "cmd(\\.exe)?\\s+/c\\s+start[\\s\\\"]+https://infinera\\.lightning\\.force\\.com/.*"
+   76 [-]: LOADK     R13 K32      ; R13 := "cmd(\\.exe)?\\s+/c\\s+start[\\s\\\"]+https://infinera--stg\\.sandbox\\.lightning\\.force\\.com/.*"
+   77 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
+   78 [-]: SETTABLE  R10 R13 K10  ; R10[R13] := 0
+   79 [-]: LOADK     R12 K33      ; R12 := "taskkill(\\.exe)?\\\"?\\s+/f\\s+(/t\\s+)?/im\\s+microsoft\\.mashup\\.container\\.loader\\.exe"
+   80 [-]: SETTABLE  R10 R12 K10  ; R10[R12] := 0
+   81 [-]: LOADK     R13 K34      ; R13 := "cmd(\\.exe)?\\\"?\\s+/c\\s+\\\"?c:\\\\windows\\\\system32\\\\reg\\.exe\\s+add\\s+\\\"?hklm\\\\software\\\\microsoft\\\\windows\\\\windows error reporting\\\\localdumps\\\\microsoft\\.mashup\\.container\\.loader\\.exe\\\"?\\s+/v\\s+dumpfolder"
+   82 [-]: SETTABLE  R10 R13 K10  ; R10[R13] := 0
+   83 [-]: LOADK     R14 K35      ; R14 := "explorer(\\.exe)?\\\"?\\s+(?!.+\\.exe(\\s|\\\"|$)).*"
+   84 [-]: SETTABLE  R10 R14 K10  ; R10[R14] := 0
+   85 [-]: RETURN    R10 2        ; return R10
+   86 [-]: RETURN    R0 1         ; return 
 
 
 ; Function:        0_4
