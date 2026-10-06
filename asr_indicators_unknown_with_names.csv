@@ -739,7 +739,6 @@ storycube,%programfiles%\ASUS\StoryCube,asr_lua_5.bin,1,Controlled folder access
 supportassist,%programfiles%\Dell\SupportAssist,asr_lua_5.bin,1,Controlled folder access,,no
 sure click,%programfiles%\HP\Sure Click,asr_lua_5.bin,1,Controlled folder access,,no
 surun.exe,%windir%\SuRun.exe,asr_lua_22.bin,1,Block Adobe Reader from creating child processes,,no
-svchost.exe,%windir%\system32\svchost.exe,asr_lua_19.bin,1,Block Process Creations originating from PSExec & WMI commands,3216b490-71ee-4a94-b228-13b1c1582e3b,no
 sysmgt,%programfiles%\Dell\SysMgt,asr_lua_5.bin,1,Controlled folder access,,no
 sysmon.exe,%windir%\sysmon.exe,asr_lua_21.bin,1,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,no
 sysmon64.exe,%windir%\Sysmon64.exe,asr_lua_21.bin,1,Block credential stealing from the Windows local security authority subsystem (lsass.exe),,no
