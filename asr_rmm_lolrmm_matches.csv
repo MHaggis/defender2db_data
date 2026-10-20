@@ -52,6 +52,7 @@ ISL Online,islalwaysonmonitor.exe;isllight.exe;isllightservice.exe;ISLLightClien
 Quest KACE Agent (formerly Dell KACE),konea.exe,,0,
 VNC,winvnc*.exe;vncserver.exe;winwvc.exe;winvncsc.exe;vncserverui.exe;vncviewer.exe;winvnc.exe,,0,
 IntelliAdmin Remote Control,iadmin.exe;intelliadmin.exe;agent32.exe;agent64.exe;agent_setup_5.exe,,0,
+Ping32,C:\Program Files\Common Files\NSEC\;C:\Program Files (x86)\Common Files\NSEC\;C:\Program Files (x86)\Common Files\NSecAgent\bin\x86\NSecRTS.exe;C:\Program Files (x86)\Common Files\NSecAgent\bin\x64\NSecRTS.exe;C:\Program Files\Common Files\NSEC\NSecRTS.exe;C:\Program Files\Common Files\NSEC\PCinfo.dll,,0,
 UniSystem RMM,UniRMM.exe;UniRMM.msi,,0,
 Net Monitor for Employees,C:\Program Files (x86)\Net Monitor for Employees Pro\*;C:\Program Files\Net Monitor for Employees Pro\*;nmep_agtconfig.exe;nmep_ctrlagent.exe;nmep_ctrlagentsvc.exe;winpty-agent.exe;winpty-agent64.exe,,0,
 RDPView,dwrcs.exe,,0,
